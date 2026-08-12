@@ -47,4 +47,3 @@ def scrape_bidb():
 
 if __name__ == "__main__":
     scrape_bidb()
-    
