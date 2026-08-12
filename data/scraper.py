@@ -44,6 +44,5 @@ def scrape_bidb():
         json.dump(knowledge_base, f, ensure_ascii=False, indent=4)
         
     print("\n🎉 Veriler 'data/bidb_knowledge.json' dosyasına kaydedildi!")
-
 if __name__ == "__main__":
     scrape_bidb()
