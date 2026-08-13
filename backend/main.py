@@ -1,14 +1,14 @@
 import json
-import re
-import sys
+import os
 from pathlib import Path
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from typing import List, Optional
+import google.generativeai as genai
 
 app = FastAPI(
-    title="BAÜN BİDB Chatbot Backend (Gemini API Compatible)",
+    title="BAÜN BİDB Chatbot Backend (Gemini API Entegreli)",
     version="1.0.0"
 )
 
@@ -23,54 +23,27 @@ app.add_middleware(
 DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 JSON_FILE_PATH = DATA_DIR / "bidb_knowledge.json"
 
+# Zeynep buraya kendi Gemini API Key'ini veya .env dosyasındaki anahtarı yazacak
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "AQ.Ab8RN6KKG1r_W2YJIS1IkPWGv4ugWCLHasyjiDNzFIGK1i7fhg")
+genai.configure(api_key=GEMINI_API_KEY)
 
-def clean_text(text: str) -> str:
-    """Metindeki fazla \\n karakterlerini ve gereksiz boşlukları temizler."""
-    if not text:
-        return ""
-    # Arka arkaya gelen \n ve boşlukları tek bir satır başı veya boşluğa indirger
-    cleaned = re.sub(r'[\r\n]+', '\n', text)
-    cleaned = re.sub(r'[ \t]+', ' ', cleaned)
-    return cleaned.strip()
-
-
-def search_in_knowledge_base(query: str) -> str:
-    """bidb_knowledge.json dosyasından arama yapar ve temizlenmiş metin döner."""
+def load_knowledge_base() -> str:
+    """bidb_knowledge.json dosyasını okuyup Gemini'ye prompt olarak hazırlayan fonksiyon."""
     if not JSON_FILE_PATH.exists():
-        return "Bilgi tabanı dosyası (bidb_knowledge.json) bulunamadı."
-
+        return "Bilgi tabanı dosyası bulunamadı."
     try:
         with open(JSON_FILE_PATH, "r", encoding="utf-8") as f:
             data = json.load(f)
-
-        query_lower = query.lower().strip()
-        matched_results = []
-
-        if isinstance(data, list):
+            text_blocks = []
             for item in data:
-                item_str = json.dumps(item, ensure_ascii=False).lower()
-                if query_lower in item_str:
-                    matched_results.append(item)
-        elif isinstance(data, dict):
-            for key, val in data.items():
-                if query_lower in str(key).lower() or query_lower in str(val).lower():
-                    matched_results.append({key: val})
-
-        if matched_results:
-            first_match = matched_results[0]
-            if isinstance(first_match, dict):
-                content = first_match.get("content") or first_match.get("text") or str(first_match)
-                return clean_text(str(content))
-            return clean_text(str(first_match))
-
-        return f"Aramanızla ('{query}') ilgili BAÜN BİDB bilgi tabanında uygun bir içerik bulunamadı."
-
+                title = item.get("title", "")
+                content = item.get("content", "")
+                text_blocks.append(f"--- SAYFA: {title} ---\n{content}")
+            return "\n\n".join(text_blocks)
     except Exception as e:
-        return f"Bilgi tabanı okunurken hata oluştu: {str(e)}"
+        return f"Hata: {e}"
 
-
-# --- Gemini API Şemaları ---
-
+# Gemini API Şemaları (Frontend Widget Uyumlu)
 class Part(BaseModel):
     text: str
 
@@ -81,31 +54,49 @@ class Content(BaseModel):
 class GeminiRequest(BaseModel):
     contents: List[Content]
 
-
 @app.get("/")
 def home():
-    return {"status": "Gemini uyumlu Backend sunucusu ve Data entegrasyonu aktif!"}
-
+    return {"status": "Gemini AI Destekli Backend Sunucusu Aktif!"}
 
 @app.post("/v1beta/models/gemini-pro:generateContent")
 @app.post("/v1/chat/completions")
 def generate_content(request: GeminiRequest):
     try:
-        user_text = request.contents[-1].parts[0].text
-    except (IndexError, AttributeError):
-        user_text = ""
+        user_question = request.contents[-1].parts[0].text
+    except Exception:
+        user_question = ""
 
-    bot_response_text = search_in_knowledge_base(user_text)
+    knowledge = load_knowledge_base()
+
+    # Gemini'ye Gönderilecek Akıllı Prompt
+    prompt = f"""
+Sen Balıkesir Üniversitesi Bilgi İşlem Daire Başkanlığı (BAÜN BİDB) akıllı yardım asistanısın.
+Aşağıda üniversitenin bilgi tabanı ve rehber metinleri yer almaktadır:
+
+================ BİLGİ TABANI ================
+{knowledge[:15000]}
+===============================================
+
+Kullanıcının Sorusu: "{user_question}"
+
+Talimatlar:
+1. Sadece yukarıda verilen bilgi tabanına dayanarak kibar, net ve açıklayıcı bir Türkçe yanıt ver.
+2. Form isimleri, e-posta ayarları veya adımlar varsa liste halinde düzenli sun.
+3. Bilgi tabanında bulunmayan bir konuysa kibarca BAÜN BİDB ile iletişime geçmelerini söyle.
+"""
+
+    try:
+        model = genai.GenerativeModel('gemini-1.5-flash')
+        response = model.generate_content(prompt)
+        ai_reply = response.text
+    except Exception as e:
+        ai_reply = f"Gemini API yanıt verirken bir sorun oluştu: {str(e)}"
 
     return {
         "candidates": [
             {
                 "content": {
-                    "parts": [
-                        {
-                            "text": bot_response_text
-                        }
-                    ],
+                    "parts": [{"text": ai_reply}],
                     "role": "model"
                 },
                 "finishReason": "STOP",
