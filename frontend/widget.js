@@ -112,13 +112,22 @@ function sendSuggestion(text) {
 // ==========================================
 async function fetchBotResponse(messageText) {
     try {
-        // Backend API'sine POST isteği atıyoruz
+        // Zeynep'in hazırladığı Gemini API şemasına uygun POST isteği gönderiyoruz:
         const response = await fetch(BACKEND_API_URL, {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
             },
-            body: JSON.stringify({ message: messageText })
+            body: JSON.stringify({
+                contents: [
+                    {
+                        role: "user",
+                        parts: [
+                            { text: messageText }
+                        ]
+                    }
+                ]
+            })
         });
 
         if (!response.ok) {
@@ -126,12 +135,17 @@ async function fetchBotResponse(messageText) {
         }
 
         const data = await response.json();
-        // Backend'den dönen cevaba göre burayı özelleştirebilirsiniz:
-        // Örn: data.reply veya data.response veya data.answer
+
+        // 1. Zeynep'in Gemini API formatındaki yanıtını ayrıştır
+        if (data.candidates && data.candidates[0] && data.candidates[0].content) {
+            return data.candidates[0].content.parts[0].text;
+        }
+
+        // 2. Yedek alternatif yanıt alanları
         return data.reply || data.response || data.answer || "Cevap alındı ama format ayrıştırılamadı.";
 
     } catch (err) {
-        // Eğer henüz backend hazır değilse simülasyon yanıtı döner (Demo Modu)
+        // Eğer henüz backend hazır veya açık değilse simülasyon yanıtı döner (Demo Modu)
         console.warn("Backend API henüz hazır olmadığı için Demo Yanıtı üretiliyor.");
         return await getDemoResponse(messageText);
     }
