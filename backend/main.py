@@ -46,15 +46,33 @@ def search_in_knowledge_base(query: str) -> str:
         query_lower = query.lower().strip()
         matched_results = []
 
+        # 1. Tam cümle araması
         if isinstance(data, list):
             for item in data:
                 item_str = json.dumps(item, ensure_ascii=False).lower()
                 if query_lower in item_str:
                     matched_results.append(item)
-        elif isinstance(data, dict):
-            for key, val in data.items():
-                if query_lower in str(key).lower() or query_lower in str(val).lower():
-                    matched_results.append({key: val})
+
+        # 2. Tam eşleşme yoksa, anlamlı anahtar kelimeleri çıkarıp kelime skorlaması yap
+        if not matched_results and isinstance(data, list):
+            stop_words = {"nedir", "nelerdir", "hakkında", "bilgi", "bilgiler", "bilgileri", "bilgileriniz", "nasıl", "nerede", "mi", "mı", "mu", "mü", "ve", "ile", "bir", "bu"}
+            # Kelimeleri ayır ve stop words temizle
+            raw_words = re.findall(r'\w+', query_lower)
+            keywords = [w for w in raw_words if len(w) > 2 and w not in stop_words]
+
+            if keywords:
+                best_item = None
+                max_score = 0
+
+                for item in data:
+                    item_str = json.dumps(item, ensure_ascii=False).lower()
+                    score = sum(1 for kw in keywords if kw in item_str)
+                    if score > max_score:
+                        max_score = score
+                        best_item = item
+
+                if best_item and max_score > 0:
+                    matched_results.append(best_item)
 
         if matched_results:
             first_match = matched_results[0]
