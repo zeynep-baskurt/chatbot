@@ -12,4 +12,19 @@ __pycache__/
 .idea/
 .DS_Store
 .env
+<<<<<<< HEAD
+
+# Python Cache
+*.py[cod]
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+.env
 backend/.env
+>>>>>>> main
+
+=======
+backend/.env
+>>>>>>> 76914ea9c3603e4bc6e8bc1d5d117834b731c2d4
