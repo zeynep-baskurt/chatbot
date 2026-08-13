@@ -1,12 +1,163 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Chatbot Asistanı</title>
+    <!-- Google Fonts: Inter & Plus Jakarta Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome for modern icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Widget Stilleri -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+
+    <!-- Test Sayfası İçeriği (Ana Web Sitesi Simülasyonu) -->
+    <div class="demo-container">
+        <header class="demo-header">
+            <div class="logo">
+                <i class="fa-solid fa-robot"></i> AI Asistan
+            </div>
+            <nav class="demo-nav">
+                <a href="#">Ana Sayfa</a>
+                <a href="#">Özellikler</a>
+                <a href="#">Hakkımızda</a>
+                <a href="#">İletişim</a>
+            </nav>
+        </header>
+
+        <main class="demo-main">
+            <div class="hero">
+                <span class="badge"><i class="fa-solid fa-sparkles"></i> Staj Projesi Frontend Widget</span>
+                <h1>Yapay Zeka Chatbot Destek Asistanı</h1>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" onclick="toggleChat()">
+                        <i class="fa-regular fa-comments"></i> Chatbot'u Dene
+                    </button>
+                    <a href="#features" class="btn btn-secondary">Detayları Gör</a>
+                </div>
+            </div>
+
+            <section class="features-grid" id="features">
+                <div class="card">
+                    <i class="fa-solid fa-bolt icon"></i>
+                    <h3>Hızlı Yanıtlar</h3>
+                    <p>Backend API entegrasyonu ile anlık mesajlaşma performansı.</p>
+                </div>
+                <div class="card">
+                    <i class="fa-solid fa-shield-halved icon"></i>
+                    <h3>Güvenli ve Esnek</h3>
+                    <p>Farklı web sitelerine kolayca entegre edilebilir script yapısı.</p>
+                </div>
+                <div class="card">
+                    <i class="fa-solid fa-wand-magic-sparkles icon"></i>
+                    <h3>Şık Tasarım</h3>
+                    <p>Glassmorphism ve modern CSS animasyonları ile büyüleyici görünüm.</p>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- ========================================== -->
+    <!-- CHATBOT WIDGET ARAYÜZÜ                     -->
+    <!-- ========================================== -->
+    <div class="chatbot-widget-container">
+        <!-- Floating Toggle Button (Sağ Alttaki Yuvarlak Buton) -->
+        <button id="chat-toggle-btn" class="chat-toggle-btn" aria-label="Sohbeti Aç/Kapat">
+            <i class="fa-solid fa-comments chat-icon"></i>
+            <i class="fa-solid fa-xmark close-icon hidden"></i>
+            <span class="notification-badge" id="unread-badge">1</span>
+        </button>
+
+        <!-- Chat Window (Sohbet Penceresi) -->
+        <div id="chat-window" class="chat-window hidden">
+            <!-- Chat Header -->
+            <div class="chat-header">
+                <div class="chat-header-info">
+                    <div class="avatar-container">
+                        <div class="avatar">
+                            <i class="fa-solid fa-robot"></i>
+                        </div>
+                        <span class="status-indicator online"></span>
+                    </div>
+                    <div class="chat-header-text">
+                        <h3>AI Asistan</h3>
+                        <p class="status-text">Çevrimiçi | Yanıt vermeye hazır</p>
+                    </div>
+                </div>
+                <div class="chat-header-actions">
+                    <button class="icon-btn" id="clear-chat-btn" title="Sohbeti Temizle">
+                        <i class="fa-solid fa-rotate-right"></i>
+                    </button>
+                    <button class="icon-btn" id="close-chat-btn" title="Pencereyi Kapat">
+                        <i class="fa-solid fa-minus"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Chat Messages Container -->
+            <div class="chat-messages" id="chat-messages">
+                <!-- Karşılama Mesajı -->
+                <div class="message bot-message">
+                    <div class="message-avatar">
+                        <i class="fa-solid fa-robot"></i>
+                    </div>
+                    <div class="message-content">
+                        <p>Merhaba! 👋 Ben projenizin yapay zeka asistanıyım. Size nasıl yardımcı olabilirim?</p>
+                        <span class="message-time">Şimdi</span>
+                    </div>
+                </div>
+
+                <!-- Öneri Butonları / Quick Suggestions -->
+                <div class="suggestions-container" id="suggestions">
+                    <button class="suggestion-chip" onclick="sendSuggestion('Merhaba, chatbot nasıl çalışıyor?')">
+                        💡 Chatbot nasıl çalışıyor?
+                    </button>
+                    <button class="suggestion-chip" onclick="sendSuggestion('Staj projesi hakkında bilgi ver')">
+                        🎓 Staj Projesi Hakkında
+                    </button>
+                    <button class="suggestion-chip" onclick="sendSuggestion('İletişim bilgileriniz nedir?')">
+                        📞 İletişim Bilgileri
+                    </button>
+                </div>
+            </div>
+
+            <!-- Typing Indicator (Yazıyor... Animasyonu) -->
+            <div class="typing-indicator hidden" id="typing-indicator">
+                <div class="dots">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <span class="typing-text">Asistan yazıyor...</span>
+            </div>
+
+            <!-- Chat Input Area -->
+            <div class="chat-input-area">
+                <form id="chat-form" onsubmit="handleSendMessage(event)">
+                    <input 
+                        type="text" 
+                        id="chat-input" 
+                        placeholder="Bir mesaj yazın..." 
+                        autocomplete="off"
+                        required
+                    />
+                    <button type="submit" id="send-btn" title="Gönder">
+                        <i class="fa-solid fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+            <div class="chat-footer">
+                <span>Staj Projesi • Powered by AI</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Widget Mantığı JavaScript Dosyası -->
+    <script src="widget.js"></script>
 </body>
 </html>
+
