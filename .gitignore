@@ -1,8 +1,18 @@
-# Created by venv; see https://docs.python.org/3/library/venv.html
-__pycache__/
-*.pyc
+# Virtual Environment
 venv/
+.venv/
+env/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
 .env
+<<<<<<< HEAD
 
 # Python Cache
 *.py[cod]
@@ -15,3 +25,6 @@ venv/
 backend/.env
 >>>>>>> main
 
+=======
+backend/.env
+>>>>>>> 76914ea9c3603e4bc6e8bc1d5d117834b731c2d4

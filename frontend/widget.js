@@ -11,8 +11,8 @@
 // ==========================================
 // CONFIG & BACKEND API AYARI
 // ==========================================
-// Backend çalıştırıldığında (örn: FastAPI veya Flask) buraya backend adresi yazılacak:
-const BACKEND_API_URL = "http://localhost:8000/api/chat"; // Veya sizinki hangisiyse
+// Zeynep'in hazırladığı Gemini Uyumlu Backend API Adresi:
+const BACKEND_API_URL = "http://localhost:8000/v1beta/models/gemini-pro:generateContent";
 
 // ==========================================
 // DOM ELEMENT SEÇİCİLERİ
@@ -108,17 +108,26 @@ function sendSuggestion(text) {
 }
 
 // ==========================================
-// 3. BACKEND API İLE İLETİŞİM (ZEYNEP'İN API'Sİ)
+// 3. BACKEND API İLE İLETİŞİM (ZEYNEP'İN GEMİNI API'Sİ)
 // ==========================================
 async function fetchBotResponse(messageText) {
     try {
-        // Backend API'sine POST isteği atıyoruz
+        // Zeynep'in hazırladığı Gemini API şemasına uygun POST isteği gönderiyoruz:
         const response = await fetch(BACKEND_API_URL, {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
             },
-            body: JSON.stringify({ message: messageText })
+            body: JSON.stringify({
+                contents: [
+                    {
+                        role: "user",
+                        parts: [
+                            { text: messageText }
+                        ]
+                    }
+                ]
+            })
         });
 
         if (!response.ok) {
@@ -126,12 +135,17 @@ async function fetchBotResponse(messageText) {
         }
 
         const data = await response.json();
-        // Backend'den dönen cevaba göre burayı özelleştirebilirsiniz:
-        // Örn: data.reply veya data.response veya data.answer
+
+        // 1. Zeynep'in Gemini API formatındaki yanıtını ayrıştır
+        if (data.candidates && data.candidates[0] && data.candidates[0].content) {
+            return data.candidates[0].content.parts[0].text;
+        }
+
+        // 2. Yedek alternatif yanıt alanları
         return data.reply || data.response || data.answer || "Cevap alındı ama format ayrıştırılamadı.";
 
     } catch (err) {
-        // Eğer henüz backend hazır değilse simülasyon yanıtı döner (Demo Modu)
+        // Eğer henüz backend hazır veya açık değilse simülasyon yanıtı döner (Demo Modu)
         console.warn("Backend API henüz hazır olmadığı için Demo Yanıtı üretiliyor.");
         return await getDemoResponse(messageText);
     }
@@ -171,15 +185,24 @@ function appendMessage(text, sender) {
     const contentDiv = document.createElement("div");
     contentDiv.classList.add("message-content");
 
-    const p = document.createElement("p");
-    p.textContent = text;
+    // --- DEĞİŞİKLİK BURADA BAŞLIYOR ---
+    if (sender === "bot") {
+        // Bot mesajları için marked kütüphanesini kullanıp HTML olarak basıyoruz
+        contentDiv.innerHTML = marked.parse(text); 
+    } else {
+        // Kullanıcı mesajları güvenlik için düz metin (text) olarak kalmaya devam ediyor
+        const p = document.createElement("p");
+        p.textContent = text;
+        contentDiv.appendChild(p);
+    }
+    // --- DEĞİŞİKLİK BURADA BİTİYOR ---
 
     const timeSpan = document.createElement("span");
     timeSpan.classList.add("message-time");
     timeSpan.textContent = timeString;
 
-    contentDiv.appendChild(p);
-    contentDiv.appendChild(timeSpan);
+    // SADECE bunu bırakın, 'p' ekleme satırını tamamen silin veya yoruma alın:
+    contentDiv.appendChild(timeSpan); 
 
     messageDiv.appendChild(avatarDiv);
     messageDiv.appendChild(contentDiv);
@@ -189,6 +212,7 @@ function appendMessage(text, sender) {
     // Otomatik En Aşağıya Kaydır
     scrollToBottom();
 }
+
 
 // ==========================================
 // 5. YARDIMCI FONKSİYONLAR

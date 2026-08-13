@@ -438,6 +438,8 @@ body {
     font-size: 0.925rem;
     line-height: 1.5;
     border: 1px solid var(--border-color);
+    white-space: pre-wrap;
+    word-break: break-word;
 }
 
 .user-message .message-content {
