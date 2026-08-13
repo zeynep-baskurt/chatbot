@@ -38,12 +38,47 @@ def load_knowledge_base() -> str:
     try:
         with open(JSON_FILE_PATH, "r", encoding="utf-8") as f:
             data = json.load(f)
-            text_blocks = []
+
+        query_lower = query.lower().strip()
+        matched_results = []
+
+        # 1. Tam cümle araması
+        if isinstance(data, list):
             for item in data:
-                title = item.get("title", "")
-                content = item.get("content", "")
-                text_blocks.append(f"--- SAYFA: {title} ---\n{content}")
-            return "\n\n".join(text_blocks)
+                item_str = json.dumps(item, ensure_ascii=False).lower()
+                if query_lower in item_str:
+                    matched_results.append(item)
+
+        # 2. Tam eşleşme yoksa, anlamlı anahtar kelimeleri çıkarıp kelime skorlaması yap
+        if not matched_results and isinstance(data, list):
+            stop_words = {"nedir", "nelerdir", "hakkında", "bilgi", "bilgiler", "bilgileri", "bilgileriniz", "nasıl", "nerede", "mi", "mı", "mu", "mü", "ve", "ile", "bir", "bu"}
+            # Kelimeleri ayır ve stop words temizle
+            raw_words = re.findall(r'\w+', query_lower)
+            keywords = [w for w in raw_words if len(w) > 2 and w not in stop_words]
+
+            if keywords:
+                best_item = None
+                max_score = 0
+
+                for item in data:
+                    item_str = json.dumps(item, ensure_ascii=False).lower()
+                    score = sum(1 for kw in keywords if kw in item_str)
+                    if score > max_score:
+                        max_score = score
+                        best_item = item
+
+                if best_item and max_score > 0:
+                    matched_results.append(best_item)
+
+        if matched_results:
+            first_match = matched_results[0]
+            if isinstance(first_match, dict):
+                content = first_match.get("content") or first_match.get("text") or str(first_match)
+                return clean_text(str(content))
+            return clean_text(str(first_match))
+
+        return f"Aramanızla ('{query}') ilgili BAÜN BİDB bilgi tabanında uygun bir içerik bulunamadı."
+
     except Exception as e:
         return f"Hata: {e}"
 
