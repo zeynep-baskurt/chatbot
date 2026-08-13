@@ -10,7 +10,8 @@ import google.generativeai as genai
 from dotenv import load_dotenv
 
 # .env dosyasındaki değişkenleri yükle
-load_dotenv()
+env_path = Path(__file__).resolve().parent / ".env"
+load_dotenv(dotenv_path=env_path)
 
 app = FastAPI(
     title="BAÜN BİDB Chatbot Backend (Gemini API Entegreli)",
