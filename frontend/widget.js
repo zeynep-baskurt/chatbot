@@ -185,15 +185,24 @@ function appendMessage(text, sender) {
     const contentDiv = document.createElement("div");
     contentDiv.classList.add("message-content");
 
-    const p = document.createElement("p");
-    p.textContent = text;
+    // --- DEĞİŞİKLİK BURADA BAŞLIYOR ---
+    if (sender === "bot") {
+        // Bot mesajları için marked kütüphanesini kullanıp HTML olarak basıyoruz
+        contentDiv.innerHTML = marked.parse(text); 
+    } else {
+        // Kullanıcı mesajları güvenlik için düz metin (text) olarak kalmaya devam ediyor
+        const p = document.createElement("p");
+        p.textContent = text;
+        contentDiv.appendChild(p);
+    }
+    // --- DEĞİŞİKLİK BURADA BİTİYOR ---
 
     const timeSpan = document.createElement("span");
     timeSpan.classList.add("message-time");
     timeSpan.textContent = timeString;
 
-    contentDiv.appendChild(p);
-    contentDiv.appendChild(timeSpan);
+    // SADECE bunu bırakın, 'p' ekleme satırını tamamen silin veya yoruma alın:
+    contentDiv.appendChild(timeSpan); 
 
     messageDiv.appendChild(avatarDiv);
     messageDiv.appendChild(contentDiv);
@@ -203,6 +212,7 @@ function appendMessage(text, sender) {
     // Otomatik En Aşağıya Kaydır
     scrollToBottom();
 }
+
 
 // ==========================================
 // 5. YARDIMCI FONKSİYONLAR
