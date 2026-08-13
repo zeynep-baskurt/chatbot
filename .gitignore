@@ -4,4 +4,14 @@ __pycache__/
 venv/
 .env
 
+# Python Cache
+*.py[cod]
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+.env
+backend/.env
+>>>>>>> main
 
