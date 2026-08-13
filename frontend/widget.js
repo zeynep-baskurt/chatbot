@@ -12,7 +12,7 @@
 // CONFIG & BACKEND API AYARI
 // ==========================================
 // Backend çalıştırıldığında (örn: FastAPI veya Flask) buraya backend adresi yazılacak:
-const BACKEND_API_URL = "http://localhost:8000/api/chat"; // Veya sizinki hangisiyse
+const BACKEND_API_URL = "http://localhost:8000/v1beta/models/gemini-pro:generateContent";
 
 // ==========================================
 // DOM ELEMENT SEÇİCİLERİ
