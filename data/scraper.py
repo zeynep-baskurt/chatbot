@@ -20,7 +20,7 @@ URLS = [
 
 def scrape_bidb():
 <<<<<<< Updated upstream
-    print("🔍 BAÜN BİDB Tüm Alt Sayfa ve Hizmet Verileri Çekiliyor...")
+    print(" BAÜN BİDB Tüm Alt Sayfa ve Hizmet Verileri Çekiliyor...")
 =======
     print(" BAÜN BİDB Tüm Alt Sayfa ve Hizmet Verileri Çekiliyor...")
 >>>>>>> Stashed changes
@@ -64,7 +64,7 @@ def scrape_bidb():
                         "content": content
                     })
 <<<<<<< Updated upstream
-                    print(f"✅ Çekildi: {title[:40]}... ({url})")
+                    print(f" Çekildi: {title[:40]}... ({url})")
 =======
                     print(f" Çekildi: {title[:40]}... ({url})")
 >>>>>>> Stashed changes
