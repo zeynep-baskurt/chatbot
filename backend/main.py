@@ -6,6 +6,10 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from typing import List, Optional
 import google.generativeai as genai
+from dotenv import load_dotenv
+
+# .env dosyasındaki değişkenleri yükle
+load_dotenv()
 
 app = FastAPI(
     title="BAÜN BİDB Chatbot Backend (Gemini API Entegreli)",
@@ -23,8 +27,8 @@ app.add_middleware(
 DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 JSON_FILE_PATH = DATA_DIR / "bidb_knowledge.json"
 
-# Zeynep buraya kendi Gemini API Key'ini veya .env dosyasındaki anahtarı yazacak
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "AQ.Ab8RN6KKG1r_W2YJIS1IkPWGv4ugWCLHasyjiDNzFIGK1i7fhg")
+# apıkey
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "GEMINI_API_KEY")
 genai.configure(api_key=GEMINI_API_KEY)
 
 def load_knowledge_base() -> str:
