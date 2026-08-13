@@ -1,6 +1,22 @@
+<<<<<<< HEAD
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+=======
 # Created by venv; see https://docs.python.org/3/library/venv.html
 __pycache__/
 *.pyc
 venv/
 .env
 
+>>>>>>> origin/main

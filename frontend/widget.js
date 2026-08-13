@@ -11,7 +11,7 @@
 // ==========================================
 // CONFIG & BACKEND API AYARI
 // ==========================================
-// Backend çalıştırıldığında (örn: FastAPI veya Flask) buraya backend adresi yazılacak:
+// Zeynep'in hazırladığı Gemini Uyumlu Backend API Adresi:
 const BACKEND_API_URL = "http://localhost:8000/v1beta/models/gemini-pro:generateContent";
 
 // ==========================================
@@ -108,7 +108,7 @@ function sendSuggestion(text) {
 }
 
 // ==========================================
-// 3. BACKEND API İLE İLETİŞİM (ZEYNEP'İN API'Sİ)
+// 3. BACKEND API İLE İLETİŞİM (ZEYNEP'İN GEMİNI API'Sİ)
 // ==========================================
 async function fetchBotResponse(messageText) {
     try {
