@@ -19,11 +19,7 @@ URLS = [
 ]
 
 def scrape_bidb():
-<<<<<<< Updated upstream
     print(" BAÜN BİDB Tüm Alt Sayfa ve Hizmet Verileri Çekiliyor...")
-=======
-    print(" BAÜN BİDB Tüm Alt Sayfa ve Hizmet Verileri Çekiliyor...")
->>>>>>> Stashed changes
     knowledge_base = []
     visited_urls = set()
     
@@ -63,19 +59,11 @@ def scrape_bidb():
                         "title": title,
                         "content": content
                     })
-<<<<<<< Updated upstream
                     print(f" Çekildi: {title[:40]}... ({url})")
-=======
-                    print(f" Çekildi: {title[:40]}... ({url})")
->>>>>>> Stashed changes
             else:
                 print(f" Hata ({response.status_code}): {url}")
         except Exception as e:
             print(f" Bağlantı hatası ({url}): {e}")
-<<<<<<< Updated upstream
-
-=======
->>>>>>> Stashed changes
     os.makedirs("data", exist_ok=True)
     with open("data/bidb_knowledge.json", "w", encoding="utf-8") as f:
         json.dump(knowledge_base, f, ensure_ascii=False, indent=4)
