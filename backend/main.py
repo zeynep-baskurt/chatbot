@@ -1,3 +1,10 @@
+import sys
+from pathlib import Path
+
+# Data klasöründeki dosyaları içe aktarabilmek için yolu ekliyoruz
+from scraper import get_llm_response
+
+sys.path.append(str(Path(__file__).resolve().parent.parent / "data"))
 from fastapi import FastAPI
 from pydantic import BaseModel
 from typing import List
