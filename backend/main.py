@@ -1,43 +1,65 @@
-import sys
-from pathlib import Path
-
-# Data klasöründeki dosyaları içe aktarabilmek için yolu ekliyoruz
-from scraper import get_llm_response
-
-sys.path.append(str(Path(__file__).resolve().parent.parent / "data"))
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
-from typing import List
+from typing import List, Optional
 
-app = FastAPI(title="Bizim Yapay Zeka Backend")
+app = FastAPI(
+    title="BAÜN BİDB Chatbot Backend (Gemini API Compatible)",
+    version="1.0.0"
+)
 
-class Message(BaseModel):
-    role: str
-    content: str
+# CORS Ayarı
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
-class ChatRequest(BaseModel):
-    messages: List[Message]
+# --- Gemini API Şemaları ---
+
+class Part(BaseModel):
+    text: str
+
+class Content(BaseModel):
+    role: Optional[str] = "user"
+    parts: List[Part]
+
+class GeminiRequest(BaseModel):
+    contents: List[Content]
 
 @app.get("/")
 def home():
-    return {"status": "Backend calisiyor!"}
+    return {"status": "Gemini Uyumlu Backend Sunucusu Aktif!"}
 
-@app.post("/v1/chat/completions")
-def chat(request: ChatRequest):
-    user_message = request.messages[-1].content if request.messages else "Merhaba"
-    bot_response = f"Backend mesajınızı aldı: '{user_message}'"
+# Gemini Uyumlu Endpoint Yapısı: :generateContent
+@app.post("/v1beta/models/gemini-pro:generateContent")
+@app.post("/v1/chat/completions")  # Esneklik için OpenAI uç noktasına da destek verir
+def generate_content(request: GeminiRequest):
+    # Kullanıcıdan gelen son mesajı/metni alıyoruz
+    try:
+        user_text = request.contents[-1].parts[0].text
+    except (IndexError, AttributeError):
+        user_text = ""
 
+    # Geçici yanıt (İleride data/LLM modülünüz buraya bağlanacak)
+    bot_response_text = f"Backend (Gemini formatı) mesajınızı aldı: '{user_text}'"
+
+    # Gemini API Response Formatı
     return {
-        "id": "chatcmpl-123",
-        "object": "chat.completion",
-        "choices": [
+        "candidates": [
             {
-                "index": 0,
-                "message": {
-                    "role": "assistant",
-                    "content": bot_response
+                "content": {
+                    "parts": [
+                        {
+                            "text": bot_response_text
+                        }
+                    ],
+                    "role": "model"
                 },
-                "finish_reason": "stop"
+                "finishReason": "STOP",
+                "index": 0
             }
         ]
     }
