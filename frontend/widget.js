@@ -116,41 +116,32 @@ function sendSuggestion(text) {
 // ==========================================
 async function fetchBotResponse(messageText) {
     try {
-        const response = await fetch(BACKEND_API_URL, {
+        const response = await fetch("http://localhost:3080/api/v1/chat/completions", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
-                // İhtiyaca göre LibreChat API anahtarınızı ekleyebilirsiniz:
-                // "Authorization": "Bearer YOUR_LIBRECHAT_API_KEY"
+                // LibreChat arayüzünden aldığınız API Key'i buraya ekleyin:
+                "Authorization": "Bearer LIBRECHAT_API_KEY_BURAYA" 
             },
             body: JSON.stringify({
-                model: "gemini-3.6-flash", // LibreChat üzerinde tanımlı model adınız
+                model: "gemini-3.6-flash", // LibreChat'te tanımlı aktif model adınız
                 messages: [
-                    {
-                        role: "user",
-                        content: messageText
-                    }
+                    { role: "user", content: messageText }
                 ]
             })
         });
 
         if (!response.ok) {
-            throw new Error(`Sunucu Hatası: ${response.status}`);
+            const errorData = await response.json();
+            throw new Error(`Sunucu Hatası (${response.status}): ${errorData.message || response.statusText}`);
         }
 
         const data = await response.json();
-
-        // 1. OpenAI formatındaki yanıtı al
-        if (data.choices && data.choices[0] && data.choices[0].message) {
-            return data.choices[0].message.content;
-        }
-
-        // 2. Alternatif yanıt alanları
-        return data.reply || data.response || data.text || "Yanıt alındı ancak ayrıştırılamadı.";
+        return data.choices[0].message.content;
 
     } catch (err) {
-        console.warn("Backend API bağlantısı başarısız. Demo yanıtı dönülüyor:", err);
-        return await getDemoResponse(messageText);
+        console.error("API Bağlantı Hatası:", err);
+        return `⚠️ Bağlantı Kurulamadı: ${err.message}`;
     }
 }
 
@@ -162,7 +153,7 @@ function getDemoResponse(text) {
             if (lower.includes("merhaba") || lower.includes("selam")) {
                 resolve("Merhaba! Harika bir staj projesi geliştiriyorsunuz! Size nasıl yardımcı olabilirim?");
             } else if (lower.includes("staj") || lower.includes("proje")) {
-                resolve("Bu proje 3 kişilik ekibiniz (Ülkü, Zeynep ve arkadaşınız) tarafından geliştirilen akıllı bir Chatbot sistemidir!");
+                resolve("Bu proje 3 kişilik ekibiniz tarafından geliştirilen akıllı bir Chatbot sistemidir!");
             } else if (lower.includes("iletişim")) {
                 resolve("Ekip üyelerine veya sistem yöneticisine admin@stajprojesi.com adresinden ulaşabilirsiniz.");
             } else {
