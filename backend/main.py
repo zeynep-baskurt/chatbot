@@ -8,7 +8,6 @@ from typing import List, Optional
 import google.generativeai as genai
 from dotenv import load_dotenv
 
-# .env dosyasındaki değişkenleri yükle
 load_dotenv()
 
 app = FastAPI(
@@ -28,12 +27,10 @@ BASE_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = BASE_DIR.parent
 DATA_DIR = PROJECT_ROOT / "data"
 
-# API Anahtarı
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "GEMINI_API_KEY")
 genai.configure(api_key=GEMINI_API_KEY)
 
 def load_file_content(filename: str) -> str:
-    """Belirtilen JSON dosyasını önce data klasöründe, yoksa ana dizinde arayıp okur."""
     paths_to_check = [
         DATA_DIR / filename,
         PROJECT_ROOT / filename,
@@ -44,13 +41,16 @@ def load_file_content(filename: str) -> str:
             try:
                 with open(path, "r", encoding="utf-8") as f:
                     data = json.load(f)
-                    return json.dumps(data, ensure_ascii=False, indent=2)
+                    content = json.dumps(data, ensure_ascii=False, indent=2)
+                    print(f" Bulundu ve Yüklendi: {path} ({len(content)} karakter)")
+                    return content
             except Exception as e:
-                return f"Hata ({filename}): {e}"
+                print(f" Dosya Okuma Hatası ({path}): {e}")
+                return ""
+    print(f" Dosya Bulunamadı: {filename}")
     return ""
 
 def load_all_knowledge_bases() -> str:
-    """Hem BİDB hem de BAÜN genel bilgi tabanlarını birleştirir."""
     bidb_data = load_file_content("bidb_knowledge.json")
     baun_data = load_file_content("baun_knowledge_base.json")
     
@@ -65,7 +65,6 @@ def load_all_knowledge_bases() -> str:
         
     return "\n\n".join(combined)
 
-# Gemini API Şemaları
 class Part(BaseModel):
     text: str
 
@@ -88,11 +87,13 @@ def generate_content(request: GeminiRequest):
     except Exception:
         user_question = ""
 
+    print(f"\n GELEN SORU: {user_question}")
     knowledge = load_all_knowledge_bases()
+    print(f" TOPLAM BİLGİ TABANI BOYUTU: {len(knowledge)} karakter")
 
     prompt = f"""
 Sen Balıkesir Üniversitesi ve Bilgi İşlem Daire Başkanlığı (BAÜN & BİDB) akıllı destek asistanısın.
-Aşağıda üniversitenin birleştirilmiş resmi bilgi tabanları yer almaktadır:
+Aşağıda üniversitenin resmi bilgi tabanları yer almaktadır:
 
 ================ BİLGİ TABANI ================
 {knowledge}
@@ -101,17 +102,20 @@ Aşağıda üniversitenin birleştirilmiş resmi bilgi tabanları yer almaktadı
 Kullanıcının Sorusu: "{user_question}"
 
 Talimatlar:
-1. YALNIZCA yukarıda verilen bilgi tabanlarındaki verilere dayanarak kibar, kurumsal, net ve Türkçe bir yanıt ver.
-2. Adımlar, formlar veya bağlantılar varsa madde imleri halinde düzenli sun.
-3. Aranan konu bilgi tabanlarında kesinlikle yoksa uydurma; kibarca kullanıcının BAÜN ilgili birimi ile iletişime geçmesi gerektiğini belirt.
+1. YALNIZCA yukarıda verilen bilgi tabanındaki verilere dayanarak Türkçe, kurumsal ve net yanıt ver.
+2. Bilgi tabanında yer alan bilgileri doğrudan aktar.
+3. Bilgi tabanında kesinlikle bulunmayan bir konuysa kibarca BAÜN BİDB birimi ile iletişime geçilmesini söyle.
 """
 
     try:
-        model = genai.GenerativeModel('gemini-2.5-flash')
+        # En stabil model adı
+        model = genai.GenerativeModel('gemini-1.5-flash-latest')
         response = model.generate_content(prompt)
         ai_reply = response.text
+        print(" GEMINI CEVABI ÜRETTİ.")
     except Exception as e:
         ai_reply = f"Gemini API yanıt verirken bir sorun oluştu: {str(e)}"
+        print(f" GEMINI API HATASI: {str(e)}")
 
     return {
         "candidates": [
