@@ -29,7 +29,7 @@ BASE_DIR = Path(__file__).resolve().parent
 JSON_FILE_PATH = BASE_DIR.parent / "data" / "bidb_knowledge.json"
 
 # API Anahtarı
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "GEMINI_API_KEY")
 genai.configure(api_key=GEMINI_API_KEY)
 
 def load_knowledge_base() -> str:
