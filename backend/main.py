@@ -29,7 +29,7 @@ PROJECT_ROOT = BASE_DIR.parent
 DATA_DIR = PROJECT_ROOT / "data"
 
 # API Anahtarı
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "GEMINI_API_KEY")
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
 genai.configure(api_key=GEMINI_API_KEY)
 
 def load_file_content(filename: str) -> str:
