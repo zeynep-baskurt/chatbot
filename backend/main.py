@@ -109,7 +109,7 @@ Talimatlar:
 
     try:
         # En stabil model adı
-        model = genai.GenerativeModel('gemini-1.5-flash-latest')
+        model = genai.GenerativeModel('gemini-3.6-flash-latest')
         response = model.generate_content(prompt)
         ai_reply = response.text
         print(" GEMINI CEVABI ÜRETTİ.")
