@@ -13,7 +13,7 @@
 // ==========================================
 // Zeynep'in hazırladığı Gemini Uyumlu Backend API Adresi:
 //const BACKEND_API_URL = // LibreChat OpenAI Uyumlu Chat Endpoint'i
-const BACKEND_API_URL = "http://localhost:3080/api/v1/chat/completions";
+const BACKEND_API_URL = "http://localhost:3080/api/v1/chat/completions";"
 
 // ==========================================
 // DOM ELEMENT SEÇİCİLERİ
@@ -124,7 +124,7 @@ async function fetchBotResponse(messageText) {
                 // "Authorization": "Bearer YOUR_LIBRECHAT_API_KEY"
             },
             body: JSON.stringify({
-                model: "gpt-4o", // LibreChat üzerinde tanımlı model adınız
+                model: "gemini-3.6-flash", // LibreChat üzerinde tanımlı model adınız
                 messages: [
                     {
                         role: "user",
