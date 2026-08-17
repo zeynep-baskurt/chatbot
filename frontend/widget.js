@@ -11,7 +11,9 @@
 // ==========================================
 // CONFIG & BACKEND API AYARI
 // ==========================================
-const BACKEND_API_URL = "http://localhost:8001/v1/chat/completions";
+// Zeynep'in hazırladığı Gemini Uyumlu Backend API Adresi:
+//const BACKEND_API_URL = // LibreChat OpenAI Uyumlu Chat Endpoint'i
+const BACKEND_API_URL = "http://localhost:8000/v1/chat/completions";
 
 // ==========================================
 // DOM ELEMENT SEÇİCİLERİ
