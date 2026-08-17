@@ -116,41 +116,32 @@ function sendSuggestion(text) {
 // ==========================================
 async function fetchBotResponse(messageText) {
     try {
-        const response = await fetch(BACKEND_API_URL, {
+        const response = await fetch("http://localhost:3080/api/v1/chat/completions", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
-                // İhtiyaca göre LibreChat API anahtarınızı ekleyebilirsiniz:
-                // "Authorization": "Bearer YOUR_LIBRECHAT_API_KEY"
+                // LibreChat arayüzünden aldığınız API Key'i buraya ekleyin:
+                "Authorization": "Bearer LIBRECHAT_API_KEY_BURAYA" 
             },
             body: JSON.stringify({
-                model: "gemini-3.6-flash", // LibreChat üzerinde tanımlı model adınız
+                model: "gemini-3.6-flash", // LibreChat'te tanımlı aktif model adınız
                 messages: [
-                    {
-                        role: "user",
-                        content: messageText
-                    }
+                    { role: "user", content: messageText }
                 ]
             })
         });
 
         if (!response.ok) {
-            throw new Error(`Sunucu Hatası: ${response.status}`);
+            const errorData = await response.json();
+            throw new Error(`Sunucu Hatası (${response.status}): ${errorData.message || response.statusText}`);
         }
 
         const data = await response.json();
-
-        // 1. OpenAI formatındaki yanıtı al
-        if (data.choices && data.choices[0] && data.choices[0].message) {
-            return data.choices[0].message.content;
-        }
-
-        // 2. Alternatif yanıt alanları
-        return data.reply || data.response || data.text || "Yanıt alındı ancak ayrıştırılamadı.";
+        return data.choices[0].message.content;
 
     } catch (err) {
-        console.warn("Backend API bağlantısı başarısız. Demo yanıtı dönülüyor:", err);
-        return await getDemoResponse(messageText);
+        console.error("API Bağlantı Hatası:", err);
+        return `⚠️ Bağlantı Kurulamadı: ${err.message}`;
     }
 }
 
