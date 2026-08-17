@@ -178,20 +178,12 @@ async def handle_requests(request: Request, full_path: str = ""):
     except Exception:
         user_question = ""
 
-<<<<<<< HEAD
-    knowledge = get_relevant_knowledge(user_question)
-
-    prompt = f"""
-Sen Balıkesir Üniversitesi (BAÜN) resmi akıllı destek asistanısın.
-Aşağıda üniversitenin ve Bilgi İşlem Daire Başkanlığı'nın resmi bilgi tabanından kullanıcı sorusuna en alakalı bölümler derlenmiştir:
-=======
     print(f"📩 Gelen Soru: {user_question}")
     knowledge = load_all_knowledge_bases()
 
     prompt = f"""
 Sen Balıkesir Üniversitesi ve Bilgi İşlem Daire Başkanlığı (BAÜN & BİDB) akıllı destek asistanısın.
 Aşağıda üniversitenin resmi bilgi tabanı yer almaktadır:
->>>>>>> 7bac3f49c1f1843c3262dc5a58a08fe727ce49a6
 
 ================ BİLGİ TABANI ================
 {knowledge}
@@ -200,18 +192,12 @@ Aşağıda üniversitenin resmi bilgi tabanı yer almaktadır:
 Kullanıcının Sorusu: "{user_question}"
 
 Talimatlar:
-<<<<<<< HEAD
-1. Yukarıdaki bilgi tabanından faydalanarak ve genel üniversite bilginle kibar, net ve açıklayıcı bir Türkçe yanıt ver.
-2. Bölümler, form isimleri, e-posta ayarları, akademik duyurular, akıllı kart prosedürleri veya adımlar varsa liste halinde düzenli sun.
-3. Bilgi tabanında bulunmayan bir konuysa kibarca Balıkesir Üniversitesi / BAÜN BİDB destek birimi ile iletişime geçmelerini söyle.
-=======
 1. YALNIZCA yukarıda verilen bilgi tabanındaki verilere dayanarak Türkçe, kurumsal, net ve açıklayıcı bir yanıt ver.
 2. Bilgi tabanında kesinlikle yer almayan bir konuysa kibarca BAÜN BİDB birimi ile iletişime geçilmesi gerektiğini belirt.
->>>>>>> 7bac3f49c1f1843c3262dc5a58a08fe727ce49a6
 """
 
     try:
-        model = genai.GenerativeModel('gemini-3.6-flash')
+        model = genai.GenerativeModel('gemini-1.5-flash-latest')
         response = model.generate_content(prompt)
         ai_reply = response.text
     except Exception as e:
