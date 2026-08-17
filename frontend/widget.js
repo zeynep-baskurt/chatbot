@@ -153,7 +153,7 @@ function getDemoResponse(text) {
             if (lower.includes("merhaba") || lower.includes("selam")) {
                 resolve("Merhaba! Harika bir staj projesi geliştiriyorsunuz! Size nasıl yardımcı olabilirim?");
             } else if (lower.includes("staj") || lower.includes("proje")) {
-                resolve("Bu proje 3 kişilik ekibiniz (Ülkü, Zeynep ve arkadaşınız) tarafından geliştirilen akıllı bir Chatbot sistemidir!");
+                resolve("Bu proje 3 kişilik ekibiniz tarafından geliştirilen akıllı bir Chatbot sistemidir!");
             } else if (lower.includes("iletişim")) {
                 resolve("Ekip üyelerine veya sistem yöneticisine admin@stajprojesi.com adresinden ulaşabilirsiniz.");
             } else {
