@@ -26,17 +26,19 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-DATA_DIR = Path(__file__).resolve().parent.parent / "data"
-JSON_FILE_PATH = DATA_DIR / "bidb_knowledge.json"
+# Doğrudan data klasöründeki JSON dosyasının yolu (chatbot/data/bidb_knowledge.json)
+BASE_DIR = Path(__file__).resolve().parent
+JSON_FILE_PATH = BASE_DIR.parent / "data" / "bidb_knowledge.json"
 
 # API Key .env dosyasından okunur
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
 genai.configure(api_key=GEMINI_API_KEY)
 
 def load_knowledge_base() -> str:
-    """bidb_knowledge.json dosyasını okuyup Gemini'ye prompt olarak hazırlayan fonksiyon."""
+    """data klasöründeki JSON dosyasını okuyup Gemini'ye tam metin olarak verir."""
     if not JSON_FILE_PATH.exists():
-        return "Bilgi tabanı dosyası bulunamadı."
+        return f"Bilgi tabanı dosyası bulunamadı: {JSON_FILE_PATH}"
+    
     try:
         with open(JSON_FILE_PATH, "r", encoding="utf-8") as f:
             data = json.load(f)
@@ -52,9 +54,9 @@ def load_knowledge_base() -> str:
                     text_blocks.append(f"--- {k} ---\n{v}")
             return "\n\n".join(text_blocks)
     except Exception as e:
-        return f"Hata: {e}"
+        return f"Dosya okunurken hata oluştu: {e}"
 
-# Gemini API Şemaları (Frontend Widget Uyumlu)
+# Gemini API Şemaları
 class Part(BaseModel):
     text: str
 
@@ -79,10 +81,9 @@ def generate_content(request: GeminiRequest):
 
     knowledge = load_knowledge_base()
 
-    # Gemini'ye Gönderilecek Akıllı Prompt
     prompt = f"""
-Sen Balıkesir Üniversitesi Bilgi İşlem Daire Başkanlığı (BAÜN BİDB) akıllı yardım asistanısın.
-Aşağıda üniversitenin bilgi tabanı ve rehber metinleri yer almaktadır:
+Sen Balıkesir Üniversitesi Bilgi İşlem Daire Başkanlığı (BAÜN BİDB) akıllı destek asistanısın.
+Aşağıda üniversitenin resmi bilgi tabanı yer almaktadır:
 
 ================ BİLGİ TABANI ================
 {knowledge[:20000]}
