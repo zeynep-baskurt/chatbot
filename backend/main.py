@@ -1,7 +1,7 @@
 import json
 import os
 from pathlib import Path
-from fastapi import FastAPI
+from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from typing import List, Optional
@@ -27,10 +27,12 @@ BASE_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = BASE_DIR.parent
 DATA_DIR = PROJECT_ROOT / "data"
 
+# API Anahtarı (.env dosyasından okunur)
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "GEMINI_API_KEY")
 genai.configure(api_key=GEMINI_API_KEY)
 
 def load_file_content(filename: str) -> str:
+    """JSON dosyasını data klasöründe veya ana dizinlerde arayıp okur."""
     paths_to_check = [
         DATA_DIR / filename,
         PROJECT_ROOT / filename,
@@ -42,15 +44,16 @@ def load_file_content(filename: str) -> str:
                 with open(path, "r", encoding="utf-8") as f:
                     data = json.load(f)
                     content = json.dumps(data, ensure_ascii=False, indent=2)
-                    print(f" Bulundu ve Yüklendi: {path} ({len(content)} karakter)")
+                    print(f"✅ Bulundu ve Yüklendi: {path} ({len(content)} karakter)")
                     return content
             except Exception as e:
-                print(f" Dosya Okuma Hatası ({path}): {e}")
+                print(f"❌ Dosya Okuma Hatası ({path}): {e}")
                 return ""
-    print(f" Dosya Bulunamadı: {filename}")
+    print(f"⚠️ Dosya Bulunamadı: {filename}")
     return ""
 
 def load_all_knowledge_bases() -> str:
+    """BİDB ve genel BAÜN bilgi tabanlarını birleştirir."""
     bidb_data = load_file_content("bidb_knowledge.json")
     baun_data = load_file_content("baun_knowledge_base.json")
     
@@ -65,31 +68,30 @@ def load_all_knowledge_bases() -> str:
         
     return "\n\n".join(combined)
 
-class Part(BaseModel):
-    text: str
-
-class Content(BaseModel):
-    role: Optional[str] = "user"
-    parts: List[Part]
-
-class GeminiRequest(BaseModel):
-    contents: List[Content]
-
 @app.get("/")
 def home():
     return {"status": "Gemini AI Destekli Backend Sunucusu Aktif!"}
 
-@app.post("/v1beta/models/gemini-pro:generateContent")
-@app.post("/v1/chat/completions")
-def generate_content(request: GeminiRequest):
+# Frontend'in gönderdiği tüm URL ve model rotalarını yakalayan fonksiyon
+@app.api_route("/{full_path:path}", methods=["GET", "POST", "OPTIONS"])
+async def handle_chat_requests(full_path: str, request: Request):
+    user_question = ""
     try:
-        user_question = request.contents[-1].parts[0].text
+        body = await request.json()
+        if "contents" in body and body["contents"]:
+            user_question = body["contents"][-1]["parts"][0]["text"]
+        elif "messages" in body and body["messages"]:
+            user_question = body["messages"][-1]["content"]
+        elif "prompt" in body:
+            user_question = body["prompt"]
     except Exception:
         user_question = ""
 
-    print(f"\n GELEN SORU: {user_question}")
+    print(f"\n📩 GELEN İSTEK ROTASI: /{full_path}")
+    print(f"💬 GELEN SORU: {user_question}")
+    
     knowledge = load_all_knowledge_bases()
-    print(f" TOPLAM BİLGİ TABANI BOYUTU: {len(knowledge)} karakter")
+    print(f"📊 YÜKLENEN VERİ TABANI BOYUTU: {len(knowledge)} karakter")
 
     prompt = f"""
 Sen Balıkesir Üniversitesi ve Bilgi İşlem Daire Başkanlığı (BAÜN & BİDB) akıllı destek asistanısın.
@@ -103,19 +105,17 @@ Kullanıcının Sorusu: "{user_question}"
 
 Talimatlar:
 1. YALNIZCA yukarıda verilen bilgi tabanındaki verilere dayanarak Türkçe, kurumsal ve net yanıt ver.
-2. Bilgi tabanında yer alan bilgileri doğrudan aktar.
-3. Bilgi tabanında kesinlikle bulunmayan bir konuysa kibarca BAÜN BİDB birimi ile iletişime geçilmesini söyle.
+2. Bilgi tabanında kesinlikle yer almayan bir konuysa kibarca BAÜN BİDB birimi ile iletişime geçilmesini söyle.
 """
 
     try:
-        # En stabil model adı
-        model = genai.GenerativeModel('gemini-3.6-flash-latest')
+        model = genai.GenerativeModel('gemini-1.5-flash-latest')
         response = model.generate_content(prompt)
         ai_reply = response.text
-        print(" GEMINI CEVABI ÜRETTİ.")
+        print("🤖 CEVAP ÜRETİLDİ.")
     except Exception as e:
         ai_reply = f"Gemini API yanıt verirken bir sorun oluştu: {str(e)}"
-        print(f" GEMINI API HATASI: {str(e)}")
+        print(f"❌ GEMINI HATASI: {e}")
 
     return {
         "candidates": [
@@ -126,6 +126,14 @@ Talimatlar:
                 },
                 "finishReason": "STOP",
                 "index": 0
+            }
+        ],
+        "choices": [
+            {
+                "message": {
+                    "role": "assistant",
+                    "content": ai_reply
+                }
             }
         ]
     }
