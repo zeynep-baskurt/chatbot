@@ -82,19 +82,19 @@ def generate_content(request: GeminiRequest):
     knowledge = load_knowledge_base()
 
     prompt = f"""
-Sen Balıkesir Üniversitesi Bilgi İşlem Daire Başkanlığı (BAÜN BİDB) akıllı destek asistanısın.
-Aşağıda üniversitenin resmi bilgi tabanı yer almaktadır:
+Sen Balıkesir Üniversitesi (BAÜN) resmi akıllı destek asistanısın.
+Aşağıda üniversitenin ve Bilgi İşlem Daire Başkanlığı'nın resmi bilgi tabanı yer almaktadır:
 
 ================ BİLGİ TABANI ================
-{knowledge[:20000]}
+{knowledge[:100000]}
 ===============================================
 
 Kullanıcının Sorusu: "{user_question}"
 
 Talimatlar:
 1. Sadece yukarıda verilen bilgi tabanına dayanarak kibar, net ve açıklayıcı bir Türkçe yanıt ver.
-2. Form isimleri, e-posta ayarları, akıllı kart prosedürleri veya adımlar varsa liste halinde düzenli sun.
-3. Bilgi tabanında bulunmayan bir konuysa kibarca BAÜN BİDB ile iletişime geçmelerini söyle.
+2. Form isimleri, e-posta ayarları, akademik duyurular, akıllı kart prosedürleri veya adımlar varsa liste halinde düzenli sun.
+3. Bilgi tabanında bulunmayan bir konuysa kibarca Balıkesir Üniversitesi / BAÜN BİDB destek birimi ile iletişime geçmelerini söyle.
 """
 
     ai_reply = ""
