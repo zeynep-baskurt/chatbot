@@ -166,8 +166,8 @@ Talimatlar:
 """
 
     ai_reply = ""
-    # Gemini modellerini sırayla dene
-    for model_name in ['gemini-1.5-flash', 'gemini-1.5-pro', 'gemini-flash-latest']:
+    # Gemini modellerini sırayla dene (güncel modeller)
+    for model_name in ['gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-flash-latest', 'gemini-pro-latest']:
         try:
             model = genai.GenerativeModel(model_name)
             response = model.generate_content(prompt)
@@ -180,6 +180,8 @@ Talimatlar:
 
     if not ai_reply:
         ai_reply = "Yanıt üretilirken bir sorun oluştu. Lütfen BAÜN BİDB destek birimi ile iletişime geçin."
+
+    print(f"✅ Üretilen Yanıt ({len(ai_reply)} kr): {ai_reply[:100]}...")
 
     # Hem OpenAI hem Gemini formatında yanıt döndürür
     return {
