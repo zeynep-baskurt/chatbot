@@ -1,6 +1,5 @@
 import json
 import os
-import re
 from pathlib import Path
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
@@ -10,8 +9,7 @@ import google.generativeai as genai
 from dotenv import load_dotenv
 
 # .env dosyasındaki değişkenleri yükle
-env_path = Path(__file__).resolve().parent / ".env"
-load_dotenv(dotenv_path=env_path)
+load_dotenv()
 
 app = FastAPI(
     title="BAÜN BİDB Chatbot Backend (Gemini API Entegreli)",
@@ -26,35 +24,46 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Doğrudan data klasöründeki JSON dosyasının yolu (chatbot/data/bidb_knowledge.json)
 BASE_DIR = Path(__file__).resolve().parent
-JSON_FILE_PATH = BASE_DIR.parent / "data" / "bidb_knowledge.json"
+PROJECT_ROOT = BASE_DIR.parent
+DATA_DIR = PROJECT_ROOT / "data"
 
-# API Key .env dosyasından okunur
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "GEMINI_API_KEY")
+# API Anahtarı
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
 genai.configure(api_key=GEMINI_API_KEY)
 
-def load_knowledge_base() -> str:
-    """data klasöründeki JSON dosyasını okuyup Gemini'ye tam metin olarak verir."""
-    if not JSON_FILE_PATH.exists():
-        return f"Bilgi tabanı dosyası bulunamadı: {JSON_FILE_PATH}"
+def load_file_content(filename: str) -> str:
+    """Belirtilen JSON dosyasını önce data klasöründe, yoksa ana dizinde arayıp okur."""
+    paths_to_check = [
+        DATA_DIR / filename,
+        PROJECT_ROOT / filename,
+        BASE_DIR / filename
+    ]
+    for path in paths_to_check:
+        if path.exists():
+            try:
+                with open(path, "r", encoding="utf-8") as f:
+                    data = json.load(f)
+                    return json.dumps(data, ensure_ascii=False, indent=2)
+            except Exception as e:
+                return f"Hata ({filename}): {e}"
+    return ""
+
+def load_all_knowledge_bases() -> str:
+    """Hem BİDB hem de BAÜN genel bilgi tabanlarını birleştirir."""
+    bidb_data = load_file_content("bidb_knowledge.json")
+    baun_data = load_file_content("baun_knowledge_base.json")
     
-    try:
-        with open(JSON_FILE_PATH, "r", encoding="utf-8") as f:
-            data = json.load(f)
-            text_blocks = []
-            if isinstance(data, list):
-                for item in data:
-                    title = item.get("title", "")
-                    content = item.get("content", "")
-                    if content:
-                        text_blocks.append(f"--- SAYFA: {title} ---\n{content}")
-            elif isinstance(data, dict):
-                for k, v in data.items():
-                    text_blocks.append(f"--- {k} ---\n{v}")
-            return "\n\n".join(text_blocks)
-    except Exception as e:
-        return f"Dosya okunurken hata oluştu: {e}"
+    combined = []
+    if bidb_data:
+        combined.append(f"=== BAÜN BİDB BİLGİ TABANI ===\n{bidb_data}")
+    if baun_data:
+        combined.append(f"=== BAÜN GENEL BİLGİ TABANI ===\n{baun_data}")
+        
+    if not combined:
+        return "Bilgi tabanı dosyaları bulunamadı."
+        
+    return "\n\n".join(combined)
 
 # Gemini API Şemaları
 class Part(BaseModel):
@@ -79,39 +88,30 @@ def generate_content(request: GeminiRequest):
     except Exception:
         user_question = ""
 
-    knowledge = load_knowledge_base()
+    knowledge = load_all_knowledge_bases()
 
     prompt = f"""
-Sen Balıkesir Üniversitesi (BAÜN) resmi akıllı destek asistanısın.
-Aşağıda üniversitenin ve Bilgi İşlem Daire Başkanlığı'nın resmi bilgi tabanı yer almaktadır:
+Sen Balıkesir Üniversitesi ve Bilgi İşlem Daire Başkanlığı (BAÜN & BİDB) akıllı destek asistanısın.
+Aşağıda üniversitenin birleştirilmiş resmi bilgi tabanları yer almaktadır:
 
 ================ BİLGİ TABANI ================
-{knowledge[:100000]}
+{knowledge}
 ===============================================
 
 Kullanıcının Sorusu: "{user_question}"
 
 Talimatlar:
-1. Sadece yukarıda verilen bilgi tabanına dayanarak kibar, net ve açıklayıcı bir Türkçe yanıt ver.
-2. Form isimleri, e-posta ayarları, akademik duyurular, akıllı kart prosedürleri veya adımlar varsa liste halinde düzenli sun.
-3. Bilgi tabanında bulunmayan bir konuysa kibarca Balıkesir Üniversitesi / BAÜN BİDB destek birimi ile iletişime geçmelerini söyle.
+1. YALNIZCA yukarıda verilen bilgi tabanlarındaki verilere dayanarak kibar, kurumsal, net ve Türkçe bir yanıt ver.
+2. Adımlar, formlar veya bağlantılar varsa madde imleri halinde düzenli sun.
+3. Aranan konu bilgi tabanlarında kesinlikle yoksa uydurma; kibarca kullanıcının BAÜN ilgili birimi ile iletişime geçmesi gerektiğini belirt.
 """
 
-    ai_reply = ""
-    # Gemini 3.5 ve güncel modelleri sırayla dene
-    for model_name in ['gemini-3.5-flash', 'gemini-3.6-flash', 'gemini-flash-latest']:
-        try:
-            model = genai.GenerativeModel(model_name)
-            response = model.generate_content(prompt)
-            if response and response.text:
-                ai_reply = response.text
-                break
-        except Exception as e:
-            print(f"Model error ({model_name}): {e}")
-            continue
-
-    if not ai_reply:
-        ai_reply = "Yanıt üretilirken bir sorun oluştu. Lütfen BAÜN BİDB destek birimi ile iletişime geçin."
+    try:
+        model = genai.GenerativeModel('gemini-2.5-flash')
+        response = model.generate_content(prompt)
+        ai_reply = response.text
+    except Exception as e:
+        ai_reply = f"Gemini API yanıt verirken bir sorun oluştu: {str(e)}"
 
     return {
         "candidates": [
