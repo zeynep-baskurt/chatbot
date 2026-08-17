@@ -4,9 +4,9 @@
 
 /* 1. CSS Değişkenleri & Tasarım Sistemi */
 :root {
-    --primary-color: #6366f1;
-    --primary-hover: #4f46e5;
-    --primary-gradient: linear-gradient(135deg, #6366f1 0%, #a855f7 100%);
+    --primary-color: #0082fc;
+    --primary-hover: #006ed6;
+    --primary-gradient: linear-gradient(135deg, #00c6ff 0%, #0072ff 100%);
     --bg-dark: #0f172a;
     --bg-card: #1e293b;
     --chat-bg: rgba(30, 41, 59, 0.95);
@@ -15,9 +15,9 @@
     --text-muted: #64748b;
     --border-color: rgba(255, 255, 255, 0.1);
     --bot-msg-bg: rgba(51, 65, 85, 0.8);
-    --user-msg-bg: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+    --user-msg-bg: linear-gradient(135deg, #00c6ff 0%, #0072ff 100%);
     --shadow-lg: 0 20px 25px -5px rgba(0, 0, 0, 0.3), 0 8px 10px -6px rgba(0, 0, 0, 0.3);
-    --shadow-glow: 0 0 25px rgba(99, 102, 241, 0.4);
+    --shadow-glow: 0 0 25px rgba(0, 114, 255, 0.4);
     --radius-lg: 20px;
     --radius-md: 12px;
     --radius-full: 9999px;
@@ -142,7 +142,7 @@ body {
 
 .btn-primary:hover {
     transform: translateY(-2px);
-    box-shadow: 0 0 35px rgba(99, 102, 241, 0.6);
+    box-shadow: 0 0 35px rgba(0, 114, 255, 0.6);
 }
 
 .btn-secondary {
@@ -222,7 +222,7 @@ body {
 
 .chat-toggle-btn:hover {
     transform: scale(1.08) rotate(5deg);
-    box-shadow: 0 0 35px rgba(168, 85, 247, 0.7);
+    box-shadow: 0 0 35px rgba(0, 114, 255, 0.7);
 }
 
 .chat-toggle-btn:active {
@@ -406,13 +406,30 @@ body {
     width: 32px;
     height: 32px;
     border-radius: 50%;
-    background: rgba(99, 102, 241, 0.2);
-    color: #818cf8;
+    background: rgba(0, 130, 252, 0.2);
+    color: #0082fc;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 0.9rem;
     flex-shrink: 0;
+}
+
+.bot-avatar-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+}
+
+.bot-toggle-avatar {
+    width: 85%;
+    height: 85%;
+    object-fit: contain;
+    border-radius: 50%;
+    display: block;
+    transition: var(--transition-smooth);
 }
 
 .bot-message {
@@ -425,8 +442,8 @@ body {
 }
 
 .user-message .message-avatar {
-    background: rgba(168, 85, 247, 0.2);
-    color: #c084fc;
+    background: rgba(0, 198, 255, 0.2);
+    color: #00c6ff;
 }
 
 .message-content {

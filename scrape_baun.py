@@ -125,6 +125,24 @@ def scrape_url(url, depth=1, max_depth=2, max_pages=50):
 def save_results():
     print(f"\n--- Tarama Bitti: Toplam {len(scraped_data)} sayfa çekildi ---")
     
+    # Şablon ve tekrar eden menü/footer satırlarını temizle
+    from collections import Counter
+    line_counts = Counter()
+    for item in scraped_data:
+        content = item.get("content", "")
+        unique_lines = set(line.strip() for line in content.split('\n') if line.strip())
+        for line in unique_lines:
+            line_counts[line] += 1
+            
+    num_pages = len(scraped_data)
+    boilerplate_lines = {line for line, count in line_counts.items() if count > num_pages * 0.3}
+    
+    for item in scraped_data:
+        content = item.get("content", "")
+        lines = [line.strip() for line in content.split('\n') if line.strip()]
+        cleaned_lines = [line for line in lines if line not in boilerplate_lines]
+        item["content"] = "\n".join(cleaned_lines)
+
     # Save as JSON
     with open(OUTPUT_JSON_PATH, "w", encoding="utf-8") as f:
         json.dump(scraped_data, f, ensure_ascii=False, indent=2)

@@ -11,7 +11,7 @@
 // ==========================================
 // CONFIG & BACKEND API AYARI
 // ==========================================
-const BACKEND_API_URL = "http://localhost:8000/v1/chat/completions";
+const BACKEND_API_URL = "http://localhost:8001/v1/chat/completions";
 
 // ==========================================
 // DOM ELEMENT SEÇİCİLERİ
@@ -152,7 +152,7 @@ function getDemoResponse(text) {
         setTimeout(() => {
             const lower = text.toLowerCase();
             if (lower.includes("merhaba") || lower.includes("selam")) {
-                resolve("Merhaba! Harika bir staj projesi geliştiriyorsunuz! Size nasıl yardımcı olabilirim?");
+                resolve("Merhaba! Size nasıl yardımcı olabilirim?");
             } else if (lower.includes("staj") || lower.includes("proje")) {
                 resolve("Bu proje 3 kişilik ekibiniz tarafından geliştirilen akıllı bir Chatbot sistemidir!");
             } else if (lower.includes("iletişim")) {
@@ -175,7 +175,7 @@ function appendMessage(text, sender) {
 
     const avatarDiv = document.createElement("div");
     avatarDiv.classList.add("message-avatar");
-    avatarDiv.innerHTML = sender === "user" ? '<i class="fa-solid fa-user"></i>' : '<i class="fa-solid fa-robot"></i>';
+    avatarDiv.innerHTML = sender === "user" ? '<i class="fa-solid fa-user"></i>' : '<img src="bot-avatar.png?v=2" alt="Bot Avatar" class="bot-avatar-img">';
 
     const contentDiv = document.createElement("div");
     contentDiv.classList.add("message-content");
@@ -230,7 +230,7 @@ function clearChat() {
     chatMessages.innerHTML = `
         <div class="message bot-message">
             <div class="message-avatar">
-                <i class="fa-solid fa-robot"></i>
+                <img src="bot-avatar.png?v=2" alt="Bot Avatar" class="bot-avatar-img">
             </div>
             <div class="message-content">
                 <p>Sohbet geçmişi temizlendi. Size başka nasıl yardımcı olabilirim? 😊</p>

@@ -6,15 +6,11 @@
 **Kaynak URL:** [https://www.balikesir.edu.tr/](https://www.balikesir.edu.tr/)
 
 ### Sayfa İçeriği:
-Skip to main content
-
 Hızlı Erişim
 
 Üniversite Hastanesi
 
 International Student
-
-Aday Öğrenci
 
 Kütüphane
 
@@ -67,12 +63,6 @@ HABERLER
 BASINDA BİZ
 
 TÜM HABERLER
-
-BAÜN’den, Antibiyotik Tedavisinde Umut Veren Gelişme: İlacın Etkisi Korundu, Böbrek Üzerindeki Yan Etkiler Azaldı
-
-BİK Genel Müdürü Abdulkadir Çay’dan Rektör Oğurlu’ya Ziyaret
-
-Uluslararası Akademisyen, Gazeteci ve Medya Temsilcileri Forumu Heyetinden Rektör Oğurlu’ya Ziyaret
 
 Uluslararası Akademisyen, Gazeteci ve Medya Temsilcileri Forumu” Balıkesir Üniversitesinde Gerçekleştirildi
 
@@ -168,8 +158,6 @@ Akademik Personel
 
 25858
 
-Öğrenci
-
 1017
 
 Projeler
@@ -177,68 +165,6 @@ Projeler
 Akademik Birim
 
 Araş. Uyg. Mkz.
-
-Erişilebilirlik Menüsü
-
-Yüksek Kontrast
-
-Siyah-beyaz yüksek kontrast görünüm
-
-Büyük Metin
-
-Yazı boyutunu %120 büyüt
-
-Metin Boşluğu
-
-Harf ve kelime aralıklarını artır
-
-Bağlantıları Vurgula
-
-Tüm linkleri belirgin hale getir
-
-Resimleri Gri Yap
-
-Görselleri soluklaştır
-
-Satır Yüksekliği
-
-Satırlar arası boşluğu artır
-
-Sola Hizala
-
-Tüm metinleri sola hizala
-
-Büyük İmleç
-
-Fare imlecini büyüt
-
-Animasyonları Durdur
-
-Tüm hareketli efektleri kapat
-
-Doygunluk Azalt
-
-Renk doygunluğunu düşür
-
-Görme & İşitme Desteği
-
-Sesli Okuma
-
-Metinlere tıklayarak sesli dinleyin
-
-Okuma Kılavuzu
-
-Satır takip çizgisi göster
-
-Kolay Okunur Font
-
-Disleksi dostu yazı tipi
-
-Odak Modu
-
-Dikkat dağıtıcıları azalt
-
-Tümünü Sıfırla
 
 ---
 
@@ -267,8 +193,6 @@ Tanıtımları
 Merkez
 
 Kütüphane
-
-Akademik
 
 Takvim
 
@@ -313,8 +237,6 @@ Lisans Programları
 2025 Yılı Taban Puanlar ve Sıralamalar
 
 BAÜN
-
-Fakülteler
 
 BURHANİYE UYGULAMALI BİLİMLER FAKÜLTESİ
 
@@ -408,29 +330,9 @@ SINDIRGI MESLEK YÜKSEKOKULU
 **Kaynak URL:** [https://balikesir.edu.tr/akademik-personel](https://balikesir.edu.tr/akademik-personel)
 
 ### Sayfa İçeriği:
-Skip to main content
-
-Üniversitemiz
-
-Akademik
-
-İdari
-
-Öğrenci
-
-Araştırma
-
-İletişim
-
-Rehber
-
-Menü
-
 Akademik Personel
 
 1310 akademisyen
-
-Altınoluk Meslek Yüksekokulu
 
 11 kişi
 
@@ -483,8 +385,6 @@ ORCID: 0000-0001-5490-9592
 Öğr. Gör. Duygu Kılıç
 
 ORCID: 0000-0003-0487-6002
-
-Ayvalık Meslek Yüksekokulu
 
 14 kişi
 
@@ -549,8 +449,6 @@ ORCID: 0009-0002-2708-8551
 Öğr. Gör. Hayri Taşkır
 
 ORCID: 0009-0001-5512-5850
-
-Balıkesir Meslek Yüksekokulu
 
 60 kişi
 
@@ -804,8 +702,6 @@ ORCID: 0000-0002-6590-3505
 
 ORCID: 0000-0001-8884-2381
 
-Bigadiç Meslek Yüksekokulu
-
 16 kişi
 
 Elektrik ve Enerji Bölümü
@@ -884,8 +780,6 @@ Yönetim ve Organizasyon Bölümü
 
 ORCID: 0000-0003-1532-6735
 
-Burhaniye Meslek Yüksekokulu
-
 15 kişi
 
 Muhasebe ve Vergi Bölümü
@@ -953,8 +847,6 @@ ORCID: 0000-0002-9120-0678
 Öğr. Gör. Oğuz Han
 
 ORCID: 0000-0002-2737-5908
-
-Burhaniye Uygulamalı Bilimler Fakültesi
 
 24 kişi
 
@@ -1062,8 +954,6 @@ Dr. Öğr. Üyesi Gülşah Özdemir
 
 ORCID: 0000-0001-8900-2560
 
-Dursunbey Meslek Yüksekokulu
-
 15 kişi
 
 El Sanatları Bölümü
@@ -1129,8 +1019,6 @@ ORCID: 0000-0001-9457-992X
 Öğr. Gör. Ömer Taha Sözgen
 
 ORCID: 0000-0001-6744-8182
-
-Edremit Meslek Yüksekokulu
 
 22 kişi
 
@@ -1234,8 +1122,6 @@ ORCID: 0000-0002-3068-2183
 
 ORCID: 0000-0001-8824-0946
 
-Edremit Sivil Havacılık Yüksekokulu
-
 6 kişi
 
 Havacılık Yönetimi Bölümü
@@ -1263,8 +1149,6 @@ ORCID: 0000-0003-4168-0586
 Dr. Öğr. Üyesi Aytekin Ulutaş
 
 ORCID: 0000-0002-5230-7122
-
-Fen-Edebiyat Fakültesi
 
 161 kişi
 
@@ -1930,8 +1814,6 @@ Arş. Gör. Aydın Güler
 
 ORCID: 0000-0002-2530-8170
 
-Güzel Sanatlar Fakültesi
-
 17 kişi
 
 Baskı Sanatları Bölümü
@@ -2008,8 +1890,6 @@ ORCID: 0000-0002-1500-0092
 
 ORCID: 0009-0005-6245-984X
 
-Havran Meslek Yüksekokulu
-
 9 kişi
 
 Büro Hizmetleri ve Sekreterlik Bölümü
@@ -2051,8 +1931,6 @@ ORCID: 0000-0002-0468-3297
 Öğr. Gör. Emre Ünver
 
 ORCID: 0000-0002-0390-8327
-
-Hukuk Fakültesi
 
 39 kişi
 
@@ -2209,8 +2087,6 @@ Arş. Gör. İlyas Atakan Yasak
 Arş. Gör. Bahadır Yıldırım
 
 ORCID: 0000-0002-7842-3033
-
-İktisadi ve İdari Bilimler Fakültesi
 
 50 kişi
 
@@ -2420,8 +2296,6 @@ Arş. Gör. Güven Demirdaş
 
 ORCID: 0000-0003-2815-7627
 
-İlahiyat Fakültesi
-
 42 kişi
 
 Felsefe ve Din Bilimleri Bölümü
@@ -2586,8 +2460,6 @@ Arş. Gör. Azime Merve Taşdelen
 
 ORCID: 0000-0002-8941-0326
 
-İvrindi Sağlık Hizmetleri Meslek Yüksekokulu
-
 9 kişi
 
 Tıbbi Hizmetler ve Teknikler Bölümü
@@ -2629,8 +2501,6 @@ Veri Tabanı, Ağ Tasarımı ve Yönetimi Bölümü
 Dr. Öğr. Üyesi Okan Durusoy
 
 ORCID: 0000-0002-0939-3870
-
-Kepsut Meslek Yüksekokulu
 
 12 kişi
 
@@ -2685,8 +2555,6 @@ ORCID: 0000-0002-2144-9064
 Dr. Öğr. Üyesi Yahya Işık
 
 ORCID: 0000-0001-7654-1565
-
-Mimarlık Fakültesi
 
 19 kişi
 
@@ -2765,8 +2633,6 @@ ORCID: 0000-0002-9287-405X
 Arş. Gör. Recep Furkan Topal
 
 ORCID: 0000-0001-5467-1764
-
-Mühendislik Fakültesi
 
 125 kişi
 
@@ -3277,8 +3143,6 @@ ORCID: 0000-0002-9001-9412
 Arş. Gör. Yunus Emre Nehri
 
 ORCID: 0000-0003-2119-9031
-
-Necatibey Eğitim Fakültesi
 
 139 kişi
 
@@ -3922,8 +3786,6 @@ ORCID: 0000-0001-9046-6960
 
 ORCID: 0000-0002-4455-0667
 
-Sağlık Bilimleri Fakültesi
-
 43 kişi
 
 Beslenme ve Diyetetik Bölümü
@@ -4108,8 +3970,6 @@ Arş. Gör. Hilal Çelik Bayram
 
 ORCID: 0000-0003-1659-3464
 
-Savaştepe Meslek Yüksekokulu
-
 7 kişi
 
 Toptan ve Perakende Satış Bölümü
@@ -4143,8 +4003,6 @@ ORCID: 0000-0002-1769-2512
 Öğr. Gör. Handan Kurtulmuş Sancak
 
 ORCID: 0000-0003-3531-8548
-
-Sındırgı Meslek Yüksekokulu
 
 16 kişi
 
@@ -4219,8 +4077,6 @@ ORCID: 0000-0003-1750-9631
 Öğr. Gör. Ali Murat Sayılgan
 
 ORCID: 0000-0002-0089-6869
-
-Spor Bilimleri Fakültesi
 
 20 kişi
 
@@ -4305,8 +4161,6 @@ Dr. Öğr. Üyesi Alp Kaan Kilci
 ORCID: 0000-0001-6445-6400
 
 Dr. Öğr. Üyesi Tuncay Kıratlı
-
-Tıp Fakültesi
 
 280 kişi
 
@@ -5230,8 +5084,6 @@ Arş. Gör. Merve Yurt
 
 ORCID: 0009-0005-8177-4474
 
-Turizm Fakültesi
-
 33 kişi
 
 Gastronomi ve Mutfak Sanatları Bölümü
@@ -5373,8 +5225,6 @@ ORCID: 0000-0003-1633-6804
 Arş. Gör. Beste Demir
 
 ORCID: 0009-0007-4374-0294
-
-Veteriner Fakültesi
 
 48 kişi
 
@@ -5572,8 +5422,6 @@ ORCID: 0000-0003-4596-9061
 
 Arş. Gör. Dilayda Karataş
 
-Yabancı Diller Yüksekokulu
-
 30 kişi
 
 Yabancı Diller Bölümü
@@ -5680,400 +5528,12 @@ ORCID: 0000-0002-3545-143X
 
 Aramanızla eşleşen akademisyen bulunamadı.
 
-Üniversitemiz
-
-Akademik
-
-İdari
-
-Öğrenci
-
-Araştırma
-
-İletişim
-
-Rehber
-
-Üniversitemiz
-
-Hakkımızda
-
-Genel Bilgiler
-
-Misyon-Vizyon
-
-Organizasyon Şeması
-
-BAÜN Logosu
-
-Kurumsal Kimlik Kılavuzu
-
-Bilgi Edinme
-
-Tanıtım
-
-Basında BAÜN
-
-Politikalarımız
-
-Kurullar ve Komisyonlar
-
-Yönetim
-
-Rektör
-
-Rektör Yardımcıları
-
-Üniversite Senatosu
-
-Yönetim Kurulu
-
-Rektör Danışmanları
-
-Genel Sekreter
-
-Genel Sekreter Yardımcıları
-
-Üniversite Danışma Kurulu
-
-Mevzuat
-
-Akademik Yükselme ve Atanma Kriterleri
-
-Mevzuat
-
-Senato Kararları
-
-Yönetim Kurulu Kararları
-
-Kişisel Verilerin Korunması
-
-Stratejik Plan ve Raporlar
-
-Akademik
-
-Enstitüler
-
-Edremit Zeytincilik Enstitüsü
-
-Fen Bilimleri Enstitüsü
-
-Sağlık Bilimleri Enstitüsü
-
-Sosyal Bilimler Enstitüsü
-
-Fakülteler
-
-Burhaniye Uygulamalı Bilimler Fakültesi
-
-Fen-Edebiyat Fakültesi
-
-Güzel Sanatlar Fakültesi
-
-Hukuk Fakültesi
-
-İktisadi ve İdari Bilimler Fakültesi
-
-İlahiyat Fakültesi
-
-Mimarlık Fakültesi
-
-Mühendislik Fakültesi
-
-Necatibey Eğitim Fakültesi
-
-Sağlık Bilimleri Fakültesi
-
-Spor Bilimleri Fakültesi
-
-Tıp Fakültesi
-
-Turizm Fakültesi
-
-Veteriner Fakültesi
-
-Yüksekokullar
-
-Edremit Sivil Havacılık Yüksekokulu
-
-Yabancı Diller Yüksekokulu
-
-Meslek Yüksekokulları
-
-Altınoluk Meslek Yüksekokulu
-
-Ayvalık Meslek Yüksekokulu
-
-Balıkesir Meslek Yüksekokulu
-
-Bigadiç Meslek Yüksekokulu
-
-Burhaniye Meslek Yüksekokulu
-
-Dursunbey Meslek Yüksekokulu
-
-Edremit Meslek Yüksekokulu
-
-Havran Meslek Yüksekokulu
-
-İvrindi Sağlık Hizmetleri Meslek Yüksekokulu
-
-Kepsut Meslek Yüksekokulu
-
-Savaştepe Meslek Yüksekokulu
-
-Sındırgı Meslek Yüksekokulu
-
-Susurluk Tarım Ve Orman Meslek Yüksekokulu
-
-Rektörlüğe Bağlı Bölümler
-
-Atatürk İlkeleri ve İnkılap Tarihi Bölümü
-
-Enformatik Bölümü
-
-Türk Dili Bölümü
-
-Uzaktan Eğitim
-
-BAUZEM
-
-Akademik Bilgi Sistemi
-
-AVESİS
-
-İdari
-
-İdari Birimler
-
-Genel Sekreterlik
-
-Bilgi İşlem Daire Başkanlığı
-
-İdari ve Mali İşler Daire Başkanlığı
-
-Kütüphane ve Dokümantasyon Daire Başkanlığı
-
-Öğrenci İşleri Daire Başkanlığı
-
-Personel Daire Başkanlığı
-
-Sağlık, Kültür ve Spor Daire Başkanlığı
-
-Strateji Geliştirme Daire Başkanlığı
-
-Yapı İşleri ve Teknik Daire Başkanlığı
-
-Hukuk Müşavirliği
-
-Basın ve Halkla İlişkiler Müdürlüğü
-
-Döner Sermaye İşletme Müdürlüğü
-
-Koordinatörlükler
-
-Akademik Gelişim Koordinatörlüğü
-
-Kalite Güvencesi, Kalite Komisyonu ve Kalite Koordinatörlüğü
-
-Balıkesir Üniversitesi Radyo Koordinatörlüğü
-
-Tanıtım ve Sosyal Medya Koordinatörlüğü
-
-Bilimsel Araştırma Projeleri Koordinatörlüğü
-
-Bilimsel Yayınlar ve Dergiler Koordinatörlüğü
-
-Bologna Koordinatörlüğü
-
-Eğiticilerin Eğitimi Koordinatörlüğü
-
-Enerji Yönetimi ve Sürdürülebilirlik Koordinatörlüğü
-
-Engelsiz Üniversite Koordinatörlüğü
-
-Tümünü gör →
-
-Öğrenci
-
-Akademik Bilgiler
-
-Akademik Takvim
-
-Öğrenci E-Posta
-
-Öğrenci Bilgi Sistemi (OBS)
-
-Bilgi Paketi / Ders Kataloğu
-
-Kanun ve Yönetmelikler
-
-Aday Öğrenci
-
-Öğrenci İşleri Daire Başkanlığı
-
-Yabancı Uyruklu Öğrenci Programı
-
-Öğrenci Değişim Programları
-
-Burslar
-
-BAÜN Yaşam
-
-Öğrenci Toplulukları
-
-Yurtlar
-
-Spor Olanakları
-
-Engelsiz Yaşam
-
-Engelsiz Kütüphane
-
-İrtibat Merkezi
-
-Araştırma
-
-Uygulama ve Araştırma Merkezleri İzleme ve Değerlendirme Koordinatörlüğü
-
-Balıkesir Üniversitesi Atatürk İlkeleri ve İnkılap Tarihi Araştırma ve Uygulama Merkezi
-
-Balıkesir Üniversitesi Turizm Araştırma ve Uygulama Merkezi
-
-Balıkesir Üniversitesi Bilgi İşlem Uygulama ve Araştırma Merkezi
-
-Balıkesir Üniversitesi Balıkesir Yöresi Kültürünü Araştırma ve Uygulama Merkezi
-
-Balıkesir Üniversitesi Uluslararası İlişkiler Araştırma ve Uygulama Merkezi
-
-Balıkesir Üniversitesi Uzaktan Eğitim Uygulama ve Araştırma Merkezi
-
-Balıkesir Üniversitesi Sağlık Uygulama ve Araştırma Merkezi
-
-Balıkesir Üniversitesi Botanik Bahçesi ve Herbaryum Uygulama ve Araştırma Merkezi
-
-Balıkesir Üniversitesi Türkçe Öğretimi Uygulama ve Araştırma Merkezi
-
-Balıkesir Üniversitesi Kariyer Geliştirme Uygulama ve Araştırma Merkezi
-
-Tümünü gör →
-
-Birimler
-
-BAÜN Teknokent
-
-Araştırmacılar İçin
-
-Merkez Kütüphane
-
-Katalog Tarama
-
-Veri Tabanları
-
-Uzaktan Erişim
-
-Açık Erişim
-
-Akademik Dergiler
-
-Etik Kurullar
-
-İletişim
-
-Rehber
-
-KISAYOLLAR
-
-YARDIMCI LİNKLER
-
-Erişilebilirlik Menüsü
-
-Yüksek Kontrast
-
-Siyah-beyaz yüksek kontrast görünüm
-
-Büyük Metin
-
-Yazı boyutunu %120 büyüt
-
-Metin Boşluğu
-
-Harf ve kelime aralıklarını artır
-
-Bağlantıları Vurgula
-
-Tüm linkleri belirgin hale getir
-
-Resimleri Gri Yap
-
-Görselleri soluklaştır
-
-Satır Yüksekliği
-
-Satırlar arası boşluğu artır
-
-Sola Hizala
-
-Tüm metinleri sola hizala
-
-Büyük İmleç
-
-Fare imlecini büyüt
-
-Animasyonları Durdur
-
-Tüm hareketli efektleri kapat
-
-Doygunluk Azalt
-
-Renk doygunluğunu düşür
-
-Görme & İşitme Desteği
-
-Sesli Okuma
-
-Metinlere tıklayarak sesli dinleyin
-
-Okuma Kılavuzu
-
-Satır takip çizgisi göster
-
-Kolay Okunur Font
-
-Disleksi dostu yazı tipi
-
-Odak Modu
-
-Dikkat dağıtıcıları azalt
-
-Tümünü Sıfırla
-
 ---
 
 ## 4. Duyurular | Balıkesir Üniversitesi
 **Kaynak URL:** [https://balikesir.edu.tr/duyurular](https://balikesir.edu.tr/duyurular)
 
 ### Sayfa İçeriği:
-Skip to main content
-
-Üniversitemiz
-
-Akademik
-
-İdari
-
-Öğrenci
-
-Araştırma
-
-İletişim
-
-Rehber
-
-Menü
-
-ANASAYFA
-
 Duyurular
 
 Duyurular
@@ -6130,399 +5590,17 @@ Sosyal Bilimler Enstitüsü 2026/2027 Eğitim-Öğretim Yılı Güz Yarıyılı 
 
 1-12 arası gösteriliyor
 
-Üniversitemiz
-
-Akademik
-
-İdari
-
-Öğrenci
-
-Araştırma
-
-İletişim
-
-Rehber
-
-Üniversitemiz
-
-Hakkımızda
-
-Genel Bilgiler
-
-Misyon-Vizyon
-
-Organizasyon Şeması
-
-BAÜN Logosu
-
-Kurumsal Kimlik Kılavuzu
-
-Bilgi Edinme
-
-Tanıtım
-
-Basında BAÜN
-
-Politikalarımız
-
-Kurullar ve Komisyonlar
-
-Yönetim
-
-Rektör
-
-Rektör Yardımcıları
-
-Üniversite Senatosu
-
-Yönetim Kurulu
-
-Rektör Danışmanları
-
-Genel Sekreter
-
-Genel Sekreter Yardımcıları
-
-Üniversite Danışma Kurulu
-
-Mevzuat
-
-Akademik Yükselme ve Atanma Kriterleri
-
-Mevzuat
-
-Senato Kararları
-
-Yönetim Kurulu Kararları
-
-Kişisel Verilerin Korunması
-
-Stratejik Plan ve Raporlar
-
-Akademik
-
-Enstitüler
-
-Edremit Zeytincilik Enstitüsü
-
-Fen Bilimleri Enstitüsü
-
-Sağlık Bilimleri Enstitüsü
-
-Sosyal Bilimler Enstitüsü
-
-Fakülteler
-
-Burhaniye Uygulamalı Bilimler Fakültesi
-
-Fen-Edebiyat Fakültesi
-
-Güzel Sanatlar Fakültesi
-
-Hukuk Fakültesi
-
-İktisadi ve İdari Bilimler Fakültesi
-
-İlahiyat Fakültesi
-
-Mimarlık Fakültesi
-
-Mühendislik Fakültesi
-
-Necatibey Eğitim Fakültesi
-
-Sağlık Bilimleri Fakültesi
-
-Spor Bilimleri Fakültesi
-
-Tıp Fakültesi
-
-Turizm Fakültesi
-
-Veteriner Fakültesi
-
-Yüksekokullar
-
-Edremit Sivil Havacılık Yüksekokulu
-
-Yabancı Diller Yüksekokulu
-
-Meslek Yüksekokulları
-
-Altınoluk Meslek Yüksekokulu
-
-Ayvalık Meslek Yüksekokulu
-
-Balıkesir Meslek Yüksekokulu
-
-Bigadiç Meslek Yüksekokulu
-
-Burhaniye Meslek Yüksekokulu
-
-Dursunbey Meslek Yüksekokulu
-
-Edremit Meslek Yüksekokulu
-
-Havran Meslek Yüksekokulu
-
-İvrindi Sağlık Hizmetleri Meslek Yüksekokulu
-
-Kepsut Meslek Yüksekokulu
-
-Savaştepe Meslek Yüksekokulu
-
-Sındırgı Meslek Yüksekokulu
-
-Susurluk Tarım Ve Orman Meslek Yüksekokulu
-
-Rektörlüğe Bağlı Bölümler
-
-Atatürk İlkeleri ve İnkılap Tarihi Bölümü
-
-Enformatik Bölümü
-
-Türk Dili Bölümü
-
-Uzaktan Eğitim
-
-BAUZEM
-
-Akademik Bilgi Sistemi
-
-AVESİS
-
-İdari
-
-İdari Birimler
-
-Genel Sekreterlik
-
-Bilgi İşlem Daire Başkanlığı
-
-İdari ve Mali İşler Daire Başkanlığı
-
-Kütüphane ve Dokümantasyon Daire Başkanlığı
-
-Öğrenci İşleri Daire Başkanlığı
-
-Personel Daire Başkanlığı
-
-Sağlık, Kültür ve Spor Daire Başkanlığı
-
-Strateji Geliştirme Daire Başkanlığı
-
-Yapı İşleri ve Teknik Daire Başkanlığı
-
-Hukuk Müşavirliği
-
-Basın ve Halkla İlişkiler Müdürlüğü
-
-Döner Sermaye İşletme Müdürlüğü
-
-Koordinatörlükler
-
-Akademik Gelişim Koordinatörlüğü
-
-Kalite Güvencesi, Kalite Komisyonu ve Kalite Koordinatörlüğü
-
-Balıkesir Üniversitesi Radyo Koordinatörlüğü
-
-Tanıtım ve Sosyal Medya Koordinatörlüğü
-
-Bilimsel Araştırma Projeleri Koordinatörlüğü
-
-Bilimsel Yayınlar ve Dergiler Koordinatörlüğü
-
-Bologna Koordinatörlüğü
-
-Eğiticilerin Eğitimi Koordinatörlüğü
-
-Enerji Yönetimi ve Sürdürülebilirlik Koordinatörlüğü
-
-Engelsiz Üniversite Koordinatörlüğü
-
-Tümünü gör →
-
-Öğrenci
-
-Akademik Bilgiler
-
-Akademik Takvim
-
-Öğrenci E-Posta
-
-Öğrenci Bilgi Sistemi (OBS)
-
-Bilgi Paketi / Ders Kataloğu
-
-Kanun ve Yönetmelikler
-
-Aday Öğrenci
-
-Öğrenci İşleri Daire Başkanlığı
-
-Yabancı Uyruklu Öğrenci Programı
-
-Öğrenci Değişim Programları
-
-Burslar
-
-BAÜN Yaşam
-
-Öğrenci Toplulukları
-
-Yurtlar
-
-Spor Olanakları
-
-Engelsiz Yaşam
-
-Engelsiz Kütüphane
-
-İrtibat Merkezi
-
-Araştırma
-
-Uygulama ve Araştırma Merkezleri İzleme ve Değerlendirme Koordinatörlüğü
-
-Balıkesir Üniversitesi Atatürk İlkeleri ve İnkılap Tarihi Araştırma ve Uygulama Merkezi
-
-Balıkesir Üniversitesi Turizm Araştırma ve Uygulama Merkezi
-
-Balıkesir Üniversitesi Bilgi İşlem Uygulama ve Araştırma Merkezi
-
-Balıkesir Üniversitesi Balıkesir Yöresi Kültürünü Araştırma ve Uygulama Merkezi
-
-Balıkesir Üniversitesi Uluslararası İlişkiler Araştırma ve Uygulama Merkezi
-
-Balıkesir Üniversitesi Uzaktan Eğitim Uygulama ve Araştırma Merkezi
-
-Balıkesir Üniversitesi Sağlık Uygulama ve Araştırma Merkezi
-
-Balıkesir Üniversitesi Botanik Bahçesi ve Herbaryum Uygulama ve Araştırma Merkezi
-
-Balıkesir Üniversitesi Türkçe Öğretimi Uygulama ve Araştırma Merkezi
-
-Balıkesir Üniversitesi Kariyer Geliştirme Uygulama ve Araştırma Merkezi
-
-Tümünü gör →
-
-Birimler
-
-BAÜN Teknokent
-
-Araştırmacılar İçin
-
-Merkez Kütüphane
-
-Katalog Tarama
-
-Veri Tabanları
-
-Uzaktan Erişim
-
-Açık Erişim
-
-Akademik Dergiler
-
-Etik Kurullar
-
-İletişim
-
-Rehber
-
-KISAYOLLAR
-
-YARDIMCI LİNKLER
-
-Erişilebilirlik Menüsü
-
-Yüksek Kontrast
-
-Siyah-beyaz yüksek kontrast görünüm
-
-Büyük Metin
-
-Yazı boyutunu %120 büyüt
-
-Metin Boşluğu
-
-Harf ve kelime aralıklarını artır
-
-Bağlantıları Vurgula
-
-Tüm linkleri belirgin hale getir
-
-Resimleri Gri Yap
-
-Görselleri soluklaştır
-
-Satır Yüksekliği
-
-Satırlar arası boşluğu artır
-
-Sola Hizala
-
-Tüm metinleri sola hizala
-
-Büyük İmleç
-
-Fare imlecini büyüt
-
-Animasyonları Durdur
-
-Tüm hareketli efektleri kapat
-
-Doygunluk Azalt
-
-Renk doygunluğunu düşür
-
-Görme & İşitme Desteği
-
-Sesli Okuma
-
-Metinlere tıklayarak sesli dinleyin
-
-Okuma Kılavuzu
-
-Satır takip çizgisi göster
-
-Kolay Okunur Font
-
-Disleksi dostu yazı tipi
-
-Odak Modu
-
-Dikkat dağıtıcıları azalt
-
-Tümünü Sıfırla
-
 ---
 
 ## 5. NEF Müzik Eğitimi Anabilim Dalı 2026 Özel Yetenek Sınavına Girecek Olan Adaylara İlişkin Duyuru | MÜZİK EĞİTİMİ ANABİLİM DALI
 **Kaynak URL:** [https://nef-muzik.balikesir.edu.tr/duyurular/nef-muzik-egitimi-anabilim-dali-2026-ozel-yetenek-sinavina-girecek-olan-adaylara-iliskin-duyuru-202608131226](https://nef-muzik.balikesir.edu.tr/duyurular/nef-muzik-egitimi-anabilim-dali-2026-ozel-yetenek-sinavina-girecek-olan-adaylara-iliskin-duyuru-202608131226)
 
 ### Sayfa İçeriği:
-Skip to main content
-
 MÜZİK EĞİTİMİ ANABİLİM DALI
-
-Hakkımızda
 
 Kadromuz
 
 Kalite
-
-Öğrenci
-
-Araştırma
-
-İletişim
-
-Menü
-
-ANASAYFA
 
 duyurular
 
@@ -6650,103 +5728,19 @@ Tüm Adaylara Ba
 
 Dileriz.
 
-Diğer Haberler
-
 NEF Müzik Eğitimi Anabilim Dalı 2026-2027 Özel Yetenek Sınavı Başvuru İlanı
 
 NEF Müzik Eğitimi Anabilim Dalı 2026-2027 Özel Yetenek Sınavı
 
 2025 NEF Müzik Eğitimi Anabilim Dalı Özel Yetenek Sınavını Yedek Listeden Kazanan Adayların Dikkatine
 
-Hakkımızda
-
 Kadromuz
 
 Kalite
 
-Öğrenci
-
-Araştırma
-
-İletişim
-
-Hakkımızda
-
 Kadromuz
 
 Kalite
-
-Öğrenci
-
-Araştırma
-
-İletişim
-
-KISAYOLLAR
-
-YARDIMCI LİNKLER
-
-Erişilebilirlik Menüsü
-
-Yüksek Kontrast
-
-Siyah-beyaz yüksek kontrast görünüm
-
-Büyük Metin
-
-Yazı boyutunu %120 büyüt
-
-Metin Boşluğu
-
-Harf ve kelime aralıklarını artır
-
-Bağlantıları Vurgula
-
-Tüm linkleri belirgin hale getir
-
-Resimleri Gri Yap
-
-Görselleri soluklaştır
-
-Satır Yüksekliği
-
-Satırlar arası boşluğu artır
-
-Sola Hizala
-
-Tüm metinleri sola hizala
-
-Büyük İmleç
-
-Fare imlecini büyüt
-
-Animasyonları Durdur
-
-Tüm hareketli efektleri kapat
-
-Doygunluk Azalt
-
-Renk doygunluğunu düşür
-
-Görme & İşitme Desteği
-
-Sesli Okuma
-
-Metinlere tıklayarak sesli dinleyin
-
-Okuma Kılavuzu
-
-Satır takip çizgisi göster
-
-Kolay Okunur Font
-
-Disleksi dostu yazı tipi
-
-Odak Modu
-
-Dikkat dağıtıcıları azalt
-
-Tümünü Sıfırla
 
 ---
 
@@ -6754,25 +5748,11 @@ Tümünü Sıfırla
 **Kaynak URL:** [https://personel.balikesir.edu.tr/duyurular/04-08-2026-tarihli-ogretim-elemani-ilanimiz-202608040859](https://personel.balikesir.edu.tr/duyurular/04-08-2026-tarihli-ogretim-elemani-ilanimiz-202608040859)
 
 ### Sayfa İçeriği:
-Skip to main content
-
 PERSONEL DAİRE BAŞKANLIĞI
-
-Hakkımızda
-
-Birimler
 
 Kadromuz
 
-Mevzuat
-
 Kalite
-
-İletişim
-
-Menü
-
-ANASAYFA
 
 duyurular
 
@@ -6796,103 +5776,19 @@ BURADAN
 
 Ulaşabilirsiniz.
 
-Diğer Haberler
-
 04.08.2026 Tarihli Öğretim Üyesi İlanımız
 
 03.07.2026 Tarihli Öğretim Elemanı İlanımıza Ait Nihai Değerlendirme Sonuçları
 
 Balıkesir Üniversitesi Rektörlüğü Sözleşmeli Personel Alımı İlanı
 
-Hakkımızda
-
-Birimler
-
 Kadromuz
-
-Mevzuat
 
 Kalite
 
-İletişim
-
-Hakkımızda
-
-Birimler
-
 Kadromuz
 
-Mevzuat
-
 Kalite
-
-İletişim
-
-KISAYOLLAR
-
-YARDIMCI LİNKLER
-
-Erişilebilirlik Menüsü
-
-Yüksek Kontrast
-
-Siyah-beyaz yüksek kontrast görünüm
-
-Büyük Metin
-
-Yazı boyutunu %120 büyüt
-
-Metin Boşluğu
-
-Harf ve kelime aralıklarını artır
-
-Bağlantıları Vurgula
-
-Tüm linkleri belirgin hale getir
-
-Resimleri Gri Yap
-
-Görselleri soluklaştır
-
-Satır Yüksekliği
-
-Satırlar arası boşluğu artır
-
-Sola Hizala
-
-Tüm metinleri sola hizala
-
-Büyük İmleç
-
-Fare imlecini büyüt
-
-Animasyonları Durdur
-
-Tüm hareketli efektleri kapat
-
-Doygunluk Azalt
-
-Renk doygunluğunu düşür
-
-Görme & İşitme Desteği
-
-Sesli Okuma
-
-Metinlere tıklayarak sesli dinleyin
-
-Okuma Kılavuzu
-
-Satır takip çizgisi göster
-
-Kolay Okunur Font
-
-Disleksi dostu yazı tipi
-
-Odak Modu
-
-Dikkat dağıtıcıları azalt
-
-Tümünü Sıfırla
 
 ---
 
@@ -6900,25 +5796,11 @@ Tümünü Sıfırla
 **Kaynak URL:** [https://personel.balikesir.edu.tr/duyurular/04-08-2026-tarihli-ogretim-uyesi-ilanimiz-202608040909](https://personel.balikesir.edu.tr/duyurular/04-08-2026-tarihli-ogretim-uyesi-ilanimiz-202608040909)
 
 ### Sayfa İçeriği:
-Skip to main content
-
 PERSONEL DAİRE BAŞKANLIĞI
-
-Hakkımızda
-
-Birimler
 
 Kadromuz
 
-Mevzuat
-
 Kalite
-
-İletişim
-
-Menü
-
-ANASAYFA
 
 duyurular
 
@@ -6952,103 +5834,19 @@ Son başvuru tarihi  : 18.08.2026 (Salı günü mesai bitimi)
 
 Akademik Etkinlik Değerlendirme Formu EK-1
 
-Diğer Haberler
-
 04.08.2026 Tarihli Öğretim Elemanı İlanımız
 
 03.07.2026 Tarihli Öğretim Elemanı İlanımıza Ait Nihai Değerlendirme Sonuçları
 
 Balıkesir Üniversitesi Rektörlüğü Sözleşmeli Personel Alımı İlanı
 
-Hakkımızda
-
-Birimler
-
 Kadromuz
-
-Mevzuat
 
 Kalite
 
-İletişim
-
-Hakkımızda
-
-Birimler
-
 Kadromuz
 
-Mevzuat
-
 Kalite
-
-İletişim
-
-KISAYOLLAR
-
-YARDIMCI LİNKLER
-
-Erişilebilirlik Menüsü
-
-Yüksek Kontrast
-
-Siyah-beyaz yüksek kontrast görünüm
-
-Büyük Metin
-
-Yazı boyutunu %120 büyüt
-
-Metin Boşluğu
-
-Harf ve kelime aralıklarını artır
-
-Bağlantıları Vurgula
-
-Tüm linkleri belirgin hale getir
-
-Resimleri Gri Yap
-
-Görselleri soluklaştır
-
-Satır Yüksekliği
-
-Satırlar arası boşluğu artır
-
-Sola Hizala
-
-Tüm metinleri sola hizala
-
-Büyük İmleç
-
-Fare imlecini büyüt
-
-Animasyonları Durdur
-
-Tüm hareketli efektleri kapat
-
-Doygunluk Azalt
-
-Renk doygunluğunu düşür
-
-Görme & İşitme Desteği
-
-Sesli Okuma
-
-Metinlere tıklayarak sesli dinleyin
-
-Okuma Kılavuzu
-
-Satır takip çizgisi göster
-
-Kolay Okunur Font
-
-Disleksi dostu yazı tipi
-
-Odak Modu
-
-Dikkat dağıtıcıları azalt
-
-Tümünü Sıfırla
 
 ---
 
@@ -7056,25 +5854,11 @@ Tümünü Sıfırla
 **Kaynak URL:** [https://personel.balikesir.edu.tr/duyurular/03072026-tarihli-ogretim-elemani-ilanimiza-ait-nihai-degerlendirme-sonuclari-202608031544](https://personel.balikesir.edu.tr/duyurular/03072026-tarihli-ogretim-elemani-ilanimiza-ait-nihai-degerlendirme-sonuclari-202608031544)
 
 ### Sayfa İçeriği:
-Skip to main content
-
 PERSONEL DAİRE BAŞKANLIĞI
-
-Hakkımızda
-
-Birimler
 
 Kadromuz
 
-Mevzuat
-
 Kalite
-
-İletişim
-
-Menü
-
-ANASAYFA
 
 duyurular
 
@@ -7086,103 +5870,19 @@ Balıkesir MYO
 
 Bigadiç MYO
 
-Diğer Haberler
-
 04.08.2026 Tarihli Öğretim Üyesi İlanımız
 
 04.08.2026 Tarihli Öğretim Elemanı İlanımız
 
 Balıkesir Üniversitesi Rektörlüğü Sözleşmeli Personel Alımı İlanı
 
-Hakkımızda
-
-Birimler
-
 Kadromuz
-
-Mevzuat
 
 Kalite
 
-İletişim
-
-Hakkımızda
-
-Birimler
-
 Kadromuz
 
-Mevzuat
-
 Kalite
-
-İletişim
-
-KISAYOLLAR
-
-YARDIMCI LİNKLER
-
-Erişilebilirlik Menüsü
-
-Yüksek Kontrast
-
-Siyah-beyaz yüksek kontrast görünüm
-
-Büyük Metin
-
-Yazı boyutunu %120 büyüt
-
-Metin Boşluğu
-
-Harf ve kelime aralıklarını artır
-
-Bağlantıları Vurgula
-
-Tüm linkleri belirgin hale getir
-
-Resimleri Gri Yap
-
-Görselleri soluklaştır
-
-Satır Yüksekliği
-
-Satırlar arası boşluğu artır
-
-Sola Hizala
-
-Tüm metinleri sola hizala
-
-Büyük İmleç
-
-Fare imlecini büyüt
-
-Animasyonları Durdur
-
-Tüm hareketli efektleri kapat
-
-Doygunluk Azalt
-
-Renk doygunluğunu düşür
-
-Görme & İşitme Desteği
-
-Sesli Okuma
-
-Metinlere tıklayarak sesli dinleyin
-
-Okuma Kılavuzu
-
-Satır takip çizgisi göster
-
-Kolay Okunur Font
-
-Disleksi dostu yazı tipi
-
-Odak Modu
-
-Dikkat dağıtıcıları azalt
-
-Tümünü Sıfırla
 
 ---
 
@@ -7190,29 +5890,15 @@ Tümünü Sıfırla
 **Kaynak URL:** [https://saglikbe.balikesir.edu.tr/duyurular/2026-2027-egitim-ogretim-yili-guz-yariyili-lisansustu-ogrenci-kontenjanlari-ve-basvuru-kosullari-202607311605](https://saglikbe.balikesir.edu.tr/duyurular/2026-2027-egitim-ogretim-yili-guz-yariyili-lisansustu-ogrenci-kontenjanlari-ve-basvuru-kosullari-202607311605)
 
 ### Sayfa İçeriği:
-Skip to main content
-
 SAĞLIK BİLİMLERİ ENSTİTÜSÜ
-
-Hakkımızda
 
 Kadromuz
 
 Lisansüstü Programlar
 
-Mevzuat
-
-Öğrenci
-
 Kalite
 
 Dergi
-
-İletişim
-
-Menü
-
-ANASAYFA
 
 duyurular
 
@@ -7254,109 +5940,27 @@ TIKLAYINIZ.
 
 26 Mayıs 2024 tarih ve 32557 sayılı Resmi Gazetede yayımlanan Balıkesir Üniversitesi Lisansüstü Eğitim-Öğretim ve Sınav Yönetmeliğinin 46. maddesinin 5. bendinde “Tezsiz yüksek lisans programları hariç, aynı anda birden fazla lisansüstü programa kayıt yaptırılamaz ve devam edilemez.” hükmü yer almaktadır. Kesin kayıt yaptırsalar dahi bu durumda başvurdukları tespit edilen öğrencilerin kayıtları silinir.
 
-Diğer Haberler
-
 Trakya Üniversiteler Birliği 9. Lisansüstü Öğrenci Kongresi - TUBLOK 2026
 
 Kamu Denetçiliği Kurumu Eğitim Özel Raporu Kapsamında Anket Çalışması
 
 2025-2026 Eğitim-Öğretim Yılı Bahar Yarıyılı Kayıt Yenileme ve Ders Kayıt İşlemleri Hakkında Duyuru
 
-Hakkımızda
-
 Kadromuz
 
 Lisansüstü Programlar
-
-Mevzuat
-
-Öğrenci
 
 Kalite
 
 Dergi
 
-İletişim
-
-Hakkımızda
-
 Kadromuz
 
 Lisansüstü Programlar
 
-Mevzuat
-
-Öğrenci
-
 Kalite
 
 Dergi
-
-İletişim
-
-KISAYOLLAR
-
-Erişilebilirlik Menüsü
-
-Yüksek Kontrast
-
-Siyah-beyaz yüksek kontrast görünüm
-
-Büyük Metin
-
-Yazı boyutunu %120 büyüt
-
-Metin Boşluğu
-
-Harf ve kelime aralıklarını artır
-
-Bağlantıları Vurgula
-
-Tüm linkleri belirgin hale getir
-
-Resimleri Gri Yap
-
-Görselleri soluklaştır
-
-Satır Yüksekliği
-
-Satırlar arası boşluğu artır
-
-Sola Hizala
-
-Tüm metinleri sola hizala
-
-Büyük İmleç
-
-Fare imlecini büyüt
-
-Animasyonları Durdur
-
-Tüm hareketli efektleri kapat
-
-Doygunluk Azalt
-
-Renk doygunluğunu düşür
-
-Görme & İşitme Desteği
-
-Sesli Okuma
-
-Metinlere tıklayarak sesli dinleyin
-
-Okuma Kılavuzu
-
-Satır takip çizgisi göster
-
-Kolay Okunur Font
-
-Disleksi dostu yazı tipi
-
-Odak Modu
-
-Dikkat dağıtıcıları azalt
-
-Tümünü Sıfırla
 
 ---
 
@@ -7946,25 +6550,13 @@ BAUNYOS TUITION FEES
 **Kaynak URL:** [https://veteriner.balikesir.edu.tr/hayvan-hastanesi](https://veteriner.balikesir.edu.tr/hayvan-hastanesi)
 
 ### Sayfa İçeriği:
-Skip to main content
-
 VETERİNER FAKÜLTESİ
 
-Hakkımızda
-
 Bölümler
-
-Öğrenci
 
 Kadromuz
 
 Kalite
-
-İletişim
-
-Menü
-
-ANASAYFA
 
 Hayvan Hastanesi
 
@@ -8024,95 +6616,17 @@ BURADAN
 
 ulaşabilirsiniz.
 
-Hakkımızda
-
 Bölümler
-
-Öğrenci
 
 Kadromuz
 
 Kalite
 
-İletişim
-
-Hakkımızda
-
 Bölümler
-
-Öğrenci
 
 Kadromuz
 
 Kalite
-
-İletişim
-
-KISAYOLLAR
-
-YARDIMCI LİNKLER
-
-Erişilebilirlik Menüsü
-
-Yüksek Kontrast
-
-Siyah-beyaz yüksek kontrast görünüm
-
-Büyük Metin
-
-Yazı boyutunu %120 büyüt
-
-Metin Boşluğu
-
-Harf ve kelime aralıklarını artır
-
-Bağlantıları Vurgula
-
-Tüm linkleri belirgin hale getir
-
-Resimleri Gri Yap
-
-Görselleri soluklaştır
-
-Satır Yüksekliği
-
-Satırlar arası boşluğu artır
-
-Sola Hizala
-
-Tüm metinleri sola hizala
-
-Büyük İmleç
-
-Fare imlecini büyüt
-
-Animasyonları Durdur
-
-Tüm hareketli efektleri kapat
-
-Doygunluk Azalt
-
-Renk doygunluğunu düşür
-
-Görme & İşitme Desteği
-
-Sesli Okuma
-
-Metinlere tıklayarak sesli dinleyin
-
-Okuma Kılavuzu
-
-Satır takip çizgisi göster
-
-Kolay Okunur Font
-
-Disleksi dostu yazı tipi
-
-Odak Modu
-
-Dikkat dağıtıcıları azalt
-
-Tümünü Sıfırla
 
 ---
 
@@ -8120,26 +6634,6 @@ Tümünü Sıfırla
 **Kaynak URL:** [https://www.balikesir.edu.tr/basinda-baun](https://www.balikesir.edu.tr/basinda-baun)
 
 ### Sayfa İçeriği:
-Skip to main content
-
-Üniversitemiz
-
-Akademik
-
-İdari
-
-Öğrenci
-
-Araştırma
-
-İletişim
-
-Rehber
-
-Menü
-
-ANASAYFA
-
 BASINDA BAÜN
 
 BASINDA BAÜN
@@ -8174,409 +6668,15 @@ Kars'tan Balıkesir'e Uzanan Hayat Operasyonu! Ambulans Uçakla Getirilen Bebek 
 
 Prof. Dr. Eyüp Avcı Uyardı: Sıcaklar Kalbi Sessizce Tehdit Ediyor
 
-Üniversitemiz
-
-Akademik
-
-İdari
-
-Öğrenci
-
-Araştırma
-
-İletişim
-
-Rehber
-
-Üniversitemiz
-
-Hakkımızda
-
-Genel Bilgiler
-
-Misyon-Vizyon
-
-Organizasyon Şeması
-
-BAÜN Logosu
-
-Kurumsal Kimlik Kılavuzu
-
-Bilgi Edinme
-
-Tanıtım
-
-Basında BAÜN
-
-Politikalarımız
-
-Kurullar ve Komisyonlar
-
-Yönetim
-
-Rektör
-
-Rektör Yardımcıları
-
-Üniversite Senatosu
-
-Yönetim Kurulu
-
-Rektör Danışmanları
-
-Genel Sekreter
-
-Genel Sekreter Yardımcıları
-
-Üniversite Danışma Kurulu
-
-Mevzuat
-
-Akademik Yükselme ve Atanma Kriterleri
-
-Mevzuat
-
-Senato Kararları
-
-Yönetim Kurulu Kararları
-
-Kişisel Verilerin Korunması
-
-Stratejik Plan ve Raporlar
-
-Akademik
-
-Enstitüler
-
-Edremit Zeytincilik Enstitüsü
-
-Fen Bilimleri Enstitüsü
-
-Sağlık Bilimleri Enstitüsü
-
-Sosyal Bilimler Enstitüsü
-
-Fakülteler
-
-Burhaniye Uygulamalı Bilimler Fakültesi
-
-Fen-Edebiyat Fakültesi
-
-Güzel Sanatlar Fakültesi
-
-Hukuk Fakültesi
-
-İktisadi ve İdari Bilimler Fakültesi
-
-İlahiyat Fakültesi
-
-Mimarlık Fakültesi
-
-Mühendislik Fakültesi
-
-Necatibey Eğitim Fakültesi
-
-Sağlık Bilimleri Fakültesi
-
-Spor Bilimleri Fakültesi
-
-Tıp Fakültesi
-
-Turizm Fakültesi
-
-Veteriner Fakültesi
-
-Yüksekokullar
-
-Edremit Sivil Havacılık Yüksekokulu
-
-Yabancı Diller Yüksekokulu
-
-Meslek Yüksekokulları
-
-Altınoluk Meslek Yüksekokulu
-
-Ayvalık Meslek Yüksekokulu
-
-Balıkesir Meslek Yüksekokulu
-
-Bigadiç Meslek Yüksekokulu
-
-Burhaniye Meslek Yüksekokulu
-
-Dursunbey Meslek Yüksekokulu
-
-Edremit Meslek Yüksekokulu
-
-Havran Meslek Yüksekokulu
-
-İvrindi Sağlık Hizmetleri Meslek Yüksekokulu
-
-Kepsut Meslek Yüksekokulu
-
-Savaştepe Meslek Yüksekokulu
-
-Sındırgı Meslek Yüksekokulu
-
-Susurluk Tarım Ve Orman Meslek Yüksekokulu
-
-Rektörlüğe Bağlı Bölümler
-
-Atatürk İlkeleri ve İnkılap Tarihi Bölümü
-
-Enformatik Bölümü
-
-Türk Dili Bölümü
-
-Uzaktan Eğitim
-
-BAUZEM
-
-Akademik Bilgi Sistemi
-
-AVESİS
-
-İdari
-
-İdari Birimler
-
-Genel Sekreterlik
-
-Bilgi İşlem Daire Başkanlığı
-
-İdari ve Mali İşler Daire Başkanlığı
-
-Kütüphane ve Dokümantasyon Daire Başkanlığı
-
-Öğrenci İşleri Daire Başkanlığı
-
-Personel Daire Başkanlığı
-
-Sağlık, Kültür ve Spor Daire Başkanlığı
-
-Strateji Geliştirme Daire Başkanlığı
-
-Yapı İşleri ve Teknik Daire Başkanlığı
-
-Hukuk Müşavirliği
-
-Basın ve Halkla İlişkiler Müdürlüğü
-
-Döner Sermaye İşletme Müdürlüğü
-
-Koordinatörlükler
-
-Akademik Gelişim Koordinatörlüğü
-
-Kalite Güvencesi, Kalite Komisyonu ve Kalite Koordinatörlüğü
-
-Balıkesir Üniversitesi Radyo Koordinatörlüğü
-
-Tanıtım ve Sosyal Medya Koordinatörlüğü
-
-Bilimsel Araştırma Projeleri Koordinatörlüğü
-
-Bilimsel Yayınlar ve Dergiler Koordinatörlüğü
-
-Bologna Koordinatörlüğü
-
-Eğiticilerin Eğitimi Koordinatörlüğü
-
-Enerji Yönetimi ve Sürdürülebilirlik Koordinatörlüğü
-
-Engelsiz Üniversite Koordinatörlüğü
-
-Tümünü gör →
-
-Öğrenci
-
-Akademik Bilgiler
-
-Akademik Takvim
-
-Öğrenci E-Posta
-
-Öğrenci Bilgi Sistemi (OBS)
-
-Bilgi Paketi / Ders Kataloğu
-
-Kanun ve Yönetmelikler
-
-Aday Öğrenci
-
-Öğrenci İşleri Daire Başkanlığı
-
-Yabancı Uyruklu Öğrenci Programı
-
-Öğrenci Değişim Programları
-
-Burslar
-
-BAÜN Yaşam
-
-Öğrenci Toplulukları
-
-Yurtlar
-
-Spor Olanakları
-
-Engelsiz Yaşam
-
-Engelsiz Kütüphane
-
-İrtibat Merkezi
-
-Araştırma
-
-Uygulama ve Araştırma Merkezleri İzleme ve Değerlendirme Koordinatörlüğü
-
-Balıkesir Üniversitesi Atatürk İlkeleri ve İnkılap Tarihi Araştırma ve Uygulama Merkezi
-
-Balıkesir Üniversitesi Turizm Araştırma ve Uygulama Merkezi
-
-Balıkesir Üniversitesi Bilgi İşlem Uygulama ve Araştırma Merkezi
-
-Balıkesir Üniversitesi Balıkesir Yöresi Kültürünü Araştırma ve Uygulama Merkezi
-
-Balıkesir Üniversitesi Uluslararası İlişkiler Araştırma ve Uygulama Merkezi
-
-Balıkesir Üniversitesi Uzaktan Eğitim Uygulama ve Araştırma Merkezi
-
-Balıkesir Üniversitesi Sağlık Uygulama ve Araştırma Merkezi
-
-Balıkesir Üniversitesi Botanik Bahçesi ve Herbaryum Uygulama ve Araştırma Merkezi
-
-Balıkesir Üniversitesi Türkçe Öğretimi Uygulama ve Araştırma Merkezi
-
-Balıkesir Üniversitesi Kariyer Geliştirme Uygulama ve Araştırma Merkezi
-
-Tümünü gör →
-
-Birimler
-
-BAÜN Teknokent
-
-Araştırmacılar İçin
-
-Merkez Kütüphane
-
-Katalog Tarama
-
-Veri Tabanları
-
-Uzaktan Erişim
-
-Açık Erişim
-
-Akademik Dergiler
-
-Etik Kurullar
-
-İletişim
-
-Rehber
-
-KISAYOLLAR
-
-YARDIMCI LİNKLER
-
-Erişilebilirlik Menüsü
-
-Yüksek Kontrast
-
-Siyah-beyaz yüksek kontrast görünüm
-
-Büyük Metin
-
-Yazı boyutunu %120 büyüt
-
-Metin Boşluğu
-
-Harf ve kelime aralıklarını artır
-
-Bağlantıları Vurgula
-
-Tüm linkleri belirgin hale getir
-
-Resimleri Gri Yap
-
-Görselleri soluklaştır
-
-Satır Yüksekliği
-
-Satırlar arası boşluğu artır
-
-Sola Hizala
-
-Tüm metinleri sola hizala
-
-Büyük İmleç
-
-Fare imlecini büyüt
-
-Animasyonları Durdur
-
-Tüm hareketli efektleri kapat
-
-Doygunluk Azalt
-
-Renk doygunluğunu düşür
-
-Görme & İşitme Desteği
-
-Sesli Okuma
-
-Metinlere tıklayarak sesli dinleyin
-
-Okuma Kılavuzu
-
-Satır takip çizgisi göster
-
-Kolay Okunur Font
-
-Disleksi dostu yazı tipi
-
-Odak Modu
-
-Dikkat dağıtıcıları azalt
-
-Tümünü Sıfırla
-
 ---
 
 ## 15. Haberler | Balıkesir Üniversitesi
 **Kaynak URL:** [https://balikesir.edu.tr/haberler](https://balikesir.edu.tr/haberler)
 
 ### Sayfa İçeriği:
-Skip to main content
-
-Üniversitemiz
-
-Akademik
-
-İdari
-
-Öğrenci
-
-Araştırma
-
-İletişim
-
-Rehber
-
-Menü
-
-ANASAYFA
-
 Haberler
 
 Haberler
-
-BAÜN’den, Antibiyotik Tedavisinde Umut Veren Gelişme: İlacın Etkisi Korundu, Böbrek Üzerindeki Yan Etkiler Azaldı
-
-BİK Genel Müdürü Abdulkadir Çay’dan Rektör Oğurlu’ya Ziyaret
-
-Uluslararası Akademisyen, Gazeteci ve Medya Temsilcileri Forumu Heyetinden Rektör Oğurlu’ya Ziyaret
 
 Uluslararası Akademisyen, Gazeteci ve Medya Temsilcileri Forumu” Balıkesir Üniversitesinde Gerçekleştirildi
 
@@ -8600,403 +6700,13 @@ Balıkesir Üniversitesinden TÜBİTAK 1001 Bilimsel ve Teknolojik Araştırma P
 
 1-12 arası gösteriliyor
 
-Üniversitemiz
-
-Akademik
-
-İdari
-
-Öğrenci
-
-Araştırma
-
-İletişim
-
-Rehber
-
-Üniversitemiz
-
-Hakkımızda
-
-Genel Bilgiler
-
-Misyon-Vizyon
-
-Organizasyon Şeması
-
-BAÜN Logosu
-
-Kurumsal Kimlik Kılavuzu
-
-Bilgi Edinme
-
-Tanıtım
-
-Basında BAÜN
-
-Politikalarımız
-
-Kurullar ve Komisyonlar
-
-Yönetim
-
-Rektör
-
-Rektör Yardımcıları
-
-Üniversite Senatosu
-
-Yönetim Kurulu
-
-Rektör Danışmanları
-
-Genel Sekreter
-
-Genel Sekreter Yardımcıları
-
-Üniversite Danışma Kurulu
-
-Mevzuat
-
-Akademik Yükselme ve Atanma Kriterleri
-
-Mevzuat
-
-Senato Kararları
-
-Yönetim Kurulu Kararları
-
-Kişisel Verilerin Korunması
-
-Stratejik Plan ve Raporlar
-
-Akademik
-
-Enstitüler
-
-Edremit Zeytincilik Enstitüsü
-
-Fen Bilimleri Enstitüsü
-
-Sağlık Bilimleri Enstitüsü
-
-Sosyal Bilimler Enstitüsü
-
-Fakülteler
-
-Burhaniye Uygulamalı Bilimler Fakültesi
-
-Fen-Edebiyat Fakültesi
-
-Güzel Sanatlar Fakültesi
-
-Hukuk Fakültesi
-
-İktisadi ve İdari Bilimler Fakültesi
-
-İlahiyat Fakültesi
-
-Mimarlık Fakültesi
-
-Mühendislik Fakültesi
-
-Necatibey Eğitim Fakültesi
-
-Sağlık Bilimleri Fakültesi
-
-Spor Bilimleri Fakültesi
-
-Tıp Fakültesi
-
-Turizm Fakültesi
-
-Veteriner Fakültesi
-
-Yüksekokullar
-
-Edremit Sivil Havacılık Yüksekokulu
-
-Yabancı Diller Yüksekokulu
-
-Meslek Yüksekokulları
-
-Altınoluk Meslek Yüksekokulu
-
-Ayvalık Meslek Yüksekokulu
-
-Balıkesir Meslek Yüksekokulu
-
-Bigadiç Meslek Yüksekokulu
-
-Burhaniye Meslek Yüksekokulu
-
-Dursunbey Meslek Yüksekokulu
-
-Edremit Meslek Yüksekokulu
-
-Havran Meslek Yüksekokulu
-
-İvrindi Sağlık Hizmetleri Meslek Yüksekokulu
-
-Kepsut Meslek Yüksekokulu
-
-Savaştepe Meslek Yüksekokulu
-
-Sındırgı Meslek Yüksekokulu
-
-Susurluk Tarım Ve Orman Meslek Yüksekokulu
-
-Rektörlüğe Bağlı Bölümler
-
-Atatürk İlkeleri ve İnkılap Tarihi Bölümü
-
-Enformatik Bölümü
-
-Türk Dili Bölümü
-
-Uzaktan Eğitim
-
-BAUZEM
-
-Akademik Bilgi Sistemi
-
-AVESİS
-
-İdari
-
-İdari Birimler
-
-Genel Sekreterlik
-
-Bilgi İşlem Daire Başkanlığı
-
-İdari ve Mali İşler Daire Başkanlığı
-
-Kütüphane ve Dokümantasyon Daire Başkanlığı
-
-Öğrenci İşleri Daire Başkanlığı
-
-Personel Daire Başkanlığı
-
-Sağlık, Kültür ve Spor Daire Başkanlığı
-
-Strateji Geliştirme Daire Başkanlığı
-
-Yapı İşleri ve Teknik Daire Başkanlığı
-
-Hukuk Müşavirliği
-
-Basın ve Halkla İlişkiler Müdürlüğü
-
-Döner Sermaye İşletme Müdürlüğü
-
-Koordinatörlükler
-
-Akademik Gelişim Koordinatörlüğü
-
-Kalite Güvencesi, Kalite Komisyonu ve Kalite Koordinatörlüğü
-
-Balıkesir Üniversitesi Radyo Koordinatörlüğü
-
-Tanıtım ve Sosyal Medya Koordinatörlüğü
-
-Bilimsel Araştırma Projeleri Koordinatörlüğü
-
-Bilimsel Yayınlar ve Dergiler Koordinatörlüğü
-
-Bologna Koordinatörlüğü
-
-Eğiticilerin Eğitimi Koordinatörlüğü
-
-Enerji Yönetimi ve Sürdürülebilirlik Koordinatörlüğü
-
-Engelsiz Üniversite Koordinatörlüğü
-
-Tümünü gör →
-
-Öğrenci
-
-Akademik Bilgiler
-
-Akademik Takvim
-
-Öğrenci E-Posta
-
-Öğrenci Bilgi Sistemi (OBS)
-
-Bilgi Paketi / Ders Kataloğu
-
-Kanun ve Yönetmelikler
-
-Aday Öğrenci
-
-Öğrenci İşleri Daire Başkanlığı
-
-Yabancı Uyruklu Öğrenci Programı
-
-Öğrenci Değişim Programları
-
-Burslar
-
-BAÜN Yaşam
-
-Öğrenci Toplulukları
-
-Yurtlar
-
-Spor Olanakları
-
-Engelsiz Yaşam
-
-Engelsiz Kütüphane
-
-İrtibat Merkezi
-
-Araştırma
-
-Uygulama ve Araştırma Merkezleri İzleme ve Değerlendirme Koordinatörlüğü
-
-Balıkesir Üniversitesi Atatürk İlkeleri ve İnkılap Tarihi Araştırma ve Uygulama Merkezi
-
-Balıkesir Üniversitesi Turizm Araştırma ve Uygulama Merkezi
-
-Balıkesir Üniversitesi Bilgi İşlem Uygulama ve Araştırma Merkezi
-
-Balıkesir Üniversitesi Balıkesir Yöresi Kültürünü Araştırma ve Uygulama Merkezi
-
-Balıkesir Üniversitesi Uluslararası İlişkiler Araştırma ve Uygulama Merkezi
-
-Balıkesir Üniversitesi Uzaktan Eğitim Uygulama ve Araştırma Merkezi
-
-Balıkesir Üniversitesi Sağlık Uygulama ve Araştırma Merkezi
-
-Balıkesir Üniversitesi Botanik Bahçesi ve Herbaryum Uygulama ve Araştırma Merkezi
-
-Balıkesir Üniversitesi Türkçe Öğretimi Uygulama ve Araştırma Merkezi
-
-Balıkesir Üniversitesi Kariyer Geliştirme Uygulama ve Araştırma Merkezi
-
-Tümünü gör →
-
-Birimler
-
-BAÜN Teknokent
-
-Araştırmacılar İçin
-
-Merkez Kütüphane
-
-Katalog Tarama
-
-Veri Tabanları
-
-Uzaktan Erişim
-
-Açık Erişim
-
-Akademik Dergiler
-
-Etik Kurullar
-
-İletişim
-
-Rehber
-
-KISAYOLLAR
-
-YARDIMCI LİNKLER
-
-Erişilebilirlik Menüsü
-
-Yüksek Kontrast
-
-Siyah-beyaz yüksek kontrast görünüm
-
-Büyük Metin
-
-Yazı boyutunu %120 büyüt
-
-Metin Boşluğu
-
-Harf ve kelime aralıklarını artır
-
-Bağlantıları Vurgula
-
-Tüm linkleri belirgin hale getir
-
-Resimleri Gri Yap
-
-Görselleri soluklaştır
-
-Satır Yüksekliği
-
-Satırlar arası boşluğu artır
-
-Sola Hizala
-
-Tüm metinleri sola hizala
-
-Büyük İmleç
-
-Fare imlecini büyüt
-
-Animasyonları Durdur
-
-Tüm hareketli efektleri kapat
-
-Doygunluk Azalt
-
-Renk doygunluğunu düşür
-
-Görme & İşitme Desteği
-
-Sesli Okuma
-
-Metinlere tıklayarak sesli dinleyin
-
-Okuma Kılavuzu
-
-Satır takip çizgisi göster
-
-Kolay Okunur Font
-
-Disleksi dostu yazı tipi
-
-Odak Modu
-
-Dikkat dağıtıcıları azalt
-
-Tümünü Sıfırla
-
 ---
 
 ## 16. BAÜN’den, Antibiyotik Tedavisinde Umut Veren Gelişme: İlacın Etkisi Korundu, Böbrek Üzerindeki Yan Etkiler Azaldı
 **Kaynak URL:** [https://balikesir.edu.tr/haberler/202608171254](https://balikesir.edu.tr/haberler/202608171254)
 
 ### Sayfa İçeriği:
-Skip to main content
-
-Üniversitemiz
-
-Akademik
-
-İdari
-
-Öğrenci
-
-Araştırma
-
-İletişim
-
-Rehber
-
-Menü
-
-ANASAYFA
-
 haberler
-
-BAÜN’den, Antibiyotik Tedavisinde Umut Veren Gelişme: İlacın Etkisi Korundu, Böbrek Üzerindeki Yan Etkiler Azaldı
 
 17 Ağustos 2026
 
@@ -9130,381 +6840,7 @@ Geri
 
 İleri
 
-Diğer Haberler
-
-BİK Genel Müdürü Abdulkadir Çay’dan Rektör Oğurlu’ya Ziyaret
-
-Uluslararası Akademisyen, Gazeteci ve Medya Temsilcileri Forumu Heyetinden Rektör Oğurlu’ya Ziyaret
-
 Uluslararası Akademisyen, Gazeteci ve Medya Temsilcileri Forumu” Balıkesir Üniversitesinde Gerçekleştirildi
-
-Üniversitemiz
-
-Akademik
-
-İdari
-
-Öğrenci
-
-Araştırma
-
-İletişim
-
-Rehber
-
-Üniversitemiz
-
-Hakkımızda
-
-Genel Bilgiler
-
-Misyon-Vizyon
-
-Organizasyon Şeması
-
-BAÜN Logosu
-
-Kurumsal Kimlik Kılavuzu
-
-Bilgi Edinme
-
-Tanıtım
-
-Basında BAÜN
-
-Politikalarımız
-
-Kurullar ve Komisyonlar
-
-Yönetim
-
-Rektör
-
-Rektör Yardımcıları
-
-Üniversite Senatosu
-
-Yönetim Kurulu
-
-Rektör Danışmanları
-
-Genel Sekreter
-
-Genel Sekreter Yardımcıları
-
-Üniversite Danışma Kurulu
-
-Mevzuat
-
-Akademik Yükselme ve Atanma Kriterleri
-
-Mevzuat
-
-Senato Kararları
-
-Yönetim Kurulu Kararları
-
-Kişisel Verilerin Korunması
-
-Stratejik Plan ve Raporlar
-
-Akademik
-
-Enstitüler
-
-Edremit Zeytincilik Enstitüsü
-
-Fen Bilimleri Enstitüsü
-
-Sağlık Bilimleri Enstitüsü
-
-Sosyal Bilimler Enstitüsü
-
-Fakülteler
-
-Burhaniye Uygulamalı Bilimler Fakültesi
-
-Fen-Edebiyat Fakültesi
-
-Güzel Sanatlar Fakültesi
-
-Hukuk Fakültesi
-
-İktisadi ve İdari Bilimler Fakültesi
-
-İlahiyat Fakültesi
-
-Mimarlık Fakültesi
-
-Mühendislik Fakültesi
-
-Necatibey Eğitim Fakültesi
-
-Sağlık Bilimleri Fakültesi
-
-Spor Bilimleri Fakültesi
-
-Tıp Fakültesi
-
-Turizm Fakültesi
-
-Veteriner Fakültesi
-
-Yüksekokullar
-
-Edremit Sivil Havacılık Yüksekokulu
-
-Yabancı Diller Yüksekokulu
-
-Meslek Yüksekokulları
-
-Altınoluk Meslek Yüksekokulu
-
-Ayvalık Meslek Yüksekokulu
-
-Balıkesir Meslek Yüksekokulu
-
-Bigadiç Meslek Yüksekokulu
-
-Burhaniye Meslek Yüksekokulu
-
-Dursunbey Meslek Yüksekokulu
-
-Edremit Meslek Yüksekokulu
-
-Havran Meslek Yüksekokulu
-
-İvrindi Sağlık Hizmetleri Meslek Yüksekokulu
-
-Kepsut Meslek Yüksekokulu
-
-Savaştepe Meslek Yüksekokulu
-
-Sındırgı Meslek Yüksekokulu
-
-Susurluk Tarım Ve Orman Meslek Yüksekokulu
-
-Rektörlüğe Bağlı Bölümler
-
-Atatürk İlkeleri ve İnkılap Tarihi Bölümü
-
-Enformatik Bölümü
-
-Türk Dili Bölümü
-
-Uzaktan Eğitim
-
-BAUZEM
-
-Akademik Bilgi Sistemi
-
-AVESİS
-
-İdari
-
-İdari Birimler
-
-Genel Sekreterlik
-
-Bilgi İşlem Daire Başkanlığı
-
-İdari ve Mali İşler Daire Başkanlığı
-
-Kütüphane ve Dokümantasyon Daire Başkanlığı
-
-Öğrenci İşleri Daire Başkanlığı
-
-Personel Daire Başkanlığı
-
-Sağlık, Kültür ve Spor Daire Başkanlığı
-
-Strateji Geliştirme Daire Başkanlığı
-
-Yapı İşleri ve Teknik Daire Başkanlığı
-
-Hukuk Müşavirliği
-
-Basın ve Halkla İlişkiler Müdürlüğü
-
-Döner Sermaye İşletme Müdürlüğü
-
-Koordinatörlükler
-
-Akademik Gelişim Koordinatörlüğü
-
-Kalite Güvencesi, Kalite Komisyonu ve Kalite Koordinatörlüğü
-
-Balıkesir Üniversitesi Radyo Koordinatörlüğü
-
-Tanıtım ve Sosyal Medya Koordinatörlüğü
-
-Bilimsel Araştırma Projeleri Koordinatörlüğü
-
-Bilimsel Yayınlar ve Dergiler Koordinatörlüğü
-
-Bologna Koordinatörlüğü
-
-Eğiticilerin Eğitimi Koordinatörlüğü
-
-Enerji Yönetimi ve Sürdürülebilirlik Koordinatörlüğü
-
-Engelsiz Üniversite Koordinatörlüğü
-
-Tümünü gör →
-
-Öğrenci
-
-Akademik Bilgiler
-
-Akademik Takvim
-
-Öğrenci E-Posta
-
-Öğrenci Bilgi Sistemi (OBS)
-
-Bilgi Paketi / Ders Kataloğu
-
-Kanun ve Yönetmelikler
-
-Aday Öğrenci
-
-Öğrenci İşleri Daire Başkanlığı
-
-Yabancı Uyruklu Öğrenci Programı
-
-Öğrenci Değişim Programları
-
-Burslar
-
-BAÜN Yaşam
-
-Öğrenci Toplulukları
-
-Yurtlar
-
-Spor Olanakları
-
-Engelsiz Yaşam
-
-Engelsiz Kütüphane
-
-İrtibat Merkezi
-
-Araştırma
-
-Uygulama ve Araştırma Merkezleri İzleme ve Değerlendirme Koordinatörlüğü
-
-Balıkesir Üniversitesi Atatürk İlkeleri ve İnkılap Tarihi Araştırma ve Uygulama Merkezi
-
-Balıkesir Üniversitesi Turizm Araştırma ve Uygulama Merkezi
-
-Balıkesir Üniversitesi Bilgi İşlem Uygulama ve Araştırma Merkezi
-
-Balıkesir Üniversitesi Balıkesir Yöresi Kültürünü Araştırma ve Uygulama Merkezi
-
-Balıkesir Üniversitesi Uluslararası İlişkiler Araştırma ve Uygulama Merkezi
-
-Balıkesir Üniversitesi Uzaktan Eğitim Uygulama ve Araştırma Merkezi
-
-Balıkesir Üniversitesi Sağlık Uygulama ve Araştırma Merkezi
-
-Balıkesir Üniversitesi Botanik Bahçesi ve Herbaryum Uygulama ve Araştırma Merkezi
-
-Balıkesir Üniversitesi Türkçe Öğretimi Uygulama ve Araştırma Merkezi
-
-Balıkesir Üniversitesi Kariyer Geliştirme Uygulama ve Araştırma Merkezi
-
-Tümünü gör →
-
-Birimler
-
-BAÜN Teknokent
-
-Araştırmacılar İçin
-
-Merkez Kütüphane
-
-Katalog Tarama
-
-Veri Tabanları
-
-Uzaktan Erişim
-
-Açık Erişim
-
-Akademik Dergiler
-
-Etik Kurullar
-
-İletişim
-
-Rehber
-
-KISAYOLLAR
-
-YARDIMCI LİNKLER
-
-Erişilebilirlik Menüsü
-
-Yüksek Kontrast
-
-Siyah-beyaz yüksek kontrast görünüm
-
-Büyük Metin
-
-Yazı boyutunu %120 büyüt
-
-Metin Boşluğu
-
-Harf ve kelime aralıklarını artır
-
-Bağlantıları Vurgula
-
-Tüm linkleri belirgin hale getir
-
-Resimleri Gri Yap
-
-Görselleri soluklaştır
-
-Satır Yüksekliği
-
-Satırlar arası boşluğu artır
-
-Sola Hizala
-
-Tüm metinleri sola hizala
-
-Büyük İmleç
-
-Fare imlecini büyüt
-
-Animasyonları Durdur
-
-Tüm hareketli efektleri kapat
-
-Doygunluk Azalt
-
-Renk doygunluğunu düşür
-
-Görme & İşitme Desteği
-
-Sesli Okuma
-
-Metinlere tıklayarak sesli dinleyin
-
-Okuma Kılavuzu
-
-Satır takip çizgisi göster
-
-Kolay Okunur Font
-
-Disleksi dostu yazı tipi
-
-Odak Modu
-
-Dikkat dağıtıcıları azalt
-
-Tümünü Sıfırla
 
 ---
 
@@ -9512,29 +6848,7 @@ Tümünü Sıfırla
 **Kaynak URL:** [https://balikesir.edu.tr/haberler/202608171202](https://balikesir.edu.tr/haberler/202608171202)
 
 ### Sayfa İçeriği:
-Skip to main content
-
-Üniversitemiz
-
-Akademik
-
-İdari
-
-Öğrenci
-
-Araştırma
-
-İletişim
-
-Rehber
-
-Menü
-
-ANASAYFA
-
 haberler
-
-BİK Genel Müdürü Abdulkadir Çay’dan Rektör Oğurlu’ya Ziyaret
 
 17 Ağustos 2026
 
@@ -9580,381 +6894,7 @@ Geri
 
 İleri
 
-Diğer Haberler
-
-BAÜN’den, Antibiyotik Tedavisinde Umut Veren Gelişme: İlacın Etkisi Korundu, Böbrek Üzerindeki Yan Etkiler Azaldı
-
-Uluslararası Akademisyen, Gazeteci ve Medya Temsilcileri Forumu Heyetinden Rektör Oğurlu’ya Ziyaret
-
 Uluslararası Akademisyen, Gazeteci ve Medya Temsilcileri Forumu” Balıkesir Üniversitesinde Gerçekleştirildi
-
-Üniversitemiz
-
-Akademik
-
-İdari
-
-Öğrenci
-
-Araştırma
-
-İletişim
-
-Rehber
-
-Üniversitemiz
-
-Hakkımızda
-
-Genel Bilgiler
-
-Misyon-Vizyon
-
-Organizasyon Şeması
-
-BAÜN Logosu
-
-Kurumsal Kimlik Kılavuzu
-
-Bilgi Edinme
-
-Tanıtım
-
-Basında BAÜN
-
-Politikalarımız
-
-Kurullar ve Komisyonlar
-
-Yönetim
-
-Rektör
-
-Rektör Yardımcıları
-
-Üniversite Senatosu
-
-Yönetim Kurulu
-
-Rektör Danışmanları
-
-Genel Sekreter
-
-Genel Sekreter Yardımcıları
-
-Üniversite Danışma Kurulu
-
-Mevzuat
-
-Akademik Yükselme ve Atanma Kriterleri
-
-Mevzuat
-
-Senato Kararları
-
-Yönetim Kurulu Kararları
-
-Kişisel Verilerin Korunması
-
-Stratejik Plan ve Raporlar
-
-Akademik
-
-Enstitüler
-
-Edremit Zeytincilik Enstitüsü
-
-Fen Bilimleri Enstitüsü
-
-Sağlık Bilimleri Enstitüsü
-
-Sosyal Bilimler Enstitüsü
-
-Fakülteler
-
-Burhaniye Uygulamalı Bilimler Fakültesi
-
-Fen-Edebiyat Fakültesi
-
-Güzel Sanatlar Fakültesi
-
-Hukuk Fakültesi
-
-İktisadi ve İdari Bilimler Fakültesi
-
-İlahiyat Fakültesi
-
-Mimarlık Fakültesi
-
-Mühendislik Fakültesi
-
-Necatibey Eğitim Fakültesi
-
-Sağlık Bilimleri Fakültesi
-
-Spor Bilimleri Fakültesi
-
-Tıp Fakültesi
-
-Turizm Fakültesi
-
-Veteriner Fakültesi
-
-Yüksekokullar
-
-Edremit Sivil Havacılık Yüksekokulu
-
-Yabancı Diller Yüksekokulu
-
-Meslek Yüksekokulları
-
-Altınoluk Meslek Yüksekokulu
-
-Ayvalık Meslek Yüksekokulu
-
-Balıkesir Meslek Yüksekokulu
-
-Bigadiç Meslek Yüksekokulu
-
-Burhaniye Meslek Yüksekokulu
-
-Dursunbey Meslek Yüksekokulu
-
-Edremit Meslek Yüksekokulu
-
-Havran Meslek Yüksekokulu
-
-İvrindi Sağlık Hizmetleri Meslek Yüksekokulu
-
-Kepsut Meslek Yüksekokulu
-
-Savaştepe Meslek Yüksekokulu
-
-Sındırgı Meslek Yüksekokulu
-
-Susurluk Tarım Ve Orman Meslek Yüksekokulu
-
-Rektörlüğe Bağlı Bölümler
-
-Atatürk İlkeleri ve İnkılap Tarihi Bölümü
-
-Enformatik Bölümü
-
-Türk Dili Bölümü
-
-Uzaktan Eğitim
-
-BAUZEM
-
-Akademik Bilgi Sistemi
-
-AVESİS
-
-İdari
-
-İdari Birimler
-
-Genel Sekreterlik
-
-Bilgi İşlem Daire Başkanlığı
-
-İdari ve Mali İşler Daire Başkanlığı
-
-Kütüphane ve Dokümantasyon Daire Başkanlığı
-
-Öğrenci İşleri Daire Başkanlığı
-
-Personel Daire Başkanlığı
-
-Sağlık, Kültür ve Spor Daire Başkanlığı
-
-Strateji Geliştirme Daire Başkanlığı
-
-Yapı İşleri ve Teknik Daire Başkanlığı
-
-Hukuk Müşavirliği
-
-Basın ve Halkla İlişkiler Müdürlüğü
-
-Döner Sermaye İşletme Müdürlüğü
-
-Koordinatörlükler
-
-Akademik Gelişim Koordinatörlüğü
-
-Kalite Güvencesi, Kalite Komisyonu ve Kalite Koordinatörlüğü
-
-Balıkesir Üniversitesi Radyo Koordinatörlüğü
-
-Tanıtım ve Sosyal Medya Koordinatörlüğü
-
-Bilimsel Araştırma Projeleri Koordinatörlüğü
-
-Bilimsel Yayınlar ve Dergiler Koordinatörlüğü
-
-Bologna Koordinatörlüğü
-
-Eğiticilerin Eğitimi Koordinatörlüğü
-
-Enerji Yönetimi ve Sürdürülebilirlik Koordinatörlüğü
-
-Engelsiz Üniversite Koordinatörlüğü
-
-Tümünü gör →
-
-Öğrenci
-
-Akademik Bilgiler
-
-Akademik Takvim
-
-Öğrenci E-Posta
-
-Öğrenci Bilgi Sistemi (OBS)
-
-Bilgi Paketi / Ders Kataloğu
-
-Kanun ve Yönetmelikler
-
-Aday Öğrenci
-
-Öğrenci İşleri Daire Başkanlığı
-
-Yabancı Uyruklu Öğrenci Programı
-
-Öğrenci Değişim Programları
-
-Burslar
-
-BAÜN Yaşam
-
-Öğrenci Toplulukları
-
-Yurtlar
-
-Spor Olanakları
-
-Engelsiz Yaşam
-
-Engelsiz Kütüphane
-
-İrtibat Merkezi
-
-Araştırma
-
-Uygulama ve Araştırma Merkezleri İzleme ve Değerlendirme Koordinatörlüğü
-
-Balıkesir Üniversitesi Atatürk İlkeleri ve İnkılap Tarihi Araştırma ve Uygulama Merkezi
-
-Balıkesir Üniversitesi Turizm Araştırma ve Uygulama Merkezi
-
-Balıkesir Üniversitesi Bilgi İşlem Uygulama ve Araştırma Merkezi
-
-Balıkesir Üniversitesi Balıkesir Yöresi Kültürünü Araştırma ve Uygulama Merkezi
-
-Balıkesir Üniversitesi Uluslararası İlişkiler Araştırma ve Uygulama Merkezi
-
-Balıkesir Üniversitesi Uzaktan Eğitim Uygulama ve Araştırma Merkezi
-
-Balıkesir Üniversitesi Sağlık Uygulama ve Araştırma Merkezi
-
-Balıkesir Üniversitesi Botanik Bahçesi ve Herbaryum Uygulama ve Araştırma Merkezi
-
-Balıkesir Üniversitesi Türkçe Öğretimi Uygulama ve Araştırma Merkezi
-
-Balıkesir Üniversitesi Kariyer Geliştirme Uygulama ve Araştırma Merkezi
-
-Tümünü gör →
-
-Birimler
-
-BAÜN Teknokent
-
-Araştırmacılar İçin
-
-Merkez Kütüphane
-
-Katalog Tarama
-
-Veri Tabanları
-
-Uzaktan Erişim
-
-Açık Erişim
-
-Akademik Dergiler
-
-Etik Kurullar
-
-İletişim
-
-Rehber
-
-KISAYOLLAR
-
-YARDIMCI LİNKLER
-
-Erişilebilirlik Menüsü
-
-Yüksek Kontrast
-
-Siyah-beyaz yüksek kontrast görünüm
-
-Büyük Metin
-
-Yazı boyutunu %120 büyüt
-
-Metin Boşluğu
-
-Harf ve kelime aralıklarını artır
-
-Bağlantıları Vurgula
-
-Tüm linkleri belirgin hale getir
-
-Resimleri Gri Yap
-
-Görselleri soluklaştır
-
-Satır Yüksekliği
-
-Satırlar arası boşluğu artır
-
-Sola Hizala
-
-Tüm metinleri sola hizala
-
-Büyük İmleç
-
-Fare imlecini büyüt
-
-Animasyonları Durdur
-
-Tüm hareketli efektleri kapat
-
-Doygunluk Azalt
-
-Renk doygunluğunu düşür
-
-Görme & İşitme Desteği
-
-Sesli Okuma
-
-Metinlere tıklayarak sesli dinleyin
-
-Okuma Kılavuzu
-
-Satır takip çizgisi göster
-
-Kolay Okunur Font
-
-Disleksi dostu yazı tipi
-
-Odak Modu
-
-Dikkat dağıtıcıları azalt
-
-Tümünü Sıfırla
 
 ---
 
@@ -9962,29 +6902,7 @@ Tümünü Sıfırla
 **Kaynak URL:** [https://balikesir.edu.tr/haberler/202608171146](https://balikesir.edu.tr/haberler/202608171146)
 
 ### Sayfa İçeriği:
-Skip to main content
-
-Üniversitemiz
-
-Akademik
-
-İdari
-
-Öğrenci
-
-Araştırma
-
-İletişim
-
-Rehber
-
-Menü
-
-ANASAYFA
-
 haberler
-
-Uluslararası Akademisyen, Gazeteci ve Medya Temsilcileri Forumu Heyetinden Rektör Oğurlu’ya Ziyaret
 
 17 Ağustos 2026
 
@@ -10036,381 +6954,7 @@ teşekkür ederek, Balıkesir Üniversitesinin foruma verdiği destekten duydukl
 
 memnuniyeti dile getirdi.
 
-Diğer Haberler
-
-BAÜN’den, Antibiyotik Tedavisinde Umut Veren Gelişme: İlacın Etkisi Korundu, Böbrek Üzerindeki Yan Etkiler Azaldı
-
-BİK Genel Müdürü Abdulkadir Çay’dan Rektör Oğurlu’ya Ziyaret
-
 Uluslararası Akademisyen, Gazeteci ve Medya Temsilcileri Forumu” Balıkesir Üniversitesinde Gerçekleştirildi
-
-Üniversitemiz
-
-Akademik
-
-İdari
-
-Öğrenci
-
-Araştırma
-
-İletişim
-
-Rehber
-
-Üniversitemiz
-
-Hakkımızda
-
-Genel Bilgiler
-
-Misyon-Vizyon
-
-Organizasyon Şeması
-
-BAÜN Logosu
-
-Kurumsal Kimlik Kılavuzu
-
-Bilgi Edinme
-
-Tanıtım
-
-Basında BAÜN
-
-Politikalarımız
-
-Kurullar ve Komisyonlar
-
-Yönetim
-
-Rektör
-
-Rektör Yardımcıları
-
-Üniversite Senatosu
-
-Yönetim Kurulu
-
-Rektör Danışmanları
-
-Genel Sekreter
-
-Genel Sekreter Yardımcıları
-
-Üniversite Danışma Kurulu
-
-Mevzuat
-
-Akademik Yükselme ve Atanma Kriterleri
-
-Mevzuat
-
-Senato Kararları
-
-Yönetim Kurulu Kararları
-
-Kişisel Verilerin Korunması
-
-Stratejik Plan ve Raporlar
-
-Akademik
-
-Enstitüler
-
-Edremit Zeytincilik Enstitüsü
-
-Fen Bilimleri Enstitüsü
-
-Sağlık Bilimleri Enstitüsü
-
-Sosyal Bilimler Enstitüsü
-
-Fakülteler
-
-Burhaniye Uygulamalı Bilimler Fakültesi
-
-Fen-Edebiyat Fakültesi
-
-Güzel Sanatlar Fakültesi
-
-Hukuk Fakültesi
-
-İktisadi ve İdari Bilimler Fakültesi
-
-İlahiyat Fakültesi
-
-Mimarlık Fakültesi
-
-Mühendislik Fakültesi
-
-Necatibey Eğitim Fakültesi
-
-Sağlık Bilimleri Fakültesi
-
-Spor Bilimleri Fakültesi
-
-Tıp Fakültesi
-
-Turizm Fakültesi
-
-Veteriner Fakültesi
-
-Yüksekokullar
-
-Edremit Sivil Havacılık Yüksekokulu
-
-Yabancı Diller Yüksekokulu
-
-Meslek Yüksekokulları
-
-Altınoluk Meslek Yüksekokulu
-
-Ayvalık Meslek Yüksekokulu
-
-Balıkesir Meslek Yüksekokulu
-
-Bigadiç Meslek Yüksekokulu
-
-Burhaniye Meslek Yüksekokulu
-
-Dursunbey Meslek Yüksekokulu
-
-Edremit Meslek Yüksekokulu
-
-Havran Meslek Yüksekokulu
-
-İvrindi Sağlık Hizmetleri Meslek Yüksekokulu
-
-Kepsut Meslek Yüksekokulu
-
-Savaştepe Meslek Yüksekokulu
-
-Sındırgı Meslek Yüksekokulu
-
-Susurluk Tarım Ve Orman Meslek Yüksekokulu
-
-Rektörlüğe Bağlı Bölümler
-
-Atatürk İlkeleri ve İnkılap Tarihi Bölümü
-
-Enformatik Bölümü
-
-Türk Dili Bölümü
-
-Uzaktan Eğitim
-
-BAUZEM
-
-Akademik Bilgi Sistemi
-
-AVESİS
-
-İdari
-
-İdari Birimler
-
-Genel Sekreterlik
-
-Bilgi İşlem Daire Başkanlığı
-
-İdari ve Mali İşler Daire Başkanlığı
-
-Kütüphane ve Dokümantasyon Daire Başkanlığı
-
-Öğrenci İşleri Daire Başkanlığı
-
-Personel Daire Başkanlığı
-
-Sağlık, Kültür ve Spor Daire Başkanlığı
-
-Strateji Geliştirme Daire Başkanlığı
-
-Yapı İşleri ve Teknik Daire Başkanlığı
-
-Hukuk Müşavirliği
-
-Basın ve Halkla İlişkiler Müdürlüğü
-
-Döner Sermaye İşletme Müdürlüğü
-
-Koordinatörlükler
-
-Akademik Gelişim Koordinatörlüğü
-
-Kalite Güvencesi, Kalite Komisyonu ve Kalite Koordinatörlüğü
-
-Balıkesir Üniversitesi Radyo Koordinatörlüğü
-
-Tanıtım ve Sosyal Medya Koordinatörlüğü
-
-Bilimsel Araştırma Projeleri Koordinatörlüğü
-
-Bilimsel Yayınlar ve Dergiler Koordinatörlüğü
-
-Bologna Koordinatörlüğü
-
-Eğiticilerin Eğitimi Koordinatörlüğü
-
-Enerji Yönetimi ve Sürdürülebilirlik Koordinatörlüğü
-
-Engelsiz Üniversite Koordinatörlüğü
-
-Tümünü gör →
-
-Öğrenci
-
-Akademik Bilgiler
-
-Akademik Takvim
-
-Öğrenci E-Posta
-
-Öğrenci Bilgi Sistemi (OBS)
-
-Bilgi Paketi / Ders Kataloğu
-
-Kanun ve Yönetmelikler
-
-Aday Öğrenci
-
-Öğrenci İşleri Daire Başkanlığı
-
-Yabancı Uyruklu Öğrenci Programı
-
-Öğrenci Değişim Programları
-
-Burslar
-
-BAÜN Yaşam
-
-Öğrenci Toplulukları
-
-Yurtlar
-
-Spor Olanakları
-
-Engelsiz Yaşam
-
-Engelsiz Kütüphane
-
-İrtibat Merkezi
-
-Araştırma
-
-Uygulama ve Araştırma Merkezleri İzleme ve Değerlendirme Koordinatörlüğü
-
-Balıkesir Üniversitesi Atatürk İlkeleri ve İnkılap Tarihi Araştırma ve Uygulama Merkezi
-
-Balıkesir Üniversitesi Turizm Araştırma ve Uygulama Merkezi
-
-Balıkesir Üniversitesi Bilgi İşlem Uygulama ve Araştırma Merkezi
-
-Balıkesir Üniversitesi Balıkesir Yöresi Kültürünü Araştırma ve Uygulama Merkezi
-
-Balıkesir Üniversitesi Uluslararası İlişkiler Araştırma ve Uygulama Merkezi
-
-Balıkesir Üniversitesi Uzaktan Eğitim Uygulama ve Araştırma Merkezi
-
-Balıkesir Üniversitesi Sağlık Uygulama ve Araştırma Merkezi
-
-Balıkesir Üniversitesi Botanik Bahçesi ve Herbaryum Uygulama ve Araştırma Merkezi
-
-Balıkesir Üniversitesi Türkçe Öğretimi Uygulama ve Araştırma Merkezi
-
-Balıkesir Üniversitesi Kariyer Geliştirme Uygulama ve Araştırma Merkezi
-
-Tümünü gör →
-
-Birimler
-
-BAÜN Teknokent
-
-Araştırmacılar İçin
-
-Merkez Kütüphane
-
-Katalog Tarama
-
-Veri Tabanları
-
-Uzaktan Erişim
-
-Açık Erişim
-
-Akademik Dergiler
-
-Etik Kurullar
-
-İletişim
-
-Rehber
-
-KISAYOLLAR
-
-YARDIMCI LİNKLER
-
-Erişilebilirlik Menüsü
-
-Yüksek Kontrast
-
-Siyah-beyaz yüksek kontrast görünüm
-
-Büyük Metin
-
-Yazı boyutunu %120 büyüt
-
-Metin Boşluğu
-
-Harf ve kelime aralıklarını artır
-
-Bağlantıları Vurgula
-
-Tüm linkleri belirgin hale getir
-
-Resimleri Gri Yap
-
-Görselleri soluklaştır
-
-Satır Yüksekliği
-
-Satırlar arası boşluğu artır
-
-Sola Hizala
-
-Tüm metinleri sola hizala
-
-Büyük İmleç
-
-Fare imlecini büyüt
-
-Animasyonları Durdur
-
-Tüm hareketli efektleri kapat
-
-Doygunluk Azalt
-
-Renk doygunluğunu düşür
-
-Görme & İşitme Desteği
-
-Sesli Okuma
-
-Metinlere tıklayarak sesli dinleyin
-
-Okuma Kılavuzu
-
-Satır takip çizgisi göster
-
-Kolay Okunur Font
-
-Disleksi dostu yazı tipi
-
-Odak Modu
-
-Dikkat dağıtıcıları azalt
-
-Tümünü Sıfırla
 
 ---
 
@@ -10418,26 +6962,6 @@ Tümünü Sıfırla
 **Kaynak URL:** [https://balikesir.edu.tr/haberler/202608151936](https://balikesir.edu.tr/haberler/202608151936)
 
 ### Sayfa İçeriği:
-Skip to main content
-
-Üniversitemiz
-
-Akademik
-
-İdari
-
-Öğrenci
-
-Araştırma
-
-İletişim
-
-Rehber
-
-Menü
-
-ANASAYFA
-
 haberler
 
 Uluslararası Akademisyen, Gazeteci ve Medya Temsilcileri Forumu” Balıkesir Üniversitesinde Gerçekleştirildi
@@ -10474,408 +6998,12 @@ Geri
 
 İleri
 
-Diğer Haberler
-
-BAÜN’den, Antibiyotik Tedavisinde Umut Veren Gelişme: İlacın Etkisi Korundu, Böbrek Üzerindeki Yan Etkiler Azaldı
-
-BİK Genel Müdürü Abdulkadir Çay’dan Rektör Oğurlu’ya Ziyaret
-
-Uluslararası Akademisyen, Gazeteci ve Medya Temsilcileri Forumu Heyetinden Rektör Oğurlu’ya Ziyaret
-
-Üniversitemiz
-
-Akademik
-
-İdari
-
-Öğrenci
-
-Araştırma
-
-İletişim
-
-Rehber
-
-Üniversitemiz
-
-Hakkımızda
-
-Genel Bilgiler
-
-Misyon-Vizyon
-
-Organizasyon Şeması
-
-BAÜN Logosu
-
-Kurumsal Kimlik Kılavuzu
-
-Bilgi Edinme
-
-Tanıtım
-
-Basında BAÜN
-
-Politikalarımız
-
-Kurullar ve Komisyonlar
-
-Yönetim
-
-Rektör
-
-Rektör Yardımcıları
-
-Üniversite Senatosu
-
-Yönetim Kurulu
-
-Rektör Danışmanları
-
-Genel Sekreter
-
-Genel Sekreter Yardımcıları
-
-Üniversite Danışma Kurulu
-
-Mevzuat
-
-Akademik Yükselme ve Atanma Kriterleri
-
-Mevzuat
-
-Senato Kararları
-
-Yönetim Kurulu Kararları
-
-Kişisel Verilerin Korunması
-
-Stratejik Plan ve Raporlar
-
-Akademik
-
-Enstitüler
-
-Edremit Zeytincilik Enstitüsü
-
-Fen Bilimleri Enstitüsü
-
-Sağlık Bilimleri Enstitüsü
-
-Sosyal Bilimler Enstitüsü
-
-Fakülteler
-
-Burhaniye Uygulamalı Bilimler Fakültesi
-
-Fen-Edebiyat Fakültesi
-
-Güzel Sanatlar Fakültesi
-
-Hukuk Fakültesi
-
-İktisadi ve İdari Bilimler Fakültesi
-
-İlahiyat Fakültesi
-
-Mimarlık Fakültesi
-
-Mühendislik Fakültesi
-
-Necatibey Eğitim Fakültesi
-
-Sağlık Bilimleri Fakültesi
-
-Spor Bilimleri Fakültesi
-
-Tıp Fakültesi
-
-Turizm Fakültesi
-
-Veteriner Fakültesi
-
-Yüksekokullar
-
-Edremit Sivil Havacılık Yüksekokulu
-
-Yabancı Diller Yüksekokulu
-
-Meslek Yüksekokulları
-
-Altınoluk Meslek Yüksekokulu
-
-Ayvalık Meslek Yüksekokulu
-
-Balıkesir Meslek Yüksekokulu
-
-Bigadiç Meslek Yüksekokulu
-
-Burhaniye Meslek Yüksekokulu
-
-Dursunbey Meslek Yüksekokulu
-
-Edremit Meslek Yüksekokulu
-
-Havran Meslek Yüksekokulu
-
-İvrindi Sağlık Hizmetleri Meslek Yüksekokulu
-
-Kepsut Meslek Yüksekokulu
-
-Savaştepe Meslek Yüksekokulu
-
-Sındırgı Meslek Yüksekokulu
-
-Susurluk Tarım Ve Orman Meslek Yüksekokulu
-
-Rektörlüğe Bağlı Bölümler
-
-Atatürk İlkeleri ve İnkılap Tarihi Bölümü
-
-Enformatik Bölümü
-
-Türk Dili Bölümü
-
-Uzaktan Eğitim
-
-BAUZEM
-
-Akademik Bilgi Sistemi
-
-AVESİS
-
-İdari
-
-İdari Birimler
-
-Genel Sekreterlik
-
-Bilgi İşlem Daire Başkanlığı
-
-İdari ve Mali İşler Daire Başkanlığı
-
-Kütüphane ve Dokümantasyon Daire Başkanlığı
-
-Öğrenci İşleri Daire Başkanlığı
-
-Personel Daire Başkanlığı
-
-Sağlık, Kültür ve Spor Daire Başkanlığı
-
-Strateji Geliştirme Daire Başkanlığı
-
-Yapı İşleri ve Teknik Daire Başkanlığı
-
-Hukuk Müşavirliği
-
-Basın ve Halkla İlişkiler Müdürlüğü
-
-Döner Sermaye İşletme Müdürlüğü
-
-Koordinatörlükler
-
-Akademik Gelişim Koordinatörlüğü
-
-Kalite Güvencesi, Kalite Komisyonu ve Kalite Koordinatörlüğü
-
-Balıkesir Üniversitesi Radyo Koordinatörlüğü
-
-Tanıtım ve Sosyal Medya Koordinatörlüğü
-
-Bilimsel Araştırma Projeleri Koordinatörlüğü
-
-Bilimsel Yayınlar ve Dergiler Koordinatörlüğü
-
-Bologna Koordinatörlüğü
-
-Eğiticilerin Eğitimi Koordinatörlüğü
-
-Enerji Yönetimi ve Sürdürülebilirlik Koordinatörlüğü
-
-Engelsiz Üniversite Koordinatörlüğü
-
-Tümünü gör →
-
-Öğrenci
-
-Akademik Bilgiler
-
-Akademik Takvim
-
-Öğrenci E-Posta
-
-Öğrenci Bilgi Sistemi (OBS)
-
-Bilgi Paketi / Ders Kataloğu
-
-Kanun ve Yönetmelikler
-
-Aday Öğrenci
-
-Öğrenci İşleri Daire Başkanlığı
-
-Yabancı Uyruklu Öğrenci Programı
-
-Öğrenci Değişim Programları
-
-Burslar
-
-BAÜN Yaşam
-
-Öğrenci Toplulukları
-
-Yurtlar
-
-Spor Olanakları
-
-Engelsiz Yaşam
-
-Engelsiz Kütüphane
-
-İrtibat Merkezi
-
-Araştırma
-
-Uygulama ve Araştırma Merkezleri İzleme ve Değerlendirme Koordinatörlüğü
-
-Balıkesir Üniversitesi Atatürk İlkeleri ve İnkılap Tarihi Araştırma ve Uygulama Merkezi
-
-Balıkesir Üniversitesi Turizm Araştırma ve Uygulama Merkezi
-
-Balıkesir Üniversitesi Bilgi İşlem Uygulama ve Araştırma Merkezi
-
-Balıkesir Üniversitesi Balıkesir Yöresi Kültürünü Araştırma ve Uygulama Merkezi
-
-Balıkesir Üniversitesi Uluslararası İlişkiler Araştırma ve Uygulama Merkezi
-
-Balıkesir Üniversitesi Uzaktan Eğitim Uygulama ve Araştırma Merkezi
-
-Balıkesir Üniversitesi Sağlık Uygulama ve Araştırma Merkezi
-
-Balıkesir Üniversitesi Botanik Bahçesi ve Herbaryum Uygulama ve Araştırma Merkezi
-
-Balıkesir Üniversitesi Türkçe Öğretimi Uygulama ve Araştırma Merkezi
-
-Balıkesir Üniversitesi Kariyer Geliştirme Uygulama ve Araştırma Merkezi
-
-Tümünü gör →
-
-Birimler
-
-BAÜN Teknokent
-
-Araştırmacılar İçin
-
-Merkez Kütüphane
-
-Katalog Tarama
-
-Veri Tabanları
-
-Uzaktan Erişim
-
-Açık Erişim
-
-Akademik Dergiler
-
-Etik Kurullar
-
-İletişim
-
-Rehber
-
-KISAYOLLAR
-
-YARDIMCI LİNKLER
-
-Erişilebilirlik Menüsü
-
-Yüksek Kontrast
-
-Siyah-beyaz yüksek kontrast görünüm
-
-Büyük Metin
-
-Yazı boyutunu %120 büyüt
-
-Metin Boşluğu
-
-Harf ve kelime aralıklarını artır
-
-Bağlantıları Vurgula
-
-Tüm linkleri belirgin hale getir
-
-Resimleri Gri Yap
-
-Görselleri soluklaştır
-
-Satır Yüksekliği
-
-Satırlar arası boşluğu artır
-
-Sola Hizala
-
-Tüm metinleri sola hizala
-
-Büyük İmleç
-
-Fare imlecini büyüt
-
-Animasyonları Durdur
-
-Tüm hareketli efektleri kapat
-
-Doygunluk Azalt
-
-Renk doygunluğunu düşür
-
-Görme & İşitme Desteği
-
-Sesli Okuma
-
-Metinlere tıklayarak sesli dinleyin
-
-Okuma Kılavuzu
-
-Satır takip çizgisi göster
-
-Kolay Okunur Font
-
-Disleksi dostu yazı tipi
-
-Odak Modu
-
-Dikkat dağıtıcıları azalt
-
-Tümünü Sıfırla
-
 ---
 
 ## 20. Özbekistan Almalık Devlet Teknik Enstitüsü Heyetinden Rektör Oğurlu’ya Ziyaret
 **Kaynak URL:** [https://balikesir.edu.tr/haberler/202608141559](https://balikesir.edu.tr/haberler/202608141559)
 
 ### Sayfa İçeriği:
-Skip to main content
-
-Üniversitemiz
-
-Akademik
-
-İdari
-
-Öğrenci
-
-Araştırma
-
-İletişim
-
-Rehber
-
-Menü
-
-ANASAYFA
-
 haberler
 
 Özbekistan Almalık Devlet Teknik Enstitüsü Heyetinden Rektör Oğurlu’ya Ziyaret
@@ -10942,408 +7070,12 @@ alanlarının oluşturulmasına yönelik değerlendirmelerde bulunulmasının ar
 
 karşılıklı iyi dilek ve temenniler paylaşılmasıyla görüşme sona erdi.
 
-Diğer Haberler
-
-BAÜN’den, Antibiyotik Tedavisinde Umut Veren Gelişme: İlacın Etkisi Korundu, Böbrek Üzerindeki Yan Etkiler Azaldı
-
-BİK Genel Müdürü Abdulkadir Çay’dan Rektör Oğurlu’ya Ziyaret
-
-Uluslararası Akademisyen, Gazeteci ve Medya Temsilcileri Forumu Heyetinden Rektör Oğurlu’ya Ziyaret
-
-Üniversitemiz
-
-Akademik
-
-İdari
-
-Öğrenci
-
-Araştırma
-
-İletişim
-
-Rehber
-
-Üniversitemiz
-
-Hakkımızda
-
-Genel Bilgiler
-
-Misyon-Vizyon
-
-Organizasyon Şeması
-
-BAÜN Logosu
-
-Kurumsal Kimlik Kılavuzu
-
-Bilgi Edinme
-
-Tanıtım
-
-Basında BAÜN
-
-Politikalarımız
-
-Kurullar ve Komisyonlar
-
-Yönetim
-
-Rektör
-
-Rektör Yardımcıları
-
-Üniversite Senatosu
-
-Yönetim Kurulu
-
-Rektör Danışmanları
-
-Genel Sekreter
-
-Genel Sekreter Yardımcıları
-
-Üniversite Danışma Kurulu
-
-Mevzuat
-
-Akademik Yükselme ve Atanma Kriterleri
-
-Mevzuat
-
-Senato Kararları
-
-Yönetim Kurulu Kararları
-
-Kişisel Verilerin Korunması
-
-Stratejik Plan ve Raporlar
-
-Akademik
-
-Enstitüler
-
-Edremit Zeytincilik Enstitüsü
-
-Fen Bilimleri Enstitüsü
-
-Sağlık Bilimleri Enstitüsü
-
-Sosyal Bilimler Enstitüsü
-
-Fakülteler
-
-Burhaniye Uygulamalı Bilimler Fakültesi
-
-Fen-Edebiyat Fakültesi
-
-Güzel Sanatlar Fakültesi
-
-Hukuk Fakültesi
-
-İktisadi ve İdari Bilimler Fakültesi
-
-İlahiyat Fakültesi
-
-Mimarlık Fakültesi
-
-Mühendislik Fakültesi
-
-Necatibey Eğitim Fakültesi
-
-Sağlık Bilimleri Fakültesi
-
-Spor Bilimleri Fakültesi
-
-Tıp Fakültesi
-
-Turizm Fakültesi
-
-Veteriner Fakültesi
-
-Yüksekokullar
-
-Edremit Sivil Havacılık Yüksekokulu
-
-Yabancı Diller Yüksekokulu
-
-Meslek Yüksekokulları
-
-Altınoluk Meslek Yüksekokulu
-
-Ayvalık Meslek Yüksekokulu
-
-Balıkesir Meslek Yüksekokulu
-
-Bigadiç Meslek Yüksekokulu
-
-Burhaniye Meslek Yüksekokulu
-
-Dursunbey Meslek Yüksekokulu
-
-Edremit Meslek Yüksekokulu
-
-Havran Meslek Yüksekokulu
-
-İvrindi Sağlık Hizmetleri Meslek Yüksekokulu
-
-Kepsut Meslek Yüksekokulu
-
-Savaştepe Meslek Yüksekokulu
-
-Sındırgı Meslek Yüksekokulu
-
-Susurluk Tarım Ve Orman Meslek Yüksekokulu
-
-Rektörlüğe Bağlı Bölümler
-
-Atatürk İlkeleri ve İnkılap Tarihi Bölümü
-
-Enformatik Bölümü
-
-Türk Dili Bölümü
-
-Uzaktan Eğitim
-
-BAUZEM
-
-Akademik Bilgi Sistemi
-
-AVESİS
-
-İdari
-
-İdari Birimler
-
-Genel Sekreterlik
-
-Bilgi İşlem Daire Başkanlığı
-
-İdari ve Mali İşler Daire Başkanlığı
-
-Kütüphane ve Dokümantasyon Daire Başkanlığı
-
-Öğrenci İşleri Daire Başkanlığı
-
-Personel Daire Başkanlığı
-
-Sağlık, Kültür ve Spor Daire Başkanlığı
-
-Strateji Geliştirme Daire Başkanlığı
-
-Yapı İşleri ve Teknik Daire Başkanlığı
-
-Hukuk Müşavirliği
-
-Basın ve Halkla İlişkiler Müdürlüğü
-
-Döner Sermaye İşletme Müdürlüğü
-
-Koordinatörlükler
-
-Akademik Gelişim Koordinatörlüğü
-
-Kalite Güvencesi, Kalite Komisyonu ve Kalite Koordinatörlüğü
-
-Balıkesir Üniversitesi Radyo Koordinatörlüğü
-
-Tanıtım ve Sosyal Medya Koordinatörlüğü
-
-Bilimsel Araştırma Projeleri Koordinatörlüğü
-
-Bilimsel Yayınlar ve Dergiler Koordinatörlüğü
-
-Bologna Koordinatörlüğü
-
-Eğiticilerin Eğitimi Koordinatörlüğü
-
-Enerji Yönetimi ve Sürdürülebilirlik Koordinatörlüğü
-
-Engelsiz Üniversite Koordinatörlüğü
-
-Tümünü gör →
-
-Öğrenci
-
-Akademik Bilgiler
-
-Akademik Takvim
-
-Öğrenci E-Posta
-
-Öğrenci Bilgi Sistemi (OBS)
-
-Bilgi Paketi / Ders Kataloğu
-
-Kanun ve Yönetmelikler
-
-Aday Öğrenci
-
-Öğrenci İşleri Daire Başkanlığı
-
-Yabancı Uyruklu Öğrenci Programı
-
-Öğrenci Değişim Programları
-
-Burslar
-
-BAÜN Yaşam
-
-Öğrenci Toplulukları
-
-Yurtlar
-
-Spor Olanakları
-
-Engelsiz Yaşam
-
-Engelsiz Kütüphane
-
-İrtibat Merkezi
-
-Araştırma
-
-Uygulama ve Araştırma Merkezleri İzleme ve Değerlendirme Koordinatörlüğü
-
-Balıkesir Üniversitesi Atatürk İlkeleri ve İnkılap Tarihi Araştırma ve Uygulama Merkezi
-
-Balıkesir Üniversitesi Turizm Araştırma ve Uygulama Merkezi
-
-Balıkesir Üniversitesi Bilgi İşlem Uygulama ve Araştırma Merkezi
-
-Balıkesir Üniversitesi Balıkesir Yöresi Kültürünü Araştırma ve Uygulama Merkezi
-
-Balıkesir Üniversitesi Uluslararası İlişkiler Araştırma ve Uygulama Merkezi
-
-Balıkesir Üniversitesi Uzaktan Eğitim Uygulama ve Araştırma Merkezi
-
-Balıkesir Üniversitesi Sağlık Uygulama ve Araştırma Merkezi
-
-Balıkesir Üniversitesi Botanik Bahçesi ve Herbaryum Uygulama ve Araştırma Merkezi
-
-Balıkesir Üniversitesi Türkçe Öğretimi Uygulama ve Araştırma Merkezi
-
-Balıkesir Üniversitesi Kariyer Geliştirme Uygulama ve Araştırma Merkezi
-
-Tümünü gör →
-
-Birimler
-
-BAÜN Teknokent
-
-Araştırmacılar İçin
-
-Merkez Kütüphane
-
-Katalog Tarama
-
-Veri Tabanları
-
-Uzaktan Erişim
-
-Açık Erişim
-
-Akademik Dergiler
-
-Etik Kurullar
-
-İletişim
-
-Rehber
-
-KISAYOLLAR
-
-YARDIMCI LİNKLER
-
-Erişilebilirlik Menüsü
-
-Yüksek Kontrast
-
-Siyah-beyaz yüksek kontrast görünüm
-
-Büyük Metin
-
-Yazı boyutunu %120 büyüt
-
-Metin Boşluğu
-
-Harf ve kelime aralıklarını artır
-
-Bağlantıları Vurgula
-
-Tüm linkleri belirgin hale getir
-
-Resimleri Gri Yap
-
-Görselleri soluklaştır
-
-Satır Yüksekliği
-
-Satırlar arası boşluğu artır
-
-Sola Hizala
-
-Tüm metinleri sola hizala
-
-Büyük İmleç
-
-Fare imlecini büyüt
-
-Animasyonları Durdur
-
-Tüm hareketli efektleri kapat
-
-Doygunluk Azalt
-
-Renk doygunluğunu düşür
-
-Görme & İşitme Desteği
-
-Sesli Okuma
-
-Metinlere tıklayarak sesli dinleyin
-
-Okuma Kılavuzu
-
-Satır takip çizgisi göster
-
-Kolay Okunur Font
-
-Disleksi dostu yazı tipi
-
-Odak Modu
-
-Dikkat dağıtıcıları azalt
-
-Tümünü Sıfırla
-
 ---
 
 ## 21. BAÜN’de “Obezite Okulu 2” Başarıyla Gerçekleştirildi | Balıkesir Üniversitesi
 **Kaynak URL:** [https://balikesir.edu.tr/haberler/202608141359](https://balikesir.edu.tr/haberler/202608141359)
 
 ### Sayfa İçeriği:
-Skip to main content
-
-Üniversitemiz
-
-Akademik
-
-İdari
-
-Öğrenci
-
-Araştırma
-
-İletişim
-
-Rehber
-
-Menü
-
-ANASAYFA
-
 haberler
 
 BAÜN’de “Obezite Okulu 2” Başarıyla Gerçekleştirildi
@@ -11418,382 +7150,6 @@ Geri
 
 İleri
 
-Diğer Haberler
-
-BAÜN’den, Antibiyotik Tedavisinde Umut Veren Gelişme: İlacın Etkisi Korundu, Böbrek Üzerindeki Yan Etkiler Azaldı
-
-BİK Genel Müdürü Abdulkadir Çay’dan Rektör Oğurlu’ya Ziyaret
-
-Uluslararası Akademisyen, Gazeteci ve Medya Temsilcileri Forumu Heyetinden Rektör Oğurlu’ya Ziyaret
-
-Üniversitemiz
-
-Akademik
-
-İdari
-
-Öğrenci
-
-Araştırma
-
-İletişim
-
-Rehber
-
-Üniversitemiz
-
-Hakkımızda
-
-Genel Bilgiler
-
-Misyon-Vizyon
-
-Organizasyon Şeması
-
-BAÜN Logosu
-
-Kurumsal Kimlik Kılavuzu
-
-Bilgi Edinme
-
-Tanıtım
-
-Basında BAÜN
-
-Politikalarımız
-
-Kurullar ve Komisyonlar
-
-Yönetim
-
-Rektör
-
-Rektör Yardımcıları
-
-Üniversite Senatosu
-
-Yönetim Kurulu
-
-Rektör Danışmanları
-
-Genel Sekreter
-
-Genel Sekreter Yardımcıları
-
-Üniversite Danışma Kurulu
-
-Mevzuat
-
-Akademik Yükselme ve Atanma Kriterleri
-
-Mevzuat
-
-Senato Kararları
-
-Yönetim Kurulu Kararları
-
-Kişisel Verilerin Korunması
-
-Stratejik Plan ve Raporlar
-
-Akademik
-
-Enstitüler
-
-Edremit Zeytincilik Enstitüsü
-
-Fen Bilimleri Enstitüsü
-
-Sağlık Bilimleri Enstitüsü
-
-Sosyal Bilimler Enstitüsü
-
-Fakülteler
-
-Burhaniye Uygulamalı Bilimler Fakültesi
-
-Fen-Edebiyat Fakültesi
-
-Güzel Sanatlar Fakültesi
-
-Hukuk Fakültesi
-
-İktisadi ve İdari Bilimler Fakültesi
-
-İlahiyat Fakültesi
-
-Mimarlık Fakültesi
-
-Mühendislik Fakültesi
-
-Necatibey Eğitim Fakültesi
-
-Sağlık Bilimleri Fakültesi
-
-Spor Bilimleri Fakültesi
-
-Tıp Fakültesi
-
-Turizm Fakültesi
-
-Veteriner Fakültesi
-
-Yüksekokullar
-
-Edremit Sivil Havacılık Yüksekokulu
-
-Yabancı Diller Yüksekokulu
-
-Meslek Yüksekokulları
-
-Altınoluk Meslek Yüksekokulu
-
-Ayvalık Meslek Yüksekokulu
-
-Balıkesir Meslek Yüksekokulu
-
-Bigadiç Meslek Yüksekokulu
-
-Burhaniye Meslek Yüksekokulu
-
-Dursunbey Meslek Yüksekokulu
-
-Edremit Meslek Yüksekokulu
-
-Havran Meslek Yüksekokulu
-
-İvrindi Sağlık Hizmetleri Meslek Yüksekokulu
-
-Kepsut Meslek Yüksekokulu
-
-Savaştepe Meslek Yüksekokulu
-
-Sındırgı Meslek Yüksekokulu
-
-Susurluk Tarım Ve Orman Meslek Yüksekokulu
-
-Rektörlüğe Bağlı Bölümler
-
-Atatürk İlkeleri ve İnkılap Tarihi Bölümü
-
-Enformatik Bölümü
-
-Türk Dili Bölümü
-
-Uzaktan Eğitim
-
-BAUZEM
-
-Akademik Bilgi Sistemi
-
-AVESİS
-
-İdari
-
-İdari Birimler
-
-Genel Sekreterlik
-
-Bilgi İşlem Daire Başkanlığı
-
-İdari ve Mali İşler Daire Başkanlığı
-
-Kütüphane ve Dokümantasyon Daire Başkanlığı
-
-Öğrenci İşleri Daire Başkanlığı
-
-Personel Daire Başkanlığı
-
-Sağlık, Kültür ve Spor Daire Başkanlığı
-
-Strateji Geliştirme Daire Başkanlığı
-
-Yapı İşleri ve Teknik Daire Başkanlığı
-
-Hukuk Müşavirliği
-
-Basın ve Halkla İlişkiler Müdürlüğü
-
-Döner Sermaye İşletme Müdürlüğü
-
-Koordinatörlükler
-
-Akademik Gelişim Koordinatörlüğü
-
-Kalite Güvencesi, Kalite Komisyonu ve Kalite Koordinatörlüğü
-
-Balıkesir Üniversitesi Radyo Koordinatörlüğü
-
-Tanıtım ve Sosyal Medya Koordinatörlüğü
-
-Bilimsel Araştırma Projeleri Koordinatörlüğü
-
-Bilimsel Yayınlar ve Dergiler Koordinatörlüğü
-
-Bologna Koordinatörlüğü
-
-Eğiticilerin Eğitimi Koordinatörlüğü
-
-Enerji Yönetimi ve Sürdürülebilirlik Koordinatörlüğü
-
-Engelsiz Üniversite Koordinatörlüğü
-
-Tümünü gör →
-
-Öğrenci
-
-Akademik Bilgiler
-
-Akademik Takvim
-
-Öğrenci E-Posta
-
-Öğrenci Bilgi Sistemi (OBS)
-
-Bilgi Paketi / Ders Kataloğu
-
-Kanun ve Yönetmelikler
-
-Aday Öğrenci
-
-Öğrenci İşleri Daire Başkanlığı
-
-Yabancı Uyruklu Öğrenci Programı
-
-Öğrenci Değişim Programları
-
-Burslar
-
-BAÜN Yaşam
-
-Öğrenci Toplulukları
-
-Yurtlar
-
-Spor Olanakları
-
-Engelsiz Yaşam
-
-Engelsiz Kütüphane
-
-İrtibat Merkezi
-
-Araştırma
-
-Uygulama ve Araştırma Merkezleri İzleme ve Değerlendirme Koordinatörlüğü
-
-Balıkesir Üniversitesi Atatürk İlkeleri ve İnkılap Tarihi Araştırma ve Uygulama Merkezi
-
-Balıkesir Üniversitesi Turizm Araştırma ve Uygulama Merkezi
-
-Balıkesir Üniversitesi Bilgi İşlem Uygulama ve Araştırma Merkezi
-
-Balıkesir Üniversitesi Balıkesir Yöresi Kültürünü Araştırma ve Uygulama Merkezi
-
-Balıkesir Üniversitesi Uluslararası İlişkiler Araştırma ve Uygulama Merkezi
-
-Balıkesir Üniversitesi Uzaktan Eğitim Uygulama ve Araştırma Merkezi
-
-Balıkesir Üniversitesi Sağlık Uygulama ve Araştırma Merkezi
-
-Balıkesir Üniversitesi Botanik Bahçesi ve Herbaryum Uygulama ve Araştırma Merkezi
-
-Balıkesir Üniversitesi Türkçe Öğretimi Uygulama ve Araştırma Merkezi
-
-Balıkesir Üniversitesi Kariyer Geliştirme Uygulama ve Araştırma Merkezi
-
-Tümünü gör →
-
-Birimler
-
-BAÜN Teknokent
-
-Araştırmacılar İçin
-
-Merkez Kütüphane
-
-Katalog Tarama
-
-Veri Tabanları
-
-Uzaktan Erişim
-
-Açık Erişim
-
-Akademik Dergiler
-
-Etik Kurullar
-
-İletişim
-
-Rehber
-
-KISAYOLLAR
-
-YARDIMCI LİNKLER
-
-Erişilebilirlik Menüsü
-
-Yüksek Kontrast
-
-Siyah-beyaz yüksek kontrast görünüm
-
-Büyük Metin
-
-Yazı boyutunu %120 büyüt
-
-Metin Boşluğu
-
-Harf ve kelime aralıklarını artır
-
-Bağlantıları Vurgula
-
-Tüm linkleri belirgin hale getir
-
-Resimleri Gri Yap
-
-Görselleri soluklaştır
-
-Satır Yüksekliği
-
-Satırlar arası boşluğu artır
-
-Sola Hizala
-
-Tüm metinleri sola hizala
-
-Büyük İmleç
-
-Fare imlecini büyüt
-
-Animasyonları Durdur
-
-Tüm hareketli efektleri kapat
-
-Doygunluk Azalt
-
-Renk doygunluğunu düşür
-
-Görme & İşitme Desteği
-
-Sesli Okuma
-
-Metinlere tıklayarak sesli dinleyin
-
-Okuma Kılavuzu
-
-Satır takip çizgisi göster
-
-Kolay Okunur Font
-
-Disleksi dostu yazı tipi
-
-Odak Modu
-
-Dikkat dağıtıcıları azalt
-
-Tümünü Sıfırla
-
 ---
 
 ## 22. Sayılarla BAÜN
@@ -11826,8 +7182,6 @@ Rektörlük
 
 Elektrik-Elektronik Fakültesi
 
-Fen-Edebiyat Fakültesi
-
 Gemi İnşaatı ve Deniz Bilimleri
 
 İnşaat Fakültesi
@@ -11839,8 +7193,6 @@ Kimya-Metalurji Fakültesi
 Maden Fakültesi
 
 Makine Fakültesi
-
-Mimarlık Fakültesi
 
 Uçak ve Uzay Bilimleri Fakültesi
 
@@ -11888,8 +7240,6 @@ Denizcilik Fakültesi
 
 Elektrik-Elektronik Fakültesi
 
-Fen-Edebiyat Fakültesi
-
 Gemi İnşaatı ve Deniz Bilimleri Fakültesi
 
 İnşaat Fakültesi
@@ -11904,13 +7254,9 @@ Maden Fakültesi
 
 Makina Fakültesi
 
-Mimarlık Fakültesi
-
 Tekstil Teknolojileri ve Tasarım Fakültesi
 
 Uçak ve Uzay Bilimleri Fakültesi
-
-Edremit Sivil Havacılık Yüksekokulu
 
 Toplam
 
@@ -12062,75 +7408,19 @@ LİSANS ÖĞRENCİ SAYISI
 
 Lisans Öğrenci Sayısı
 
-Burhaniye Uygulamalı Bilimler Fakültesi
-
-Edremit Sivil Havacılık Yüksekokulu
-
-Fen-Edebiyat Fakültesi
-
-Güzel Sanatlar Fakültesi
-
-Hukuk Fakültesi
-
 Iktisadi ve Idari  Bilimler Fakültesi
 
 Ilahiyat Fakültesi
-
-Mimarlık Fakültesi
-
-Mühendislik Fakültesi
-
-Necatibey Eğitim Fakültesi
-
-Sağlık Bilimleri Fakültesi
-
-Spor Bilimleri Fakültesi
-
-Turizm Fakültesi
-
-Tıp Fakültesi
-
-Veteriner Fakültesi
 
 LİSANSÜSTÜ ÖĞRENCİ SAYISI
 
 Lisansüstü Öğrenci Sayısı
 
-Fen Bilimleri Enstitüsü
-
-Sağlık Bilimleri Enstitüsü
-
-Sosyal Bilimler Enstitüsü
-
-Edremit Zeytincilik Enstitüsü
-
 ÖN LİSANS ÖĞRENCİ SAYISI
 
 Ön Lisans Öğrenci Sayısı
 
-Altınoluk Meslek Yüksekokulu
-
-Ayvalık Meslek Yüksekokulu
-
-Balıkesir Meslek Yüksekokulu
-
-Bigadiç Meslek Yüksekokulu
-
-Burhaniye Meslek Yüksekokulu
-
-Dursunbey Meslek Yüksekokulu
-
-Edremit Meslek Yüksekokulu
-
-Havran Meslek Yüksekokulu
-
 Ivrindi Sağlık Hizmetleri Meslek Yüksekokulu
-
-Kepsut Meslek Yüksekokulu
-
-Savaştepe Meslek Yüksekokulu
-
-Sındırgı Meslek Yüksekokulu
 
 BAP PROJELERİ
 
@@ -12321,10 +7611,6 @@ Makaleler
 Bildiriler
 
 Öğrenci Tezleri
-
-Açık Erişim
-
-Birimler
 
 {{unit_count}}
 

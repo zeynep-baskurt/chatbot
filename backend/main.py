@@ -35,6 +35,12 @@ GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
 if GEMINI_API_KEY:
     genai.configure(api_key=GEMINI_API_KEY)
 
+def turkish_lower(text: str) -> str:
+    if not text:
+        return ""
+    text = text.replace('İ', 'i').replace('I', 'ı')
+    return text.lower()
+
 STOPWORDS = {"balıkesir", "üniversitesi", "üniversitesinde", "baün", "tane", "var", "kaç", "nedir", "nerede", "hakkında", "bir", "bu", "ve", "veya", "ile", "için", "olan"}
 
 def load_all_text_blocks():
@@ -90,7 +96,7 @@ def get_relevant_knowledge(user_question: str, max_chars: int = 40000) -> str:
         return "Bilgi tabanı boş veya bulunamadı."
     
     # Soru içerisindeki anahtar kelimeleri çıkar
-    words = [w.lower() for w in re.findall(r'\w+', user_question) if len(w) > 2 and w.lower() not in STOPWORDS]
+    words = [turkish_lower(w) for w in re.findall(r'\w+', user_question) if len(w) > 2 and turkish_lower(w) not in STOPWORDS]
     
     if not words:
         # Anahtar kelime yoksa varsayılan ilk 8 bloğu dön
@@ -98,7 +104,7 @@ def get_relevant_knowledge(user_question: str, max_chars: int = 40000) -> str:
 
     scored_blocks = []
     for block in blocks:
-        score = sum(block.lower().count(w) for w in words)
+        score = sum(turkish_lower(block).count(w) for w in words)
         scored_blocks.append((score, block))
 
     # Skora göre büyükten küçüğe sırala
@@ -110,7 +116,7 @@ def get_relevant_knowledge(user_question: str, max_chars: int = 40000) -> str:
         if score == 0 and selected:
             break
         if current_len + len(block) > max_chars:
-            break
+            continue
         selected.append(block)
         current_len += len(block)
 
@@ -145,7 +151,7 @@ async def handle_chat_completion(request: Request):
     except Exception:
         user_question = ""
 
-    print(f"📩 Gelen Soru: {user_question}")
+    print(f" Gelen Soru: {user_question}")
     knowledge = get_relevant_knowledge(user_question)
 
     prompt = f"""
@@ -166,7 +172,7 @@ Talimatlar:
 
     ai_reply = ""
     # Gemini modellerini sırayla dene (güncel modeller)
-    for model_name in ['gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-flash-latest', 'gemini-pro-latest']:
+    for model_name in ['gemini-flash-lite-latest', 'gemini-3.5-flash', 'gemini-flash-latest', 'gemini-3.6-flash', 'gemini-pro-latest']:
         try:
             model = genai.GenerativeModel(model_name)
             response = model.generate_content(prompt)
@@ -180,7 +186,7 @@ Talimatlar:
     if not ai_reply:
         ai_reply = "Yanıt üretilirken bir sorun oluştu. Lütfen BAÜN BİDB destek birimi ile iletişime geçin."
 
-    print(f"✅ Üretilen Yanıt ({len(ai_reply)} kr): {ai_reply[:100]}...")
+    print(f" Üretilen Yanıt ({len(ai_reply)} kr): {ai_reply[:100]}...")
 
     # Hem OpenAI hem Gemini formatında yanıt döndürür
     return {
