@@ -1,5 +1,5 @@
 /**
- * STAJ PROJESİ CHATBOT WIDGET MANTIĞI (ÜLKÜ)
+ * STAJ PROJESİ CHATBOT WIDGET MANTIĞI
  * 
  * Bu dosya chatbot widget'ının:
  * 1. Açılma/Kapanma animasyonlarını
