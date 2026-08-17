@@ -43,6 +43,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Sohbeti Temizle butonuna tıklama
     clearChatBtn.addEventListener("click", clearChat);
+
+    // Form gönderme işlemi
+    chatForm.addEventListener("submit", handleSendMessage);
 });
 
 // ==========================================
@@ -104,7 +107,7 @@ async function handleSendMessage(event) {
 // Öneri Butonlarına Tıklandığında Çağrılan Fonksiyon
 function sendSuggestion(text) {
     chatInput.value = text;
-    chatForm.dispatchEvent(new Event("submit"));
+    chatForm.dispatchEvent(new Event("submit", { cancelable: true }));
 }
 
 // ==========================================

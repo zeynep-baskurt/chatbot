@@ -1,5 +1,6 @@
 import json
 import os
+import re
 from pathlib import Path
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
@@ -9,7 +10,8 @@ import google.generativeai as genai
 from dotenv import load_dotenv
 
 # .env dosyasındaki değişkenleri yükle
-load_dotenv()
+env_path = Path(__file__).resolve().parent / ".env"
+load_dotenv(dotenv_path=env_path)
 
 app = FastAPI(
     title="BAÜN BİDB Chatbot Backend (Gemini API Entegreli)",
@@ -28,8 +30,8 @@ app.add_middleware(
 BASE_DIR = Path(__file__).resolve().parent
 JSON_FILE_PATH = BASE_DIR.parent / "data" / "bidb_knowledge.json"
 
-# API Anahtarı
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "GEMINI_API_KEY")
+# API Key .env dosyasından okunur
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
 genai.configure(api_key=GEMINI_API_KEY)
 
 def load_knowledge_base() -> str:
@@ -40,7 +42,17 @@ def load_knowledge_base() -> str:
     try:
         with open(JSON_FILE_PATH, "r", encoding="utf-8") as f:
             data = json.load(f)
-            return json.dumps(data, ensure_ascii=False, indent=2)
+            text_blocks = []
+            if isinstance(data, list):
+                for item in data:
+                    title = item.get("title", "")
+                    content = item.get("content", "")
+                    if content:
+                        text_blocks.append(f"--- SAYFA: {title} ---\n{content}")
+            elif isinstance(data, dict):
+                for k, v in data.items():
+                    text_blocks.append(f"--- {k} ---\n{v}")
+            return "\n\n".join(text_blocks)
     except Exception as e:
         return f"Dosya okunurken hata oluştu: {e}"
 
@@ -74,23 +86,32 @@ Sen Balıkesir Üniversitesi Bilgi İşlem Daire Başkanlığı (BAÜN BİDB) ak
 Aşağıda üniversitenin resmi bilgi tabanı yer almaktadır:
 
 ================ BİLGİ TABANI ================
-{knowledge}
+{knowledge[:20000]}
 ===============================================
 
 Kullanıcının Sorusu: "{user_question}"
 
 Talimatlar:
-1. YALNIZCA yukarıda verilen bilgi tabanındaki verilere dayanarak kibar, kurumsal, net ve Türkçe bir yanıt ver.
-2. Adımlar, formlar veya bağlantılar varsa madde imleri halinde düzenli sun.
-3. Aranan konu bilgi tabanında kesinlikle yoksa uydurma; kibarca kullanıcının BAÜN BİDB birimi ile iletişime geçmesi gerektiğini belirt.
+1. Sadece yukarıda verilen bilgi tabanına dayanarak kibar, net ve açıklayıcı bir Türkçe yanıt ver.
+2. Form isimleri, e-posta ayarları, akıllı kart prosedürleri veya adımlar varsa liste halinde düzenli sun.
+3. Bilgi tabanında bulunmayan bir konuysa kibarca BAÜN BİDB ile iletişime geçmelerini söyle.
 """
 
-    try:
-        model = genai.GenerativeModel('gemini-3.6-flash')
-        response = model.generate_content(prompt)
-        ai_reply = response.text
-    except Exception as e:
-        ai_reply = f"Gemini API yanıt verirken bir sorun oluştu: {str(e)}"
+    ai_reply = ""
+    # Gemini 3.5 ve güncel modelleri sırayla dene
+    for model_name in ['gemini-3.5-flash', 'gemini-3.6-flash', 'gemini-flash-latest']:
+        try:
+            model = genai.GenerativeModel(model_name)
+            response = model.generate_content(prompt)
+            if response and response.text:
+                ai_reply = response.text
+                break
+        except Exception as e:
+            print(f"Model error ({model_name}): {e}")
+            continue
+
+    if not ai_reply:
+        ai_reply = "Yanıt üretilirken bir sorun oluştu. Lütfen BAÜN BİDB destek birimi ile iletişime geçin."
 
     return {
         "candidates": [
