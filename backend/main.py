@@ -1,21 +1,28 @@
-import json
 import os
+import re
+import json
 from pathlib import Path
+from typing import List, Optional
 from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
-from typing import List, Optional
 import google.generativeai as genai
 from dotenv import load_dotenv
 
-load_dotenv()
+# Path setup
+BASE_DIR = Path(__file__).resolve().parent
+PROJECT_ROOT = BASE_DIR.parent
+DATA_DIR = PROJECT_ROOT / "data"
+
+# Load .env file
+env_path = BASE_DIR / ".env"
+load_dotenv(dotenv_path=env_path)
 
 app = FastAPI(
-    title="BAÜN BİDB Chatbot Backend (Gemini API Entegreli)",
+    title="BAÜN BİDB Chatbot Backend (Gemini API & RAG Entegreli)",
     version="1.0.0"
 )
 
-# CORS ayarları
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -24,50 +31,56 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-BASE_DIR = Path(__file__).resolve().parent
-PROJECT_ROOT = BASE_DIR.parent
-DATA_DIR = PROJECT_ROOT / "data"
-
-# API Anahtarı
+# API Key .env dosyasından okunur
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
-genai.configure(api_key=GEMINI_API_KEY)
+if GEMINI_API_KEY:
+    genai.configure(api_key=GEMINI_API_KEY)
 
-<<<<<<< HEAD
 STOPWORDS = {"balıkesir", "üniversitesi", "üniversitesinde", "baün", "tane", "var", "kaç", "nedir", "nerede", "hakkında", "bir", "bu", "ve", "veya", "ile", "için", "olan"}
 
 def load_all_text_blocks():
+    """Tüm bilgi tabanı kaynaklarını (Markdown ve JSON) metin bloklarına ayırarak yükler."""
     blocks = []
     
     # 1. Load Markdown Knowledge Base if exists
-    md_path = BASE_DIR.parent / "baun_librechat_rag.md"
-    if not md_path.exists():
-        md_path = BASE_DIR.parent / "data" / "baun_librechat_rag.md"
-    if md_path.exists():
-        try:
-            with open(md_path, "r", encoding="utf-8") as f:
-                md_text = f.read()
-                for b in md_text.split("---"):
-                    if b.strip():
-                        blocks.append(b.strip())
-        except Exception as e:
-            print("MD okuma hatası:", e)
+    md_paths = [
+        PROJECT_ROOT / "baun_librechat_rag.md",
+        DATA_DIR / "baun_librechat_rag.md",
+        BASE_DIR / "baun_librechat_rag.md"
+    ]
+    for md_path in md_paths:
+        if md_path.exists():
+            try:
+                with open(md_path, "r", encoding="utf-8") as f:
+                    md_text = f.read()
+                    for b in md_text.split("---"):
+                        if b.strip():
+                            blocks.append(b.strip())
+                break
+            except Exception as e:
+                print("MD okuma hatası:", e)
 
-    # 2. Load JSON Knowledge Base if exists
-    if JSON_FILE_PATH.exists():
-        try:
-            with open(JSON_FILE_PATH, "r", encoding="utf-8") as f:
-                data = json.load(f)
-                if isinstance(data, list):
-                    for item in data:
-                        title = item.get("title", "")
-                        content = item.get("content", "")
-                        if content:
-                            blocks.append(f"--- SAYFA: {title} ---\n{content}")
-                elif isinstance(data, dict):
-                    for k, v in data.items():
-                        blocks.append(f"--- {k} ---\n{v}")
-        except Exception as e:
-            print("JSON okuma hatası:", e)
+    # 2. Load JSON Knowledge Bases
+    json_filenames = ["bidb_knowledge.json", "baun_knowledge_base.json"]
+    for filename in json_filenames:
+        json_path = DATA_DIR / filename
+        if not json_path.exists():
+            json_path = PROJECT_ROOT / filename
+        if json_path.exists():
+            try:
+                with open(json_path, "r", encoding="utf-8") as f:
+                    data = json.load(f)
+                    if isinstance(data, list):
+                        for item in data:
+                            title = item.get("title", "")
+                            content = item.get("content", "")
+                            if content:
+                                blocks.append(f"--- SAYFA: {title} ---\n{content}")
+                    elif isinstance(data, dict):
+                        for k, v in data.items():
+                            blocks.append(f"--- {k} ---\n{v}")
+            except Exception as e:
+                print(f"JSON okuma hatası ({filename}):", e)
 
     return blocks
 
@@ -81,8 +94,8 @@ def get_relevant_knowledge(user_question: str, max_chars: int = 40000) -> str:
     words = [w.lower() for w in re.findall(r'\w+', user_question) if len(w) > 2 and w.lower() not in STOPWORDS]
     
     if not words:
-        # Anahtar kelime yoksa varsayılan ilk blokları dön
-        return "\n\n---\n\n".join(blocks[:5])
+        # Anahtar kelime yoksa varsayılan ilk 8 bloğu dön
+        return "\n\n---\n\n".join(blocks[:8])
 
     scored_blocks = []
     for block in blocks:
@@ -107,65 +120,20 @@ def get_relevant_knowledge(user_question: str, max_chars: int = 40000) -> str:
 
     return "\n\n---\n\n".join(selected)
 
-# Gemini API Şemaları
-class Part(BaseModel):
-    text: str
-
-class Content(BaseModel):
-    role: Optional[str] = "user"
-    parts: List[Part]
-
-class GeminiRequest(BaseModel):
-    contents: List[Content]
-=======
-def load_file_content(filename: str) -> str:
-    """JSON dosyalarını data veya proje ana dizininde arar."""
-    paths_to_check = [
-        DATA_DIR / filename,
-        PROJECT_ROOT / filename,
-        BASE_DIR / filename
-    ]
-    for path in paths_to_check:
-        if path.exists():
-            try:
-                with open(path, "r", encoding="utf-8") as f:
-                    data = json.load(f)
-                    return json.dumps(data, ensure_ascii=False, indent=2)
-            except Exception as e:
-                print(f"Dosya okuma hatası ({filename}): {e}")
-                return ""
-    return ""
-
-def load_all_knowledge_bases() -> str:
-    """Hem BİDB hem BAÜN genel bilgi tabanlarını birleştirir."""
-    bidb_data = load_file_content("bidb_knowledge.json")
-    baun_data = load_file_content("baun_knowledge_base.json")
-    
-    combined = []
-    if bidb_data:
-        combined.append(f"=== BAÜN BİDB BİLGİ TABANI ===\n{bidb_data}")
-    if baun_data:
-        combined.append(f"=== BAÜN GENEL BİLGİ TABANI ===\n{baun_data}")
-        
-    if not combined:
-        return "Bilgi tabanı dosyaları bulunamadı."
-        
-    return "\n\n".join(combined)
->>>>>>> 7bac3f49c1f1843c3262dc5a58a08fe727ce49a6
-
 @app.get("/")
 def home():
-    return {"status": "Backend Sunucusu Aktif!"}
+    return {"status": "BAÜN BİDB Chatbot Backend Sunucusu Aktif!"}
 
-# Widget'ın istek attığı tüm endpoint varyasyonları (completions, v1/chat/completions vb.)
-@app.post("/completions")
-@app.post("/v1/chat/completions")
-@app.post("/chat/completions")
-@app.post("/v1beta/models/{model_name:path}:generateContent")
-@app.post("/chat")
-@app.api_route("/{full_path:path}", methods=["GET", "POST", "OPTIONS"])
-async def handle_requests(request: Request, full_path: str = ""):
-    # Gelen soru metnini çıkar
+# Widget ve API İsteklerini Karşılayan Genel Endpoint (Hem OpenAI hem Gemini formatı destekli)
+@app.api_route("/api/v1/chat/completions", methods=["POST", "OPTIONS"])
+@app.api_route("/v1/chat/completions", methods=["POST", "OPTIONS"])
+@app.api_route("/completions", methods=["POST", "OPTIONS"])
+@app.api_route("/chat/completions", methods=["POST", "OPTIONS"])
+@app.api_route("/v1beta/models/{model_name:path}:generateContent", methods=["POST", "OPTIONS"])
+async def handle_chat_completion(request: Request):
+    if request.method == "OPTIONS":
+        return {"status": "ok"}
+        
     user_question = ""
     try:
         body = await request.json()
@@ -179,11 +147,11 @@ async def handle_requests(request: Request, full_path: str = ""):
         user_question = ""
 
     print(f"📩 Gelen Soru: {user_question}")
-    knowledge = load_all_knowledge_bases()
+    knowledge = get_relevant_knowledge(user_question)
 
     prompt = f"""
 Sen Balıkesir Üniversitesi ve Bilgi İşlem Daire Başkanlığı (BAÜN & BİDB) akıllı destek asistanısın.
-Aşağıda üniversitenin resmi bilgi tabanı yer almaktadır:
+Aşağıda üniversitenin resmi bilgi tabanından kullanıcının sorusuyla en alakalı derlenen bilgiler yer almaktadır:
 
 ================ BİLGİ TABANI ================
 {knowledge}
@@ -193,18 +161,27 @@ Kullanıcının Sorusu: "{user_question}"
 
 Talimatlar:
 1. YALNIZCA yukarıda verilen bilgi tabanındaki verilere dayanarak Türkçe, kurumsal, net ve açıklayıcı bir yanıt ver.
-2. Bilgi tabanında kesinlikle yer almayan bir konuysa kibarca BAÜN BİDB birimi ile iletişime geçilmesi gerektiğini belirt.
+2. Bölümler, form isimleri, e-posta ayarları, akademik duyurular, akıllı kart prosedürleri veya adımlar varsa liste halinde düzenli sun.
+3. Bilgi tabanında kesinlikle yer almayan bir konuysa kibarca Balıkesir Üniversitesi / BAÜN BİDB destek birimi ile iletişime geçilmesi gerektiğini belirt.
 """
 
-    try:
-        model = genai.GenerativeModel('gemini-1.5-flash-latest')
-        response = model.generate_content(prompt)
-        ai_reply = response.text
-    except Exception as e:
-        ai_reply = f"Gemini API yanıt verirken bir sorun oluştu: {str(e)}"
-        print(f"❌ API Hatası: {e}")
+    ai_reply = ""
+    # Gemini modellerini sırayla dene
+    for model_name in ['gemini-1.5-flash', 'gemini-1.5-pro', 'gemini-flash-latest']:
+        try:
+            model = genai.GenerativeModel(model_name)
+            response = model.generate_content(prompt)
+            if response and response.text:
+                ai_reply = response.text
+                break
+        except Exception as e:
+            print(f"Model deneme hatası ({model_name}): {e}")
+            continue
 
-    # Hem OpenAI hem Gemini yanıt şablonunu aynı anda döndürür
+    if not ai_reply:
+        ai_reply = "Yanıt üretilirken bir sorun oluştu. Lütfen BAÜN BİDB destek birimi ile iletişime geçin."
+
+    # Hem OpenAI hem Gemini formatında yanıt döndürür
     return {
         "choices": [
             {
@@ -227,3 +204,10 @@ Talimatlar:
             }
         ]
     }
+
+# Catch-all endpoint
+@app.api_route("/{full_path:path}", methods=["GET", "POST", "OPTIONS"])
+async def catch_all(request: Request, full_path: str):
+    if request.method == "OPTIONS":
+        return {"status": "ok"}
+    return await handle_chat_completion(request)

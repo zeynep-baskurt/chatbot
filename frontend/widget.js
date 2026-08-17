@@ -11,9 +11,7 @@
 // ==========================================
 // CONFIG & BACKEND API AYARI
 // ==========================================
-// Zeynep'in hazırladığı Gemini Uyumlu Backend API Adresi:
-//const BACKEND_API_URL = // LibreChat OpenAI Uyumlu Chat Endpoint'i
-const BACKEND_API_URL = "http://localhost:3080/api/v1/chat/completions";
+const BACKEND_API_URL = "http://localhost:8000/v1/chat/completions";
 
 // ==========================================
 // DOM ELEMENT SEÇİCİLERİ
@@ -99,7 +97,7 @@ async function handleSendMessage(event) {
         console.error("Backend Baglanti Hatasi:", error);
         hideTypingIndicator();
         appendMessage(
-            "⚠️ Backend sunucusuna ulaşılamadı. Lütfen sunucunun (localhost:8000) açık olduğundan emin olun.",
+            `⚠️ Bağlantı Kurulamadı: ${error.message}`,
             "bot"
         );
     }
@@ -112,19 +110,17 @@ function sendSuggestion(text) {
 }
 
 // ==========================================
-// 3. BACKEND API İLE İLETİŞİM (ZEYNEP'İN GEMİNI API'Sİ)
+// 3. BACKEND API İLE İLETİŞİM (GEMİNI & RAG BACKEND)
 // ==========================================
 async function fetchBotResponse(messageText) {
     try {
-        const response = await fetch("http://localhost:3080/api/v1/chat/completions", {
+        const response = await fetch(BACKEND_API_URL, {
             method: "POST",
             headers: {
-                "Content-Type": "application/json",
-                // LibreChat arayüzünden aldığınız API Key'i buraya ekleyin:
-                "Authorization": "Bearer LIBRECHAT_API_KEY_BURAYA" 
+                "Content-Type": "application/json"
             },
             body: JSON.stringify({
-                model: "gemini-3.6-flash", // LibreChat'te tanımlı aktif model adınız
+                model: "gemini-1.5-flash",
                 messages: [
                     { role: "user", content: messageText }
                 ]
@@ -132,12 +128,17 @@ async function fetchBotResponse(messageText) {
         });
 
         if (!response.ok) {
-            const errorData = await response.json();
-            throw new Error(`Sunucu Hatası (${response.status}): ${errorData.message || response.statusText}`);
+            const errorData = await response.json().catch(() => ({}));
+            throw new Error(`Sunucu Hatası (${response.status}): ${errorData.message || response.statusText || 'Endpoint bulunamadı'}`);
         }
 
         const data = await response.json();
-        return data.choices[0].message.content;
+        if (data.choices && data.choices[0] && data.choices[0].message) {
+            return data.choices[0].message.content;
+        } else if (data.candidates && data.candidates[0] && data.candidates[0].content) {
+            return data.candidates[0].content.parts[0].text;
+        }
+        return "Yanıt alınamadı.";
 
     } catch (err) {
         console.error("API Bağlantı Hatası:", err);
