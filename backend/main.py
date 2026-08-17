@@ -34,27 +34,79 @@ JSON_FILE_PATH = BASE_DIR.parent / "data" / "bidb_knowledge.json"
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "GEMINI_API_KEY")
 genai.configure(api_key=GEMINI_API_KEY)
 
-def load_knowledge_base() -> str:
-    """data klasöründeki JSON dosyasını okuyup Gemini'ye tam metin olarak verir."""
-    if not JSON_FILE_PATH.exists():
-        return f"Bilgi tabanı dosyası bulunamadı: {JSON_FILE_PATH}"
+STOPWORDS = {"balıkesir", "üniversitesi", "üniversitesinde", "baün", "tane", "var", "kaç", "nedir", "nerede", "hakkında", "bir", "bu", "ve", "veya", "ile", "için", "olan"}
+
+def load_all_text_blocks():
+    blocks = []
     
-    try:
-        with open(JSON_FILE_PATH, "r", encoding="utf-8") as f:
-            data = json.load(f)
-            text_blocks = []
-            if isinstance(data, list):
-                for item in data:
-                    title = item.get("title", "")
-                    content = item.get("content", "")
-                    if content:
-                        text_blocks.append(f"--- SAYFA: {title} ---\n{content}")
-            elif isinstance(data, dict):
-                for k, v in data.items():
-                    text_blocks.append(f"--- {k} ---\n{v}")
-            return "\n\n".join(text_blocks)
-    except Exception as e:
-        return f"Dosya okunurken hata oluştu: {e}"
+    # 1. Load Markdown Knowledge Base if exists
+    md_path = BASE_DIR.parent / "baun_librechat_rag.md"
+    if not md_path.exists():
+        md_path = BASE_DIR.parent / "data" / "baun_librechat_rag.md"
+    if md_path.exists():
+        try:
+            with open(md_path, "r", encoding="utf-8") as f:
+                md_text = f.read()
+                for b in md_text.split("---"):
+                    if b.strip():
+                        blocks.append(b.strip())
+        except Exception as e:
+            print("MD okuma hatası:", e)
+
+    # 2. Load JSON Knowledge Base if exists
+    if JSON_FILE_PATH.exists():
+        try:
+            with open(JSON_FILE_PATH, "r", encoding="utf-8") as f:
+                data = json.load(f)
+                if isinstance(data, list):
+                    for item in data:
+                        title = item.get("title", "")
+                        content = item.get("content", "")
+                        if content:
+                            blocks.append(f"--- SAYFA: {title} ---\n{content}")
+                elif isinstance(data, dict):
+                    for k, v in data.items():
+                        blocks.append(f"--- {k} ---\n{v}")
+        except Exception as e:
+            print("JSON okuma hatası:", e)
+
+    return blocks
+
+def get_relevant_knowledge(user_question: str, max_chars: int = 40000) -> str:
+    """RAG mantığıyla kullanıcı sorusuna en alakalı bilgi bloklarını seçer."""
+    blocks = load_all_text_blocks()
+    if not blocks:
+        return "Bilgi tabanı boş veya bulunamadı."
+    
+    # Soru içerisindeki anahtar kelimeleri çıkar
+    words = [w.lower() for w in re.findall(r'\w+', user_question) if len(w) > 2 and w.lower() not in STOPWORDS]
+    
+    if not words:
+        # Anahtar kelime yoksa varsayılan ilk blokları dön
+        return "\n\n---\n\n".join(blocks[:5])
+
+    scored_blocks = []
+    for block in blocks:
+        score = sum(block.lower().count(w) for w in words)
+        scored_blocks.append((score, block))
+
+    # Skora göre büyükten küçüğe sırala
+    scored_blocks.sort(key=lambda x: x[0], reverse=True)
+
+    selected = []
+    current_len = 0
+    for score, block in scored_blocks:
+        if score == 0 and selected:
+            break
+        if current_len + len(block) > max_chars:
+            break
+        selected.append(block)
+        current_len += len(block)
+
+    if not selected:
+        selected = [b for _, b in scored_blocks[:5]]
+
+    return "\n\n---\n\n".join(selected)
 
 # Gemini API Şemaları
 class Part(BaseModel):
@@ -79,21 +131,21 @@ def generate_content(request: GeminiRequest):
     except Exception:
         user_question = ""
 
-    knowledge = load_knowledge_base()
+    knowledge = get_relevant_knowledge(user_question)
 
     prompt = f"""
 Sen Balıkesir Üniversitesi (BAÜN) resmi akıllı destek asistanısın.
-Aşağıda üniversitenin ve Bilgi İşlem Daire Başkanlığı'nın resmi bilgi tabanı yer almaktadır:
+Aşağıda üniversitenin ve Bilgi İşlem Daire Başkanlığı'nın resmi bilgi tabanından kullanıcı sorusuna en alakalı bölümler derlenmiştir:
 
 ================ BİLGİ TABANI ================
-{knowledge[:100000]}
+{knowledge}
 ===============================================
 
 Kullanıcının Sorusu: "{user_question}"
 
 Talimatlar:
-1. Sadece yukarıda verilen bilgi tabanına dayanarak kibar, net ve açıklayıcı bir Türkçe yanıt ver.
-2. Form isimleri, e-posta ayarları, akademik duyurular, akıllı kart prosedürleri veya adımlar varsa liste halinde düzenli sun.
+1. Yukarıdaki bilgi tabanından faydalanarak ve genel üniversite bilginle kibar, net ve açıklayıcı bir Türkçe yanıt ver.
+2. Bölümler, form isimleri, e-posta ayarları, akademik duyurular, akıllı kart prosedürleri veya adımlar varsa liste halinde düzenli sun.
 3. Bilgi tabanında bulunmayan bir konuysa kibarca Balıkesir Üniversitesi / BAÜN BİDB destek birimi ile iletişime geçmelerini söyle.
 """
 
