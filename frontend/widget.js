@@ -12,7 +12,8 @@
 // CONFIG & BACKEND API AYARI
 // ==========================================
 // Zeynep'in hazırladığı Gemini Uyumlu Backend API Adresi:
-const BACKEND_API_URL = "http://localhost:8000/v1beta/models/gemini-pro:generateContent";
+//const BACKEND_API_URL = // LibreChat OpenAI Uyumlu Chat Endpoint'i
+const BACKEND_API_URL = "http://localhost:3080/api/v1/chat/completions";
 
 // ==========================================
 // DOM ELEMENT SEÇİCİLERİ
@@ -43,6 +44,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Sohbeti Temizle butonuna tıklama
     clearChatBtn.addEventListener("click", clearChat);
+
+    // Form gönderme işlemi
+    chatForm.addEventListener("submit", handleSendMessage);
 });
 
 // ==========================================
@@ -104,7 +108,7 @@ async function handleSendMessage(event) {
 // Öneri Butonlarına Tıklandığında Çağrılan Fonksiyon
 function sendSuggestion(text) {
     chatInput.value = text;
-    chatForm.dispatchEvent(new Event("submit"));
+    chatForm.dispatchEvent(new Event("submit", { cancelable: true }));
 }
 
 // ==========================================
@@ -112,19 +116,19 @@ function sendSuggestion(text) {
 // ==========================================
 async function fetchBotResponse(messageText) {
     try {
-        // Zeynep'in hazırladığı Gemini API şemasına uygun POST isteği gönderiyoruz:
         const response = await fetch(BACKEND_API_URL, {
             method: "POST",
             headers: {
-                "Content-Type": "application/json"
+                "Content-Type": "application/json",
+                // İhtiyaca göre LibreChat API anahtarınızı ekleyebilirsiniz:
+                // "Authorization": "Bearer YOUR_LIBRECHAT_API_KEY"
             },
             body: JSON.stringify({
-                contents: [
+                model: "gemini-3.6-flash", // LibreChat üzerinde tanımlı model adınız
+                messages: [
                     {
                         role: "user",
-                        parts: [
-                            { text: messageText }
-                        ]
+                        content: messageText
                     }
                 ]
             })
@@ -136,17 +140,16 @@ async function fetchBotResponse(messageText) {
 
         const data = await response.json();
 
-        // 1. Zeynep'in Gemini API formatındaki yanıtını ayrıştır
-        if (data.candidates && data.candidates[0] && data.candidates[0].content) {
-            return data.candidates[0].content.parts[0].text;
+        // 1. OpenAI formatındaki yanıtı al
+        if (data.choices && data.choices[0] && data.choices[0].message) {
+            return data.choices[0].message.content;
         }
 
-        // 2. Yedek alternatif yanıt alanları
-        return data.reply || data.response || data.answer || "Cevap alındı ama format ayrıştırılamadı.";
+        // 2. Alternatif yanıt alanları
+        return data.reply || data.response || data.text || "Yanıt alındı ancak ayrıştırılamadı.";
 
     } catch (err) {
-        // Eğer henüz backend hazır veya açık değilse simülasyon yanıtı döner (Demo Modu)
-        console.warn("Backend API henüz hazır olmadığı için Demo Yanıtı üretiliyor.");
+        console.warn("Backend API bağlantısı başarısız. Demo yanıtı dönülüyor:", err);
         return await getDemoResponse(messageText);
     }
 }

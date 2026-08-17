@@ -1,13 +1,18 @@
-# Virtual Environment
-venv/
-.venv/
-env/
-
-# Python Cache
+# Python
 __pycache__/
 *.py[cod]
+*$py.class
+.venv/
+env/
+venv/
 
-# IDE & OS
+# Environment / Secret keys (Gizli Şifreler)
+.env
+.env.local
+*.env
+backend/.env
+
+# IDE / Editor
 .vscode/
 .idea/
 .DS_Store
