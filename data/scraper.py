@@ -19,11 +19,7 @@ URLS = [
 ]
 
 def scrape_bidb():
-<<<<<<< Updated upstream
     print(" BAÜN BİDB Tüm Alt Sayfa ve Hizmet Verileri Çekiliyor...")
-=======
-    print(" BAÜN BİDB Tüm Alt Sayfa ve Hizmet Verileri Çekiliyor...")
->>>>>>> Stashed changes
     knowledge_base = []
     visited_urls = set()
     
@@ -63,24 +59,35 @@ def scrape_bidb():
                         "title": title,
                         "content": content
                     })
-<<<<<<< Updated upstream
                     print(f" Çekildi: {title[:40]}... ({url})")
-=======
-                    print(f" Çekildi: {title[:40]}... ({url})")
->>>>>>> Stashed changes
             else:
                 print(f" Hata ({response.status_code}): {url}")
         except Exception as e:
             print(f" Bağlantı hatası ({url}): {e}")
-<<<<<<< Updated upstream
+            
+    # Şablon ve tekrar eden menü/footer satırlarını temizle
+    from collections import Counter
+    line_counts = Counter()
+    for item in knowledge_base:
+        content = item.get("content", "")
+        unique_lines = set(line.strip() for line in content.split('\n') if line.strip())
+        for line in unique_lines:
+            line_counts[line] += 1
+            
+    num_pages = len(knowledge_base)
+    boilerplate_lines = {line for line, count in line_counts.items() if count > num_pages * 0.3}
+    
+    for item in knowledge_base:
+        content = item.get("content", "")
+        lines = [line.strip() for line in content.split('\n') if line.strip()]
+        cleaned_lines = [line for line in lines if line not in boilerplate_lines]
+        item["content"] = "\n".join(cleaned_lines)
 
-=======
->>>>>>> Stashed changes
     os.makedirs("data", exist_ok=True)
     with open("data/bidb_knowledge.json", "w", encoding="utf-8") as f:
         json.dump(knowledge_base, f, ensure_ascii=False, indent=4)
         
-    print(f"\n Toplam {len(knowledge_base)} sayfa başarıyla 'data/bidb_knowledge.json' dosyasına kaydedildi!")
+    print(f"\n Toplam {len(knowledge_base)} sayfa başarıyla temizlenip 'data/bidb_knowledge.json' dosyasına kaydedildi!")
 
 if __name__ == "__main__":
     scrape_bidb()

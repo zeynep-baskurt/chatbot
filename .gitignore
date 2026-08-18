@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+
+# Environment / Secret keys (Gizli Şifreler)
+.env
+.env.local
+*.env
+backend/.env
+
+# IDE / Editor
+.vscode/
+.idea/
+.DS_Store
