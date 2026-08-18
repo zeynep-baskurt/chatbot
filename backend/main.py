@@ -65,7 +65,7 @@ def load_all_text_blocks():
                     for b in md_text.split("---"):
                         if b.strip():
                             blocks.append(b.strip())
-                print(f"✅ MD Yüklendi: {md_path.name}")
+                print(f"[OK] MD Yuklendi: {md_path.name}")
                 break
             except Exception as e:
                 print("MD okuma hatası:", e)
@@ -88,7 +88,7 @@ def load_all_text_blocks():
                         elif isinstance(data, dict):
                             for k, v in data.items():
                                 blocks.append(f"--- {k} ---\n{v}")
-                    print(f"✅ JSON Yüklendi: {path.name}")
+                    print(f"[OK] JSON Yuklendi: {path.name}")
                     break
                 except Exception as e:
                     print(f"JSON okuma hatası ({filename}):", e)
@@ -150,7 +150,7 @@ async def handle_chat_completion(request: Request, full_path: str = ""):
     except Exception:
         user_question = ""
 
-    print(f"\n📩 Gelen Soru: {user_question}")
+    print(f"\n[Gelen Soru]: {user_question}")
     knowledge = get_relevant_knowledge(user_question)
 
     prompt = f"""
@@ -171,7 +171,14 @@ Talimatlar:
 
     ai_reply = ""
     # Resmî ve geçerli Gemini modellerini sırayla dene
-    valid_models = ['gemini-1.5-flash-latest', 'gemini-1.5-flash', 'gemini-1.5-pro', 'gemini-pro']
+    valid_models = [
+        'gemini-3.7-flash',
+        'gemini-3.6-flash',
+        'gemini-3.5-flash',
+        'gemini-flash-latest',
+        'gemini-1.5-flash-latest',
+        'gemini-1.5-flash'
+    ]
     for model_name in valid_models:
         try:
             model = genai.GenerativeModel(model_name)
@@ -186,7 +193,7 @@ Talimatlar:
     if not ai_reply:
         ai_reply = "Yanıt üretilirken bir sorun oluştu. Lütfen API anahtarınızı veya BAÜN BİDB destek birimini kontrol edin."
 
-    print(f"🤖 Üretilen Yanıt: {ai_reply[:80]}...")
+    print(f"[Uretilen Yanit]: {ai_reply[:80]}...")
 
     return {
         "choices": [
