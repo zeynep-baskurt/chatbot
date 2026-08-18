@@ -1,5 +1,5 @@
 /**
- * STAJ PROJESİ CHATBOT WIDGET MANTIĞI (ÜLKÜ)
+ * STAJ PROJESİ CHATBOT WIDGET MANTIĞI
  * 
  * Bu dosya chatbot widget'ının:
  * 1. Açılma/Kapanma animasyonlarını
@@ -13,7 +13,7 @@
 // ==========================================
 // Zeynep'in hazırladığı Gemini Uyumlu Backend API Adresi:
 //const BACKEND_API_URL = // LibreChat OpenAI Uyumlu Chat Endpoint'i
-const BACKEND_API_URL = "http://localhost:3080/api/v1/chat/completions";
+const BACKEND_API_URL = "http://localhost:8000/v1/chat/completions";
 
 // ==========================================
 // DOM ELEMENT SEÇİCİLERİ
@@ -99,7 +99,7 @@ async function handleSendMessage(event) {
         console.error("Backend Baglanti Hatasi:", error);
         hideTypingIndicator();
         appendMessage(
-            "⚠️ Backend sunucusuna ulaşılamadı. Lütfen sunucunun (localhost:8000) açık olduğundan emin olun.",
+            `⚠️ Bağlantı Kurulamadı: ${error.message}`,
             "bot"
         );
     }
@@ -112,45 +112,39 @@ function sendSuggestion(text) {
 }
 
 // ==========================================
-// 3. BACKEND API İLE İLETİŞİM (ZEYNEP'İN GEMİNI API'Sİ)
+// 3. BACKEND API İLE İLETİŞİM (GEMİNI & RAG BACKEND)
 // ==========================================
 async function fetchBotResponse(messageText) {
     try {
         const response = await fetch(BACKEND_API_URL, {
             method: "POST",
             headers: {
-                "Content-Type": "application/json",
-                // İhtiyaca göre LibreChat API anahtarınızı ekleyebilirsiniz:
-                // "Authorization": "Bearer YOUR_LIBRECHAT_API_KEY"
+                "Content-Type": "application/json"
             },
             body: JSON.stringify({
-                model: "gemini-3.6-flash", // LibreChat üzerinde tanımlı model adınız
+                model: "gemini-1.5-flash",
                 messages: [
-                    {
-                        role: "user",
-                        content: messageText
-                    }
+                    { role: "user", content: messageText }
                 ]
             })
         });
 
         if (!response.ok) {
-            throw new Error(`Sunucu Hatası: ${response.status}`);
+            const errorData = await response.json().catch(() => ({}));
+            throw new Error(`Sunucu Hatası (${response.status}): ${errorData.message || response.statusText || 'Endpoint bulunamadı'}`);
         }
 
         const data = await response.json();
-
-        // 1. OpenAI formatındaki yanıtı al
         if (data.choices && data.choices[0] && data.choices[0].message) {
             return data.choices[0].message.content;
+        } else if (data.candidates && data.candidates[0] && data.candidates[0].content) {
+            return data.candidates[0].content.parts[0].text;
         }
-
-        // 2. Alternatif yanıt alanları
-        return data.reply || data.response || data.text || "Yanıt alındı ancak ayrıştırılamadı.";
+        return "Yanıt alınamadı.";
 
     } catch (err) {
-        console.warn("Backend API bağlantısı başarısız. Demo yanıtı dönülüyor:", err);
-        return await getDemoResponse(messageText);
+        console.error("API Bağlantı Hatası:", err);
+        return `⚠️ Bağlantı Kurulamadı: ${err.message}`;
     }
 }
 
@@ -160,9 +154,9 @@ function getDemoResponse(text) {
         setTimeout(() => {
             const lower = text.toLowerCase();
             if (lower.includes("merhaba") || lower.includes("selam")) {
-                resolve("Merhaba! Harika bir staj projesi geliştiriyorsunuz! Size nasıl yardımcı olabilirim?");
+                resolve("Merhaba! Size nasıl yardımcı olabilirim?");
             } else if (lower.includes("staj") || lower.includes("proje")) {
-                resolve("Bu proje 3 kişilik ekibiniz (Ülkü, Zeynep ve arkadaşınız) tarafından geliştirilen akıllı bir Chatbot sistemidir!");
+                resolve("Bu proje 3 kişilik ekibiniz tarafından geliştirilen akıllı bir Chatbot sistemidir!");
             } else if (lower.includes("iletişim")) {
                 resolve("Ekip üyelerine veya sistem yöneticisine admin@stajprojesi.com adresinden ulaşabilirsiniz.");
             } else {
@@ -183,7 +177,7 @@ function appendMessage(text, sender) {
 
     const avatarDiv = document.createElement("div");
     avatarDiv.classList.add("message-avatar");
-    avatarDiv.innerHTML = sender === "user" ? '<i class="fa-solid fa-user"></i>' : '<i class="fa-solid fa-robot"></i>';
+    avatarDiv.innerHTML = sender === "user" ? '<i class="fa-solid fa-user"></i>' : '<img src="bot-avatar.png?v=2" alt="Bot Avatar" class="bot-avatar-img">';
 
     const contentDiv = document.createElement("div");
     contentDiv.classList.add("message-content");
@@ -238,7 +232,7 @@ function clearChat() {
     chatMessages.innerHTML = `
         <div class="message bot-message">
             <div class="message-avatar">
-                <i class="fa-solid fa-robot"></i>
+                <img src="bot-avatar.png?v=2" alt="Bot Avatar" class="bot-avatar-img">
             </div>
             <div class="message-content">
                 <p>Sohbet geçmişi temizlendi. Size başka nasıl yardımcı olabilirim? 😊</p>

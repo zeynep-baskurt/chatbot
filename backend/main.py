@@ -1,20 +1,32 @@
-import json
 import os
+import re
+import json
 from pathlib import Path
-from fastapi import FastAPI
+from typing import List, Optional
+from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
-from typing import List, Optional
 import google.generativeai as genai
 from dotenv import load_dotenv
 
-load_dotenv()
+# Path setup
+BASE_DIR = Path(__file__).resolve().parent
+PROJECT_ROOT = BASE_DIR.parent
+DATA_DIR = PROJECT_ROOT / "data"
 
+# Load .env file
+env_path = BASE_DIR / ".env"
+if not env_path.exists():
+    env_path = PROJECT_ROOT / ".env"
+load_dotenv(dotenv_path=env_path)
+
+# FastAPI uygulamasını oluştur
 app = FastAPI(
-    title="BAÜN BİDB Chatbot Backend (Gemini API Entegreli)",
+    title="BAÜN BİDB Chatbot Backend",
     version="1.0.0"
 )
 
+# Tüm kaynaklardan gelen isteklere izin ver (CORS engellerini kaldırır)
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -23,77 +35,127 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-BASE_DIR = Path(__file__).resolve().parent
-PROJECT_ROOT = BASE_DIR.parent
-DATA_DIR = PROJECT_ROOT / "data"
+# API Key yapılandırması
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
+if GEMINI_API_KEY:
+    genai.configure(api_key=GEMINI_API_KEY)
 
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "GEMINI_API_KEY")
-genai.configure(api_key=GEMINI_API_KEY)
+def turkish_lower(text: str) -> str:
+    if not text:
+        return ""
+    return text.replace('İ', 'i').replace('I', 'ı').lower()
 
-def load_file_content(filename: str) -> str:
-    paths_to_check = [
-        DATA_DIR / filename,
-        PROJECT_ROOT / filename,
-        BASE_DIR / filename
-    ]
-    for path in paths_to_check:
-        if path.exists():
-            try:
-                with open(path, "r", encoding="utf-8") as f:
-                    data = json.load(f)
-                    content = json.dumps(data, ensure_ascii=False, indent=2)
-                    print(f" Bulundu ve Yüklendi: {path} ({len(content)} karakter)")
-                    return content
-            except Exception as e:
-                print(f" Dosya Okuma Hatası ({path}): {e}")
-                return ""
-    print(f" Dosya Bulunamadı: {filename}")
-    return ""
+STOPWORDS = {"balıkesir", "üniversitesi", "üniversitesinde", "baün", "tane", "var", "kaç", "nedir", "nerede", "hakkında", "bir", "bu", "ve", "veya", "ile", "için", "olan"}
 
-def load_all_knowledge_bases() -> str:
-    bidb_data = load_file_content("bidb_knowledge.json")
-    baun_data = load_file_content("baun_knowledge_base.json")
+def load_all_text_blocks():
+    """Markdown ve JSON bilgi tabanlarını bloklar halinde okur."""
+    blocks = []
     
-    combined = []
-    if bidb_data:
-        combined.append(f"=== BAÜN BİDB BİLGİ TABANI ===\n{bidb_data}")
-    if baun_data:
-        combined.append(f"=== BAÜN GENEL BİLGİ TABANI ===\n{baun_data}")
-        
-    if not combined:
-        return "Bilgi tabanı dosyaları bulunamadı."
-        
-    return "\n\n".join(combined)
+    # 1. Markdown dosyasını kontrol et
+    md_paths = [
+        PROJECT_ROOT / "baun_librechat_rag.md",
+        DATA_DIR / "baun_librechat_rag.md",
+        BASE_DIR / "baun_librechat_rag.md"
+    ]
+    for md_path in md_paths:
+        if md_path.exists():
+            try:
+                with open(md_path, "r", encoding="utf-8") as f:
+                    md_text = f.read()
+                    for b in md_text.split("---"):
+                        if b.strip():
+                            blocks.append(b.strip())
+                print(f"✅ MD Yüklendi: {md_path.name}")
+                break
+            except Exception as e:
+                print("MD okuma hatası:", e)
 
-class Part(BaseModel):
-    text: str
+    # 2. JSON dosyalarını kontrol et
+    json_filenames = ["bidb_knowledge.json", "baun_knowledge_base.json"]
+    for filename in json_filenames:
+        json_paths = [DATA_DIR / filename, PROJECT_ROOT / filename, BASE_DIR / filename]
+        for path in json_paths:
+            if path.exists():
+                try:
+                    with open(path, "r", encoding="utf-8") as f:
+                        data = json.load(f)
+                        if isinstance(data, list):
+                            for item in data:
+                                title = item.get("title", "")
+                                content = item.get("content", "")
+                                if content:
+                                    blocks.append(f"--- SAYFA: {title} ---\n{content}")
+                        elif isinstance(data, dict):
+                            for k, v in data.items():
+                                blocks.append(f"--- {k} ---\n{v}")
+                    print(f"✅ JSON Yüklendi: {path.name}")
+                    break
+                except Exception as e:
+                    print(f"JSON okuma hatası ({filename}):", e)
 
-class Content(BaseModel):
-    role: Optional[str] = "user"
-    parts: List[Part]
+    return blocks
 
-class GeminiRequest(BaseModel):
-    contents: List[Content]
+def get_relevant_knowledge(user_question: str, max_chars: int = 40000) -> str:
+    """Soruya en uygun bilgi bloklarını seçer."""
+    blocks = load_all_text_blocks()
+    if not blocks:
+        return "Bilgi tabanı boş veya bulunamadı."
+    
+    words = [turkish_lower(w) for w in re.findall(r'\w+', user_question) if len(w) > 2 and turkish_lower(w) not in STOPWORDS]
+    
+    if not words:
+        return "\n\n---\n\n".join(blocks[:8])
+
+    scored_blocks = []
+    for block in blocks:
+        score = sum(turkish_lower(block).count(w) for w in words)
+        scored_blocks.append((score, block))
+
+    scored_blocks.sort(key=lambda x: x[0], reverse=True)
+
+    selected = []
+    current_len = 0
+    for score, block in scored_blocks:
+        if score == 0 and selected:
+            break
+        if current_len + len(block) > max_chars:
+            continue
+        selected.append(block)
+        current_len += len(block)
+
+    if not selected:
+        selected = [b for _, b in scored_blocks[:5]]
+
+    return "\n\n---\n\n".join(selected)
 
 @app.get("/")
 def home():
-    return {"status": "Gemini AI Destekli Backend Sunucusu Aktif!"}
+    return {"status": "BAÜN BİDB Chatbot Backend Sunucusu Aktif!"}
 
-@app.post("/v1beta/models/gemini-pro:generateContent")
-@app.post("/v1/chat/completions")
-def generate_content(request: GeminiRequest):
+# İstekleri karşılayan ana fonksiyon
+@app.api_route("/{full_path:path}", methods=["GET", "POST", "OPTIONS"])
+async def handle_chat_completion(request: Request, full_path: str = ""):
+    if request.method == "OPTIONS":
+        return {"status": "ok"}
+        
+    user_question = ""
     try:
-        user_question = request.contents[-1].parts[0].text
+        body = await request.json()
+        if "messages" in body and body["messages"]:
+            user_question = body["messages"][-1].get("content", "")
+        elif "contents" in body and body["contents"]:
+            user_question = body["contents"][-1]["parts"][0]["text"]
+        elif "prompt" in body:
+            user_question = body["prompt"]
     except Exception:
         user_question = ""
 
-    print(f"\n GELEN SORU: {user_question}")
-    knowledge = load_all_knowledge_bases()
-    print(f" TOPLAM BİLGİ TABANI BOYUTU: {len(knowledge)} karakter")
+    print(f"\n📩 Gelen Soru: {user_question}")
+    knowledge = get_relevant_knowledge(user_question)
 
     prompt = f"""
 Sen Balıkesir Üniversitesi ve Bilgi İşlem Daire Başkanlığı (BAÜN & BİDB) akıllı destek asistanısın.
-Aşağıda üniversitenin resmi bilgi tabanları yer almaktadır:
+Aşağıda üniversitenin resmi bilgi tabanından kullanıcının sorusuyla en alakalı derlenen bilgiler yer almaktadır:
 
 ================ BİLGİ TABANI ================
 {knowledge}
@@ -102,22 +164,41 @@ Aşağıda üniversitenin resmi bilgi tabanları yer almaktadır:
 Kullanıcının Sorusu: "{user_question}"
 
 Talimatlar:
-1. YALNIZCA yukarıda verilen bilgi tabanındaki verilere dayanarak Türkçe, kurumsal ve net yanıt ver.
-2. Bilgi tabanında yer alan bilgileri doğrudan aktar.
-3. Bilgi tabanında kesinlikle bulunmayan bir konuysa kibarca BAÜN BİDB birimi ile iletişime geçilmesini söyle.
+1. YALNIZCA yukarıda verilen bilgi tabanındaki verilere dayanarak Türkçe, kurumsal, net ve açıklayıcı bir yanıt ver.
+2. Bölümler, form isimleri, e-posta ayarları, akademik duyurular, akıllı kart prosedürleri veya adımlar varsa liste halinde düzenli sun.
+3. Bilgi tabanında kesinlikle yer almayan bir konuysa kibarca Balıkesir Üniversitesi / BAÜN BİDB destek birimi ile iletişime geçilmesi gerektiğini belirt.
 """
 
-    try:
-        # En stabil model adı
-        model = genai.GenerativeModel('gemini-3.6-flash-latest')
-        response = model.generate_content(prompt)
-        ai_reply = response.text
-        print(" GEMINI CEVABI ÜRETTİ.")
-    except Exception as e:
-        ai_reply = f"Gemini API yanıt verirken bir sorun oluştu: {str(e)}"
-        print(f" GEMINI API HATASI: {str(e)}")
+    ai_reply = ""
+    # Resmî ve geçerli Gemini modellerini sırayla dene
+    valid_models = ['gemini-1.5-flash-latest', 'gemini-1.5-flash', 'gemini-1.5-pro', 'gemini-pro']
+    for model_name in valid_models:
+        try:
+            model = genai.GenerativeModel(model_name)
+            response = model.generate_content(prompt)
+            if response and response.text:
+                ai_reply = response.text
+                break
+        except Exception as e:
+            print(f"Model deneme hatası ({model_name}): {e}")
+            continue
+
+    if not ai_reply:
+        ai_reply = "Yanıt üretilirken bir sorun oluştu. Lütfen API anahtarınızı veya BAÜN BİDB destek birimini kontrol edin."
+
+    print(f"🤖 Üretilen Yanıt: {ai_reply[:80]}...")
 
     return {
+        "choices": [
+            {
+                "message": {
+                    "role": "assistant",
+                    "content": ai_reply
+                },
+                "index": 0,
+                "finish_reason": "stop"
+            }
+        ],
         "candidates": [
             {
                 "content": {

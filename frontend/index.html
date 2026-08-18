@@ -33,7 +33,7 @@
 
         <main class="demo-main">
             <div class="hero">
-                <span class="badge"><i class="fa-solid fa-sparkles"></i> Staj Projesi Frontend Widget</span>
+                
                 <h1>Yapay Zeka Chatbot Destek Asistanı</h1>
                 <div class="hero-buttons">
                     <button class="btn btn-primary" onclick="toggleChat()">
@@ -69,7 +69,7 @@
     <div class="chatbot-widget-container">
         <!-- Floating Toggle Button (Sağ Alttaki Yuvarlak Buton) -->
         <button id="chat-toggle-btn" class="chat-toggle-btn" aria-label="Sohbeti Aç/Kapat">
-            <i class="fa-solid fa-comments chat-icon"></i>
+            <img src="bot-avatar.png?v=2" alt="Chat Asistanı" class="chat-icon bot-toggle-avatar">
             <i class="fa-solid fa-xmark close-icon hidden"></i>
             <span class="notification-badge" id="unread-badge">1</span>
         </button>
@@ -81,7 +81,7 @@
                 <div class="chat-header-info">
                     <div class="avatar-container">
                         <div class="avatar">
-                            <i class="fa-solid fa-robot"></i>
+                            <img src="bot-avatar.png?v=2" alt="Bot Avatar" class="bot-avatar-img">
                         </div>
                         <span class="status-indicator online"></span>
                     </div>
@@ -105,24 +105,22 @@
                 <!-- Karşılama Mesajı -->
                 <div class="message bot-message">
                     <div class="message-avatar">
-                        <i class="fa-solid fa-robot"></i>
+                        <img src="bot-avatar.png?v=2" alt="Bot Avatar" class="bot-avatar-img">
                     </div>
                     <div class="message-content">
-                        <p>Merhaba! 👋 Ben projenizin yapay zeka asistanıyım. Size nasıl yardımcı olabilirim?</p>
+                        <p>Merhaba!  Ben projenizin yapay zeka asistanıyım. Size nasıl yardımcı olabilirim?</p>
                         <span class="message-time">Şimdi</span>
                     </div>
                 </div>
 
                 <!-- Öneri Butonları / Quick Suggestions -->
                 <div class="suggestions-container" id="suggestions">
-                    <button class="suggestion-chip" onclick="sendSuggestion('Merhaba, chatbot nasıl çalışıyor?')">
-                        💡 Chatbot nasıl çalışıyor?
-                    </button>
-                    <button class="suggestion-chip" onclick="sendSuggestion('Staj projesi hakkında bilgi ver')">
-                        🎓 Staj Projesi Hakkında
+                
+                    <button class="suggestion-chip" onclick="sendSuggestion('Balıkesir Üniversitesi hakkında bilgi ver')">
+                         Üniversitemiz Hakkında
                     </button>
                     <button class="suggestion-chip" onclick="sendSuggestion('İletişim bilgileriniz nedir?')">
-                        📞 İletişim Bilgileri
+                         İletişim Bilgileri
                     </button>
                 </div>
             </div>
@@ -152,9 +150,7 @@
                     </button>
                 </form>
             </div>
-            <div class="chat-footer">
-                <span>Staj Projesi • Powered by AI</span>
-            </div>
+            
         </div>
     </div>
 
