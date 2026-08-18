@@ -1,6 +1,6 @@
-# BALIKESİR ÜNİVERSİTESİ (BAÜN) KURUMSAL BİLGİ DOKÜMANI
+# BALIKESİR ÜNİVERSİTESİ (BAÜN) KURUMSAL BİLGİ VE SSS DOKÜMANI
 
-> Bu doküman `https://balikesir.edu.tr/` resmi web sitesinden çekilen güncel bilgileri içerir ve LibreChat RAG / Agent altyapısı için özel hazırlanmıştır.
+> Bu doküman `https://balikesir.edu.tr/` ve `https://oidb.balikesir.edu.tr/` web sitelerinden çekilen güncel bilgileri ile resmi Sıkça Sorulan Sorular (SSS) veritabanını içerir.
 
 ## 1. Balıkesir Üniversitesi (BAÜN) | Resmî Web Sitesi
 **Kaynak URL:** [https://www.balikesir.edu.tr/](https://www.balikesir.edu.tr/)
@@ -64,11 +64,17 @@ BASINDA BİZ
 
 TÜM HABERLER
 
-Uluslararası Akademisyen, Gazeteci ve Medya Temsilcileri Forumu” Balıkesir Üniversitesinde Gerçekleştirildi
+BAÜN ve Almalık Devlet Teknik Enstitüsü Arasında Ortak Projelere Yönelik İş Birliği Adımı
 
-Özbekistan Almalık Devlet Teknik Enstitüsü Heyetinden Rektör Oğurlu’ya Ziyaret
+Rektörümüz Prof. Dr. Yücel Oğurlu'nun Mesajı  "Üniversitene Hoş Geldin"
 
-BAÜN’de “Obezite Okulu 2” Başarıyla Gerçekleştirildi
+Balıkesir Büyükşehir Belediye Başkanı Ahmet Akın’dan Rektör Oğurlu’ya 66. Geleneksel Kurtdereli Mehmet Pehlivan Güreşleri Daveti
+
+BAÜN’den, Antibiyotik Tedavisinde Umut Veren Gelişme: İlacın Etkisi Korundu, Böbrek Üzerindeki Yan Etkiler Azaldı
+
+BİK Genel Müdürü Abdulkadir Çay’dan Rektör Oğurlu’ya Ziyaret
+
+Uluslararası Akademisyen, Gazeteci ve Medya Temsilcileri Forumu Heyetinden Rektör Oğurlu’ya Ziyaret
 
 Duyurular
 
@@ -102,11 +108,11 @@ BAÜN
 
 Etkinlikler
 
-17 Ağu
+26 Ağu
 
-ICETOL 6 INTERNATIONAL CONFERENCE
+İHA-1 TİCARİ PİLOT EĞİTİMİ
 
-BREMEN/GERMANY
+Edremit Sivil Havacılık Yüksekokulu
 
 31 Ağu
 
@@ -132,7 +138,7 @@ Havacılıkta Yapay Zeka ve Stratejik Dönüşüm
 
 Balıkesir Üniversitesi Çağış Yerleşkesi Atatürk Kongre ve Kültür Merkezi
 
-ICETOL 6 INTERNATIONAL CONFERENCE
+İHA-1 TİCARİ PİLOT EĞİTİMİ
 
 XI. Ulusal Limnoloji Sempozyumu
 
@@ -158,6 +164,8 @@ Akademik Personel
 
 25858
 
+Öğrenci
+
 1017
 
 Projeler
@@ -166,9 +174,1523 @@ Akademik Birim
 
 Araş. Uyg. Mkz.
 
+Kapat
+
 ---
 
-## 2. BAÜN Aday Öğrenci
+## 2. ÖİDB SSS PDF - AĞU                    
+
+                        05                    
+
+                        2026                    
+
+
+
+Türkiye Gazeteciler Cemiyeti 2026 Sedat SİMAVİ Ödülleri
+**Kaynak URL:** [https://baunwebapi.balikesir.edu.tr/uploads/1785912895090.pdf](https://baunwebapi.balikesir.edu.tr/uploads/1785912895090.pdf)
+
+### Sayfa İçeriği:
+TÜRKİYE GAZETECİLER CEMİYETİ
+
+2026 SEDAT SİMAVİ ÖDÜLLERİ
+
+9 dalda (televizyon dalında 2 kategoriye) verilecek
+
+ödüllere kişiler; kendileri aday olabilecekleri gibi,
+
+öğretim kurumları, mesleki kuruluşlar, Sedat Simavi Ödülleri
+
+Ön Araştırma Kurulları ve kişilerce de aday gösterilebilecektir.
+
+GAZETECİLİK
+
+Gazetecilik ödülü için kişiler;
+
+yorum, haber, söyleşi, dizi yazı,
+
+sayfa düzenlemesi, haber fotoğraf-
+
+ları gibi son bir yıl içinde yazılı
+
+medyada ve internet haber sitele-
+
+rinde yayınlanmış güncel eserlerle
+
+aday olabilirler.
+
+SEÇİCİ KURUL: Ateş Yalazan, Fatih Polat
+
+İbrahim Varlı, Mete Belovacıklı
+
+Miyase İlknur, Mustafa Bakacak
+
+Pınar Aktaş, Sedat Ergin
+
+Sibel Güneş, Uğur Güç
+
+Prof. Dr. Yasemin Giritli İnceoğlu
+
+KARİKATÜR
+
+Karikatür ödülü için kişiler;
+
+tek veya bant karikatürlerle
+
+son bir yıl içinde yazılı
+
+medya ve internet haber si-
+
+telerinde yayınlanmış gün-
+
+cel ve özgün eserlerle aday
+
+olabilirler.
+
+SEÇİCİ KURUL: Emre Ulaş
+
+Hicabi Demirci
+
+İ. Bülent Çelik
+
+Nuray Karagöz
+
+Sefer Selvi
+
+EDEBİYAT
+
+Şiir, öykü, roman, oyun, anı,
+
+gezi, deneme, eleştiri, araş-
+
+tırma, dil bilgisi çalışmaları
+
+ve edebiyat tarihi türündeki
+
+kitaplaşmış eserler katılabi-
+
+lir. Aday gösterilecek kitap-
+
+ların son bir yıl içinde
+
+yayınlanmış olması gerekir.
+
+SEÇİCİ KURUL: Doğan Hızlan
+
+Faruk Şüyün, Filiz Aygündüz
+
+Halil İbrahim Özcan
+
+İhsan Yılmaz , İhsan Yılmaz
+
+Nazlı Eray
+
+RADYO - TELEVİZYON
+
+Radyo ve televizyon dallarına ayrı ayrı (televizyon
+
+dalında haber ve belgesele ayrı ayrı) ödül verile-
+
+cektir. Radyo-Televizyon için hazırlanmış ve son
+
+bir yılda yayınlanmış bütün programlar (tek veya
+
+dizi olarak) ödüle aday gösterilebilir. Yayınlanan
+
+televizyon eserlerinin yönetmenleri; Radyo da-
+
+lında ise yayınlanan eserlerin yapımcı, yazar ve
+
+yönetmenlerinden biri aday olabildiği gibi, birlikte
+
+de aday olabilirler.
+
+SEÇİCİ KURUL: Göksel Göksu
+
+Gülgün Feyman, Prof. Dr. Nazife Güngör
+
+Kürşad Oğuz, Prof. Dr. Sevda Alankuş
+
+Tülay Öçten, Zeynel Lüle
+
+SOSYAL BİLİMLER
+
+Sosyoloji, sosyal psikoloji, antropoloji, si-
+
+yaset bilimi, sosyal politika, sosyal ista-
+
+tistik, hukuk, iktisat, tarih dallarında
+
+bilimsel çalışma yapan adaylar katılabi-
+
+lir. Çalışmaların Türkiye’nin sorunlarıyla
+
+ilgili olmaları tercih edilir ve son bir yıl
+
+içinde kitaplaşmış (yayınlanmış) olması
+
+gerekir.
+
+SEÇİCİ KURUL:Prof. Dr. Bertil Emrah Oder
+
+Doğan Şentürk, Prof. Dr. Emre Kongar
+
+Prof. Dr. İlter Turan, Prof. Dr. İoanna
+
+Kuçuradi , Prof. Dr. Mehmet. Ö. Alkan,
+
+Prof. Dr. Murat Somer,
+
+Prof. Dr. Sibel İnceoğlu,
+
+Prof. Dr. Yeşim Arat
+
+SAĞLIK BİLİMLERİ
+
+Tıp, eczacılık, diş hekimliği gibi insan
+
+sağlığıyla ilgili alanlarda önemli bir bu-
+
+luşu gerçekleştiren ya da araştırma ve
+
+çalışmalarıyla bu bilimlerin evrensel
+
+gelişmesine katkıda bulunan adaylara
+
+açıktır. Başvurulara, “ Sağlık Bilimleri
+
+Ödülü Başvuru Formu" eklenmelidir.
+
+SEÇİCİ KURUL:Prof. Dr. Ahmet Gül,
+
+Prof. Dr. Berrak Çağlayan Yeğen,
+
+Prof. Dr. Gökhan Demir,
+
+Prof. Dr. Önder Ergönül,
+
+Prof. Dr. Özgür Kasapçopur,
+
+Prof. Dr. Selçuk Peker,
+
+Prof. Dr. Selim Badur
+
+SPOR
+
+Ödül, sporun her dalına
+
+açıktır. Son bir yıl içinde ülke
+
+çapında ve uluslararası
+
+alanda üstün başarı sağla-
+
+mış olan sporcuya, takıma
+
+veya bir spor adamına veri-
+
+lir. Her branşta milli takımlar,
+
+kulüp takımları aday olabilir.
+
+Amatör sporcuların başarı-
+
+ları öncelikle dikkate alınır.
+
+SEÇİCİ KURUL:Gürcan Bilgiç,
+
+Bağış Erten, Şenes Erzik
+
+Attila Gökçe,
+
+Melih Gümüşbıçak,
+
+Uğur Vardan, Esat Yılmaer
+
+FEN BİLİMLERİ
+
+Fizik, kimya, matematik, jeoloji, botanik,
+
+zooloji, astronomi gibi fen bilimleri dalla-
+
+rından birinde önemli bir buluşu gerçek-
+
+leştiren ya da araştırma ve çalışmalarıyla
+
+bu bilimlerin evrensel gelişmesine kat-
+
+kıda bulunan adaylara açıktır. Yayınlan-
+
+mış monografik incelemeler ve doçentlik
+
+tezleri ödüle aday olabilir.
+
+SEÇİCİ KURUL:Prof. Dr. İdil Arslan Alaton,
+
+Prof. Dr. İlhan İkeda,
+
+Prof. Dr. Önder Pekcan,
+
+Prof. Dr. Şafak Altunkaynak,
+
+Prof. Dr. Türkan Haliloğlu,
+
+Prof. Dr. Viktorya Aviyente,
+
+Prof. Dr. Zafer Gedik
+
+Sedat Simavi Ödülleri’ne aday olabilmek için Türkiye Cumhuriyeti vatandaşı
+
+olmak zorunludur.
+
+Fen ve Sağlık Bilimleri dallarında eserlerin son 5 yıl içinde (01.10.2021-
+
+30.09.2026); diğer dallarda ise, son bir yıl içinde (01.10.2025-30.09.2026)
+
+yayınlanmış, gerçekleştirilmiş olması gerekmektedir.
+
+Türkiye Gazeteciler Cemiyeti yönetimine seçimle gelmiş üyeler, klasik ders
+
+kitapları, lisans, lisansüstü, doktora tezleri ile bunlara dayalı makaleler; daha
+
+önce ulusal yarışmalardan derece almış eserler aday olamaz.
+
+Adaylar bir dalda ve bir eserle başvurabilirler.
+
+Kolektif çalışmalar, ödül yönetmeliğindeki ilgili maddeye uymak koşuluyla aday
+
+olabilir.
+
+Ölmüş kişiler aday gösterilemez. Adaylık için başvurmuş veya adaylıkları ileri
+
+sürülmüş bir kişi adaylıktan sonra ölmüş ise, değerlendirmeye alınır, kazanırsa
+
+ödül yasal mirasçılarına verilir.
+
+Belirli yazılı eserlerle (Fen Bilimleri, Sağlık Bilimleri, Edebiyat ve Sosyal Bilimler
+
+dallarında) ödüle başvuracak veya aday gösterilecek kişinin, yayınlanmış bu
+
+eserinden (Edebiyat ve Sosyal Bilimler Ödüllerinde kitap olarak); Edebiyat, Fen
+
+Bilimleri ve Sağlık Bilimleri Ödüllerinde 8, Sosyal Bilimler Ödüllerinde 10 adet
+
+eserin; Gazetecilik ve Karikatür Ödüllerinde yayımlandığı 1 adet asıl gazete /
+
+dergi, ayrıca 1 adet USB belleğe çalışmanın yayımlandığı sayfanın jpeg veya pdf
+
+SEDAT SİMAVİ ÖDÜLLERİ SEKRETERLİĞİ:Basın Müzesi Molla Fenari Mah. Divanyolu Cad. No: 76 Çemberlitaş 34122 Fatih / İSTANBUL
+
+Tel: (0212) 513 84 58 dahili (15) - (0212) 519 59 09 Web: www.tgc.org.tr E-Posta: sedatsimaviodulleri@tgc.org.tr
+
+BAŞVURU KOŞULLARI formatında kaydedilmiş kaydının ve internet haber sitelerinde yayınlanmış
+
+eserlerin 1 adet USB belleğe kaydının; Televizyon Ödülünde 1 adet USB belleğe
+
+kaydedilmiş eserin (video dosyaları MP4 uzantılı ve 1080p kalitede olmalı);
+
+Radyo Ödülünde 1 adet USB belleğe kaydedilmiş eserin (MP3 dosya biçiminde
+
+olmalı); Spor, Radyo ve Televizyon Ödüllerinde 1 adet bilgi yazısının; tüm dallarda
+
+kişinin 1 adet  özgeçmiş yazısı ve 1 adet vesikalık fotoğrafı ile birlikte Sedat
+
+Simavi Ödülleri Sekreterliği'ne gönderilmesi gerekir.
+
+Fen ve Sağlık Bilimleri dallarında yabancı dilde yayınlanmış eserle de başvurulabilir.
+
+Bu durumda eserle beraber çalışmayı tam olarak anlatmak kaydıyla en az 2, en
+
+fazla 5 sayfalık Türkçe özetinin de verilmesi gerekir. Ayrıca aday eser ve Türkçe
+
+özetin pdf kopyasının da 1 adet USB belleğe kaydedilerek teslimi gerekir.
+
+Gazetecilik, Karikatür, Radyo ve Televizyon dallarında, aday kişinin ve eserinin
+
+TGC Türkiye Gazetecileri Hak ve Sorumluluk Bildirgesi'ndeki maddelere aykırı
+
+olmaması dikkate alınır.
+
+Ödüllere başvuran çalışmaların yapay zeka kullanıp kullanılmadığına dair bir de
+
+beyan da bulunması gerekiyor.
+
+Adaylık için başvurma süresi 30 Eylül 2026 Çarşamba günü saat 17.00'de
+
+sona erer. Postadaki gecikmeler kabul edilmez.
+
+Ödül için gönderilen materyaller iade edilmez. Ödül Yönetmeliği ve Sağlık
+
+Bilimleri Ödülü için "Sağlık Bilimleri Ödülü Başvuru Formu", “Spor Ödülü Başvuru
+
+Formu” ve her dal için başvuru dilekçesi Sedat Simavi Ödülleri Sekreterliği’nden”
+
+istenebilir.
+
+TÜRKİYE GAZETECİLER CEMİYETİ
+
+2026 SEDAT SİMAVİ ÖDÜLLERİ YÖNETMELİĞİ
+
+MADDE-1
+
+ÖDÜL DALLARI
+
+1.1. Sedat Simavi Ödülleri, Türkiye Gazeteci-
+
+ler Cemiyeti Yönetim Kurulu tarafından belirle-
+
+nen dallarda çalışmaları teşvik etmek ve
+
+başarıları ödüllendirmek amacıyla verilir. Ödül-
+
+ler, Gazetecilik, Radyo, Televizyon, Karikatür,
+
+Edebiyat, Sosyal Bilimler, Fen Bilimleri, Sağlık Bi-
+
+limleri ve Spor olmak üzere 9 dalda verilecektir.
+
+1.2. Yönetim Kurulu, bunlara yeni dallar ek-
+
+lenmesine karar verdiğinde yönetmeliğin aşağı-
+
+daki hükümleri yeni konulacak dallar için de
+
+geçerli olacaktır. Yeni dallarla ilgili başvuru ko-
+
+şulları yönetmeliğe madde eklenerek belirlene-
+
+cektir.
+
+MADDE-2
+
+ADAYLIK
+
+2.1. Sedat Simavi Ödülleri’ne yazılı başvuru
+
+adresi: Basın Müzesi, Divanyolu Cad. No: 76
+
+Çemberlitaş 34122 Fatih / İSTANBUL
+
+Elektronik posta adresi:
+
+sedatsimaviodulleri@tgc.org.tr
+
+Web adresi:
+
+www.tgc.org.tr/oduller/sedat-simavi-odul-
+
+leri.html
+
+2.2. Yönetim Kurulu, ödül verilecek dallarda
+
+başvurmaları için adaylara açık çağrıda bulunur.
+
+2.3. Ödül için adaylar bizzat başvurabilecek-
+
+leri gibi başka kişiler, kurumlar, kuruluşlar ve
+
+Türkiye Gazeteciler Cemiyeti seçilmiş kurulları
+
+tarafından da aday gösterilebilirler.
+
+2.4. İlgili kuruluş ve kişiler, adaylık için gerekli
+
+genel koşulları yerine getirmek zorundadırlar.
+
+Yönetim Kurulu’nun, ödül verilecek dallarda, o
+
+dalda aday olmayan uzman kişilerden kuracağı
+
+“Ön Araştırma Kurulu” da aday gösterebilir.
+
+2.5. Karikatür, Fen Bilimleri ve Sağlık Bilimleri
+
+dallarında “Ön Araştırma Kurulu” bulunmakta-
+
+dır. Bu kurul en fazla üç kişiden oluşur ve nihai
+
+seçimde oy hakkı yoktur. Seçici Kurul üyeleri,
+
+üyesi olduğu dal dışındaki dallar için “Ön Araş-
+
+tırma Kurulu”nda görev alabilir.
+
+MADDE-3
+
+ADAY OLABİLMENİN GENEL
+
+KOŞULLARI
+
+3.1. Sedat Simavi Ödülleri’ne Türkiye Cum-
+
+huriyeti vatandaşı, gerçek kişiler ve Türkiye
+
+Cumhuriyeti Kanunlarına göre kurulmuş ve hak
+
+sahiplerinden gerekli izin ve muvafakatları ka-
+
+nunlara göre edinmiş tüzel kişiler de aday ola-
+
+bilir. Aday tüzel kişilerin ortak ve/veya
+
+ortaklarının da Türkiye Cumhuriyeti vatandaşı
+
+olması adaylık için zorunludur.
+
+3.2. Radyo ve Televizyon Ödüllerine aday
+
+eserin kamunun ücretsiz ulaşılabileceği bir plat-
+
+formda yayınlanmış olması zorunludur.
+
+3.3. Adaylar (Fen Bilimleri ve Sağlık Bilimleri
+
+hariç) Türkçe dilinde yazılmış eserle tek dalda
+
+başvurabilir. Sedat Simavi Ödülü’nü kazanan
+
+gerçek ya da tüzel kişiler daha sonraki yıllarda
+
+ödül için yeniden başvurabilir.
+
+3.4. Yazılı eserlerle (Fen Bilimleri, Sağlık Bi-
+
+limleri, Edebiyat ve Sosyal Bilimler ödüllerinde
+
+yayınlanmış olmalı) ödüle başvuracak kişinin
+
+bu eserinden,
+
+• Edebiyat Ödülünde 8 adet kitap, Sosyal
+
+Bilimler Ödülünde 10 adet kitap;
+
+• Fen Bilimleri ve Sağlık Bilimleri
+
+Ödülleri’nde 8 adet eser;
+
+• Gazetecilik ve Karikatür ödüllerinde
+
+eserin yayımlandığı 1 adet asıl
+
+gazete/dergi ile çalışmanın yayınlandığı
+
+sayfanın jpeg veya pdf formatında ve
+
+internet haber sitelerinde yayınlanmış
+
+eserlerin 1 adet USB belleğe kaydının;
+
+• Televizyon Ödülünde 1 adet USB belleğe
+
+kaydedilmiş eserin (video dosyaları MP4
+
+uzantılı ve 1080p kalitede olmalı);
+
+• Radyo Ödülünde 1 adet USB belleğe
+
+kaydedilmiş eserin (MP3 dosya biçiminde
+
+olmalı);
+
+• Spor, Radyo ve Televizyon Ödüllerinde
+
+1 adet bilgi yazısının;
+
+• Ayrıca tüm dallarda adayın 1 adet
+
+özgeçmiş yazısı ve 1 adet vesikalık
+
+fotoğrafı ile birlikte Sedat Simavi Ödülleri
+
+Sekreterliği’ne gönderilmesi gerekir.
+
+3.5. Adaylık için başvuru süresi, 30 Eylül
+
+2026 Çarşamba günü saat 17.00’de sona erer.
+
+Postadaki gecikmeler nedeniyle yarışmaya katı-
+
+lamayan başvurularla ilgili olarak Türkiye Gaze-
+
+teciler Cemiyeti Yönetim Kurulu’nca sorumluluk
+
+kabul edilmez.
+
+3.6. Daha önce ulusal yarışmalardan derece
+
+almış eserler aday olamaz.
+
+3.7. Aday eserlerin daha önce ulusal bir ya-
+
+rışmadan ödül almamış olması ön koşuldur.
+
+Adaylar eserlerinin daha önce ulusal bir yarış-
+
+madan ödül almadığını yazılı taahhüt etmek zo-
+
+rundadır.
+
+3.8. Aday eserin ulusal bir yarışmadan ödül
+
+aldığının tespiti halinde eser yarışmadan elene-
+
+cektir.
+
+3.9. Birden fazla kişinin eser sahibi olduğu ko-
+
+lektif çalışmalar ödüle aday olabilir. Bu olasılıkta
+
+kural olarak çalışmayı gerçekleştirenler eser sahibi
+
+ve ortak aday sayılır. Başvurunun kolektif eser ol-
+
+masına rağmen, eseri yaratanlardan herhangi bir
+
+adayın tek başına ödüle adaylık başvurusu yap-
+
+ması halinde, başvuruya emeği geçen
+
+gazeteci/yazar/sanatçıların daha açık bir ifadeyle
+
+diğer eser sahiplerinin de Ödüle Başvuru konu-
+
+sunda yazılı izinlerinin başvuruya eklenmesi zo-
+
+runludur. Aksi halde adaylık başvurusu 5846
+
+sayılı Kanun gereğince de kolektif çalışmayı ger-
+
+çekleştirenlerin tamamı açısından değerlendir-
+
+meye alınacaktır.
+
+3.10. Fen ve Sağlık Bilimleri dallarında ya-
+
+bancı bilim insanlarıyla yapılan çalışmalarda,
+
+başvuruyu yapan kişi aday çalışmanın asıl sahibi
+
+olduğuna dair diğer yazarlardan alınmış onay
+
+yazılarını da başvurusuna ekler. Sağlık Bilimleri
+
+dalında, kolektif çalışmanın sorumlu yazarı
+
+(Corresponding Author), kendi adına yarışmaya
+
+aday olabilir. Böyle durumlarda onay yazısına ve
+
+muvafakat bildirim formuna gerek yoktur.
+
+3.11. Seçici Kurul üyelerinden birinin kolektif
+
+çalışmayı gerçekleştirenler arasında bulunduğu
+
+çalışmalar, aday gösterilemez.
+
+3.12. Ölmüş kişiler aday gösterilemez. Aday-
+
+lık için başvurmuş veya gösterilmiş bir kişi aday-
+
+lıktan sonra ölmüş ise değerlendirmeye alınır,
+
+kazanırsa ödül yasal mirasçılarına verilir.
+
+3.13. Fen ve Sağlık Bilimleri dallarında ya-
+
+bancı dilde yayınlanmış eserle de başvurulabilir.
+
+Bu durumda eserle beraber çalışmayı tam ola-
+
+rak anlatabilmek kaydıyla en az 2, en fazla 5
+
+sayfalık Türkçe özetinin verilmesi gerekir. Ayrıca
+
+aday eser ve Türkçe özetinin pdf kopyası 1 adet
+
+taşınabilir USB belleğe yüklenerek teslim edilir.
+
+3.14. Sedat Simavi Ödülleri Sekreterliği’ne
+
+bilgi vermek kaydıyla takma/mahlas isimle ödüle
+
+başvurmak mümkündür.
+
+3.15. Ödül için gönderilen materyaller iade
+
+edilmez.
+
+3.16. Türkiye Gazeteciler Cemiyeti’nin se-
+
+çimle göreve gelmiş yönetim kurulu üyeleri, kla-
+
+sik ders kitapları, lisans, lisansüstü, ihtisas ve
+
+doktora tezleri ile bunlara dayalı makalelerin ya-
+
+zarları yarışmaya aday olamaz.
+
+3.17. Gazetecilik, Radyo, Televizyon ve Kari-
+
+katür dallarında yarışmaya katılacak yapıtların
+
+Türkiye Gazetecileri Hak ve Sorumluluk Bildir-
+
+gesi normlarına uygun olması ön koşuldur.
+
+3.18. Adayların eserlerinde yapay zekadan
+
+yararlanması mümkündür. Adaylar, başvurduk-
+
+ları  eserin üretim sürecinde yapay zeka araç-
+
+larından (metin üreticiler, görsel oluşturucular,
+
+ses/sentezleyiciler, veri analiz araçları vb.) yarar-
+
+lanılması durumunda, bu kullanımı açıkça
+
+beyan etmek zorundadır.
+
+Eserde yapay zeka kullanımının kapsamı ve
+
+amacı,
+
+Kullanılan yapay zeka araçlarının veya sis-
+
+temlerinin isimleri, yapay zeka kullanımının ger-
+
+çekleştirildiği tarih aralıkları, yapay zeka
+
+tarafından oluşturulan veya desteklenen içerik-
+
+lerin açıkça belirtilmesi gereklidir.
+
+Bu beyan, eserin özgünlüğü ve değerlen-
+
+dirme kriterleri açısından Seçici Kurullar tarafın-
+
+dan dikkate alınacaktır.
+
+Yapay zeka kullanımının belirtilmemesi,
+
+yanlış beyan edilmesi veya sonradan anlaşılması
+
+durumunda, başvuru geçersiz sayılabilir veya
+
+ödül iptal edilebilir.
+
+MADDE-4
+
+ÖDÜL DALLARIYLA İLGİLİ ÖZEL
+
+BAŞVURU KOŞULLARI
+
+4.1. GAZETECİLİK
+
+4.1.1. Gazetecilik ödülü için, yazılı medya ve
+
+internet haber sitelerinde yayınlanan yorum,
+
+haber, söyleşi, dizi yazı, sayfa düzenlemesi,
+
+haber fotoğrafları ve internet haber sitelerinde
+
+yayınlanan video haberler gibi, kamuya son bir
+
+yıl içinde iletilmiş güncel eserlerle aday olunabi-
+
+lir.
+
+4.1.2. Özellikle haber ve yorum konusunda,
+
+adayın önerdiği eserin yanına ekleyeceği son bir
+
+yıl içindeki (MADDE 5’e bakınız) tüm çalışmala-
+
+rından seçilmiş örnekler de dikkate alınır. Yazılı
+
+medyada yayınlanan eserlerin (pdf / jpeg for-
+
+matı) kopyasının ve İnternet haber sitelerinde
+
+yayınlanan eserlerin, bağlantıları (linkleri) ile bir-
+
+likte kopyasının 1 adet USB belleğe kaydının ya-
+
+pılarak teslimi gerekir.
+
+4.2. RADYO
+
+4.2.1. Radyo ödülü için, haber, eğitim, kültür,
+
+bilim, sanat, radyo oyunu ve belgesel nitelikli
+
+programlarla aday olunabilir. Aday eserlerin, son
+
+bir yıl içinde yayınlanmış olması gerekir. (MADDE
+
+5’e bakınız)
+
+4.2.2. Radyolarda yayınlanan eserlerin ya-
+
+pımcı, yazar ve yönetmenlerinden biri aday ola-
+
+bildiği gibi, birlikte de aday olabilirler. (Madde
+
+3.9.) Adayların, özgeçmişlerini ve çalışmalarını
+
+belirten bilgi yazısıyla, fotoğrafının, programın
+
+yayınlanan kopyasının 1 adet USB belleğe (MP3
+
+dosya biçiminde) kaydedilmiş ve 1 nüsha olmak
+
+üzere yapıma esas yazılı metin özetlerinin Ödül
+
+Sekreterliği’ne teslimi gerekir. Yayınlanan yapım-
+
+larla ilgili şu koşullar aranır. (Bkz. Televizyon)
+
+4.3. TELEVİZYON
+
+4.3.1. Televizyon dalında haber ve belgesel
+
+programlara ayrı ayrı ödül verilir. Televizyon
+
+ödülü için son bir yılda (MADDE 5’e bakınız) ya-
+
+yınlanan haber (eğitim, kültür, bilim, sanat,
+
+çevre, sağlık, ekonomi) ve belgesel nitelikli prog-
+
+ramlar aday gösterilebilir. Televizyonlarda yayın-
+
+lanan eserlerin yönetmenleri (yapım ve
+
+yönetimin aynı kişilerde birleştiği eserler dâhil)
+
+ile haber programlarının muhabir ve kamera-
+
+manlarından biri olabildiği gibi birlikte de aday
+
+olabilirler. (Madde 3. 9.)
+
+4.3.2.İnternet ve dijital platformlar üzerinden
+
+yayın yapan radyo ve televizyonlarda yayınlan-
+
+mış, haber ve belgesel programlar da aday gös-
+
+terilebilir.
+
+4.3.3. Adayların, özgeçmişlerini ve çalışmala-
+
+rını belirten bilgi yazısıyla yapıma esas yazılı
+
+metin özetlerinin Ödül Sekreterliği’ne teslimi ge-
+
+rekir.
+
+4.3.4. Yapımlar için uzunluk ve yukarıdaki
+
+çerçeve içinde kalmak kaydıyla, konu sınırlaması
+
+yoktur.
+
+4.3.5. Bir aday, tek eseri ile yarışmaya katıla-
+
+bilir. Ancak yıl içindeki diğer çalışmaları da dik-
+
+kate alınır.
+
+4.3.6. Eserin yayınlanmış olması durumunda;
+
+adayın veya adayların, eserinin yayınlandığı
+
+radyo ve televizyon kuruluşunun mensubu ol-
+
+ması koşulu aranmaz.
+
+4.3.7. Aday eserlerin değerlendirilmesinde,
+
+senaryo, dil, çekim, kurgu, ses, ışık gibi teknik
+
+özellikler göz önünde tutulduğundan, eserin
+
+yapım ve yayın tarihini, teknik özelliklerini, uzun-
+
+luğunu, varsa müzik yapımcısının, oyuncuların
+
+adlarını içeren bir yazının aday tarafından 1 adet
+
+USB belleğe kaydedilmiş kopyası ile Ödül Sekre-
+
+terliği’ne teslimi gerekmektedir.
+
+4.3.8. Ödül alan eserin isim hakkı korunmak
+
+koşuluyla Türkiye Gazeteciler Cemiyeti’nin Sedat
+
+Simavi Ödülleri tanıtım programlarında, Türkiye
+
+Gazeteciler Cemiyeti’nin sosyal medya hesapla-
+
+rında, Türkiye Gazeteciler Cemiyeti’nin internet
+
+sitesinde ücretsiz kullanılmak üzere, beş adet ço-
+
+ğaltma ve gösterme hakkına sahip olduğunu,
+
+ödül alan adaylar peşinen kabul ederler.
+
+4.4.KARİKATÜR
+
+4.4.1. Karikatür ödülü için, yazılı medya ve in-
+
+ternet haber sitelerinde yayınlanan tek veya bant
+
+karikatürlerle kamuya son bir yıl içinde (MADDE
+
+5’e bakınız) iletilmiş güncel ve özgün eserlerle
+
+aday olunabilir.
+
+4.4.2. Karikatür mesleğine uzun yıllar emek
+
+vermiş ustalara da ayrıca TGC Kurullarının öne-
+
+risi doğrultusunda ödül verilebilir. Yarışma kari-
+
+katüristlerin başvurusuna açık olduğu gibi, Ön
+
+Araştırma Kurulu da aday önerebilir. Adayın
+
+önerdiği eserin yanına ekleyeceği son bir yıl için-
+
+deki (MADDE 5’e bakınız) tüm çalışmalarından
+
+seçilmiş örnekler de dikkate alınır. Yazılı med-
+
+yada yayınlanmış çalışmanın, 1 adet asıl gazete
+
+/ dergi ve ayrıca 1 adet USB belleğe yayımlandığı
+
+sayfanın jpeg veya pdf dosya biçiminde kayde-
+
+dilmiş kaydının; İnternet haber sitelerinde yayın-
+
+lanan karikatürlerin, bağlantıları (linkleri) ile
+
+birlikte kopyasının 1 adet USB belleğe (jpeg veya
+
+pdf) kaydının yapılarak teslimi gerekir.
+
+4.5.EDEBİYAT
+
+4.5.1.Adayların şiir, öykü, roman, oyun, gezi,
+
+deneme, anı gibi konularda son bir yıl içinde ki-
+
+taplaşmış bir eserle başvuruda bulunmaları veya
+
+aday gösterilmeleri gerekir. Edebiyat tarihi ve
+
+eleştirileri de bu dalda aday olabilir.
+
+4.5.2. Aday eserin son bir yıl içinde yayınlan-
+
+mış olması gerekir. (MADDE 5’e bakınız)
+
+4.6. SOSYAL BİLİMLER
+
+4.6.1. Fikir ve bilimsel değeri bulunan, özgün
+
+çalışma ve araştırmalar ödüle aday gösterilebilir.
+
+Aday eserin son bir yıl içinde (MADDE 5’e bakı-
+
+nız) kitaplaşmış olması gerekir. Bu dalda ödüle
+
+aday gösterilecek çalışmaların, Türkiye’nin gün-
+
+cel sorunlarıyla ilgili olması tercih edilir.
+
+4.7. FEN BİLİMLERİ
+
+4.7.1. Bu dalda ödüller, keşif veya icat niteli-
+
+ğindeki bir çalışmayı gerçekleştirmiş ya da ala-
+
+nında önemli katkı ve gelişme sağlamış, özgün
+
+bir araştırma yapmış olan kişilere verilir.
+
+4.7.2. Söz konusu çalışma son beş yıl içinde
+
+(MADDE 5’e bakınız) yayınlanmış olmalıdır.
+
+Erken elektronik baskılar da (“E- pub ahaed of
+
+print”) yayınlanmış sayılırlar. (Kolektif çalışma-
+
+larda Muvafakat Belgesi için bkz. Sağlık Bilim-
+
+leri)
+
+4.8.SAĞLIK BİLİMLERİ
+
+4.8.1. Bu dalda ödüller, keşif veya icat niteli-
+
+ğindeki bir çalışmayı gerçekleştirmiş ya da ala-
+
+nında önemli bir katkı ve gelişme sağlamış,
+
+özgün bir araştırma yapmış olan kişilere verilir.
+
+4.8.2. Söz konusu çalışma son beş yıl içinde
+
+(MADDE 5’e bakınız) yayınlanmış olmalıdır.
+
+Erken elektronik baskılar da (“E-pub ahaed of
+
+print”) yayınlanmış sayılırlar. Yayınlanmamış ma-
+
+kale ve yayın özetleri (abstrakt’lar) ile ödüle baş-
+
+vurulamaz. İnsan üzerinde yapılmış gözlemlere
+
+dayalı araştırmalarda Helsinki Deklarasyonu hü-
+
+kümlerine uyulmuş olmalıdır. Deney hayvanları
+
+ile ilgili çalışmalarda da deney hayvanları etik ku-
+
+rulundan izin alınması gereklidir.
+
+4.8.3. Bu dalda aday olacakların “Başvuru
+
+Formu” doldurmaları gerekir. Başvuru formuna
+
+şu bilgiler eklenmelidir: Özgeçmiş, adayın en
+
+kayda değer bulduğu üç yayınının ve son üç yıl
+
+içindeki yayınlarının listesi, ödüle aday çalışma-
+
+nın bilime katkısı bakımından adayın değerlen-
+
+dirmesi ve varsa sitasyon listesi
+
+4.8.4. Kolektif çalışmalarla Sağlık Bilimleri
+
+Ödülü’ne başvurulabilir. Bu durumda, çalışmayı
+
+gerçekleştirenler ortak aday sayılır.
+
+4.8.5. Kolektif çalışmayı gerçekleştiren araş-
+
+tırmacılardan birinin kendi adına ödül için baş-
+
+vurması durumunda, yayında adı bulunan ekip
+
+üyelerinden her biri tarafından imzalanmış ve
+
+“Adayın, çalışmanın plan ve projesinin tasarlanıp
+
+gerçekleştirilmesinde asıl fikir sahibi ve yürütücü
+
+olmuş bulunduğu, yayının hazırlanmasında ağır-
+
+lıklı olarak sorumluluk almış olduğunu ve adayın
+
+bu yayın ile ödül için başvuruda bulunmasına
+
+“muvafakat ettiğini” beyan eden bir Muvafakat
+
+Bildirimi, Başvuru Formu’na eklenmelidir. Ya-
+
+bancı uyruklu araştırmacıların yazarlar arasında
+
+bulunması halinde bu amaçla hazırlanmış özel
+
+form doldurulmalıdır. Sağlık Bilimleri dalında,
+
+kolektif çalışmanın sorumlu yazarı (Correspon-
+
+ding Author), kendi adına yarışmaya aday ola-
+
+bilir. Böyle durumlarda onay yazısına ve
+
+muvafakat bildirim formuna gerek yoktur.
+
+4.8.6. Muvafakat Bildirim Formları ve Sağlık
+
+Bilimleri Ödülü Başvuru Formu web sitemizden
+
+veya Ödül Sekreterliği’nden sağlanabilir.
+
+4.9.SPOR
+
+4.9.1. Ödül, bütün spor dallarında son bir yıl
+
+içinde (MADDE 5’e bakınız) ülke çapında ve
+
+uluslararası alanda üstün başarı sağlamış olan
+
+sporcuya, takıma veya spor adamına verilir.
+
+4.9.2. Her branşta milli takımlar, kulüp takım-
+
+ları aday olabilir veya gösterilebilirler. Amatör
+
+sporcuların başarıları öncelikle dikkate alınır.
+
+MADDE-5
+
+ÖDÜL DALLARINDAKİ YILLARIN
+
+TANIMI
+
+Ödül dallarındaki “son beş yıl” tanımı; 2026
+
+yılı için, 01 Ekim 2021 - 30 Eylül 2026 tarihleri
+
+arasını, “son bir yıl” tanımı ise, 01 Ekim 2025 -
+
+30 Eylül 2026 tarihleri arasını kapsar.
+
+MADDE-6
+
+SEÇİCİ KURULLARIN
+
+OLUŞTURULMASI
+
+6.1. Türkiye Gazeteciler Cemiyeti Yönetim
+
+Kurulu, ödül verilecek her dal için en az 5 üyeli
+
+bir Seçici Kurul oluşturur.
+
+6.2. Seçici Kurul, 2026 yılı için; Gazetecilik 11;
+
+Sosyal Bilimler 9, Radyo-Televizyon, Edebiyat,
+
+Fen Bilimleri, Sağlık Bilimleri ve Spor dallarında
+
+7; Karikatür dalında ise 5 üyeden oluşur.
+
+6.3. Her seçici kurul, ilgili daldaki üniversite,
+
+akademi ve yükseköğretim kurumları üyeleri,
+
+meslek kuruluşu üyeleri ve benzeri kuruluş üye-
+
+lerinden oluşur. Her seçici kurula kimlerin davet
+
+edileceği ve seçici kurul üyelerinin sayısı Türkiye
+
+Gazeteciler Cemiyeti Yönetim Kurulu tarafından
+
+saptanır. Seçici kurula seçilenlere çağrı, Ödül Se-
+
+kreterliği tarafından yapılır.
+
+MADDE-7:
+
+BAŞVURULARIN KOŞULLARA
+
+UYGUNLUĞUNUN İNCELENMESİ
+
+7.1. Ödül Sekreterliği her daldaki başvuruları,
+
+bu yönetmelikte belirtilen koşullara uygunluğu
+
+bakımından inceler; koşullara uygun olmayan
+
+başvuruları belirler.
+
+7.2. Şekil açısından yönetmeliğe uygun olan
+
+tüm eserler, hiçbir ayrım ve içerik açısından her-
+
+SEDAT SİMAVİ ÖDÜLLERİ
+
+Adres : TGC Basın Müzesi, Molla Fenari Mah. Divanyolu Cad. No: 76 Çemberlitaş 34122 Fatih / İSTANBUL
+
+Tel: (0212) 513 84 58 - (0212) 519 59 09 Web: www.tgc.org.tr/oduller/sedat-simavi-odulleri.html
+
+E-Posta: sedatsimaviodulleri@tgc.org.tr
+
+hangi bir inceleme yapılmaksızın, ilgili seçici ku-
+
+rullara sunulur.
+
+MADDE-8
+
+SEÇİCİ KURULLARIN ÇALIŞMASI
+
+8.1. Seçici Kurullar, Türkiye Gazeteciler Ce-
+
+miyeti Yönetim Kurulu’nun belirlediği tarihte ça-
+
+lışmalarına başlar; kendilerine sunulan eserlerle
+
+ilgili karara varmak üzere tamamen bağımsız
+
+olarak çalışma düzenlerini saptar.
+
+8.2. Seçici Kurullar, adayların yapıtları veya
+
+faaliyetleri ile ilgili konularda uzmanlara danışa-
+
+bilir ve onları davet edebilir.
+
+8.3. Seçici Kurullar, ödülün bir kişiye (kolektif
+
+çalışmalarda bir gruba) verilmesini kararlaştıra-
+
+cağı gibi, ödül verilen dallarda adayları (gerek
+
+görülürse) teşvik amacıyla bir kişiyi de (kolektif
+
+çalışmalarda bir grubu) övgüye değer görebilir;
+
+ödüle değer aday görülmediği takdirde de o
+
+dalda ödül verilmemesine de karar verebilir.
+
+8.4. Adayın mesleki ya da başka bilimsel ça-
+
+lışmaları değerlendirmede göz önünde bulun-
+
+durulur. Seçici kurulların üyeleri ödüle aday
+
+gösteremez.
+
+8.5. Sedat Simavi Ödülleri, düşünce, cinsiyet,
+
+ırk ve din farkı gözetmeksizin nesnel ölçülere
+
+göre verilir.
+
+8.6. Kararlar, üye tam sayısının yarıdan bir
+
+fazlasının oyuyla alınır. Örnek olarak: 5 üyeden
+
+oluşan seçici kurullarda kararlar en az 3 üyenin
+
+oyu ile, 7 üyeden oluşan seçici kurullarda karar-
+
+lar en az 4 üyenin oyu ile, 9 üyeden oluşan seçici
+
+kurullarda kararlar en az 5 üyenin oyu ile, 11
+
+üyeden oluşan seçici kurullarda kararlar en az 6
+
+üyenin oyu ile alınır.
+
+8.7. Seçici Kurul başkanının da tek ve eşit oy
+
+hakkı vardır. Oylamalarda gizli oy yöntemi uy-
+
+gulanır. Seçici kurullar karar için en çok üç kez
+
+toplanarak oylama yaparlar. Bu durumda da
+
+herhangi bir aday için oy çokluğuna varılamazsa,
+
+o dal için ödül verilmemesine karar verilmiş sa-
+
+yılır.
+
+8.8. Seçici kurul tarafından kabul edilecek
+
+mazereti sebebiyle oylama günü toplantıya ka-
+
+tılamayan seçici kurul üyesi, oyunu kapalı bir zarf
+
+içinde seçici kurul başkanına verebilir veya gön-
+
+derebilir. Bu şekilde verilen oy geçerlidir.
+
+8.9. Seçici kurul uzmanlık alanlarına göre ge-
+
+rekirse iki yazman belirleyebilir.
+
+8.10. Sedat Simavi Ödülleri için başvuranlarla,
+
+seçici kurul görüşmeleri, kurul üyeleri ve Sedat
+
+Simavi Ödülleri Yönetimi tarafından kamuya
+
+açıklanmaz.
+
+8.11. Seçici Kurulların kararları kesindir, itiraz
+
+üzerine yeniden değerlendirme yapılmaz. Seçici
+
+Kurullar kararlarını, 16 Kasım tarihine kadar bir
+
+gerekçeli tutanakla Sedat Simavi Ödülleri Sekre-
+
+terliği’ne bildirirler.
+
+8.12. Seçici Kurulların kararları kesindir.
+
+Ancak Sedat Simavi Ödüllerini kazanan; gerçek
+
+ve tüzel kişilerin Yönetmelik hükümlerine aykırı
+
+olarak hareket ettikleri ödülü kazandıktan sonra
+
+ortaya çıkarsa; TGC Yönetim Kurulu tarafından
+
+konu Seçici Kurula gönderilerek durumu değer-
+
+lendirip yeniden görüş ve kararlarının açıklan-
+
+ması istenebilir.
+
+8.13. Sedat Simavi Ödülleri Seçici Kurul ka-
+
+rarları TGC Yönetim Kurulu tarafından 20 Kasım
+
+tarihine kadar kamuoyuna duyurulur.
+
+8.14. Tören Aralık ayı içinde yapılır.
+
+MADDE-9
+
+ÖDÜLLERİN DAĞITIMI
+
+9.1. Ödüller tek olarak verilir, bölüştürüle-
+
+mez. (Televizyon dalında haber ve belgesel prog-
+
+ramlara ayrı ayrı ödül verilir).
+
+9.2. Ödül kazanana, “Ödül Belgesi” ile Sedat
+
+Simavi Ödülü’nü simgeleyen “Heykel” verilir;
+
+kolektif olarak kazanılan ödüllerde, eser sahipleri
+
+iki kişiden fazla ise heykel ekip liderine (Radyo
+
+ve Televizyon dallarında yayın kuruluşuna, Spor
+
+dalında ise takım adına spor kulübüne) verilir;
+
+övgüye değer görülene ise “Övgü Belgesi” ile
+
+“Plaket” verilir.
+
+9.3. Türkiye Gazeteciler Cemiyeti Yönetim
+
+Kurulu ayrıca, ödül kazanan eserde katkısı bu-
+
+lunan, ödül kazananın dışındaki kişilere de
+
+“Ödül Belgesi” ve “Heykel” verilmesini kararlaş-
+
+tırabilir.
+
+MADDE-10
+
+ESER ÜZERİNDEKİ MALİ VE
+
+MANEVİ HAKLAR
+
+10.1. Türkiye Gazeteciler Cemiyeti Sedat Si-
+
+mavi Ödülleri Yarışması’na katılanlar, katılım
+
+başvurusunu yaparken, yarışmaya katıldığı yapıt
+
+üzerinde 5846 sayılı Fikir ve Sanat Eserleri Kanu-
+
+nu’nun 21.ve 25. Madde yükümlerinde tanım-
+
+lanan işleme, çoğaltma, yayma, temsil ve işaret,
+
+ses ve/veya görüntü nakline yarayan araçlarla
+
+umuma iletim haklarına haiz olduğunu, üçüncü
+
+kişilerden gelecek olan her türlü talep ve sorum-
+
+lulukların kendisine ait olduğunu, eser içinde 3.
+
+şahısların kişilik haklarını ihlal eden kısımlar bu-
+
+lunmadığını, eserin kendi özgün eseri olduğunu
+
+yarışmaya katıldığı eser içeriğinde başka kişilerin
+
+ifade, buluş veya düşüncelerini kaynak göster-
+
+meksizin kullanmadığını, bunlar nedeniyle de
+
+TGC’nin zarara uğraması durumunda söz ko-
+
+nusu zararı hiçbir ihtar ve ihbara gerek kalmak-
+
+sızın karşılayacağını, TGC’nin bu nedenle,
+
+katılımcı eğer TGC üyesi ise ilgili kişiyi üyelikten
+
+çıkarma, ihraç etme hakkı yetkisinin de bulun-
+
+duğunu, katılımcı Ödüle müracaatı ile tüm bu
+
+hususları gayrikabili rücu olarak kabul ve taah-
+
+hüt etmiş sayılmaktadır.
+
+10.2. Katılımcının yarışmaya katıldığı yapıtın
+
+ödül kazanması halinde ise Türkiye Gazeteciler
+
+Cemiyeti’nin söz konusu yapıtları her türlü işitsel,
+
+görsel, dijital ve basılı ortamda umuma iletmek,
+
+sergilemek, internet sitesinde yayınlamak, sosyal
+
+medya hesabında kullanmak, haber olarak kul-
+
+lanılmak üzere video haline getirilip yayın organ-
+
+larına gönderilmesine ve TGC Basın Müzesi
+
+arşivinde süre sınırı olmaksızın saklanmasına
+
+onay verdiği muvafakatini peşinen beyan ve
+
+kabul eder.
+
+MADDE-11
+
+YAPAY ZEKA ARAÇLARININ
+
+KULLANIMI
+
+Sedat Simavi Ödülleri; insan emeğine, bilime,
+
+araştırmacı gazeteciliğe ve yaratıcı düşünceye
+
+dayanan eserlerin yaratılmasını teşvik etmeyi
+
+amaçlar.
+
+Sedat Simavi Ödülleri’ne başvuran aday eser-
+
+lerde yapay zeka araçlarının kullanımı başvuruya
+
+engel değildir. Ancak yapay zeka araçlarının fikri
+
+mülkiyet sınırlarında yarattığı belirsizlikler ve
+
+insan katkısının önceliği dikkate alınarak; Yapay
+
+zeka kullanımının açıkça beyan edilmesi, gizli
+
+kullanımın önlenmesi, eser sahipleri arasında adil
+
+rekabetin sağlanması, etik ilkelerin korunması,
+
+temel ilke olarak benimsenmiştir.
+
+Bu nedenle başvuru formunda yer alan
+
+“Yapay Zeka Kullanımı Beyanı” esas alınır. Aday,
+
+yapay zeka kullanımına ilişkin bilgileri doğru ve
+
+eksiksiz biçimde beyan etmekle yükümlüdür. Bu
+
+beyan, Seçici Kurulun değerlendirmesi açısından
+
+bağlayıcıdır. Ayrıca, bu madde kapsamında tüm
+
+eserlerde, Yönetmelik Madde 3.18’de belirtilen
+
+koşulların eksiksiz şekilde sağlanması zorunlu-
+
+dur.
+
+MADDE-12
+
+6698 SAYILI KİŞİSEL VERİLERİN
+
+KORUNMASI KANUNU UYARINCA
+
+AYDINLATMA VE AÇIK RIZA METNİ
+
+11.1. Bu ödül kapsamında TGC Yönetim Ku-
+
+rulu’na ve Kurula rızaen sunulan Kişisel Veriler,
+
+6698 sayılı Kişisel Verilerin Korunması Kanunu
+
+kapsamında veri sorumlusu olarak saklanmak-
+
+tadır.
+
+11.2. Bu ödül kapsamında toplanan Kişisel
+
+Veriler, TGC Yönetim Kurulu ile Seçici Kurula ak-
+
+tarılmakta, gerekli, zorunlu hallerde de ve iş bu
+
+yönetmelik kapsamında üçüncü kişilere aktarı-
+
+labilecektir.
+
+11.3. Başvurunun ödül alamaması halinde
+
+elde edilen kişisel veriler 6 ay süreyle saklanacak
+
+ve bu sürenin sonunda kişisel verileriniz imha
+
+edilecek bir daha ulaşılmamak üzere silinecek-
+
+tir.
+
+11.4. Türkiye Gazeteciler Cemiyeti Sedat Si-
+
+mavi Ödülleri’ne başvuru ile kişisel verilerin TGC
+
+tarafından elde edilmesine açık muvafakat
+
+(onay) verildiği, bu kapsamla sınırlı olarak 6 ay
+
+süreyle saklanmasına ve yukarıdaki şekilde işlen-
+
+mesine ve üçüncü kişilere aktarılmasına kabul ve
+
+onay verildiği, başvurucuların bu konularda İş bu
+
+yönetmelikle aydınlatıldığı ve buna açık rıza ve-
+
+rildiği kabul edilmektedir.
+
+11.5. Başvurucuların Kişisel Verilerle ilgili
+
+hakları ve soruları için, yazılı müracaat adresi:
+
+Türkiye Gazeteciler Cemiyeti Molla Fenari
+
+Mah. Türkocağı Caddesi No:1 Cağaloğlu-
+
+Fatih/İstanbul olup, elektronik posta adresi:
+
+cemiyet@tgc.org.tr’dir.
+
+---
+
+## 3. BAÜN Aday Öğrenci
 **Kaynak URL:** [https://adayogrenci.balikesir.edu.tr/](https://adayogrenci.balikesir.edu.tr/)
 
 ### Sayfa İçeriği:
@@ -193,6 +1715,8 @@ Tanıtımları
 Merkez
 
 Kütüphane
+
+Akademik
 
 Takvim
 
@@ -237,6 +1761,8 @@ Lisans Programları
 2025 Yılı Taban Puanlar ve Sıralamalar
 
 BAÜN
+
+Fakülteler
 
 BURHANİYE UYGULAMALI BİLİMLER FAKÜLTESİ
 
@@ -326,13 +1852,27 @@ SINDIRGI MESLEK YÜKSEKOKULU
 
 ---
 
-## 3. Akademik Personel | Balıkesir Üniversitesi
+## 4. Akademik Personel | Balıkesir Üniversitesi
 **Kaynak URL:** [https://balikesir.edu.tr/akademik-personel](https://balikesir.edu.tr/akademik-personel)
 
 ### Sayfa İçeriği:
+Üniversitemiz
+
+Akademik
+
+İdari
+
+Öğrenci
+
+Araştırma
+
+Rehber
+
 Akademik Personel
 
 1310 akademisyen
+
+Altınoluk Meslek Yüksekokulu
 
 11 kişi
 
@@ -385,6 +1925,8 @@ ORCID: 0000-0001-5490-9592
 Öğr. Gör. Duygu Kılıç
 
 ORCID: 0000-0003-0487-6002
+
+Ayvalık Meslek Yüksekokulu
 
 14 kişi
 
@@ -449,6 +1991,8 @@ ORCID: 0009-0002-2708-8551
 Öğr. Gör. Hayri Taşkır
 
 ORCID: 0009-0001-5512-5850
+
+Balıkesir Meslek Yüksekokulu
 
 60 kişi
 
@@ -702,6 +2246,8 @@ ORCID: 0000-0002-6590-3505
 
 ORCID: 0000-0001-8884-2381
 
+Bigadiç Meslek Yüksekokulu
+
 16 kişi
 
 Elektrik ve Enerji Bölümü
@@ -780,6 +2326,8 @@ Yönetim ve Organizasyon Bölümü
 
 ORCID: 0000-0003-1532-6735
 
+Burhaniye Meslek Yüksekokulu
+
 15 kişi
 
 Muhasebe ve Vergi Bölümü
@@ -847,6 +2395,8 @@ ORCID: 0000-0002-9120-0678
 Öğr. Gör. Oğuz Han
 
 ORCID: 0000-0002-2737-5908
+
+Burhaniye Uygulamalı Bilimler Fakültesi
 
 24 kişi
 
@@ -954,6 +2504,8 @@ Dr. Öğr. Üyesi Gülşah Özdemir
 
 ORCID: 0000-0001-8900-2560
 
+Dursunbey Meslek Yüksekokulu
+
 15 kişi
 
 El Sanatları Bölümü
@@ -1019,6 +2571,8 @@ ORCID: 0000-0001-9457-992X
 Öğr. Gör. Ömer Taha Sözgen
 
 ORCID: 0000-0001-6744-8182
+
+Edremit Meslek Yüksekokulu
 
 22 kişi
 
@@ -1122,6 +2676,8 @@ ORCID: 0000-0002-3068-2183
 
 ORCID: 0000-0001-8824-0946
 
+Edremit Sivil Havacılık Yüksekokulu
+
 6 kişi
 
 Havacılık Yönetimi Bölümü
@@ -1149,6 +2705,8 @@ ORCID: 0000-0003-4168-0586
 Dr. Öğr. Üyesi Aytekin Ulutaş
 
 ORCID: 0000-0002-5230-7122
+
+Fen-Edebiyat Fakültesi
 
 161 kişi
 
@@ -1814,6 +3372,8 @@ Arş. Gör. Aydın Güler
 
 ORCID: 0000-0002-2530-8170
 
+Güzel Sanatlar Fakültesi
+
 17 kişi
 
 Baskı Sanatları Bölümü
@@ -1890,6 +3450,8 @@ ORCID: 0000-0002-1500-0092
 
 ORCID: 0009-0005-6245-984X
 
+Havran Meslek Yüksekokulu
+
 9 kişi
 
 Büro Hizmetleri ve Sekreterlik Bölümü
@@ -1931,6 +3493,8 @@ ORCID: 0000-0002-0468-3297
 Öğr. Gör. Emre Ünver
 
 ORCID: 0000-0002-0390-8327
+
+Hukuk Fakültesi
 
 39 kişi
 
@@ -2087,6 +3651,8 @@ Arş. Gör. İlyas Atakan Yasak
 Arş. Gör. Bahadır Yıldırım
 
 ORCID: 0000-0002-7842-3033
+
+İktisadi ve İdari Bilimler Fakültesi
 
 50 kişi
 
@@ -2296,6 +3862,8 @@ Arş. Gör. Güven Demirdaş
 
 ORCID: 0000-0003-2815-7627
 
+İlahiyat Fakültesi
+
 42 kişi
 
 Felsefe ve Din Bilimleri Bölümü
@@ -2460,6 +4028,8 @@ Arş. Gör. Azime Merve Taşdelen
 
 ORCID: 0000-0002-8941-0326
 
+İvrindi Sağlık Hizmetleri Meslek Yüksekokulu
+
 9 kişi
 
 Tıbbi Hizmetler ve Teknikler Bölümü
@@ -2501,6 +4071,8 @@ Veri Tabanı, Ağ Tasarımı ve Yönetimi Bölümü
 Dr. Öğr. Üyesi Okan Durusoy
 
 ORCID: 0000-0002-0939-3870
+
+Kepsut Meslek Yüksekokulu
 
 12 kişi
 
@@ -2555,6 +4127,8 @@ ORCID: 0000-0002-2144-9064
 Dr. Öğr. Üyesi Yahya Işık
 
 ORCID: 0000-0001-7654-1565
+
+Mimarlık Fakültesi
 
 19 kişi
 
@@ -2633,6 +4207,8 @@ ORCID: 0000-0002-9287-405X
 Arş. Gör. Recep Furkan Topal
 
 ORCID: 0000-0001-5467-1764
+
+Mühendislik Fakültesi
 
 125 kişi
 
@@ -3143,6 +4719,8 @@ ORCID: 0000-0002-9001-9412
 Arş. Gör. Yunus Emre Nehri
 
 ORCID: 0000-0003-2119-9031
+
+Necatibey Eğitim Fakültesi
 
 139 kişi
 
@@ -3786,6 +5364,8 @@ ORCID: 0000-0001-9046-6960
 
 ORCID: 0000-0002-4455-0667
 
+Sağlık Bilimleri Fakültesi
+
 43 kişi
 
 Beslenme ve Diyetetik Bölümü
@@ -3970,6 +5550,8 @@ Arş. Gör. Hilal Çelik Bayram
 
 ORCID: 0000-0003-1659-3464
 
+Savaştepe Meslek Yüksekokulu
+
 7 kişi
 
 Toptan ve Perakende Satış Bölümü
@@ -4003,6 +5585,8 @@ ORCID: 0000-0002-1769-2512
 Öğr. Gör. Handan Kurtulmuş Sancak
 
 ORCID: 0000-0003-3531-8548
+
+Sındırgı Meslek Yüksekokulu
 
 16 kişi
 
@@ -4077,6 +5661,8 @@ ORCID: 0000-0003-1750-9631
 Öğr. Gör. Ali Murat Sayılgan
 
 ORCID: 0000-0002-0089-6869
+
+Spor Bilimleri Fakültesi
 
 20 kişi
 
@@ -4161,6 +5747,8 @@ Dr. Öğr. Üyesi Alp Kaan Kilci
 ORCID: 0000-0001-6445-6400
 
 Dr. Öğr. Üyesi Tuncay Kıratlı
+
+Tıp Fakültesi
 
 280 kişi
 
@@ -5084,6 +6672,8 @@ Arş. Gör. Merve Yurt
 
 ORCID: 0009-0005-8177-4474
 
+Turizm Fakültesi
+
 33 kişi
 
 Gastronomi ve Mutfak Sanatları Bölümü
@@ -5225,6 +6815,8 @@ ORCID: 0000-0003-1633-6804
 Arş. Gör. Beste Demir
 
 ORCID: 0009-0007-4374-0294
+
+Veteriner Fakültesi
 
 48 kişi
 
@@ -5422,6 +7014,8 @@ ORCID: 0000-0003-4596-9061
 
 Arş. Gör. Dilayda Karataş
 
+Yabancı Diller Yüksekokulu
+
 30 kişi
 
 Yabancı Diller Bölümü
@@ -5528,12 +7122,314 @@ ORCID: 0000-0002-3545-143X
 
 Aramanızla eşleşen akademisyen bulunamadı.
 
+Üniversitemiz
+
+Akademik
+
+İdari
+
+Öğrenci
+
+Araştırma
+
+Rehber
+
+Üniversitemiz
+
+Genel Bilgiler
+
+Misyon-Vizyon
+
+Organizasyon Şeması
+
+BAÜN Logosu
+
+Kurumsal Kimlik Kılavuzu
+
+Bilgi Edinme
+
+Tanıtım
+
+Basında BAÜN
+
+Politikalarımız
+
+Kurullar ve Komisyonlar
+
+Yönetim
+
+Rektör
+
+Rektör Yardımcıları
+
+Üniversite Senatosu
+
+Yönetim Kurulu
+
+Rektör Danışmanları
+
+Genel Sekreter
+
+Genel Sekreter Yardımcıları
+
+Üniversite Danışma Kurulu
+
+Akademik Yükselme ve Atanma Kriterleri
+
+Senato Kararları
+
+Yönetim Kurulu Kararları
+
+Kişisel Verilerin Korunması
+
+Stratejik Plan ve Raporlar
+
+Akademik
+
+Enstitüler
+
+Edremit Zeytincilik Enstitüsü
+
+Fen Bilimleri Enstitüsü
+
+Sağlık Bilimleri Enstitüsü
+
+Sosyal Bilimler Enstitüsü
+
+Fakülteler
+
+Burhaniye Uygulamalı Bilimler Fakültesi
+
+Fen-Edebiyat Fakültesi
+
+Güzel Sanatlar Fakültesi
+
+Hukuk Fakültesi
+
+İktisadi ve İdari Bilimler Fakültesi
+
+İlahiyat Fakültesi
+
+Mimarlık Fakültesi
+
+Mühendislik Fakültesi
+
+Necatibey Eğitim Fakültesi
+
+Sağlık Bilimleri Fakültesi
+
+Spor Bilimleri Fakültesi
+
+Tıp Fakültesi
+
+Turizm Fakültesi
+
+Veteriner Fakültesi
+
+Yüksekokullar
+
+Edremit Sivil Havacılık Yüksekokulu
+
+Yabancı Diller Yüksekokulu
+
+Meslek Yüksekokulları
+
+Altınoluk Meslek Yüksekokulu
+
+Ayvalık Meslek Yüksekokulu
+
+Balıkesir Meslek Yüksekokulu
+
+Bigadiç Meslek Yüksekokulu
+
+Burhaniye Meslek Yüksekokulu
+
+Dursunbey Meslek Yüksekokulu
+
+Edremit Meslek Yüksekokulu
+
+Havran Meslek Yüksekokulu
+
+İvrindi Sağlık Hizmetleri Meslek Yüksekokulu
+
+Kepsut Meslek Yüksekokulu
+
+Savaştepe Meslek Yüksekokulu
+
+Sındırgı Meslek Yüksekokulu
+
+Susurluk Tarım Ve Orman Meslek Yüksekokulu
+
+Rektörlüğe Bağlı Bölümler
+
+Atatürk İlkeleri ve İnkılap Tarihi Bölümü
+
+Enformatik Bölümü
+
+Türk Dili Bölümü
+
+Uzaktan Eğitim
+
+BAUZEM
+
+Akademik Bilgi Sistemi
+
+AVESİS
+
+İdari
+
+İdari Birimler
+
+Genel Sekreterlik
+
+Bilgi İşlem Daire Başkanlığı
+
+İdari ve Mali İşler Daire Başkanlığı
+
+Kütüphane ve Dokümantasyon Daire Başkanlığı
+
+Öğrenci İşleri Daire Başkanlığı
+
+Personel Daire Başkanlığı
+
+Sağlık, Kültür ve Spor Daire Başkanlığı
+
+Strateji Geliştirme Daire Başkanlığı
+
+Yapı İşleri ve Teknik Daire Başkanlığı
+
+Hukuk Müşavirliği
+
+Basın ve Halkla İlişkiler Müdürlüğü
+
+Döner Sermaye İşletme Müdürlüğü
+
+Koordinatörlükler
+
+Akademik Gelişim Koordinatörlüğü
+
+Kalite Güvencesi, Kalite Komisyonu ve Kalite Koordinatörlüğü
+
+Balıkesir Üniversitesi Radyo Koordinatörlüğü
+
+Tanıtım ve Sosyal Medya Koordinatörlüğü
+
+Bilimsel Araştırma Projeleri Koordinatörlüğü
+
+Bilimsel Yayınlar ve Dergiler Koordinatörlüğü
+
+Bologna Koordinatörlüğü
+
+Eğiticilerin Eğitimi Koordinatörlüğü
+
+Enerji Yönetimi ve Sürdürülebilirlik Koordinatörlüğü
+
+Engelsiz Üniversite Koordinatörlüğü
+
+Tümünü gör →
+
+Öğrenci
+
+Akademik Bilgiler
+
+Akademik Takvim
+
+Öğrenci E-Posta
+
+Öğrenci Bilgi Sistemi (OBS)
+
+Bilgi Paketi / Ders Kataloğu
+
+Kanun ve Yönetmelikler
+
+Öğrenci İşleri Daire Başkanlığı
+
+Yabancı Uyruklu Öğrenci Programı
+
+Öğrenci Değişim Programları
+
+Burslar
+
+BAÜN Yaşam
+
+Öğrenci Toplulukları
+
+Yurtlar
+
+Spor Olanakları
+
+Engelsiz Yaşam
+
+Engelsiz Kütüphane
+
+İrtibat Merkezi
+
+Araştırma
+
+Uygulama ve Araştırma Merkezleri İzleme ve Değerlendirme Koordinatörlüğü
+
+Balıkesir Üniversitesi Atatürk İlkeleri ve İnkılap Tarihi Araştırma ve Uygulama Merkezi
+
+Balıkesir Üniversitesi Turizm Araştırma ve Uygulama Merkezi
+
+Balıkesir Üniversitesi Bilgi İşlem Uygulama ve Araştırma Merkezi
+
+Balıkesir Üniversitesi Balıkesir Yöresi Kültürünü Araştırma ve Uygulama Merkezi
+
+Balıkesir Üniversitesi Uluslararası İlişkiler Araştırma ve Uygulama Merkezi
+
+Balıkesir Üniversitesi Uzaktan Eğitim Uygulama ve Araştırma Merkezi
+
+Balıkesir Üniversitesi Sağlık Uygulama ve Araştırma Merkezi
+
+Balıkesir Üniversitesi Botanik Bahçesi ve Herbaryum Uygulama ve Araştırma Merkezi
+
+Balıkesir Üniversitesi Türkçe Öğretimi Uygulama ve Araştırma Merkezi
+
+Balıkesir Üniversitesi Kariyer Geliştirme Uygulama ve Araştırma Merkezi
+
+Tümünü gör →
+
+Birimler
+
+BAÜN Teknokent
+
+Araştırmacılar İçin
+
+Merkez Kütüphane
+
+Katalog Tarama
+
+Veri Tabanları
+
+Uzaktan Erişim
+
+Açık Erişim
+
+Akademik Dergiler
+
+Etik Kurullar
+
+Rehber
+
 ---
 
-## 4. Duyurular | Balıkesir Üniversitesi
+## 5. Duyurular | Balıkesir Üniversitesi
 **Kaynak URL:** [https://balikesir.edu.tr/duyurular](https://balikesir.edu.tr/duyurular)
 
 ### Sayfa İçeriği:
+Üniversitemiz
+
+Akademik
+
+İdari
+
+Öğrenci
+
+Araştırma
+
+Rehber
+
 Duyurular
 
 Duyurular
@@ -5590,9 +7486,299 @@ Sosyal Bilimler Enstitüsü 2026/2027 Eğitim-Öğretim Yılı Güz Yarıyılı 
 
 1-12 arası gösteriliyor
 
+Üniversitemiz
+
+Akademik
+
+İdari
+
+Öğrenci
+
+Araştırma
+
+Rehber
+
+Üniversitemiz
+
+Genel Bilgiler
+
+Misyon-Vizyon
+
+Organizasyon Şeması
+
+BAÜN Logosu
+
+Kurumsal Kimlik Kılavuzu
+
+Bilgi Edinme
+
+Tanıtım
+
+Basında BAÜN
+
+Politikalarımız
+
+Kurullar ve Komisyonlar
+
+Yönetim
+
+Rektör
+
+Rektör Yardımcıları
+
+Üniversite Senatosu
+
+Yönetim Kurulu
+
+Rektör Danışmanları
+
+Genel Sekreter
+
+Genel Sekreter Yardımcıları
+
+Üniversite Danışma Kurulu
+
+Akademik Yükselme ve Atanma Kriterleri
+
+Senato Kararları
+
+Yönetim Kurulu Kararları
+
+Kişisel Verilerin Korunması
+
+Stratejik Plan ve Raporlar
+
+Akademik
+
+Enstitüler
+
+Edremit Zeytincilik Enstitüsü
+
+Fen Bilimleri Enstitüsü
+
+Sağlık Bilimleri Enstitüsü
+
+Sosyal Bilimler Enstitüsü
+
+Fakülteler
+
+Burhaniye Uygulamalı Bilimler Fakültesi
+
+Fen-Edebiyat Fakültesi
+
+Güzel Sanatlar Fakültesi
+
+Hukuk Fakültesi
+
+İktisadi ve İdari Bilimler Fakültesi
+
+İlahiyat Fakültesi
+
+Mimarlık Fakültesi
+
+Mühendislik Fakültesi
+
+Necatibey Eğitim Fakültesi
+
+Sağlık Bilimleri Fakültesi
+
+Spor Bilimleri Fakültesi
+
+Tıp Fakültesi
+
+Turizm Fakültesi
+
+Veteriner Fakültesi
+
+Yüksekokullar
+
+Edremit Sivil Havacılık Yüksekokulu
+
+Yabancı Diller Yüksekokulu
+
+Meslek Yüksekokulları
+
+Altınoluk Meslek Yüksekokulu
+
+Ayvalık Meslek Yüksekokulu
+
+Balıkesir Meslek Yüksekokulu
+
+Bigadiç Meslek Yüksekokulu
+
+Burhaniye Meslek Yüksekokulu
+
+Dursunbey Meslek Yüksekokulu
+
+Edremit Meslek Yüksekokulu
+
+Havran Meslek Yüksekokulu
+
+İvrindi Sağlık Hizmetleri Meslek Yüksekokulu
+
+Kepsut Meslek Yüksekokulu
+
+Savaştepe Meslek Yüksekokulu
+
+Sındırgı Meslek Yüksekokulu
+
+Susurluk Tarım Ve Orman Meslek Yüksekokulu
+
+Rektörlüğe Bağlı Bölümler
+
+Atatürk İlkeleri ve İnkılap Tarihi Bölümü
+
+Enformatik Bölümü
+
+Türk Dili Bölümü
+
+Uzaktan Eğitim
+
+BAUZEM
+
+Akademik Bilgi Sistemi
+
+AVESİS
+
+İdari
+
+İdari Birimler
+
+Genel Sekreterlik
+
+Bilgi İşlem Daire Başkanlığı
+
+İdari ve Mali İşler Daire Başkanlığı
+
+Kütüphane ve Dokümantasyon Daire Başkanlığı
+
+Öğrenci İşleri Daire Başkanlığı
+
+Personel Daire Başkanlığı
+
+Sağlık, Kültür ve Spor Daire Başkanlığı
+
+Strateji Geliştirme Daire Başkanlığı
+
+Yapı İşleri ve Teknik Daire Başkanlığı
+
+Hukuk Müşavirliği
+
+Basın ve Halkla İlişkiler Müdürlüğü
+
+Döner Sermaye İşletme Müdürlüğü
+
+Koordinatörlükler
+
+Akademik Gelişim Koordinatörlüğü
+
+Kalite Güvencesi, Kalite Komisyonu ve Kalite Koordinatörlüğü
+
+Balıkesir Üniversitesi Radyo Koordinatörlüğü
+
+Tanıtım ve Sosyal Medya Koordinatörlüğü
+
+Bilimsel Araştırma Projeleri Koordinatörlüğü
+
+Bilimsel Yayınlar ve Dergiler Koordinatörlüğü
+
+Bologna Koordinatörlüğü
+
+Eğiticilerin Eğitimi Koordinatörlüğü
+
+Enerji Yönetimi ve Sürdürülebilirlik Koordinatörlüğü
+
+Engelsiz Üniversite Koordinatörlüğü
+
+Tümünü gör →
+
+Öğrenci
+
+Akademik Bilgiler
+
+Akademik Takvim
+
+Öğrenci E-Posta
+
+Öğrenci Bilgi Sistemi (OBS)
+
+Bilgi Paketi / Ders Kataloğu
+
+Kanun ve Yönetmelikler
+
+Öğrenci İşleri Daire Başkanlığı
+
+Yabancı Uyruklu Öğrenci Programı
+
+Öğrenci Değişim Programları
+
+Burslar
+
+BAÜN Yaşam
+
+Öğrenci Toplulukları
+
+Yurtlar
+
+Spor Olanakları
+
+Engelsiz Yaşam
+
+Engelsiz Kütüphane
+
+İrtibat Merkezi
+
+Araştırma
+
+Uygulama ve Araştırma Merkezleri İzleme ve Değerlendirme Koordinatörlüğü
+
+Balıkesir Üniversitesi Atatürk İlkeleri ve İnkılap Tarihi Araştırma ve Uygulama Merkezi
+
+Balıkesir Üniversitesi Turizm Araştırma ve Uygulama Merkezi
+
+Balıkesir Üniversitesi Bilgi İşlem Uygulama ve Araştırma Merkezi
+
+Balıkesir Üniversitesi Balıkesir Yöresi Kültürünü Araştırma ve Uygulama Merkezi
+
+Balıkesir Üniversitesi Uluslararası İlişkiler Araştırma ve Uygulama Merkezi
+
+Balıkesir Üniversitesi Uzaktan Eğitim Uygulama ve Araştırma Merkezi
+
+Balıkesir Üniversitesi Sağlık Uygulama ve Araştırma Merkezi
+
+Balıkesir Üniversitesi Botanik Bahçesi ve Herbaryum Uygulama ve Araştırma Merkezi
+
+Balıkesir Üniversitesi Türkçe Öğretimi Uygulama ve Araştırma Merkezi
+
+Balıkesir Üniversitesi Kariyer Geliştirme Uygulama ve Araştırma Merkezi
+
+Tümünü gör →
+
+Birimler
+
+BAÜN Teknokent
+
+Araştırmacılar İçin
+
+Merkez Kütüphane
+
+Katalog Tarama
+
+Veri Tabanları
+
+Uzaktan Erişim
+
+Açık Erişim
+
+Akademik Dergiler
+
+Etik Kurullar
+
+Rehber
+
 ---
 
-## 5. NEF Müzik Eğitimi Anabilim Dalı 2026 Özel Yetenek Sınavına Girecek Olan Adaylara İlişkin Duyuru | MÜZİK EĞİTİMİ ANABİLİM DALI
+## 6. NEF Müzik Eğitimi Anabilim Dalı 2026 Özel Yetenek Sınavına Girecek Olan Adaylara İlişkin Duyuru | MÜZİK EĞİTİMİ ANABİLİM DALI
 **Kaynak URL:** [https://nef-muzik.balikesir.edu.tr/duyurular/nef-muzik-egitimi-anabilim-dali-2026-ozel-yetenek-sinavina-girecek-olan-adaylara-iliskin-duyuru-202608131226](https://nef-muzik.balikesir.edu.tr/duyurular/nef-muzik-egitimi-anabilim-dali-2026-ozel-yetenek-sinavina-girecek-olan-adaylara-iliskin-duyuru-202608131226)
 
 ### Sayfa İçeriği:
@@ -5601,6 +7787,10 @@ MÜZİK EĞİTİMİ ANABİLİM DALI
 Kadromuz
 
 Kalite
+
+Öğrenci
+
+Araştırma
 
 duyurular
 
@@ -5728,6 +7918,8 @@ Tüm Adaylara Ba
 
 Dileriz.
 
+Diğer Haberler
+
 NEF Müzik Eğitimi Anabilim Dalı 2026-2027 Özel Yetenek Sınavı Başvuru İlanı
 
 NEF Müzik Eğitimi Anabilim Dalı 2026-2027 Özel Yetenek Sınavı
@@ -5738,17 +7930,27 @@ Kadromuz
 
 Kalite
 
+Öğrenci
+
+Araştırma
+
 Kadromuz
 
 Kalite
 
+Öğrenci
+
+Araştırma
+
 ---
 
-## 6. 04.08.2026 Tarihli Öğretim Elemanı İlanımız | PERSONEL DAİRE BAŞKANLIĞI | Balıkesir Üniversitesi
+## 7. 04.08.2026 Tarihli Öğretim Elemanı İlanımız | PERSONEL DAİRE BAŞKANLIĞI | Balıkesir Üniversitesi
 **Kaynak URL:** [https://personel.balikesir.edu.tr/duyurular/04-08-2026-tarihli-ogretim-elemani-ilanimiz-202608040859](https://personel.balikesir.edu.tr/duyurular/04-08-2026-tarihli-ogretim-elemani-ilanimiz-202608040859)
 
 ### Sayfa İçeriği:
 PERSONEL DAİRE BAŞKANLIĞI
+
+Birimler
 
 Kadromuz
 
@@ -5776,15 +7978,21 @@ BURADAN
 
 Ulaşabilirsiniz.
 
+Diğer Haberler
+
 04.08.2026 Tarihli Öğretim Üyesi İlanımız
 
 03.07.2026 Tarihli Öğretim Elemanı İlanımıza Ait Nihai Değerlendirme Sonuçları
 
 Balıkesir Üniversitesi Rektörlüğü Sözleşmeli Personel Alımı İlanı
 
+Birimler
+
 Kadromuz
 
 Kalite
+
+Birimler
 
 Kadromuz
 
@@ -5792,11 +8000,13 @@ Kalite
 
 ---
 
-## 7. 04.08.2026 Tarihli Öğretim Üyesi İlanımız | PERSONEL DAİRE BAŞKANLIĞI | Balıkesir Üniversitesi
+## 8. 04.08.2026 Tarihli Öğretim Üyesi İlanımız | PERSONEL DAİRE BAŞKANLIĞI | Balıkesir Üniversitesi
 **Kaynak URL:** [https://personel.balikesir.edu.tr/duyurular/04-08-2026-tarihli-ogretim-uyesi-ilanimiz-202608040909](https://personel.balikesir.edu.tr/duyurular/04-08-2026-tarihli-ogretim-uyesi-ilanimiz-202608040909)
 
 ### Sayfa İçeriği:
 PERSONEL DAİRE BAŞKANLIĞI
+
+Birimler
 
 Kadromuz
 
@@ -5834,15 +8044,21 @@ Son başvuru tarihi  : 18.08.2026 (Salı günü mesai bitimi)
 
 Akademik Etkinlik Değerlendirme Formu EK-1
 
+Diğer Haberler
+
 04.08.2026 Tarihli Öğretim Elemanı İlanımız
 
 03.07.2026 Tarihli Öğretim Elemanı İlanımıza Ait Nihai Değerlendirme Sonuçları
 
 Balıkesir Üniversitesi Rektörlüğü Sözleşmeli Personel Alımı İlanı
 
+Birimler
+
 Kadromuz
 
 Kalite
+
+Birimler
 
 Kadromuz
 
@@ -5850,11 +8066,13 @@ Kalite
 
 ---
 
-## 8. 03.07.2026 Tarihli Öğretim Elemanı İlanımıza Ait Nihai Değerlendirme Sonuçları | PERSONEL DAİRE BAŞKANLIĞI
+## 9. 03.07.2026 Tarihli Öğretim Elemanı İlanımıza Ait Nihai Değerlendirme Sonuçları | PERSONEL DAİRE BAŞKANLIĞI
 **Kaynak URL:** [https://personel.balikesir.edu.tr/duyurular/03072026-tarihli-ogretim-elemani-ilanimiza-ait-nihai-degerlendirme-sonuclari-202608031544](https://personel.balikesir.edu.tr/duyurular/03072026-tarihli-ogretim-elemani-ilanimiza-ait-nihai-degerlendirme-sonuclari-202608031544)
 
 ### Sayfa İçeriği:
 PERSONEL DAİRE BAŞKANLIĞI
+
+Birimler
 
 Kadromuz
 
@@ -5870,15 +8088,21 @@ Balıkesir MYO
 
 Bigadiç MYO
 
+Diğer Haberler
+
 04.08.2026 Tarihli Öğretim Üyesi İlanımız
 
 04.08.2026 Tarihli Öğretim Elemanı İlanımız
 
 Balıkesir Üniversitesi Rektörlüğü Sözleşmeli Personel Alımı İlanı
 
+Birimler
+
 Kadromuz
 
 Kalite
+
+Birimler
 
 Kadromuz
 
@@ -5886,7 +8110,7 @@ Kalite
 
 ---
 
-## 9. 2026-2027 Eğitim-Öğretim Yılı Güz Yarıyılı Lisansüstü Öğrenci Kontenjanları ve Başvuru Koşulları | SAĞLIK BİLİMLERİ ENSTİTÜSÜ
+## 10. 2026-2027 Eğitim-Öğretim Yılı Güz Yarıyılı Lisansüstü Öğrenci Kontenjanları ve Başvuru Koşulları | SAĞLIK BİLİMLERİ ENSTİTÜSÜ
 **Kaynak URL:** [https://saglikbe.balikesir.edu.tr/duyurular/2026-2027-egitim-ogretim-yili-guz-yariyili-lisansustu-ogrenci-kontenjanlari-ve-basvuru-kosullari-202607311605](https://saglikbe.balikesir.edu.tr/duyurular/2026-2027-egitim-ogretim-yili-guz-yariyili-lisansustu-ogrenci-kontenjanlari-ve-basvuru-kosullari-202607311605)
 
 ### Sayfa İçeriği:
@@ -5895,6 +8119,8 @@ SAĞLIK BİLİMLERİ ENSTİTÜSÜ
 Kadromuz
 
 Lisansüstü Programlar
+
+Öğrenci
 
 Kalite
 
@@ -5940,6 +8166,8 @@ TIKLAYINIZ.
 
 26 Mayıs 2024 tarih ve 32557 sayılı Resmi Gazetede yayımlanan Balıkesir Üniversitesi Lisansüstü Eğitim-Öğretim ve Sınav Yönetmeliğinin 46. maddesinin 5. bendinde “Tezsiz yüksek lisans programları hariç, aynı anda birden fazla lisansüstü programa kayıt yaptırılamaz ve devam edilemez.” hükmü yer almaktadır. Kesin kayıt yaptırsalar dahi bu durumda başvurdukları tespit edilen öğrencilerin kayıtları silinir.
 
+Diğer Haberler
+
 Trakya Üniversiteler Birliği 9. Lisansüstü Öğrenci Kongresi - TUBLOK 2026
 
 Kamu Denetçiliği Kurumu Eğitim Özel Raporu Kapsamında Anket Çalışması
@@ -5950,6 +8178,8 @@ Kadromuz
 
 Lisansüstü Programlar
 
+Öğrenci
+
 Kalite
 
 Dergi
@@ -5958,13 +8188,15 @@ Kadromuz
 
 Lisansüstü Programlar
 
+Öğrenci
+
 Kalite
 
 Dergi
 
 ---
 
-## 10. Öğrenci Dağılımı - Balıkesir Üniversitesi
+## 11. Öğrenci Dağılımı - Balıkesir Üniversitesi
 **Kaynak URL:** [https://verihavuzu.balikesir.edu.tr/ogrenci_dagilim_v2.php](https://verihavuzu.balikesir.edu.tr/ogrenci_dagilim_v2.php)
 
 ### Sayfa İçeriği:
@@ -6392,11 +8624,11 @@ ZONGULDAK
 
 Bilgi İşlem Daire Başkanlığı © 2025
 
-Son güncelleme: 17.08.2026 00:04
+Son güncelleme: 18.08.2026 00:11
 
 ---
 
-## 11. Balıkesir Üniversitesi Sağlık Uygulama ve Araştırma Hastanesi
+## 12. Balıkesir Üniversitesi Sağlık Uygulama ve Araştırma Hastanesi
 **Kaynak URL:** [https://hastane.balikesir.edu.tr/](https://hastane.balikesir.edu.tr/)
 
 ### Sayfa İçeriği:
@@ -6466,7 +8698,7 @@ Mümkün olan en iyi bakımı almanızı sağlamak için gerekli takip randevula
 
 ---
 
-## 12. Balıkesir Üniversitesi - Uluslararası Öğrenci Ofisi
+## 13. Balıkesir Üniversitesi - Uluslararası Öğrenci Ofisi
 **Kaynak URL:** [https://baunyos.balikesir.edu.tr/](https://baunyos.balikesir.edu.tr/)
 
 ### Sayfa İçeriği:
@@ -6546,13 +8778,15 @@ BAUNYOS TUITION FEES
 
 ---
 
-## 13. Hayvan Hastanesi | VETERİNER FAKÜLTESİ | Balıkesir Üniversitesi
+## 14. Hayvan Hastanesi | VETERİNER FAKÜLTESİ | Balıkesir Üniversitesi
 **Kaynak URL:** [https://veteriner.balikesir.edu.tr/hayvan-hastanesi](https://veteriner.balikesir.edu.tr/hayvan-hastanesi)
 
 ### Sayfa İçeriği:
 VETERİNER FAKÜLTESİ
 
 Bölümler
+
+Öğrenci
 
 Kadromuz
 
@@ -6618,11 +8852,15 @@ ulaşabilirsiniz.
 
 Bölümler
 
+Öğrenci
+
 Kadromuz
 
 Kalite
 
 Bölümler
+
+Öğrenci
 
 Kadromuz
 
@@ -6630,10 +8868,22 @@ Kalite
 
 ---
 
-## 14. BASINDA BAÜN | Balıkesir Üniversitesi
+## 15. BASINDA BAÜN | Balıkesir Üniversitesi
 **Kaynak URL:** [https://www.balikesir.edu.tr/basinda-baun](https://www.balikesir.edu.tr/basinda-baun)
 
 ### Sayfa İçeriği:
+Üniversitemiz
+
+Akademik
+
+İdari
+
+Öğrenci
+
+Araştırma
+
+Rehber
+
 BASINDA BAÜN
 
 BASINDA BAÜN
@@ -6652,31 +8902,345 @@ Ulusal Haberler
 
 TÜM HABERLER
 
+BİK Genel Müdürü Abdulkadir Çay’dan Rektör Oğurlu’ya ziyaret
+
+Balıkesir'de Uluslararası Akademisyen, Gazeteci ve Medya Temsilcileri Forumu düzenlendi
+
 Balıkesir’de uzman ekip ile ’Lipödem’ tedavisi
-
-Balıkesir Üniversitesi'nde Charles Peirce Göstergebilimi Seminerleri Tamamlandı
-
-Tercih yolculuğunda rehberlik: Balıkesir Üniversitesi adaylarla buluşuyor
 
 Yerel Haberler
 
 TÜM HABERLER
 
+Kurtdereli Güreşleri İçin Rektör Oğurlu’ya Davet
+
 Kars'tan Balıkesir'e Uzanan Hayat Operasyonu! Ambulans Uçakla Getirilen Bebek Hayata Tutundu! İşte Mucize Operasyon!
 
 ÖZBEKİSTAN ALMALIK DEVLET TEKNİK ENSTİTÜSÜ HEYETİNDEN REKTÖR OĞURLU’YA ZİYARET
 
-Prof. Dr. Eyüp Avcı Uyardı: Sıcaklar Kalbi Sessizce Tehdit Ediyor
+Üniversitemiz
+
+Akademik
+
+İdari
+
+Öğrenci
+
+Araştırma
+
+Rehber
+
+Üniversitemiz
+
+Genel Bilgiler
+
+Misyon-Vizyon
+
+Organizasyon Şeması
+
+BAÜN Logosu
+
+Kurumsal Kimlik Kılavuzu
+
+Bilgi Edinme
+
+Tanıtım
+
+Basında BAÜN
+
+Politikalarımız
+
+Kurullar ve Komisyonlar
+
+Yönetim
+
+Rektör
+
+Rektör Yardımcıları
+
+Üniversite Senatosu
+
+Yönetim Kurulu
+
+Rektör Danışmanları
+
+Genel Sekreter
+
+Genel Sekreter Yardımcıları
+
+Üniversite Danışma Kurulu
+
+Akademik Yükselme ve Atanma Kriterleri
+
+Senato Kararları
+
+Yönetim Kurulu Kararları
+
+Kişisel Verilerin Korunması
+
+Stratejik Plan ve Raporlar
+
+Akademik
+
+Enstitüler
+
+Edremit Zeytincilik Enstitüsü
+
+Fen Bilimleri Enstitüsü
+
+Sağlık Bilimleri Enstitüsü
+
+Sosyal Bilimler Enstitüsü
+
+Fakülteler
+
+Burhaniye Uygulamalı Bilimler Fakültesi
+
+Fen-Edebiyat Fakültesi
+
+Güzel Sanatlar Fakültesi
+
+Hukuk Fakültesi
+
+İktisadi ve İdari Bilimler Fakültesi
+
+İlahiyat Fakültesi
+
+Mimarlık Fakültesi
+
+Mühendislik Fakültesi
+
+Necatibey Eğitim Fakültesi
+
+Sağlık Bilimleri Fakültesi
+
+Spor Bilimleri Fakültesi
+
+Tıp Fakültesi
+
+Turizm Fakültesi
+
+Veteriner Fakültesi
+
+Yüksekokullar
+
+Edremit Sivil Havacılık Yüksekokulu
+
+Yabancı Diller Yüksekokulu
+
+Meslek Yüksekokulları
+
+Altınoluk Meslek Yüksekokulu
+
+Ayvalık Meslek Yüksekokulu
+
+Balıkesir Meslek Yüksekokulu
+
+Bigadiç Meslek Yüksekokulu
+
+Burhaniye Meslek Yüksekokulu
+
+Dursunbey Meslek Yüksekokulu
+
+Edremit Meslek Yüksekokulu
+
+Havran Meslek Yüksekokulu
+
+İvrindi Sağlık Hizmetleri Meslek Yüksekokulu
+
+Kepsut Meslek Yüksekokulu
+
+Savaştepe Meslek Yüksekokulu
+
+Sındırgı Meslek Yüksekokulu
+
+Susurluk Tarım Ve Orman Meslek Yüksekokulu
+
+Rektörlüğe Bağlı Bölümler
+
+Atatürk İlkeleri ve İnkılap Tarihi Bölümü
+
+Enformatik Bölümü
+
+Türk Dili Bölümü
+
+Uzaktan Eğitim
+
+BAUZEM
+
+Akademik Bilgi Sistemi
+
+AVESİS
+
+İdari
+
+İdari Birimler
+
+Genel Sekreterlik
+
+Bilgi İşlem Daire Başkanlığı
+
+İdari ve Mali İşler Daire Başkanlığı
+
+Kütüphane ve Dokümantasyon Daire Başkanlığı
+
+Öğrenci İşleri Daire Başkanlığı
+
+Personel Daire Başkanlığı
+
+Sağlık, Kültür ve Spor Daire Başkanlığı
+
+Strateji Geliştirme Daire Başkanlığı
+
+Yapı İşleri ve Teknik Daire Başkanlığı
+
+Hukuk Müşavirliği
+
+Basın ve Halkla İlişkiler Müdürlüğü
+
+Döner Sermaye İşletme Müdürlüğü
+
+Koordinatörlükler
+
+Akademik Gelişim Koordinatörlüğü
+
+Kalite Güvencesi, Kalite Komisyonu ve Kalite Koordinatörlüğü
+
+Balıkesir Üniversitesi Radyo Koordinatörlüğü
+
+Tanıtım ve Sosyal Medya Koordinatörlüğü
+
+Bilimsel Araştırma Projeleri Koordinatörlüğü
+
+Bilimsel Yayınlar ve Dergiler Koordinatörlüğü
+
+Bologna Koordinatörlüğü
+
+Eğiticilerin Eğitimi Koordinatörlüğü
+
+Enerji Yönetimi ve Sürdürülebilirlik Koordinatörlüğü
+
+Engelsiz Üniversite Koordinatörlüğü
+
+Tümünü gör →
+
+Öğrenci
+
+Akademik Bilgiler
+
+Akademik Takvim
+
+Öğrenci E-Posta
+
+Öğrenci Bilgi Sistemi (OBS)
+
+Bilgi Paketi / Ders Kataloğu
+
+Kanun ve Yönetmelikler
+
+Öğrenci İşleri Daire Başkanlığı
+
+Yabancı Uyruklu Öğrenci Programı
+
+Öğrenci Değişim Programları
+
+Burslar
+
+BAÜN Yaşam
+
+Öğrenci Toplulukları
+
+Yurtlar
+
+Spor Olanakları
+
+Engelsiz Yaşam
+
+Engelsiz Kütüphane
+
+İrtibat Merkezi
+
+Araştırma
+
+Uygulama ve Araştırma Merkezleri İzleme ve Değerlendirme Koordinatörlüğü
+
+Balıkesir Üniversitesi Atatürk İlkeleri ve İnkılap Tarihi Araştırma ve Uygulama Merkezi
+
+Balıkesir Üniversitesi Turizm Araştırma ve Uygulama Merkezi
+
+Balıkesir Üniversitesi Bilgi İşlem Uygulama ve Araştırma Merkezi
+
+Balıkesir Üniversitesi Balıkesir Yöresi Kültürünü Araştırma ve Uygulama Merkezi
+
+Balıkesir Üniversitesi Uluslararası İlişkiler Araştırma ve Uygulama Merkezi
+
+Balıkesir Üniversitesi Uzaktan Eğitim Uygulama ve Araştırma Merkezi
+
+Balıkesir Üniversitesi Sağlık Uygulama ve Araştırma Merkezi
+
+Balıkesir Üniversitesi Botanik Bahçesi ve Herbaryum Uygulama ve Araştırma Merkezi
+
+Balıkesir Üniversitesi Türkçe Öğretimi Uygulama ve Araştırma Merkezi
+
+Balıkesir Üniversitesi Kariyer Geliştirme Uygulama ve Araştırma Merkezi
+
+Tümünü gör →
+
+Birimler
+
+BAÜN Teknokent
+
+Araştırmacılar İçin
+
+Merkez Kütüphane
+
+Katalog Tarama
+
+Veri Tabanları
+
+Uzaktan Erişim
+
+Açık Erişim
+
+Akademik Dergiler
+
+Etik Kurullar
+
+Rehber
 
 ---
 
-## 15. Haberler | Balıkesir Üniversitesi
+## 16. Haberler | Balıkesir Üniversitesi
 **Kaynak URL:** [https://balikesir.edu.tr/haberler](https://balikesir.edu.tr/haberler)
 
 ### Sayfa İçeriği:
+Üniversitemiz
+
+Akademik
+
+İdari
+
+Öğrenci
+
+Araştırma
+
+Rehber
+
 Haberler
 
 Haberler
+
+BAÜN ve Almalık Devlet Teknik Enstitüsü Arasında Ortak Projelere Yönelik İş Birliği Adımı
+
+Rektörümüz Prof. Dr. Yücel Oğurlu'nun Mesajı  "Üniversitene Hoş Geldin"
+
+Balıkesir Büyükşehir Belediye Başkanı Ahmet Akın’dan Rektör Oğurlu’ya 66. Geleneksel Kurtdereli Mehmet Pehlivan Güreşleri Daveti
+
+BAÜN’den, Antibiyotik Tedavisinde Umut Veren Gelişme: İlacın Etkisi Korundu, Böbrek Üzerindeki Yan Etkiler Azaldı
+
+BİK Genel Müdürü Abdulkadir Çay’dan Rektör Oğurlu’ya Ziyaret
+
+Uluslararası Akademisyen, Gazeteci ve Medya Temsilcileri Forumu Heyetinden Rektör Oğurlu’ya Ziyaret
 
 Uluslararası Akademisyen, Gazeteci ve Medya Temsilcileri Forumu” Balıkesir Üniversitesinde Gerçekleştirildi
 
@@ -6690,23 +9254,1385 @@ BAÜN Akademisyeninden Uçak Motorlarında Performans Kaybına Yapay Zeka ile Er
 
 Altıeylül İlçe Jandarma Komutanı J.Kd. Yzb. Erol Bilgin’den Rektör Oğurlu’ya Ziyaret
 
-BAÜN’den Dikkat Çeken Araştırma: Eşlerden Birinin Duygularını Yönetmekte Zorlanması Diğer Eşi de Etkiliyor
-
-Üniversitemizden “Dijital Çağda Kamu İletişimi” Paneline Katılım
-
-Balıkesir Üniversitesinden TÜBİTAK 1001 Bilimsel ve Teknolojik Araştırma Projelerini Destekleme Programı Proje Başarısı
-
-1776 içerikten
+1779 içerikten
 
 1-12 arası gösteriliyor
 
+Üniversitemiz
+
+Akademik
+
+İdari
+
+Öğrenci
+
+Araştırma
+
+Rehber
+
+Üniversitemiz
+
+Genel Bilgiler
+
+Misyon-Vizyon
+
+Organizasyon Şeması
+
+BAÜN Logosu
+
+Kurumsal Kimlik Kılavuzu
+
+Bilgi Edinme
+
+Tanıtım
+
+Basında BAÜN
+
+Politikalarımız
+
+Kurullar ve Komisyonlar
+
+Yönetim
+
+Rektör
+
+Rektör Yardımcıları
+
+Üniversite Senatosu
+
+Yönetim Kurulu
+
+Rektör Danışmanları
+
+Genel Sekreter
+
+Genel Sekreter Yardımcıları
+
+Üniversite Danışma Kurulu
+
+Akademik Yükselme ve Atanma Kriterleri
+
+Senato Kararları
+
+Yönetim Kurulu Kararları
+
+Kişisel Verilerin Korunması
+
+Stratejik Plan ve Raporlar
+
+Akademik
+
+Enstitüler
+
+Edremit Zeytincilik Enstitüsü
+
+Fen Bilimleri Enstitüsü
+
+Sağlık Bilimleri Enstitüsü
+
+Sosyal Bilimler Enstitüsü
+
+Fakülteler
+
+Burhaniye Uygulamalı Bilimler Fakültesi
+
+Fen-Edebiyat Fakültesi
+
+Güzel Sanatlar Fakültesi
+
+Hukuk Fakültesi
+
+İktisadi ve İdari Bilimler Fakültesi
+
+İlahiyat Fakültesi
+
+Mimarlık Fakültesi
+
+Mühendislik Fakültesi
+
+Necatibey Eğitim Fakültesi
+
+Sağlık Bilimleri Fakültesi
+
+Spor Bilimleri Fakültesi
+
+Tıp Fakültesi
+
+Turizm Fakültesi
+
+Veteriner Fakültesi
+
+Yüksekokullar
+
+Edremit Sivil Havacılık Yüksekokulu
+
+Yabancı Diller Yüksekokulu
+
+Meslek Yüksekokulları
+
+Altınoluk Meslek Yüksekokulu
+
+Ayvalık Meslek Yüksekokulu
+
+Balıkesir Meslek Yüksekokulu
+
+Bigadiç Meslek Yüksekokulu
+
+Burhaniye Meslek Yüksekokulu
+
+Dursunbey Meslek Yüksekokulu
+
+Edremit Meslek Yüksekokulu
+
+Havran Meslek Yüksekokulu
+
+İvrindi Sağlık Hizmetleri Meslek Yüksekokulu
+
+Kepsut Meslek Yüksekokulu
+
+Savaştepe Meslek Yüksekokulu
+
+Sındırgı Meslek Yüksekokulu
+
+Susurluk Tarım Ve Orman Meslek Yüksekokulu
+
+Rektörlüğe Bağlı Bölümler
+
+Atatürk İlkeleri ve İnkılap Tarihi Bölümü
+
+Enformatik Bölümü
+
+Türk Dili Bölümü
+
+Uzaktan Eğitim
+
+BAUZEM
+
+Akademik Bilgi Sistemi
+
+AVESİS
+
+İdari
+
+İdari Birimler
+
+Genel Sekreterlik
+
+Bilgi İşlem Daire Başkanlığı
+
+İdari ve Mali İşler Daire Başkanlığı
+
+Kütüphane ve Dokümantasyon Daire Başkanlığı
+
+Öğrenci İşleri Daire Başkanlığı
+
+Personel Daire Başkanlığı
+
+Sağlık, Kültür ve Spor Daire Başkanlığı
+
+Strateji Geliştirme Daire Başkanlığı
+
+Yapı İşleri ve Teknik Daire Başkanlığı
+
+Hukuk Müşavirliği
+
+Basın ve Halkla İlişkiler Müdürlüğü
+
+Döner Sermaye İşletme Müdürlüğü
+
+Koordinatörlükler
+
+Akademik Gelişim Koordinatörlüğü
+
+Kalite Güvencesi, Kalite Komisyonu ve Kalite Koordinatörlüğü
+
+Balıkesir Üniversitesi Radyo Koordinatörlüğü
+
+Tanıtım ve Sosyal Medya Koordinatörlüğü
+
+Bilimsel Araştırma Projeleri Koordinatörlüğü
+
+Bilimsel Yayınlar ve Dergiler Koordinatörlüğü
+
+Bologna Koordinatörlüğü
+
+Eğiticilerin Eğitimi Koordinatörlüğü
+
+Enerji Yönetimi ve Sürdürülebilirlik Koordinatörlüğü
+
+Engelsiz Üniversite Koordinatörlüğü
+
+Tümünü gör →
+
+Öğrenci
+
+Akademik Bilgiler
+
+Akademik Takvim
+
+Öğrenci E-Posta
+
+Öğrenci Bilgi Sistemi (OBS)
+
+Bilgi Paketi / Ders Kataloğu
+
+Kanun ve Yönetmelikler
+
+Öğrenci İşleri Daire Başkanlığı
+
+Yabancı Uyruklu Öğrenci Programı
+
+Öğrenci Değişim Programları
+
+Burslar
+
+BAÜN Yaşam
+
+Öğrenci Toplulukları
+
+Yurtlar
+
+Spor Olanakları
+
+Engelsiz Yaşam
+
+Engelsiz Kütüphane
+
+İrtibat Merkezi
+
+Araştırma
+
+Uygulama ve Araştırma Merkezleri İzleme ve Değerlendirme Koordinatörlüğü
+
+Balıkesir Üniversitesi Atatürk İlkeleri ve İnkılap Tarihi Araştırma ve Uygulama Merkezi
+
+Balıkesir Üniversitesi Turizm Araştırma ve Uygulama Merkezi
+
+Balıkesir Üniversitesi Bilgi İşlem Uygulama ve Araştırma Merkezi
+
+Balıkesir Üniversitesi Balıkesir Yöresi Kültürünü Araştırma ve Uygulama Merkezi
+
+Balıkesir Üniversitesi Uluslararası İlişkiler Araştırma ve Uygulama Merkezi
+
+Balıkesir Üniversitesi Uzaktan Eğitim Uygulama ve Araştırma Merkezi
+
+Balıkesir Üniversitesi Sağlık Uygulama ve Araştırma Merkezi
+
+Balıkesir Üniversitesi Botanik Bahçesi ve Herbaryum Uygulama ve Araştırma Merkezi
+
+Balıkesir Üniversitesi Türkçe Öğretimi Uygulama ve Araştırma Merkezi
+
+Balıkesir Üniversitesi Kariyer Geliştirme Uygulama ve Araştırma Merkezi
+
+Tümünü gör →
+
+Birimler
+
+BAÜN Teknokent
+
+Araştırmacılar İçin
+
+Merkez Kütüphane
+
+Katalog Tarama
+
+Veri Tabanları
+
+Uzaktan Erişim
+
+Açık Erişim
+
+Akademik Dergiler
+
+Etik Kurullar
+
+Rehber
+
 ---
 
-## 16. BAÜN’den, Antibiyotik Tedavisinde Umut Veren Gelişme: İlacın Etkisi Korundu, Böbrek Üzerindeki Yan Etkiler Azaldı
+## 17. BAÜN ve Almalık Devlet Teknik Enstitüsü Arasında Ortak Projelere Yönelik İş Birliği Adımı
+**Kaynak URL:** [https://balikesir.edu.tr/haberler/202608181408](https://balikesir.edu.tr/haberler/202608181408)
+
+### Sayfa İçeriği:
+Üniversitemiz
+
+Akademik
+
+İdari
+
+Öğrenci
+
+Araştırma
+
+Rehber
+
+haberler
+
+BAÜN ve Almalık Devlet Teknik Enstitüsü Arasında Ortak Projelere Yönelik İş Birliği Adımı
+
+18 Ağustos 2026
+
+Özbekistan
+
+Almalık Devlet Teknik Enstitüsü heyeti, akademik ve bilimsel iş birliklerini
+
+geliştirmek amacıyla Balıkesir Üniversitesini ziyaret etti.
+
+Uluslararası
+
+İlişkilerden Sorumlu Rektör Yardımcısı ve Heyet Başkanı Zikriyayev Zokir
+
+Mamirovich, Eğitim İşlerinden Sorumlu Rektör Yardımcısı Barakayev Nusratullo
+
+Rajabovich ve Gençlik İşlerinden Sorumlu Rektör Yardımcısı Razzaqov Jasur
+
+Xamraboyevich’in yer aldığı heyet, BAÜN Teknoloji Transfer Ofisi (BAÜN TTO) ve
+
+BAÜN Bilim ve Teknoloji Uygulama ve Araştırma Merkezinde (BÜBTAM) temaslarda
+
+bulundu.
+
+Balıkesir
+
+Üniversitesi Rektörü Prof. Dr. Yücel Oğurlu ve Rektör Yardımcısı Prof. Dr.
+
+Murat Doğdubay’ın da yer aldığı ziyarette; BÜBTAM Müdürü Prof. Dr. M. Burak
+
+Çoban, BAÜN TTO Koordinatörü ve Balıkesir Meslek Yüksekokulu Müdürü Doç. Dr.
+
+Fatmagül Tolun, BAÜN TTO ekibi ve üniversitemiz akademisyenleri yer aldı.
+
+Görüşmelerde;
+
+ileri analiz ve karakterizasyon çalışmaları, atık suların analizi ve
+
+arıtılmasına yönelik araştırmalar, çevre teknolojileri, ortak bilimsel projeler
+
+ve araştırmacılar arası iş birlikleri üzerine fikir alışverişinde bulunuldu.
+
+Ayrıca Almalık Devlet Teknik Enstitüsü öğrencilerinin BÜBTAM’ın laboratuvar ve
+
+araştırma altyapısından yararlanabilmeleri, merkezde staj ve uygulamalı eğitim
+
+yapabilmeleri ile iki kurum arasındaki öğrenci ve araştırmacı hareketliliğinin
+
+geliştirilmesine yönelik olanaklar değerlendirildi. İki kurum arasındaki iş
+
+birliği protokolü çerçevesinde ise akademik çalışmalar ve üniversite-sanayi iş
+
+birliği faaliyetleri ele alınırken, ortak projelerin hayata geçirilmesine
+
+yönelik bilgi paylaşımında bulunuldu ve ilerleyen süreçte somut çalışmalara
+
+dönüşebilecek yeni iş birliği adımları değerlendirildi.
+
+Ziyaretlerde,
+
+iki kurum arasındaki iş birliğinin geliştirilmesi ve ele alınan başlıkların
+
+somut ortak çalışmalara dönüştürülmesine yönelik görüş alışverişinde bulunuldu.
+
+Galeri
+
+Geri
+
+İleri
+
+Diğer Haberler
+
+Rektörümüz Prof. Dr. Yücel Oğurlu'nun Mesajı  "Üniversitene Hoş Geldin"
+
+Balıkesir Büyükşehir Belediye Başkanı Ahmet Akın’dan Rektör Oğurlu’ya 66. Geleneksel Kurtdereli Mehmet Pehlivan Güreşleri Daveti
+
+BAÜN’den, Antibiyotik Tedavisinde Umut Veren Gelişme: İlacın Etkisi Korundu, Böbrek Üzerindeki Yan Etkiler Azaldı
+
+Üniversitemiz
+
+Akademik
+
+İdari
+
+Öğrenci
+
+Araştırma
+
+Rehber
+
+Üniversitemiz
+
+Genel Bilgiler
+
+Misyon-Vizyon
+
+Organizasyon Şeması
+
+BAÜN Logosu
+
+Kurumsal Kimlik Kılavuzu
+
+Bilgi Edinme
+
+Tanıtım
+
+Basında BAÜN
+
+Politikalarımız
+
+Kurullar ve Komisyonlar
+
+Yönetim
+
+Rektör
+
+Rektör Yardımcıları
+
+Üniversite Senatosu
+
+Yönetim Kurulu
+
+Rektör Danışmanları
+
+Genel Sekreter
+
+Genel Sekreter Yardımcıları
+
+Üniversite Danışma Kurulu
+
+Akademik Yükselme ve Atanma Kriterleri
+
+Senato Kararları
+
+Yönetim Kurulu Kararları
+
+Kişisel Verilerin Korunması
+
+Stratejik Plan ve Raporlar
+
+Akademik
+
+Enstitüler
+
+Edremit Zeytincilik Enstitüsü
+
+Fen Bilimleri Enstitüsü
+
+Sağlık Bilimleri Enstitüsü
+
+Sosyal Bilimler Enstitüsü
+
+Fakülteler
+
+Burhaniye Uygulamalı Bilimler Fakültesi
+
+Fen-Edebiyat Fakültesi
+
+Güzel Sanatlar Fakültesi
+
+Hukuk Fakültesi
+
+İktisadi ve İdari Bilimler Fakültesi
+
+İlahiyat Fakültesi
+
+Mimarlık Fakültesi
+
+Mühendislik Fakültesi
+
+Necatibey Eğitim Fakültesi
+
+Sağlık Bilimleri Fakültesi
+
+Spor Bilimleri Fakültesi
+
+Tıp Fakültesi
+
+Turizm Fakültesi
+
+Veteriner Fakültesi
+
+Yüksekokullar
+
+Edremit Sivil Havacılık Yüksekokulu
+
+Yabancı Diller Yüksekokulu
+
+Meslek Yüksekokulları
+
+Altınoluk Meslek Yüksekokulu
+
+Ayvalık Meslek Yüksekokulu
+
+Balıkesir Meslek Yüksekokulu
+
+Bigadiç Meslek Yüksekokulu
+
+Burhaniye Meslek Yüksekokulu
+
+Dursunbey Meslek Yüksekokulu
+
+Edremit Meslek Yüksekokulu
+
+Havran Meslek Yüksekokulu
+
+İvrindi Sağlık Hizmetleri Meslek Yüksekokulu
+
+Kepsut Meslek Yüksekokulu
+
+Savaştepe Meslek Yüksekokulu
+
+Sındırgı Meslek Yüksekokulu
+
+Susurluk Tarım Ve Orman Meslek Yüksekokulu
+
+Rektörlüğe Bağlı Bölümler
+
+Atatürk İlkeleri ve İnkılap Tarihi Bölümü
+
+Enformatik Bölümü
+
+Türk Dili Bölümü
+
+Uzaktan Eğitim
+
+BAUZEM
+
+Akademik Bilgi Sistemi
+
+AVESİS
+
+İdari
+
+İdari Birimler
+
+Genel Sekreterlik
+
+Bilgi İşlem Daire Başkanlığı
+
+İdari ve Mali İşler Daire Başkanlığı
+
+Kütüphane ve Dokümantasyon Daire Başkanlığı
+
+Öğrenci İşleri Daire Başkanlığı
+
+Personel Daire Başkanlığı
+
+Sağlık, Kültür ve Spor Daire Başkanlığı
+
+Strateji Geliştirme Daire Başkanlığı
+
+Yapı İşleri ve Teknik Daire Başkanlığı
+
+Hukuk Müşavirliği
+
+Basın ve Halkla İlişkiler Müdürlüğü
+
+Döner Sermaye İşletme Müdürlüğü
+
+Koordinatörlükler
+
+Akademik Gelişim Koordinatörlüğü
+
+Kalite Güvencesi, Kalite Komisyonu ve Kalite Koordinatörlüğü
+
+Balıkesir Üniversitesi Radyo Koordinatörlüğü
+
+Tanıtım ve Sosyal Medya Koordinatörlüğü
+
+Bilimsel Araştırma Projeleri Koordinatörlüğü
+
+Bilimsel Yayınlar ve Dergiler Koordinatörlüğü
+
+Bologna Koordinatörlüğü
+
+Eğiticilerin Eğitimi Koordinatörlüğü
+
+Enerji Yönetimi ve Sürdürülebilirlik Koordinatörlüğü
+
+Engelsiz Üniversite Koordinatörlüğü
+
+Tümünü gör →
+
+Öğrenci
+
+Akademik Bilgiler
+
+Akademik Takvim
+
+Öğrenci E-Posta
+
+Öğrenci Bilgi Sistemi (OBS)
+
+Bilgi Paketi / Ders Kataloğu
+
+Kanun ve Yönetmelikler
+
+Öğrenci İşleri Daire Başkanlığı
+
+Yabancı Uyruklu Öğrenci Programı
+
+Öğrenci Değişim Programları
+
+Burslar
+
+BAÜN Yaşam
+
+Öğrenci Toplulukları
+
+Yurtlar
+
+Spor Olanakları
+
+Engelsiz Yaşam
+
+Engelsiz Kütüphane
+
+İrtibat Merkezi
+
+Araştırma
+
+Uygulama ve Araştırma Merkezleri İzleme ve Değerlendirme Koordinatörlüğü
+
+Balıkesir Üniversitesi Atatürk İlkeleri ve İnkılap Tarihi Araştırma ve Uygulama Merkezi
+
+Balıkesir Üniversitesi Turizm Araştırma ve Uygulama Merkezi
+
+Balıkesir Üniversitesi Bilgi İşlem Uygulama ve Araştırma Merkezi
+
+Balıkesir Üniversitesi Balıkesir Yöresi Kültürünü Araştırma ve Uygulama Merkezi
+
+Balıkesir Üniversitesi Uluslararası İlişkiler Araştırma ve Uygulama Merkezi
+
+Balıkesir Üniversitesi Uzaktan Eğitim Uygulama ve Araştırma Merkezi
+
+Balıkesir Üniversitesi Sağlık Uygulama ve Araştırma Merkezi
+
+Balıkesir Üniversitesi Botanik Bahçesi ve Herbaryum Uygulama ve Araştırma Merkezi
+
+Balıkesir Üniversitesi Türkçe Öğretimi Uygulama ve Araştırma Merkezi
+
+Balıkesir Üniversitesi Kariyer Geliştirme Uygulama ve Araştırma Merkezi
+
+Tümünü gör →
+
+Birimler
+
+BAÜN Teknokent
+
+Araştırmacılar İçin
+
+Merkez Kütüphane
+
+Katalog Tarama
+
+Veri Tabanları
+
+Uzaktan Erişim
+
+Açık Erişim
+
+Akademik Dergiler
+
+Etik Kurullar
+
+Rehber
+
+---
+
+## 18. Rektörümüz Prof. Dr. Yücel Oğurlu'nun Mesajı "Üniversitene Hoş Geldin"
+**Kaynak URL:** [https://balikesir.edu.tr/haberler/202608181012](https://balikesir.edu.tr/haberler/202608181012)
+
+### Sayfa İçeriği:
+Üniversitemiz
+
+Akademik
+
+İdari
+
+Öğrenci
+
+Araştırma
+
+Rehber
+
+haberler
+
+Rektörümüz Prof. Dr. Yücel Oğurlu'nun Mesajı  "Üniversitene Hoş Geldin"
+
+18 Ağustos 2026
+
+2026 Yükseköğretim yerleştirme sonuçlarının tüm öğrencilerimize, ailelerine ve ülkemize hayırlı olmasını temenni ediyorum.
+
+Balıkesir Üniversitesi ailesine yeni katılan öğrencilerimize öğrenci dostu Balıkesir'e hoş geldiniz diyor, eğitim-öğretim hayatlarında başarılar diliyorum.
+
+Prof. Dr. Yücel OĞURLU
+
+Rektör
+
+Diğer Haberler
+
+BAÜN ve Almalık Devlet Teknik Enstitüsü Arasında Ortak Projelere Yönelik İş Birliği Adımı
+
+Balıkesir Büyükşehir Belediye Başkanı Ahmet Akın’dan Rektör Oğurlu’ya 66. Geleneksel Kurtdereli Mehmet Pehlivan Güreşleri Daveti
+
+BAÜN’den, Antibiyotik Tedavisinde Umut Veren Gelişme: İlacın Etkisi Korundu, Böbrek Üzerindeki Yan Etkiler Azaldı
+
+Üniversitemiz
+
+Akademik
+
+İdari
+
+Öğrenci
+
+Araştırma
+
+Rehber
+
+Üniversitemiz
+
+Genel Bilgiler
+
+Misyon-Vizyon
+
+Organizasyon Şeması
+
+BAÜN Logosu
+
+Kurumsal Kimlik Kılavuzu
+
+Bilgi Edinme
+
+Tanıtım
+
+Basında BAÜN
+
+Politikalarımız
+
+Kurullar ve Komisyonlar
+
+Yönetim
+
+Rektör
+
+Rektör Yardımcıları
+
+Üniversite Senatosu
+
+Yönetim Kurulu
+
+Rektör Danışmanları
+
+Genel Sekreter
+
+Genel Sekreter Yardımcıları
+
+Üniversite Danışma Kurulu
+
+Akademik Yükselme ve Atanma Kriterleri
+
+Senato Kararları
+
+Yönetim Kurulu Kararları
+
+Kişisel Verilerin Korunması
+
+Stratejik Plan ve Raporlar
+
+Akademik
+
+Enstitüler
+
+Edremit Zeytincilik Enstitüsü
+
+Fen Bilimleri Enstitüsü
+
+Sağlık Bilimleri Enstitüsü
+
+Sosyal Bilimler Enstitüsü
+
+Fakülteler
+
+Burhaniye Uygulamalı Bilimler Fakültesi
+
+Fen-Edebiyat Fakültesi
+
+Güzel Sanatlar Fakültesi
+
+Hukuk Fakültesi
+
+İktisadi ve İdari Bilimler Fakültesi
+
+İlahiyat Fakültesi
+
+Mimarlık Fakültesi
+
+Mühendislik Fakültesi
+
+Necatibey Eğitim Fakültesi
+
+Sağlık Bilimleri Fakültesi
+
+Spor Bilimleri Fakültesi
+
+Tıp Fakültesi
+
+Turizm Fakültesi
+
+Veteriner Fakültesi
+
+Yüksekokullar
+
+Edremit Sivil Havacılık Yüksekokulu
+
+Yabancı Diller Yüksekokulu
+
+Meslek Yüksekokulları
+
+Altınoluk Meslek Yüksekokulu
+
+Ayvalık Meslek Yüksekokulu
+
+Balıkesir Meslek Yüksekokulu
+
+Bigadiç Meslek Yüksekokulu
+
+Burhaniye Meslek Yüksekokulu
+
+Dursunbey Meslek Yüksekokulu
+
+Edremit Meslek Yüksekokulu
+
+Havran Meslek Yüksekokulu
+
+İvrindi Sağlık Hizmetleri Meslek Yüksekokulu
+
+Kepsut Meslek Yüksekokulu
+
+Savaştepe Meslek Yüksekokulu
+
+Sındırgı Meslek Yüksekokulu
+
+Susurluk Tarım Ve Orman Meslek Yüksekokulu
+
+Rektörlüğe Bağlı Bölümler
+
+Atatürk İlkeleri ve İnkılap Tarihi Bölümü
+
+Enformatik Bölümü
+
+Türk Dili Bölümü
+
+Uzaktan Eğitim
+
+BAUZEM
+
+Akademik Bilgi Sistemi
+
+AVESİS
+
+İdari
+
+İdari Birimler
+
+Genel Sekreterlik
+
+Bilgi İşlem Daire Başkanlığı
+
+İdari ve Mali İşler Daire Başkanlığı
+
+Kütüphane ve Dokümantasyon Daire Başkanlığı
+
+Öğrenci İşleri Daire Başkanlığı
+
+Personel Daire Başkanlığı
+
+Sağlık, Kültür ve Spor Daire Başkanlığı
+
+Strateji Geliştirme Daire Başkanlığı
+
+Yapı İşleri ve Teknik Daire Başkanlığı
+
+Hukuk Müşavirliği
+
+Basın ve Halkla İlişkiler Müdürlüğü
+
+Döner Sermaye İşletme Müdürlüğü
+
+Koordinatörlükler
+
+Akademik Gelişim Koordinatörlüğü
+
+Kalite Güvencesi, Kalite Komisyonu ve Kalite Koordinatörlüğü
+
+Balıkesir Üniversitesi Radyo Koordinatörlüğü
+
+Tanıtım ve Sosyal Medya Koordinatörlüğü
+
+Bilimsel Araştırma Projeleri Koordinatörlüğü
+
+Bilimsel Yayınlar ve Dergiler Koordinatörlüğü
+
+Bologna Koordinatörlüğü
+
+Eğiticilerin Eğitimi Koordinatörlüğü
+
+Enerji Yönetimi ve Sürdürülebilirlik Koordinatörlüğü
+
+Engelsiz Üniversite Koordinatörlüğü
+
+Tümünü gör →
+
+Öğrenci
+
+Akademik Bilgiler
+
+Akademik Takvim
+
+Öğrenci E-Posta
+
+Öğrenci Bilgi Sistemi (OBS)
+
+Bilgi Paketi / Ders Kataloğu
+
+Kanun ve Yönetmelikler
+
+Öğrenci İşleri Daire Başkanlığı
+
+Yabancı Uyruklu Öğrenci Programı
+
+Öğrenci Değişim Programları
+
+Burslar
+
+BAÜN Yaşam
+
+Öğrenci Toplulukları
+
+Yurtlar
+
+Spor Olanakları
+
+Engelsiz Yaşam
+
+Engelsiz Kütüphane
+
+İrtibat Merkezi
+
+Araştırma
+
+Uygulama ve Araştırma Merkezleri İzleme ve Değerlendirme Koordinatörlüğü
+
+Balıkesir Üniversitesi Atatürk İlkeleri ve İnkılap Tarihi Araştırma ve Uygulama Merkezi
+
+Balıkesir Üniversitesi Turizm Araştırma ve Uygulama Merkezi
+
+Balıkesir Üniversitesi Bilgi İşlem Uygulama ve Araştırma Merkezi
+
+Balıkesir Üniversitesi Balıkesir Yöresi Kültürünü Araştırma ve Uygulama Merkezi
+
+Balıkesir Üniversitesi Uluslararası İlişkiler Araştırma ve Uygulama Merkezi
+
+Balıkesir Üniversitesi Uzaktan Eğitim Uygulama ve Araştırma Merkezi
+
+Balıkesir Üniversitesi Sağlık Uygulama ve Araştırma Merkezi
+
+Balıkesir Üniversitesi Botanik Bahçesi ve Herbaryum Uygulama ve Araştırma Merkezi
+
+Balıkesir Üniversitesi Türkçe Öğretimi Uygulama ve Araştırma Merkezi
+
+Balıkesir Üniversitesi Kariyer Geliştirme Uygulama ve Araştırma Merkezi
+
+Tümünü gör →
+
+Birimler
+
+BAÜN Teknokent
+
+Araştırmacılar İçin
+
+Merkez Kütüphane
+
+Katalog Tarama
+
+Veri Tabanları
+
+Uzaktan Erişim
+
+Açık Erişim
+
+Akademik Dergiler
+
+Etik Kurullar
+
+Rehber
+
+---
+
+## 19. Balıkesir Büyükşehir Belediye Başkanı Ahmet Akın’dan Rektör Oğurlu’ya 66. Geleneksel Kurtdereli Mehmet Pehlivan Güreşleri Daveti
+**Kaynak URL:** [https://balikesir.edu.tr/haberler/202608171653](https://balikesir.edu.tr/haberler/202608171653)
+
+### Sayfa İçeriği:
+Üniversitemiz
+
+Akademik
+
+İdari
+
+Öğrenci
+
+Araştırma
+
+Rehber
+
+haberler
+
+Balıkesir Büyükşehir Belediye Başkanı Ahmet Akın’dan Rektör Oğurlu’ya 66. Geleneksel Kurtdereli Mehmet Pehlivan Güreşleri Daveti
+
+17 Ağustos 2026
+
+Balıkesir
+
+Büyükşehir Belediye Başkanı Ahmet Akın beraberinde Karesi Belediye Başkanı
+
+Mesut Akbıyık, Karesi Belediye Başkan Yardımcısı Kemal Aydemir, Güreş Ağası
+
+Kemal Aydın ile Güreş Komitesinden Aydın Güneş birlikte, Balıkesir Üniversitesi
+
+Rektörü Prof. Dr. Yücel Oğurlu'yu makamında ziyaret etti.
+
+Rektör
+
+Yardımcıları Prof. Dr. Fatih Satıl’ın da yer aldığı ziyarette Başkan Ahmet
+
+Akın, Rektör Prof. Dr. Yücel Oğurlu’yu 21-22-23 Ağustos tarihlerinde
+
+gerçekleştirilecek olan 66. Geleneksel Kurtdereli Mehmet Pehlivan Güreşleri’ne
+
+davet etti. Rektör Prof. Dr. Yücel Oğurlu da daveti için memnuniyetlerini ifade
+
+ettiği Balıkesir Büyükşehir Belediye Başkanı Ahmet Akın ve beraberindeki heyete
+
+ziyaretleri için teşekkür etti.
+
+Diğer Haberler
+
+BAÜN ve Almalık Devlet Teknik Enstitüsü Arasında Ortak Projelere Yönelik İş Birliği Adımı
+
+Rektörümüz Prof. Dr. Yücel Oğurlu'nun Mesajı  "Üniversitene Hoş Geldin"
+
+BAÜN’den, Antibiyotik Tedavisinde Umut Veren Gelişme: İlacın Etkisi Korundu, Böbrek Üzerindeki Yan Etkiler Azaldı
+
+Üniversitemiz
+
+Akademik
+
+İdari
+
+Öğrenci
+
+Araştırma
+
+Rehber
+
+Üniversitemiz
+
+Genel Bilgiler
+
+Misyon-Vizyon
+
+Organizasyon Şeması
+
+BAÜN Logosu
+
+Kurumsal Kimlik Kılavuzu
+
+Bilgi Edinme
+
+Tanıtım
+
+Basında BAÜN
+
+Politikalarımız
+
+Kurullar ve Komisyonlar
+
+Yönetim
+
+Rektör
+
+Rektör Yardımcıları
+
+Üniversite Senatosu
+
+Yönetim Kurulu
+
+Rektör Danışmanları
+
+Genel Sekreter
+
+Genel Sekreter Yardımcıları
+
+Üniversite Danışma Kurulu
+
+Akademik Yükselme ve Atanma Kriterleri
+
+Senato Kararları
+
+Yönetim Kurulu Kararları
+
+Kişisel Verilerin Korunması
+
+Stratejik Plan ve Raporlar
+
+Akademik
+
+Enstitüler
+
+Edremit Zeytincilik Enstitüsü
+
+Fen Bilimleri Enstitüsü
+
+Sağlık Bilimleri Enstitüsü
+
+Sosyal Bilimler Enstitüsü
+
+Fakülteler
+
+Burhaniye Uygulamalı Bilimler Fakültesi
+
+Fen-Edebiyat Fakültesi
+
+Güzel Sanatlar Fakültesi
+
+Hukuk Fakültesi
+
+İktisadi ve İdari Bilimler Fakültesi
+
+İlahiyat Fakültesi
+
+Mimarlık Fakültesi
+
+Mühendislik Fakültesi
+
+Necatibey Eğitim Fakültesi
+
+Sağlık Bilimleri Fakültesi
+
+Spor Bilimleri Fakültesi
+
+Tıp Fakültesi
+
+Turizm Fakültesi
+
+Veteriner Fakültesi
+
+Yüksekokullar
+
+Edremit Sivil Havacılık Yüksekokulu
+
+Yabancı Diller Yüksekokulu
+
+Meslek Yüksekokulları
+
+Altınoluk Meslek Yüksekokulu
+
+Ayvalık Meslek Yüksekokulu
+
+Balıkesir Meslek Yüksekokulu
+
+Bigadiç Meslek Yüksekokulu
+
+Burhaniye Meslek Yüksekokulu
+
+Dursunbey Meslek Yüksekokulu
+
+Edremit Meslek Yüksekokulu
+
+Havran Meslek Yüksekokulu
+
+İvrindi Sağlık Hizmetleri Meslek Yüksekokulu
+
+Kepsut Meslek Yüksekokulu
+
+Savaştepe Meslek Yüksekokulu
+
+Sındırgı Meslek Yüksekokulu
+
+Susurluk Tarım Ve Orman Meslek Yüksekokulu
+
+Rektörlüğe Bağlı Bölümler
+
+Atatürk İlkeleri ve İnkılap Tarihi Bölümü
+
+Enformatik Bölümü
+
+Türk Dili Bölümü
+
+Uzaktan Eğitim
+
+BAUZEM
+
+Akademik Bilgi Sistemi
+
+AVESİS
+
+İdari
+
+İdari Birimler
+
+Genel Sekreterlik
+
+Bilgi İşlem Daire Başkanlığı
+
+İdari ve Mali İşler Daire Başkanlığı
+
+Kütüphane ve Dokümantasyon Daire Başkanlığı
+
+Öğrenci İşleri Daire Başkanlığı
+
+Personel Daire Başkanlığı
+
+Sağlık, Kültür ve Spor Daire Başkanlığı
+
+Strateji Geliştirme Daire Başkanlığı
+
+Yapı İşleri ve Teknik Daire Başkanlığı
+
+Hukuk Müşavirliği
+
+Basın ve Halkla İlişkiler Müdürlüğü
+
+Döner Sermaye İşletme Müdürlüğü
+
+Koordinatörlükler
+
+Akademik Gelişim Koordinatörlüğü
+
+Kalite Güvencesi, Kalite Komisyonu ve Kalite Koordinatörlüğü
+
+Balıkesir Üniversitesi Radyo Koordinatörlüğü
+
+Tanıtım ve Sosyal Medya Koordinatörlüğü
+
+Bilimsel Araştırma Projeleri Koordinatörlüğü
+
+Bilimsel Yayınlar ve Dergiler Koordinatörlüğü
+
+Bologna Koordinatörlüğü
+
+Eğiticilerin Eğitimi Koordinatörlüğü
+
+Enerji Yönetimi ve Sürdürülebilirlik Koordinatörlüğü
+
+Engelsiz Üniversite Koordinatörlüğü
+
+Tümünü gör →
+
+Öğrenci
+
+Akademik Bilgiler
+
+Akademik Takvim
+
+Öğrenci E-Posta
+
+Öğrenci Bilgi Sistemi (OBS)
+
+Bilgi Paketi / Ders Kataloğu
+
+Kanun ve Yönetmelikler
+
+Öğrenci İşleri Daire Başkanlığı
+
+Yabancı Uyruklu Öğrenci Programı
+
+Öğrenci Değişim Programları
+
+Burslar
+
+BAÜN Yaşam
+
+Öğrenci Toplulukları
+
+Yurtlar
+
+Spor Olanakları
+
+Engelsiz Yaşam
+
+Engelsiz Kütüphane
+
+İrtibat Merkezi
+
+Araştırma
+
+Uygulama ve Araştırma Merkezleri İzleme ve Değerlendirme Koordinatörlüğü
+
+Balıkesir Üniversitesi Atatürk İlkeleri ve İnkılap Tarihi Araştırma ve Uygulama Merkezi
+
+Balıkesir Üniversitesi Turizm Araştırma ve Uygulama Merkezi
+
+Balıkesir Üniversitesi Bilgi İşlem Uygulama ve Araştırma Merkezi
+
+Balıkesir Üniversitesi Balıkesir Yöresi Kültürünü Araştırma ve Uygulama Merkezi
+
+Balıkesir Üniversitesi Uluslararası İlişkiler Araştırma ve Uygulama Merkezi
+
+Balıkesir Üniversitesi Uzaktan Eğitim Uygulama ve Araştırma Merkezi
+
+Balıkesir Üniversitesi Sağlık Uygulama ve Araştırma Merkezi
+
+Balıkesir Üniversitesi Botanik Bahçesi ve Herbaryum Uygulama ve Araştırma Merkezi
+
+Balıkesir Üniversitesi Türkçe Öğretimi Uygulama ve Araştırma Merkezi
+
+Balıkesir Üniversitesi Kariyer Geliştirme Uygulama ve Araştırma Merkezi
+
+Tümünü gör →
+
+Birimler
+
+BAÜN Teknokent
+
+Araştırmacılar İçin
+
+Merkez Kütüphane
+
+Katalog Tarama
+
+Veri Tabanları
+
+Uzaktan Erişim
+
+Açık Erişim
+
+Akademik Dergiler
+
+Etik Kurullar
+
+Rehber
+
+---
+
+## 20. BAÜN’den, Antibiyotik Tedavisinde Umut Veren Gelişme: İlacın Etkisi Korundu, Böbrek Üzerindeki Yan Etkiler Azaldı
 **Kaynak URL:** [https://balikesir.edu.tr/haberler/202608171254](https://balikesir.edu.tr/haberler/202608171254)
 
 ### Sayfa İçeriği:
+Üniversitemiz
+
+Akademik
+
+İdari
+
+Öğrenci
+
+Araştırma
+
+Rehber
+
 haberler
+
+BAÜN’den, Antibiyotik Tedavisinde Umut Veren Gelişme: İlacın Etkisi Korundu, Böbrek Üzerindeki Yan Etkiler Azaldı
 
 17 Ağustos 2026
 
@@ -6840,15 +10766,325 @@ Geri
 
 İleri
 
-Uluslararası Akademisyen, Gazeteci ve Medya Temsilcileri Forumu” Balıkesir Üniversitesinde Gerçekleştirildi
+Diğer Haberler
+
+BAÜN ve Almalık Devlet Teknik Enstitüsü Arasında Ortak Projelere Yönelik İş Birliği Adımı
+
+Rektörümüz Prof. Dr. Yücel Oğurlu'nun Mesajı  "Üniversitene Hoş Geldin"
+
+Balıkesir Büyükşehir Belediye Başkanı Ahmet Akın’dan Rektör Oğurlu’ya 66. Geleneksel Kurtdereli Mehmet Pehlivan Güreşleri Daveti
+
+Üniversitemiz
+
+Akademik
+
+İdari
+
+Öğrenci
+
+Araştırma
+
+Rehber
+
+Üniversitemiz
+
+Genel Bilgiler
+
+Misyon-Vizyon
+
+Organizasyon Şeması
+
+BAÜN Logosu
+
+Kurumsal Kimlik Kılavuzu
+
+Bilgi Edinme
+
+Tanıtım
+
+Basında BAÜN
+
+Politikalarımız
+
+Kurullar ve Komisyonlar
+
+Yönetim
+
+Rektör
+
+Rektör Yardımcıları
+
+Üniversite Senatosu
+
+Yönetim Kurulu
+
+Rektör Danışmanları
+
+Genel Sekreter
+
+Genel Sekreter Yardımcıları
+
+Üniversite Danışma Kurulu
+
+Akademik Yükselme ve Atanma Kriterleri
+
+Senato Kararları
+
+Yönetim Kurulu Kararları
+
+Kişisel Verilerin Korunması
+
+Stratejik Plan ve Raporlar
+
+Akademik
+
+Enstitüler
+
+Edremit Zeytincilik Enstitüsü
+
+Fen Bilimleri Enstitüsü
+
+Sağlık Bilimleri Enstitüsü
+
+Sosyal Bilimler Enstitüsü
+
+Fakülteler
+
+Burhaniye Uygulamalı Bilimler Fakültesi
+
+Fen-Edebiyat Fakültesi
+
+Güzel Sanatlar Fakültesi
+
+Hukuk Fakültesi
+
+İktisadi ve İdari Bilimler Fakültesi
+
+İlahiyat Fakültesi
+
+Mimarlık Fakültesi
+
+Mühendislik Fakültesi
+
+Necatibey Eğitim Fakültesi
+
+Sağlık Bilimleri Fakültesi
+
+Spor Bilimleri Fakültesi
+
+Tıp Fakültesi
+
+Turizm Fakültesi
+
+Veteriner Fakültesi
+
+Yüksekokullar
+
+Edremit Sivil Havacılık Yüksekokulu
+
+Yabancı Diller Yüksekokulu
+
+Meslek Yüksekokulları
+
+Altınoluk Meslek Yüksekokulu
+
+Ayvalık Meslek Yüksekokulu
+
+Balıkesir Meslek Yüksekokulu
+
+Bigadiç Meslek Yüksekokulu
+
+Burhaniye Meslek Yüksekokulu
+
+Dursunbey Meslek Yüksekokulu
+
+Edremit Meslek Yüksekokulu
+
+Havran Meslek Yüksekokulu
+
+İvrindi Sağlık Hizmetleri Meslek Yüksekokulu
+
+Kepsut Meslek Yüksekokulu
+
+Savaştepe Meslek Yüksekokulu
+
+Sındırgı Meslek Yüksekokulu
+
+Susurluk Tarım Ve Orman Meslek Yüksekokulu
+
+Rektörlüğe Bağlı Bölümler
+
+Atatürk İlkeleri ve İnkılap Tarihi Bölümü
+
+Enformatik Bölümü
+
+Türk Dili Bölümü
+
+Uzaktan Eğitim
+
+BAUZEM
+
+Akademik Bilgi Sistemi
+
+AVESİS
+
+İdari
+
+İdari Birimler
+
+Genel Sekreterlik
+
+Bilgi İşlem Daire Başkanlığı
+
+İdari ve Mali İşler Daire Başkanlığı
+
+Kütüphane ve Dokümantasyon Daire Başkanlığı
+
+Öğrenci İşleri Daire Başkanlığı
+
+Personel Daire Başkanlığı
+
+Sağlık, Kültür ve Spor Daire Başkanlığı
+
+Strateji Geliştirme Daire Başkanlığı
+
+Yapı İşleri ve Teknik Daire Başkanlığı
+
+Hukuk Müşavirliği
+
+Basın ve Halkla İlişkiler Müdürlüğü
+
+Döner Sermaye İşletme Müdürlüğü
+
+Koordinatörlükler
+
+Akademik Gelişim Koordinatörlüğü
+
+Kalite Güvencesi, Kalite Komisyonu ve Kalite Koordinatörlüğü
+
+Balıkesir Üniversitesi Radyo Koordinatörlüğü
+
+Tanıtım ve Sosyal Medya Koordinatörlüğü
+
+Bilimsel Araştırma Projeleri Koordinatörlüğü
+
+Bilimsel Yayınlar ve Dergiler Koordinatörlüğü
+
+Bologna Koordinatörlüğü
+
+Eğiticilerin Eğitimi Koordinatörlüğü
+
+Enerji Yönetimi ve Sürdürülebilirlik Koordinatörlüğü
+
+Engelsiz Üniversite Koordinatörlüğü
+
+Tümünü gör →
+
+Öğrenci
+
+Akademik Bilgiler
+
+Akademik Takvim
+
+Öğrenci E-Posta
+
+Öğrenci Bilgi Sistemi (OBS)
+
+Bilgi Paketi / Ders Kataloğu
+
+Kanun ve Yönetmelikler
+
+Öğrenci İşleri Daire Başkanlığı
+
+Yabancı Uyruklu Öğrenci Programı
+
+Öğrenci Değişim Programları
+
+Burslar
+
+BAÜN Yaşam
+
+Öğrenci Toplulukları
+
+Yurtlar
+
+Spor Olanakları
+
+Engelsiz Yaşam
+
+Engelsiz Kütüphane
+
+İrtibat Merkezi
+
+Araştırma
+
+Uygulama ve Araştırma Merkezleri İzleme ve Değerlendirme Koordinatörlüğü
+
+Balıkesir Üniversitesi Atatürk İlkeleri ve İnkılap Tarihi Araştırma ve Uygulama Merkezi
+
+Balıkesir Üniversitesi Turizm Araştırma ve Uygulama Merkezi
+
+Balıkesir Üniversitesi Bilgi İşlem Uygulama ve Araştırma Merkezi
+
+Balıkesir Üniversitesi Balıkesir Yöresi Kültürünü Araştırma ve Uygulama Merkezi
+
+Balıkesir Üniversitesi Uluslararası İlişkiler Araştırma ve Uygulama Merkezi
+
+Balıkesir Üniversitesi Uzaktan Eğitim Uygulama ve Araştırma Merkezi
+
+Balıkesir Üniversitesi Sağlık Uygulama ve Araştırma Merkezi
+
+Balıkesir Üniversitesi Botanik Bahçesi ve Herbaryum Uygulama ve Araştırma Merkezi
+
+Balıkesir Üniversitesi Türkçe Öğretimi Uygulama ve Araştırma Merkezi
+
+Balıkesir Üniversitesi Kariyer Geliştirme Uygulama ve Araştırma Merkezi
+
+Tümünü gör →
+
+Birimler
+
+BAÜN Teknokent
+
+Araştırmacılar İçin
+
+Merkez Kütüphane
+
+Katalog Tarama
+
+Veri Tabanları
+
+Uzaktan Erişim
+
+Açık Erişim
+
+Akademik Dergiler
+
+Etik Kurullar
+
+Rehber
 
 ---
 
-## 17. BİK Genel Müdürü Abdulkadir Çay’dan Rektör Oğurlu’ya Ziyaret
+## 21. BİK Genel Müdürü Abdulkadir Çay’dan Rektör Oğurlu’ya Ziyaret
 **Kaynak URL:** [https://balikesir.edu.tr/haberler/202608171202](https://balikesir.edu.tr/haberler/202608171202)
 
 ### Sayfa İçeriği:
+Üniversitemiz
+
+Akademik
+
+İdari
+
+Öğrenci
+
+Araştırma
+
+Rehber
+
 haberler
+
+BİK Genel Müdürü Abdulkadir Çay’dan Rektör Oğurlu’ya Ziyaret
 
 17 Ağustos 2026
 
@@ -6894,15 +11130,325 @@ Geri
 
 İleri
 
-Uluslararası Akademisyen, Gazeteci ve Medya Temsilcileri Forumu” Balıkesir Üniversitesinde Gerçekleştirildi
+Diğer Haberler
+
+BAÜN ve Almalık Devlet Teknik Enstitüsü Arasında Ortak Projelere Yönelik İş Birliği Adımı
+
+Rektörümüz Prof. Dr. Yücel Oğurlu'nun Mesajı  "Üniversitene Hoş Geldin"
+
+Balıkesir Büyükşehir Belediye Başkanı Ahmet Akın’dan Rektör Oğurlu’ya 66. Geleneksel Kurtdereli Mehmet Pehlivan Güreşleri Daveti
+
+Üniversitemiz
+
+Akademik
+
+İdari
+
+Öğrenci
+
+Araştırma
+
+Rehber
+
+Üniversitemiz
+
+Genel Bilgiler
+
+Misyon-Vizyon
+
+Organizasyon Şeması
+
+BAÜN Logosu
+
+Kurumsal Kimlik Kılavuzu
+
+Bilgi Edinme
+
+Tanıtım
+
+Basında BAÜN
+
+Politikalarımız
+
+Kurullar ve Komisyonlar
+
+Yönetim
+
+Rektör
+
+Rektör Yardımcıları
+
+Üniversite Senatosu
+
+Yönetim Kurulu
+
+Rektör Danışmanları
+
+Genel Sekreter
+
+Genel Sekreter Yardımcıları
+
+Üniversite Danışma Kurulu
+
+Akademik Yükselme ve Atanma Kriterleri
+
+Senato Kararları
+
+Yönetim Kurulu Kararları
+
+Kişisel Verilerin Korunması
+
+Stratejik Plan ve Raporlar
+
+Akademik
+
+Enstitüler
+
+Edremit Zeytincilik Enstitüsü
+
+Fen Bilimleri Enstitüsü
+
+Sağlık Bilimleri Enstitüsü
+
+Sosyal Bilimler Enstitüsü
+
+Fakülteler
+
+Burhaniye Uygulamalı Bilimler Fakültesi
+
+Fen-Edebiyat Fakültesi
+
+Güzel Sanatlar Fakültesi
+
+Hukuk Fakültesi
+
+İktisadi ve İdari Bilimler Fakültesi
+
+İlahiyat Fakültesi
+
+Mimarlık Fakültesi
+
+Mühendislik Fakültesi
+
+Necatibey Eğitim Fakültesi
+
+Sağlık Bilimleri Fakültesi
+
+Spor Bilimleri Fakültesi
+
+Tıp Fakültesi
+
+Turizm Fakültesi
+
+Veteriner Fakültesi
+
+Yüksekokullar
+
+Edremit Sivil Havacılık Yüksekokulu
+
+Yabancı Diller Yüksekokulu
+
+Meslek Yüksekokulları
+
+Altınoluk Meslek Yüksekokulu
+
+Ayvalık Meslek Yüksekokulu
+
+Balıkesir Meslek Yüksekokulu
+
+Bigadiç Meslek Yüksekokulu
+
+Burhaniye Meslek Yüksekokulu
+
+Dursunbey Meslek Yüksekokulu
+
+Edremit Meslek Yüksekokulu
+
+Havran Meslek Yüksekokulu
+
+İvrindi Sağlık Hizmetleri Meslek Yüksekokulu
+
+Kepsut Meslek Yüksekokulu
+
+Savaştepe Meslek Yüksekokulu
+
+Sındırgı Meslek Yüksekokulu
+
+Susurluk Tarım Ve Orman Meslek Yüksekokulu
+
+Rektörlüğe Bağlı Bölümler
+
+Atatürk İlkeleri ve İnkılap Tarihi Bölümü
+
+Enformatik Bölümü
+
+Türk Dili Bölümü
+
+Uzaktan Eğitim
+
+BAUZEM
+
+Akademik Bilgi Sistemi
+
+AVESİS
+
+İdari
+
+İdari Birimler
+
+Genel Sekreterlik
+
+Bilgi İşlem Daire Başkanlığı
+
+İdari ve Mali İşler Daire Başkanlığı
+
+Kütüphane ve Dokümantasyon Daire Başkanlığı
+
+Öğrenci İşleri Daire Başkanlığı
+
+Personel Daire Başkanlığı
+
+Sağlık, Kültür ve Spor Daire Başkanlığı
+
+Strateji Geliştirme Daire Başkanlığı
+
+Yapı İşleri ve Teknik Daire Başkanlığı
+
+Hukuk Müşavirliği
+
+Basın ve Halkla İlişkiler Müdürlüğü
+
+Döner Sermaye İşletme Müdürlüğü
+
+Koordinatörlükler
+
+Akademik Gelişim Koordinatörlüğü
+
+Kalite Güvencesi, Kalite Komisyonu ve Kalite Koordinatörlüğü
+
+Balıkesir Üniversitesi Radyo Koordinatörlüğü
+
+Tanıtım ve Sosyal Medya Koordinatörlüğü
+
+Bilimsel Araştırma Projeleri Koordinatörlüğü
+
+Bilimsel Yayınlar ve Dergiler Koordinatörlüğü
+
+Bologna Koordinatörlüğü
+
+Eğiticilerin Eğitimi Koordinatörlüğü
+
+Enerji Yönetimi ve Sürdürülebilirlik Koordinatörlüğü
+
+Engelsiz Üniversite Koordinatörlüğü
+
+Tümünü gör →
+
+Öğrenci
+
+Akademik Bilgiler
+
+Akademik Takvim
+
+Öğrenci E-Posta
+
+Öğrenci Bilgi Sistemi (OBS)
+
+Bilgi Paketi / Ders Kataloğu
+
+Kanun ve Yönetmelikler
+
+Öğrenci İşleri Daire Başkanlığı
+
+Yabancı Uyruklu Öğrenci Programı
+
+Öğrenci Değişim Programları
+
+Burslar
+
+BAÜN Yaşam
+
+Öğrenci Toplulukları
+
+Yurtlar
+
+Spor Olanakları
+
+Engelsiz Yaşam
+
+Engelsiz Kütüphane
+
+İrtibat Merkezi
+
+Araştırma
+
+Uygulama ve Araştırma Merkezleri İzleme ve Değerlendirme Koordinatörlüğü
+
+Balıkesir Üniversitesi Atatürk İlkeleri ve İnkılap Tarihi Araştırma ve Uygulama Merkezi
+
+Balıkesir Üniversitesi Turizm Araştırma ve Uygulama Merkezi
+
+Balıkesir Üniversitesi Bilgi İşlem Uygulama ve Araştırma Merkezi
+
+Balıkesir Üniversitesi Balıkesir Yöresi Kültürünü Araştırma ve Uygulama Merkezi
+
+Balıkesir Üniversitesi Uluslararası İlişkiler Araştırma ve Uygulama Merkezi
+
+Balıkesir Üniversitesi Uzaktan Eğitim Uygulama ve Araştırma Merkezi
+
+Balıkesir Üniversitesi Sağlık Uygulama ve Araştırma Merkezi
+
+Balıkesir Üniversitesi Botanik Bahçesi ve Herbaryum Uygulama ve Araştırma Merkezi
+
+Balıkesir Üniversitesi Türkçe Öğretimi Uygulama ve Araştırma Merkezi
+
+Balıkesir Üniversitesi Kariyer Geliştirme Uygulama ve Araştırma Merkezi
+
+Tümünü gör →
+
+Birimler
+
+BAÜN Teknokent
+
+Araştırmacılar İçin
+
+Merkez Kütüphane
+
+Katalog Tarama
+
+Veri Tabanları
+
+Uzaktan Erişim
+
+Açık Erişim
+
+Akademik Dergiler
+
+Etik Kurullar
+
+Rehber
 
 ---
 
-## 18. Uluslararası Akademisyen, Gazeteci ve Medya Temsilcileri Forumu Heyetinden Rektör Oğurlu’ya Ziyaret
+## 22. Uluslararası Akademisyen, Gazeteci ve Medya Temsilcileri Forumu Heyetinden Rektör Oğurlu’ya Ziyaret
 **Kaynak URL:** [https://balikesir.edu.tr/haberler/202608171146](https://balikesir.edu.tr/haberler/202608171146)
 
 ### Sayfa İçeriği:
+Üniversitemiz
+
+Akademik
+
+İdari
+
+Öğrenci
+
+Araştırma
+
+Rehber
+
 haberler
+
+Uluslararası Akademisyen, Gazeteci ve Medya Temsilcileri Forumu Heyetinden Rektör Oğurlu’ya Ziyaret
 
 17 Ağustos 2026
 
@@ -6954,205 +11500,307 @@ teşekkür ederek, Balıkesir Üniversitesinin foruma verdiği destekten duydukl
 
 memnuniyeti dile getirdi.
 
-Uluslararası Akademisyen, Gazeteci ve Medya Temsilcileri Forumu” Balıkesir Üniversitesinde Gerçekleştirildi
+Diğer Haberler
+
+BAÜN ve Almalık Devlet Teknik Enstitüsü Arasında Ortak Projelere Yönelik İş Birliği Adımı
+
+Rektörümüz Prof. Dr. Yücel Oğurlu'nun Mesajı  "Üniversitene Hoş Geldin"
+
+Balıkesir Büyükşehir Belediye Başkanı Ahmet Akın’dan Rektör Oğurlu’ya 66. Geleneksel Kurtdereli Mehmet Pehlivan Güreşleri Daveti
+
+Üniversitemiz
+
+Akademik
+
+İdari
+
+Öğrenci
+
+Araştırma
+
+Rehber
+
+Üniversitemiz
+
+Genel Bilgiler
+
+Misyon-Vizyon
+
+Organizasyon Şeması
+
+BAÜN Logosu
+
+Kurumsal Kimlik Kılavuzu
+
+Bilgi Edinme
+
+Tanıtım
+
+Basında BAÜN
+
+Politikalarımız
+
+Kurullar ve Komisyonlar
+
+Yönetim
+
+Rektör
+
+Rektör Yardımcıları
+
+Üniversite Senatosu
+
+Yönetim Kurulu
+
+Rektör Danışmanları
+
+Genel Sekreter
+
+Genel Sekreter Yardımcıları
+
+Üniversite Danışma Kurulu
+
+Akademik Yükselme ve Atanma Kriterleri
+
+Senato Kararları
+
+Yönetim Kurulu Kararları
+
+Kişisel Verilerin Korunması
+
+Stratejik Plan ve Raporlar
+
+Akademik
+
+Enstitüler
+
+Edremit Zeytincilik Enstitüsü
+
+Fen Bilimleri Enstitüsü
+
+Sağlık Bilimleri Enstitüsü
+
+Sosyal Bilimler Enstitüsü
+
+Fakülteler
+
+Burhaniye Uygulamalı Bilimler Fakültesi
+
+Fen-Edebiyat Fakültesi
+
+Güzel Sanatlar Fakültesi
+
+Hukuk Fakültesi
+
+İktisadi ve İdari Bilimler Fakültesi
+
+İlahiyat Fakültesi
+
+Mimarlık Fakültesi
+
+Mühendislik Fakültesi
+
+Necatibey Eğitim Fakültesi
+
+Sağlık Bilimleri Fakültesi
+
+Spor Bilimleri Fakültesi
+
+Tıp Fakültesi
+
+Turizm Fakültesi
+
+Veteriner Fakültesi
+
+Yüksekokullar
+
+Edremit Sivil Havacılık Yüksekokulu
+
+Yabancı Diller Yüksekokulu
+
+Meslek Yüksekokulları
+
+Altınoluk Meslek Yüksekokulu
+
+Ayvalık Meslek Yüksekokulu
+
+Balıkesir Meslek Yüksekokulu
+
+Bigadiç Meslek Yüksekokulu
+
+Burhaniye Meslek Yüksekokulu
+
+Dursunbey Meslek Yüksekokulu
+
+Edremit Meslek Yüksekokulu
+
+Havran Meslek Yüksekokulu
+
+İvrindi Sağlık Hizmetleri Meslek Yüksekokulu
+
+Kepsut Meslek Yüksekokulu
+
+Savaştepe Meslek Yüksekokulu
+
+Sındırgı Meslek Yüksekokulu
+
+Susurluk Tarım Ve Orman Meslek Yüksekokulu
+
+Rektörlüğe Bağlı Bölümler
+
+Atatürk İlkeleri ve İnkılap Tarihi Bölümü
+
+Enformatik Bölümü
+
+Türk Dili Bölümü
+
+Uzaktan Eğitim
+
+BAUZEM
+
+Akademik Bilgi Sistemi
+
+AVESİS
+
+İdari
+
+İdari Birimler
+
+Genel Sekreterlik
+
+Bilgi İşlem Daire Başkanlığı
+
+İdari ve Mali İşler Daire Başkanlığı
+
+Kütüphane ve Dokümantasyon Daire Başkanlığı
+
+Öğrenci İşleri Daire Başkanlığı
+
+Personel Daire Başkanlığı
+
+Sağlık, Kültür ve Spor Daire Başkanlığı
+
+Strateji Geliştirme Daire Başkanlığı
+
+Yapı İşleri ve Teknik Daire Başkanlığı
+
+Hukuk Müşavirliği
+
+Basın ve Halkla İlişkiler Müdürlüğü
+
+Döner Sermaye İşletme Müdürlüğü
+
+Koordinatörlükler
+
+Akademik Gelişim Koordinatörlüğü
+
+Kalite Güvencesi, Kalite Komisyonu ve Kalite Koordinatörlüğü
+
+Balıkesir Üniversitesi Radyo Koordinatörlüğü
+
+Tanıtım ve Sosyal Medya Koordinatörlüğü
+
+Bilimsel Araştırma Projeleri Koordinatörlüğü
+
+Bilimsel Yayınlar ve Dergiler Koordinatörlüğü
+
+Bologna Koordinatörlüğü
+
+Eğiticilerin Eğitimi Koordinatörlüğü
+
+Enerji Yönetimi ve Sürdürülebilirlik Koordinatörlüğü
+
+Engelsiz Üniversite Koordinatörlüğü
+
+Tümünü gör →
+
+Öğrenci
+
+Akademik Bilgiler
+
+Akademik Takvim
+
+Öğrenci E-Posta
+
+Öğrenci Bilgi Sistemi (OBS)
+
+Bilgi Paketi / Ders Kataloğu
+
+Kanun ve Yönetmelikler
+
+Öğrenci İşleri Daire Başkanlığı
+
+Yabancı Uyruklu Öğrenci Programı
+
+Öğrenci Değişim Programları
+
+Burslar
+
+BAÜN Yaşam
+
+Öğrenci Toplulukları
+
+Yurtlar
+
+Spor Olanakları
+
+Engelsiz Yaşam
+
+Engelsiz Kütüphane
+
+İrtibat Merkezi
+
+Araştırma
+
+Uygulama ve Araştırma Merkezleri İzleme ve Değerlendirme Koordinatörlüğü
+
+Balıkesir Üniversitesi Atatürk İlkeleri ve İnkılap Tarihi Araştırma ve Uygulama Merkezi
+
+Balıkesir Üniversitesi Turizm Araştırma ve Uygulama Merkezi
+
+Balıkesir Üniversitesi Bilgi İşlem Uygulama ve Araştırma Merkezi
+
+Balıkesir Üniversitesi Balıkesir Yöresi Kültürünü Araştırma ve Uygulama Merkezi
+
+Balıkesir Üniversitesi Uluslararası İlişkiler Araştırma ve Uygulama Merkezi
+
+Balıkesir Üniversitesi Uzaktan Eğitim Uygulama ve Araştırma Merkezi
+
+Balıkesir Üniversitesi Sağlık Uygulama ve Araştırma Merkezi
+
+Balıkesir Üniversitesi Botanik Bahçesi ve Herbaryum Uygulama ve Araştırma Merkezi
+
+Balıkesir Üniversitesi Türkçe Öğretimi Uygulama ve Araştırma Merkezi
+
+Balıkesir Üniversitesi Kariyer Geliştirme Uygulama ve Araştırma Merkezi
+
+Tümünü gör →
+
+Birimler
+
+BAÜN Teknokent
+
+Araştırmacılar İçin
+
+Merkez Kütüphane
+
+Katalog Tarama
+
+Veri Tabanları
+
+Uzaktan Erişim
+
+Açık Erişim
+
+Akademik Dergiler
+
+Etik Kurullar
+
+Rehber
 
 ---
 
-## 19. Uluslararası Akademisyen, Gazeteci ve Medya Temsilcileri Forumu” Balıkesir Üniversitesinde Gerçekleştirildi
-**Kaynak URL:** [https://balikesir.edu.tr/haberler/202608151936](https://balikesir.edu.tr/haberler/202608151936)
-
-### Sayfa İçeriği:
-haberler
-
-Uluslararası Akademisyen, Gazeteci ve Medya Temsilcileri Forumu” Balıkesir Üniversitesinde Gerçekleştirildi
-
-15 Ağustos 2026
-
-Balıkesir Valiliği, Balıkesir Üniversitesi ile Balıkesir Gazeteciler ve Yazarlar Cemiyeti iş birliğinde düzenlenen Uluslararası Akademisyen, Gazeteci ve Medya Temsilcileri Forumu, Balıkesir Üniversitesi ev sahipliğinde gerçekleştirildi.
-
-Balıkesir Üniversitesi Atatürk Kongre ve Kültür Merkezi Malazgirt Salonu’nda “Kültür Rotalarında Kültürler, Medya ve Yapay Zeka Kullanımı” temasıyla düzenlenen forumda; kültür rotaları, farklı kültürlerin tanıtımında medyanın rolü ve yapay zeka teknolojilerinin medya alanındaki kullanımı farklı yönleriyle ele alındı.
-
-Saygı duruşu ve İstiklal Marşı’nın okunması ile başlayan forum Basın İlan Kurumu Yönetim Kurulu Başkanı Prof. Dr. Edibe Sözen Çetintaş’ın moderatörlüğünde gerçekleştirildi. Forumda Balıkesir Üniversitesi Rektörü Prof. Dr. Yücel Oğurlu, Ankara Hacı Bayram Veli Üniversitesi İletişim Fakültesi akademisyenlerinden Prof. Dr. Zakir Avşar, Özbekistan Almalık Devlet Teknik Enstitüsü Uluslararası İlişkilerden Sorumlu Rektör Yardımcısı Zikriyaev Zokirjon, TİMBİR Genel Başkanı Dr. Süleyman Basa, TGF Genel Başkanı Yılmaz Karaca ve Yeni Çağ Medya Grup Başkanı Agil Alesger Farajov konuşmacı olarak yer aldı.
-
-Forumda yapay zekâ ve kültürel dönüşüm üzerine değerlendirmelerde bulunan Balıkesir Üniversitesi Rektörü Prof. Dr. Yücel Oğurlu, yapay zekâ konusunda ilk çalışmasının yaklaşık 10 yıl önceki bir köşe yazısı olduğunu, daha sonra yapay zekâ ve hukuk üzerine makaleler yazdıkça konunun farklı boyutlarını keşfettiğini belirtti. Yapay zekânın hem fırsatlar hem de tehditler barındıran önemli bir araç olduğunu ifade eden Oğurlu, bu konunun dışında kalınamayacağını vurguladı.
-
-Yapay zekâyı üreten ve aktif olarak kullanan ülkeler ile bu teknolojinin dışında kalan ülkeler arasındaki farkın gelecekte çok daha büyük olacağını belirten Oğurlu, yapay zekânın bazı meslekleri geçersiz kılabileceğini, ancak beraberinde yeni meslek ve fırsatlar da getireceğini söyledi.
-
-Günümüzde yapay zekânın, savaş teknolojilerinde de aktif olarak kullanıldığına dikkat çeken Oğurlu, özellikle drone teknolojilerinin yapay zekâ ile birleştirilmesinin savaşların artık farklı boyutlara oluşturduğunu ifade etti.
-
-Türkiye’de yapay zekâ alanında 100’ün üzerinde program, bölüm ve merkez bulunduğunu ifade eden Oğurlu, gençlerin bu alanda yeni fırsatlarının olduğunu kaydetti. Kültürel mirasın ise dijital dünyada temsil edilmesinin önemine de değinen Oğurlu, dijital ortamda ve yapay zekâ veri tabanlarında yeterince yer almayan kültürlerin küresel ölçekte etkisinin azalabileceğini ve üniversitelerimizin bu yönde de çalışmalar yapması zaruretini dile getirdi.
-
-Oğurlu, kültürel değerlerin dijital ortama aktarılması gerektiğini vurgularken Türkçe içeriklerin ortak alfabe kullanımıyla mevcuda göre 4 kat daha geniş bir kitleye ulaşabileceğini belirtti. Yapay zekâ teknolojilerinin doru kültür danışmanlıkları ve doğru komutlarla kullanılması yoluyla tarihî filmler, çizgi filimler, müzikler ve görsel içerikler üretilebileceğini ifade eden Oğurlu, bunun milli ve yerel kültürlerin dijital dünyada tanıtılması açısından önemli bir fırsat olduğunu belirtti.
-
-Forumda ayrıca Ankara Hacı Bayram Veli Üniversitesi İletişim Fakültesi akademisyenlerinden Prof. Dr. Zakir Avşar “Yapay Zekâ Çağında Gazetecilik Eğitimi”, Özbekistan Almalık Devlet Teknik Enstitüsü Uluslararası İlişkilerden Sorumlu Rektör Yardımcısı Zikriyayev Zokir Mamirovich “Geleceğin gazetecisi yalnızca haber yazan değil, teknolojiyi yöneten gazeteci olacaktır”, TİMBİR Genel Başkanı Dr. Süleyman Basa “Medyada Dijital Dönüşüm”, TGF Genel Başkanı Yılmaz Karaca “Medya, Kültür ve Yapay Zekâ”, RATEM Başkanı Vedat Gündoğan “Yapay Zekâ Destekli Medya ve Yayıncılık” ve Yeni Çağ Medya Grup Başkanı Agil Alesger Farajov “Türk Dünyasında Medya ve Dijital Diplomasi” başlıklı değerlendirmelerini paylaştı.
-
-Akademisyenleri, gazetecileri ve medya temsilcilerini bir araya getiren forumda; yapay zekanın medya sektörüne etkisi, dijital gazetecilik, yeni medya teknolojileri, medya etiği, dezenformasyonla mücadele ve yerel basının geleceği konuları ele alınırken, kültür ve gastronomi rotalarının tanıtımında medyanın rolü ile kültürlerarası iletişim üzerine de görüş alışverişinde bulunuldu.
-
-Farklı ülkelerden ve Türkiye’nin farklı bölgelerinden akademi ve medya temsilcilerinin buluştuğu program, bilgi ve deneyim paylaşımının yanı sıra akademi-medya iş birliklerinin geliştirilmesine yönelik önemli bir platform oluşturdu.
-
-Forum, katılımcıların değerlendirmeleri ve karşılıklı görüş alışverişinin ardından sona erdi.
-
-Galeri
-
-Geri
-
-İleri
-
----
-
-## 20. Özbekistan Almalık Devlet Teknik Enstitüsü Heyetinden Rektör Oğurlu’ya Ziyaret
-**Kaynak URL:** [https://balikesir.edu.tr/haberler/202608141559](https://balikesir.edu.tr/haberler/202608141559)
-
-### Sayfa İçeriği:
-haberler
-
-Özbekistan Almalık Devlet Teknik Enstitüsü Heyetinden Rektör Oğurlu’ya Ziyaret
-
-14 Ağustos 2026
-
-Özbekistan’ın
-
-önemli yükseköğretim kurumlarından Özbekistan Almalık Devlet Teknik Enstitüsü
-
-Uluslararası İlişkilerden Sorumlu Rektör Yardımcısı ve Heyet Başkanı Zikriyayev
-
-Zokir Mamirovich ile Eğitim İşlerinden Sorumlu Rektör Yardımcısı Barakayev
-
-Nusratullo Rajabovich ve Gençlik İşlerinden Sorumlu Rektör Yardımcısı Razzaqov
-
-Jasur Xamraboyevich’ten oluşan heyet, Balıkesir Üniversitesi Rektörü Prof. Dr.
-
-Yücel Oğurlu’yu makamında ziyaret etti.
-
-BAÜN
-
-Rektör Yardımcısı Prof. Dr. Murat Doğdubay’ın da yer aldığı ziyarette,
-
-Balıkesir Üniversitesi ile Almalık Devlet Teknik Enstitüsü arasında akademik ve
-
-bilimsel iş birliklerinin geliştirilmesine yönelik görüş alışverişinde
-
-bulunuldu. Görüşmede eğitim alanındaki çalışmaların yanı sıra öğrenci ve
-
-akademisyen hareketliliği, ortak akademik faaliyetler ve iki kurum arasındaki
-
-iş birliği imkânları ele alındı.
-
-Balıkesir
-
-Üniversitesi’nin uluslararasılaşma hedefleri doğrultusunda farklı ülkelerdeki
-
-yükseköğretim kurumlarıyla ilişkilerini geliştirmeye önem verdiğini belirten
-
-Rektör Prof. Dr. Yücel Oğurlu, Özbekistan’daki üniversitelerle akademik
-
-ilişkilerin güçlendirilmesinden duyduğu memnuniyeti ifade etti. Oğurlu, iki
-
-üniversite arasında gerçekleştirilebilecek ortak çalışmaların eğitim ve
-
-bilimsel faaliyetlere katkı sağlayacağını belirtti.
-
-Almalık
-
-Devlet Teknik Enstitüsü Uluslararası İlişkilerden Sorumlu Rektör Yardımcısı ve
-
-Heyet Başkanı Zikriyayev Zokir Mamirovich de Balıkesir Üniversitesi ile
-
-ilişkilerin geliştirilmesine yönelik görüşlerini paylaşarak, iki kurum arasında
-
-farklı alanlarda iş birliği yapılmasının önemine dikkat çekti.
-
-Ziyarette,
-
-iki üniversite arasındaki mevcut ilişkilerin geliştirilmesi ve yeni iş birliği
-
-alanlarının oluşturulmasına yönelik değerlendirmelerde bulunulmasının ardından
-
-karşılıklı iyi dilek ve temenniler paylaşılmasıyla görüşme sona erdi.
-
----
-
-## 21. BAÜN’de “Obezite Okulu 2” Başarıyla Gerçekleştirildi | Balıkesir Üniversitesi
-**Kaynak URL:** [https://balikesir.edu.tr/haberler/202608141359](https://balikesir.edu.tr/haberler/202608141359)
-
-### Sayfa İçeriği:
-haberler
-
-BAÜN’de “Obezite Okulu 2” Başarıyla Gerçekleştirildi
-
-14 Ağustos 2026
-
-Balıkesir
-
-ve çevresinde sağlık alanında önemli bir merkez konumunda bulunan Balıkesir
-
-Üniversitesi (BAÜN) Hastanesi, bilimsel, eğitim ve sağlık hizmetleri alanındaki
-
-çalışmalarıyla bölgenin sağlık ihtiyaçlarına katkı sunmaya devam ediyor.
-
-Balıkesir
-
-Üniversitesi Obezite Cerrahi Merkezi tarafından, obezite cerrahisi alanında
-
-bilimsel bilgi ve deneyim paylaşımını artırmak amacıyla düzenlenen “Obezite
-
-Okulu 2” başarıyla gerçekleştirildi. Balıkesir Üniversitesi Obezite Cerrahi
-
-Merkezi’nin rutin eğitim programları arasında yer alan Obezite Okulu’nun
-
-ikincisinde, Balıkesir Üniversitesi Tıp Fakültesi Ameliyathanesi’nde iki gün
-
-boyunca gerçekleştirilen 5 canlı ameliyat eşliğinde obezite cerrahisinin güncel
-
-uygulamaları ele alındı.
-
-Gerçek
-
-zamanlı cerrahi deneyiminin paylaşıldığı programda, yüksek görüntü kalitesiyle
-
-detaylı görüntüleme ve eş zamanlı aktarım sağlanırken, gerçek vakalar üzerinden
-
-klinik deneyim ve uygulamalı öğrenme imkânı sunuldu. Program kapsamında bilgi
-
-paylaşımı, deneyim aktarımı ve doğru hastaya doğru tedavinin ulaştırılması
-
-konuları ön plana çıktı.
-
-Balıkesir
-
-Üniversitesi Obezite Cerrahi Merkezi’nin sahip olduğu bilgi ve deneyimlerin
-
-paylaşılmasının amaçlandığı programda, bilimsel yaklaşım, eğitim ve farkındalık
-
-başlıkları öne çıkarken, obezite cerrahisi alanında önemli bir paylaşım ortamı
-
-oluşturuldu.
-
-Obezite
-
-Cerrahi Merkezi Koordinatörü Doç. Dr. Ferhat Çay, Balıkesir Üniversitesi
-
-Obezite Cerrahi Merkezi’nin cerrahi tedavi uygulayan bir merkez olmanın
-
-ötesinde; bilimsel yaklaşımı, multidisipliner çalışmayı, eğitimi ve hasta
-
-farkındalığını merkeze alan bir yapı oluşturmayı hedeflediğini belirterek
-
-Balıkesir Üniversitesi’nin obezite cerrahisi alanında Türkiye’de önemli ve
-
-güvenilir bir marka haline geldiğini ve elde edilen başarının birlikte çalışan
-
-büyük bir ekibin ortak emeği olduğunu vurguladı.
-
-Galeri
-
-Geri
-
-İleri
-
----
-
-## 22. Sayılarla BAÜN
+## 23. Sayılarla BAÜN
 **Kaynak URL:** [https://verihavuzu.balikesir.edu.tr/](https://verihavuzu.balikesir.edu.tr/)
 
 ### Sayfa İçeriği:
@@ -7182,6 +11830,8 @@ Rektörlük
 
 Elektrik-Elektronik Fakültesi
 
+Fen-Edebiyat Fakültesi
+
 Gemi İnşaatı ve Deniz Bilimleri
 
 İnşaat Fakültesi
@@ -7193,6 +11843,8 @@ Kimya-Metalurji Fakültesi
 Maden Fakültesi
 
 Makine Fakültesi
+
+Mimarlık Fakültesi
 
 Uçak ve Uzay Bilimleri Fakültesi
 
@@ -7240,6 +11892,8 @@ Denizcilik Fakültesi
 
 Elektrik-Elektronik Fakültesi
 
+Fen-Edebiyat Fakültesi
+
 Gemi İnşaatı ve Deniz Bilimleri Fakültesi
 
 İnşaat Fakültesi
@@ -7254,9 +11908,13 @@ Maden Fakültesi
 
 Makina Fakültesi
 
+Mimarlık Fakültesi
+
 Tekstil Teknolojileri ve Tasarım Fakültesi
 
 Uçak ve Uzay Bilimleri Fakültesi
+
+Edremit Sivil Havacılık Yüksekokulu
 
 Toplam
 
@@ -7398,7 +12056,7 @@ BALIKESİR ÜNİVERSİTESİ 4 enstitüde 85'si  yüksek lisans ve 42'i doktora p
 
 AKADEMİSYEN BAŞINA DÜŞEN ÖĞRENCİ SAYISI
 
-25858 Öğrenci / 1300 Akademisyen
+25809 Öğrenci / 1300 Akademisyen
 
 Akademisyen başına
 
@@ -7408,19 +12066,75 @@ LİSANS ÖĞRENCİ SAYISI
 
 Lisans Öğrenci Sayısı
 
+Burhaniye Uygulamalı Bilimler Fakültesi
+
+Edremit Sivil Havacılık Yüksekokulu
+
+Fen-Edebiyat Fakültesi
+
+Güzel Sanatlar Fakültesi
+
+Hukuk Fakültesi
+
 Iktisadi ve Idari  Bilimler Fakültesi
 
 Ilahiyat Fakültesi
+
+Mimarlık Fakültesi
+
+Mühendislik Fakültesi
+
+Necatibey Eğitim Fakültesi
+
+Sağlık Bilimleri Fakültesi
+
+Spor Bilimleri Fakültesi
+
+Turizm Fakültesi
+
+Tıp Fakültesi
+
+Veteriner Fakültesi
 
 LİSANSÜSTÜ ÖĞRENCİ SAYISI
 
 Lisansüstü Öğrenci Sayısı
 
+Fen Bilimleri Enstitüsü
+
+Sağlık Bilimleri Enstitüsü
+
+Sosyal Bilimler Enstitüsü
+
+Edremit Zeytincilik Enstitüsü
+
 ÖN LİSANS ÖĞRENCİ SAYISI
 
 Ön Lisans Öğrenci Sayısı
 
+Altınoluk Meslek Yüksekokulu
+
+Ayvalık Meslek Yüksekokulu
+
+Balıkesir Meslek Yüksekokulu
+
+Bigadiç Meslek Yüksekokulu
+
+Burhaniye Meslek Yüksekokulu
+
+Dursunbey Meslek Yüksekokulu
+
+Edremit Meslek Yüksekokulu
+
+Havran Meslek Yüksekokulu
+
 Ivrindi Sağlık Hizmetleri Meslek Yüksekokulu
+
+Kepsut Meslek Yüksekokulu
+
+Savaştepe Meslek Yüksekokulu
+
+Sındırgı Meslek Yüksekokulu
 
 BAP PROJELERİ
 
@@ -7484,7 +12198,7 @@ Ayakta Tedavi
 
 Lab. Hasta Sayısı
 
-3768
+5691
 
 Küçük Müdahele
 
@@ -7526,7 +12240,7 @@ Elektronik Kitap Sayısı
 
 ---
 
-## 23. Balıkesir Üniversitesi Akademik Bilgi Sistemi | Makale, Kitap, Proje ve Tez Verileri
+## 24. Balıkesir Üniversitesi Akademik Bilgi Sistemi | Makale, Kitap, Proje ve Tez Verileri
 **Kaynak URL:** [https://akbis.balikesir.edu.tr/](https://akbis.balikesir.edu.tr/)
 
 ### Sayfa İçeriği:
@@ -7611,6 +12325,10 @@ Makaleler
 Bildiriler
 
 Öğrenci Tezleri
+
+Açık Erişim
+
+Birimler
 
 {{unit_count}}
 
@@ -7730,7 +12448,7 @@ Sürdürülebilir Kalkınma Amaçları
 
 ---
 
-## 24. Balıkesir Üniversitesi BAP Koordinasyon Birimi
+## 25. Balıkesir Üniversitesi BAP Koordinasyon Birimi
 **Kaynak URL:** [https://bap.balikesir.edu.tr/](https://bap.balikesir.edu.tr/)
 
 ### Sayfa İçeriği:
@@ -7800,11 +12518,7 @@ Tüm Duyurular
 
 Satınalma Duyuruları
 
-(Onay No: 791) 1 Kalem Menkul Mal, Gayrimaddi Hak Alım, Bakım ve Onarım Giderleri
-
-(Onay No: 790) 1 Kalem Mamul Mal Alımı
-
-(Onay No: 789) 1 Kalem Mamul Mal Alımı
+Kayıt yok
 
 Tüm Duyurular
 
@@ -8063,6 +12777,4078 @@ Bu bilgiler ışığında E-BAP internet sitesi kullanıcıları, siteyi kullan�
 BALIKESİR ÜNİVERSİTESİ --- BİLİMSEL ARAŞTIRMA PROJELERİ BİRİMİ
 
 E-mail: projeler@balikesir.edu.tr
+
+---
+
+## 26. SSS | ÖĞRENCİ İŞLERİ DAİRE BAŞKANLIĞI | Balıkesir Üniversitesi
+**Kaynak URL:** [https://oidb.balikesir.edu.tr/sss](https://oidb.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+ÖĞRENCİ İŞLERİ DAİRE BAŞKANLIĞI
+
+Kadromuz
+
+Uluslararası Ortak Diploma
+
+Kalite
+
+Yeni Kayıt -- Kayıt Dondurma
+
+Katkı Payı -- Öğrenim Ücretleri
+
+Ders Kayıt -- Yaz Okulu
+
+Uluslararası Öğrenciler
+
+(YÖS)
+
+Özel Öğrenci
+
+Yatay Geçiş
+
+Transkript ve Belgeler
+
+Yükseköğretim Bilgi Sistemi (YÖKSİS)
+
+Askerlik İşlemleri
+
+Dikey Geçiş (DG)
+
+Lisans Tamamlama
+
+Diploma ve Mezuniyet İşlemleri
+
+Kadromuz
+
+Uluslararası Ortak Diploma
+
+Kalite
+
+Kadromuz
+
+Uluslararası Ortak Diploma
+
+Kalite
+
+---
+
+## 27. ÖİDB SSS PDF - Yeni Kayıt -- Kayıt Dondurma
+**Kaynak URL:** [https://baunwebapi.balikesir.edu.tr/uploads/1763036685537.pdf](https://baunwebapi.balikesir.edu.tr/uploads/1763036685537.pdf)
+
+### Sayfa İçeriği:
+YENİ KAYIT
+
+Üniversiteniz Lisans programına
+
+yerleştim. Henüz liseden mezun
+
+olamadım kesin kaydımı diplomam
+
+olmadan yaptırabilir miyim?
+
+Ortaöğretim Kurumundan henüz mezun olamamış aday
+
+öğrencilerin kesin kayıtlarının hangi tarihlerde
+
+yapılacağına Yükseköğretim Kurulu Başkanlığı karar
+
+vermektedir. İlgili kurumun kararları doğrultusunda
+
+kesin kayıt işlemleriniz tamamlanmaktadır.
+
+E- devletten üniversitenize kaydımı
+
+yaptırdım gerekli belgeleri en son ne
+
+zaman teslim edeceğim?
+
+Kesin kayıtların nasıl ve nerede yapılacağı, kayıt tarihleri,
+
+istenen belgelere ilişkin prosedürler ÖSYM tarafından
+
+sonuçların açıklanmasından sonra ÖİDB web
+
+sayfasından https://oidb.balikesir.edu.tr/duyurular
+
+yayınlanmaktadır. Duyuruları takip ediniz.
+
+E-devletten kayıt oldum yabancı dil
+
+yeterlilik sınavına ne zaman gireceğim?
+
+Yabancı Dil Yeterlilik sınavı ile ilgili bilgilendirme Kayıt
+
+Kılavuzunda yer alacaktır. Aşağıdaki Linkten takip
+
+edebilirsiniz. https://oidb.balikesir.edu.tr/duyurular
+
+KAYIT DONDURMA
+
+Hangi durumlarda kayıt dondurabilirim?
+
+Öğrencilere, kanıtlayacakları önemli nedenlerin veya eğitim
+
+öğretimlerine katkıda bulunacak Üniversite dışı burs, staj,
+
+araştırma ve benzeri imkanların ortaya çıkması halinde
+
+yarıyıl başlangıcından önce başvurmaları halinde ilgili
+
+yönetim kurulu kararı ile iki yarıyıla kadar izin verilebilir.
+
+Öğrencilere bu nedenle rle eğitim-öğretim süresi içinde bir
+
+kez izin verilebilir.
+
+Ne zaman ve nereye kayıt dondurma
+
+talebinde bulunmalıyım?
+
+Öğrencisi olduğunuz okul öğrenci işleri birimine dilekçe ile
+
+yarıyıl başlamadan önce başvurmalısınız.
+
+Öğrenim Süresinden sayılan izinler
+
+hangileridir? Azami öğrenim süreme etkisi
+
+nedir?
+
+Öğrencilere, kanıtlayacakları önemli nedenlerin veya eğitim
+
+öğretimlerine katkıda bulunacak Üniversite dışı burs, staj,
+
+araştırma ve benzeri imkanların ortaya çıkması halinde
+
+yarıyıl başlangıcından önce başv urmaları halinde ilgili
+
+yönetim kurulu kararı ile iki yarıyıla kadar izin verilebilir.
+
+Öğrencilere bu nedenlerle eğitim -öğretim süresi içinde bir
+
+kez izin verilebilir.
+
+İlgili yönetim kurulu kararı ile izin verilen öğrencilerden
+
+Üniversiteye k ayıt olduğu ilk yarıyıl hariç katkı payı/
+
+öğrenim ücreti alınmaz. İzinli sayılan süreler eğitim -öğretim
+
+süresinden sayılmaz.
+
+Kaydımı sildirmek için ne yapmalıyım?
+
+Kendi isteğiniz ile kaydınızı sildirmek istiyorsanız Kayıt
+
+yaptırdığınız okulun öğrenci işleri birimine dilekçe ile
+
+başvuru yapmalısınız.
+
+Katkı payımı yatırmazsam kaydım silinir
+
+mi?
+
+Dört yıl üst üste katkı payı/öğrenim ücreti ödenmemesi ile
+
+kayıt yenilenmemesi nedeniyle öğrencinin ilişiği kesilebilir.
+
+Disiplin cezası ile ilişiğim kesilir mi?
+
+2547 sayılı Kanunun 54. maddesine göre yükseköğretim
+
+kurumundan çıkarma cezası alan öğrencilerin, Üniversite
+
+ile ilişikleri kesilir.
+
+Kayıt Silme işlemimi benim yerime bir
+
+başkası yapabilir mi? Öğrenci dosyamda
+
+bulunan belgelerimi alabilir mi?
+
+Noter aracılığı ile vekaletname verdiğiniz vekiliniz sizin
+
+adınıza nüfus cüzdanı veya yasal olarak yerine geçebilecek
+
+kimlik kartını ibraz ederek kayıt olduğunuz okulun öğrenci
+
+işlerinden kayıt silme işleminizi gerçekleştirebilir.
+
+---
+
+## 28. ÖİDB SSS PDF - Katkı Payı -- Öğrenim Ücretleri
+**Kaynak URL:** [https://baunwebapi.balikesir.edu.tr/uploads/1763722674833.pdf](https://baunwebapi.balikesir.edu.tr/uploads/1763722674833.pdf)
+
+### Sayfa İçeriği:
+ÖĞRENCİ KATKI/ ÖĞRENİM ÜCRETİ
+
+Yurtdışı kontenjanından kurumunuza
+
+yerleştim, öğrenim ücretini yatırdım ve
+
+kaydımı yaptırdım. Kayıt hakkından
+
+vazgeçerek kaydımı sildirdiğim takdirde
+
+öğrenim ücretini geri alabilir miyim?
+
+Kendi istehi i le kaydını sildiren ya da kayıt hakkından
+
+vazgeçen öğrencilere öğrenim ücret iadesi yapılmaz.
+
+Ders kaydı yapmasam dahi her dönem katkı
+
+payı/Öğrenim ücreti ödemem gerekiyor mu?
+
+Hayır. Ders kaydı yaptırmadıhınız takdirde öğrenim
+
+ücreti ödemeniz gerekmez.
+
+Derslere devam etmiyorum, ödemiş olduğum
+
+öğrenim ücretini geri alabilir miyim?
+
+Hayır. Alamazsınız.
+
+Staj yapıyorum öğrenim ücreti ödeyecek
+
+miyim?
+
+Ders kaydınız yoksa öğrenim ücreti ödemenize gerek
+
+yoktur.
+
+İkinci öğretimden yatay geçiş yaparsam
+
+öğrenci katkı payı öder miyim?
+
+Hayır, ödemezsiniz.
+
+Öğrenci katkı payımı daha sonra ödemek
+
+şartıyla ders kaydı yapabilir miyim?
+
+Hayır.
+
+İki üniversitede öğrenci olarak kayıtlıyım,
+
+kayıt sildirme yaptıktan sonra öğrenci katkı
+
+payı iadesi alabilir miyim?
+
+Eher eğitim öğretim y arıyılı başlamadan önce kaydınızı
+
+sildirdiyseniz, öğrenci katkı payı ödemesi yapmanız
+
+gerekmez, yapılan ödemelerin iadesi yapılmaz.
+
+Erasmusta giden öğrenci olarak kurumunuza
+
+ders kaydı yaptırmadım, öğrenci katkı payı
+
+ödeyecek miyim?
+
+Öhrenci katkı payı ödemeniz gerekiyor ise ödemenizi
+
+yapmalısınız. Aksi durumda ödemeniz sonraki
+
+dönemlere yansıtılacaktır.
+
+Öğrenci katkı payımı yatırdım ama ders
+
+seçmedim ne olur?
+
+Öhrenci katkı payı iadesi için okulunuz öğrenci işlerine
+
+Harç İade formuyla birlikte başvuru yapmanız
+
+gerekmektedir.
+
+Öğrenci k atkı payımı yatırdım sisteme ne
+
+zaman yansıyacak?
+
+Öhrenci katkı payı yatırıp yatırmayacahınıza dair
+
+kontrolü Öhrenci Bilgi Sistemin’den yapabilirsiniz.
+
+Öhrenci katkı payı/ öğrenim ücreti akademik takvimde
+
+belirtilen tarihlerde yatırılır.
+
+Öğrenci katkı payı/ öğrenim ücreti iadesi için
+
+hangi belgeler gereklidir?
+
+Öhrenci katkı payı/ öğrenim ücreti iade formu
+
+doldurularak okulunuz öğrenci işlerine başvurmanız
+
+gerekmektedir
+
+Öğrenci katkı payı/ öğrenim ücretini EFT
+
+yapsam ya da ATM’lerden yatırsam olur mu?
+
+Halk Bankasının tüm şubelerinden, ATM, mobil ve
+
+internet şubelerinden öğrenci numaranızı girerek
+
+yatırabilirsiniz.
+
+---
+
+## 29. ÖİDB SSS PDF - Ders Kayıt -- Yaz Okulu
+**Kaynak URL:** [https://baunwebapi.balikesir.edu.tr/uploads/1763035769622.pdf](https://baunwebapi.balikesir.edu.tr/uploads/1763035769622.pdf)
+
+### Sayfa İçeriği:
+DERS KAYIT VE YAZ OKULU
+
+Derse kayıt olurken nasıl bir yol
+
+izlemeliyim?
+
+Akademik Takvimde belirtilen ders kayıt tarih
+
+aralığında Öğrenci Bilgi Sistemi (OBS) öğrenci
+
+menüsü üzerinden kaydınızı gerçekleştirebilirsiniz.
+
+Akademik takvim nerede ve ne
+
+zaman yayınlanır?
+
+Akademik takvim, her akademik yılın başlamasından
+
+önce Senato tarafından belirlenir ve ÖİDB web
+
+sayfasında ilan edilir. İlan edilen takvime linkten
+
+https://oidb.balikesir.edu.tr/duyurular
+
+Lisans ve Ön Lisans ders
+
+içerikleri/planları nerede yayınlanır?
+
+Kayıtlı olduğunuz lisans ve Ön Lisans programının
+
+ders planları,
+
+https://obs.balikesir.edu.tr/oibs/bologna/index.aspx
+
+linkten ulaşılabilirsiniz.
+
+Lisans ve Ön lisans ders kayıt tarihleri
+
+nerede yayınlanır?
+
+İlgili Eğitim -Öğretim Yılı Akademik Takviminde ilan
+
+edilir. https://oidb.balikesir.edu.tr/akademik -takvim
+
+Öğrenci Bilgi Sistemine (OBS) giriş
+
+şifremi (PIN) bloke ettim
+
+değiştiremiyorum, ne yapmalıyım?
+
+Öğrenci bilgi sistemi ekranında şifremi sıfırla linkini
+
+tıklayarak şifrenizi değiştirebilirsiniz.
+
+Ders kayıt yenileme işlemini akademik
+
+takvimde belirtilen tarihlerde yapmadım.
+
+Ders kaydını ne zaman ve nasıl yapabilirim?
+
+Ders kaydınızı akademik takvimde belirtilen
+
+mazeretli kayıt haftasında belirlenen ücreti ilgili
+
+banka hesabına yatırdıktan sonra yapabilirsiniz.
+
+Eksik kredi ile mezun olabilir miyim?
+
+Eksik kredi ile mezun olamazsınız. Ancak, ders
+
+planınızdaki tüm dersleri ve diğer şartları
+
+sağladığınız halde, ders plan değişikliği, ders
+
+intibakları vb. durumlar nedeniyle eksik kredi olması
+
+durumunda Fakülte Yönetim Kurulu Kararı ile mezun
+
+olabilirsiniz.
+
+Yaz öğretim inde bir dersin açılıp
+
+açılmamasına nasıl karar verilir,
+
+açılmayan dersin açılması için nereye
+
+başvurmalıyım?
+
+Yaz öğretiminde bir dersin açılıp açılmamasına ve
+
+açılma koşullarının tespitine ilgili yönetim kurulları
+
+karar verir. Açılmayan bir dersin açılması için kayıtlı
+
+olduğunuz okul öğrenci işleri birimine
+
+başvurmalısınız.
+
+Yaz öğretiminde başka üniversiteden
+
+ders alabilmek için ne yapmalıyım?
+
+İlgili birim Yönetim Kurulu Kararıyla başka
+
+Yükseköğretim Kurumundan ders alabilirsiniz.
+
+Bunun için, kayıtlı olduğunuz okul öğrenci işleri
+
+birimine dilekçe ile başvurmalısınız.
+
+Başka bir Yükseköğretim Kurumunda
+
+öğrenciyim, BAÜN’den Yaz öğretiminde
+
+ders almak istiyorum. Ne yapmalıyım?
+
+Yaz öğretiminden ders almak için, gerekli bilgi, belge
+
+ve başvuru tarihlerine ilişkin duyurulara
+
+https://oidb.balikesir.edu.tr/duyurular üzerinden o
+
+yılın akademik takviminde belirtilen tarihlerde
+
+ulaşabilirsiniz.
+
+---
+
+## 30. ÖİDB SSS PDF - Özel Öğrenci
+**Kaynak URL:** [https://baunwebapi.balikesir.edu.tr/uploads/1763033308347.pdf](https://baunwebapi.balikesir.edu.tr/uploads/1763033308347.pdf)
+
+### Sayfa İçeriği:
+ÖZEL ÖĞRENCİ
+
+Özel öğrenci başvurusu için hangi belgeler
+
+gereklidir?
+
+Başka bir yükseköğreti m kurumunda öğrenciyseniz ve
+
+BAÜN’de özel öğrenci olarak öğrenim görmek
+
+istiyorsanız gerekli bilgi ve belgelere
+
+https://oidb.balikesir.edu.tr/duyurular sayfasından
+
+ulaşabilirsiniz.
+
+Özel öğrenci başvuru ve değerlendirmesini
+
+hangi birim yapmaktadır?
+
+Başvuruların alınması ve deherlendirilmesi, ilgili
+
+bölüm başkanlıhının görüşü ile fakülte yönetim kurulu
+
+tarafından yapılmaktadır.
+
+Yaz öğretiminde Üniversitenizden yalnızca
+
+Türkçe ders alacağım, dil yeterliliği sunmam
+
+gerekli midir?
+
+Hayır, gerekli dahildir.
+
+Özel öğrenci süresi ne kadardır?
+
+Sahlık ve güvenlik sebe pleri haricinde, özel öğrencilik
+
+süresi aralıklı veya sürekli olarak iki yarıyıl ile
+
+sınırlıdır.
+
+Üniversiteye yeni kayıt yaptırdım, BAÜN’e
+
+özel öğrenci olarak başvuru yapabilir miyim?
+
+Kayıtlı olduhunuz programda en az bir ya rıyılı
+
+tamamlamış olmanız ve BAÜ N Özel Öhrenci
+
+Yönergesinde belirtilen şartları sahlamanız
+
+durumunda başvuru yapabilirsiniz.
+
+BAÜN’de özel öğrenciyim, BAÜN’den diploma
+
+alacak mıyım?
+
+Özel Öhrenci statüsünde üniversitemizden ders alan
+
+öğrencilere diploma verilmez.
+
+Özel Öğrenciyim öğrenim ücretimi nereye
+
+ödeyeceğim?
+
+Özel Öhrenciler, katkı payı/öğrenim ücretinizi kayıtlı
+
+oldukları yükseköğretim kurumuna ödemelidirler
+
+Özel Öğrenci olarak kaç kredi ders
+
+alabilirim?
+
+Özel Öhrenci olarak alabilecehiniz de rs kredisi, en
+
+fazla kayıt olacahınız programın ilgili yarıyılındaki
+
+derslerin kredisi kadardır.
+
+Özel Öğrenci kontenjan sınırı var mıdır?
+
+BAÜN’e gelen özel öğrenci kontenjanları, başv uru
+
+yapılan yıla ait programın ÖSYS kontenjan sayısının
+
+%3 oran deherini geçemez. Sahlık sorunu olan
+
+öğrencilerde kontenjan sınırlaması uygulanmaz.
+
+---
+
+## 31. ÖİDB SSS PDF - Yatay Geçiş
+**Kaynak URL:** [https://baunwebapi.balikesir.edu.tr/uploads/1763380054742.pdf](https://baunwebapi.balikesir.edu.tr/uploads/1763380054742.pdf)
+
+### Sayfa İçeriği:
+KURUM İÇİ NOT ORTALAMASIYLA YATAY
+
+GEÇİŞ
+
+Yatay Geçiş başvurusu ne zaman yapılır?
+
+Lisans eğitim -öğretiminde geçirdiğiniz ilk yılın (iki
+
+yarıyıl) sonu 3. yarıyıl başı, 2. yılın (dört yarıyıl) sonu 5.
+
+yarıyıl başında Yatay Geçiş başvurusu yapab ilirsiniz.
+
+(Bu sürece hazırlık sınıfı dahil dahildir)
+
+Bu başvurular bahar dönemi bitişi ile güz dönemi
+
+başlangıcı arasında yatay geçiş takvimde ilan edilen
+
+tarihlerde alınmaktadır.
+
+https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=139
+
+48&MevzuatTur=7&MevzuatTertip=5
+
+Kurum içi yatay geçiş başvurusunda
+
+bulunacağım, şartlar nelerdir?
+
+Öhrencinin merkezi sınava girdiği yıl itibarıyla geçmek
+
+istediği diploma programı için geçerli olan puan
+
+türünde aldıhı merkezi yerleştirme puanının, geçmek
+
+istediği diploma programına eşdeher yurt içindeki diğer
+
+üniversitelerin diploma programlarının en düşük taban
+
+puanından az olmaması şartı aranır.
+
+Dikey Geçiş yolu ile gelen öğrenciyim, yatay
+
+geçiş başvurusunda bulunabilir miyim?
+
+Evet, bulunabilirsiniz.
+
+KURUM İÇİ MERKEZİ YERLEŞTİRME PUANIYLA (EK
+
+MADDE-1) YATAY GEÇİŞ
+
+Merkezi Yerleştirme Puanıyla Lisans Yatay
+
+Geçiş (Ek Madde 1) nedir?
+
+Öhrencinin kayıt olduhu yıldaki merkezi yerleştirme
+
+puanlarının başka bir diploma programının girdiği
+
+yıldaki taban puanına eşit vey a yüksek olması halinde
+
+yapabildiği geçiş türüdür.
+
+Merkezi Yerleştirme ile Yatay Geçiş genel şartları için
+
+aşahıdaki linke bakınız.
+
+Güz Ve Bahar Dönemi Ek Madde 1 Uygulama İlkeleri
+
+Bir ön lisans programından üniversitenizin
+
+herhangi bir lisans programına, Merkezi
+
+Yerleştirme Puanıyla Lisans Yatay Geçiş (Ek
+
+Madde 1) yapabilir miyim?
+
+Öhrencilerin kayıt olduhu yıldaki merkezi yerleştir me
+
+puanları ile geçmek istedikleri yükseköğretim
+
+programlarının merkezi yerleştirme puanını
+
+sahlamaları şartıyla ön lisans programından lisans
+
+programına veya lisanstan ön lisansa geçiş yapılabilir.
+
+Merkezi Yerleştirme ile Yatay Geçiş genel şartları için
+
+aşahıdaki linke bakınız.
+
+Güz Ve Bahar Dönemi Ek Madde 1 Uygulama İlkeleri
+
+Merkezi Yerleştirme Puanıyla Lisans Yatay
+
+Geçiş (Ek Madde -1) hakkından eğitim -öğretim
+
+hayatım boyunca kaç defa yararlanabilirim?
+
+Ek Madde -1 uyarınca sadece bir defa yatay geçiş
+
+yapabilirsiniz.
+
+Merkezi Yerleştirme ile Yatay Geçiş genel şartları için
+
+aşahıdaki linke bakınız.
+
+Güz Ve Bahar Dönemi Ek Madde 1 Uygulama İlkeleri
+
+Ek Madde 1 ile kaç bölüme yatay geçiş
+
+başvurusu yapabilirim ?
+
+Ek Madde 1 ile Üniversitemizde sadece bir bölüme
+
+başvuru yapabilirsiniz.
+
+Merkezi Yerleştirme Puanıyla Lisans Yatay
+
+Geçiş (Ek Madde -1) ‘den hangi sınıflar
+
+yararlanabilir?
+
+Ek Madde -1 geçiş şartlarının sahlanması durumunda
+
+yükseköğretim kurumlarında kayıtlı olan hazırlık
+
+sınıfı dahil tüm öğrenciler söz konusu maddeden
+
+yararlanabilir.
+
+Merkezi Yerleştirme ile Yatay Geçiş genel şartları için
+
+aşahıdaki linke bakınız.
+
+Güz Ve Bahar Dönemi Ek Madde 1 Uygulama İlkeleri
+
+Merkezi Yerleştirme Puanıyla Lisans Yatay
+
+Geçiş (Ek Madde -1) için ilgili yılda taban puanı
+
+oluşmayan programlara geçiş hakkı var
+
+mıdır?
+
+Yoktur.
+
+Merkezi Yerleştirme Puanıyla Lisans Yatay
+
+Geçiş (Ek Madde -1) yapabilmem için herhangi
+
+bir başarı şartı var mıdır?
+
+Yoktur, başvuruların deherlendirilmesinde sadece
+
+öğrencinin kayıtlı olduhu programa yerleştihi yıldaki
+
+ÖSYM merkezi yerleştirme pu anları dikkate
+
+alınmaktadır, başarı/not ortalaması vb. şartlar
+
+aranmamaktadır.
+
+KURUMLAR ARASI YATAY GEÇİŞ
+
+Yatay Geçiş başvurusu ne zaman yapılır?
+
+Ön Lisans derecesi verilen diploma programlarında
+
+yatay geçiş kontenjanları ile başvuru ve deherlendirme
+
+takvimi ikinci yarıyıl için Ocak ayı, üçüncü yarıyıl için
+
+ise Temmuz ayı içinde ilan edilir. Lisans derecesi
+
+verilen diploma programlarında; dört yıllık eh itim
+
+verenlerde ikinci ve üçüncü sınıfları için, beş yıllık
+
+eğitim verenlerde ikinci, üçüncü ve dördüncü sınıflar
+
+için, altı yıllık eğitim verenlerde ikinci, üçüncü,
+
+dördüncü ve beşinci sınıflar için yatay geçiş
+
+kontenjanları ile başvuru ve deherlendirme t akvimi
+
+Temmuz ayı içinde ilan edilir.
+
+Kurumlar arası yatay geçiş başvurusunda
+
+bulunmak istiyorum, başvuru şartları
+
+nelerdir?
+
+Kurumlar arası yatay geçiş başvurusu yapabilmesi için
+
+yatay geçiş başvurusu yapacahı yarıyıla kadar
+
+müfredatındaki tüm dersleri almış ve başarıyla
+
+tamamlamış olması, AGNO’sunun 4’lük sistemde en az
+
+2,60 olması ve disiplin cezası almamış olması gerekir.
+
+Not döküm belgesinde (transkript) AGNO’sunun 4’lük
+
+sistem karş ılıhı bulunmadıhı takdirde YÖK tarafından
+
+ilan edilen not dönüşüm tablosu esas alınır.
+
+Kurumunuza kurumlar arası yatay geçiş
+
+başvurusunda bulunacağım, tüm şartları
+
+sağlıyorum. Değerlendi rme neye göre
+
+yapılmaktadır?
+
+Deherlendirmede;
+
+(Adayın ÖSYS puanı/BAÜN Programının adayın giriş
+
+yılındaki taban puanı) x 60 + (Adayın AGNO’su /4) x 40
+
+Not Ortalaması ile kaç bölüme başv uru
+
+yapabilirim?
+
+Not ortalaması ile Üniversitemizde sadece bir bölüme
+
+başvuru yapabilirsiniz.
+
+YKS (Merkezi Yerleştirme Puanı) ve Not
+
+Ortalaması ile aynı anda yatay geçiş başvurusu
+
+yapabilir miyim?
+
+Evet, yapabilirsiniz.
+
+KURUMLAR ARASI MERKEZİ YERLEŞTİRME
+
+PUANIYLA YATAY GEÇİŞ (EK MADDE-1)
+
+Merkezi yerleştirme puanımla (Ek Madde -1)
+
+üniversitenize yatay geçiş yaptım. Eski
+
+yükseköğretim kurumuma dönmek istiyorum,
+
+ne yapmalıyım?
+
+Daha sonraki başvuru tarihlerinde geri dönebilmek için
+
+eski kurumunuza başvurmanız gerekmektedir.
+
+Merkezi yerleştirme puanımla yatay geçiş
+
+yapacağım ders içeriklerini yüklemesem olur
+
+mu?
+
+Ders içerikleri intibak işlemi (ders saydırma ) için talep
+
+edilmektedir. İntibak başvurusu bir defaya mahsus
+
+yatay geçiş başvurusu esnasında yapılabilmektedir.
+
+İntibak işlemi yapılmasını istemiyorsanız ders
+
+içeriklerini yüklemeyebilirsiniz. Ders içeriklerinin
+
+yüklenmemiş olması başvuruya engel dahildir.
+
+Merkezi Yerleştirme Puanıyla Lisans Yatay
+
+Geçiş (Ek Madde -1) için ilgili yılda taban puanı
+
+oluşmayan programlara geçiş hakkı var
+
+mıdır?
+
+Öhrencinin geçmek istediği diploma programına,
+
+öğrencinin halen öğrenim görmekte olduhu diploma
+
+programına kayıt yaptırdıhı yılda öğrenci kabul
+
+edilmemişse geçilmek istenen diploma programının
+
+merkezi yerleştirme taban puanı oluşmadıhından geçiş
+
+hakkı yoktur.
+
+Merkezi Yerleştirme Puanıyla Lisans Yatay
+
+Geçiş (Ek Madde 1) yapabilmem için herhangi
+
+bir başarı şartı var mıdır?
+
+Başvuruların deherlendirilmesinde sadece öğrencinin
+
+kayıtlı olduhu programa yerleştihi yıldaki ÖSYM
+
+merkezi yerleştirme puanları dikkate alınmaktadır,
+
+başarı, not ortalaması vb. şartlar aranmamaktadır.
+
+Merkezi Yerleştirme Puanıyla Yatay Geçiş
+
+için kon tenjan kaç kişidir? Nereden
+
+öğrenebilirim?
+
+Öhrenci Seçme ve Yerleştirme Sistemi Kılavuzlarında
+
+ilan edilen ilgili programın öğrenci kontenjanının
+
+%30'u kadar kontenjan ayrılmaktadır.
+
+Güz Ve Bahar Dönemi Ek Madde 1 Uygulama İlkeleri
+
+Yurtdışında bir yükseköğretim kurumunda
+
+öğrenciyim. Kurumunuza merkezi yatay geçiş
+
+puanı ile yatay geçiş yapabilir miyim?
+
+Yükseköğretim Kurulu Başkanlıhın ın yayınladıhı
+
+ilkeler dohrultusunda; Yurdumuzda ve KKTC'deki
+
+Öhrenci Seçme ve Yerleştirme Sistemi Yükseköğretim
+
+Programları ve Kontenjanları Kılavuzunda yer alan
+
+yükseköğretim kurumlarına kayıt yaptırmış adayların
+
+Merkezi puanla yatay geçiş başvurusu yapm a hakları
+
+bulunmaktadır.
+
+Güz Ve Bahar Dönemi Ek Madde 1 Uygulama İlkeleri
+
+YURT DIŞI YÜKSEKÖĞRETİM
+
+KURUMLARINDAN YATAY GEÇİŞ
+
+Yatay Geçiş başvurusu ne zaman yapılır?
+
+Yurt Dışı yatay geçiş başvuruları kurumlararası yatay
+
+geçiş başvuru takvimi ile aynı zamanda yapılır.
+
+Önlisans derecesi verilen diploma programlarında
+
+yatay geçiş kontenjanları ile başvuru ve deherlendirme
+
+takvimi ikinci yarıyıl için Ocak ayı, üçüncü yarıyıl için
+
+ise Temmuz ayı içinde ilan edilir. Lisans derecesi
+
+verilen diploma programlarında; dört yıllık eğitim
+
+verenlerde ikinci ve üçüncü sınıfları için, beş yıllık
+
+eğitim verenlerde ikinci, üçüncü ve dördüncü sınıflar
+
+için, altı yıllık eğitim verenlerde ikinci, üçüncü,
+
+dördüncü ve beşinci sınıflar için yatay geçiş
+
+kontenjanları ile başvuru ve deherlendirme takvim i
+
+Temmuz ayı içinde ilan edilir.
+
+Yurt Dışında bir yükseköğretim kurumunda
+
+öğrenciyim. Üniversitenize yatay geçiş
+
+başvurusu yapabilmek için gerekli şartlar
+
+nelerdir?
+
+Yabancı ülkelerdeki yükseköğretim kurumlarından
+
+geçiş için, öğrencinin bu Yönergenin 5 inci maddesinin
+
+7 nci fıkrasında belirlenen kurumlar arası yatay geçiş
+
+başarı şartları aranır. Öhrencinin kurum içi veya
+
+kurumlar arası yatay geçiş başvurusu yapabilmesi için
+
+yatay geçiş başvurusu yapacahı yarıyıla kadar
+
+müfredatındaki tüm dersleri almış ve başarıyla
+
+tamamlamış olması, AGNO’sunun 4’lük sistemde en az
+
+2,60 olması ve disiplin cezası almamış olması gerekir.
+
+Not döküm belgesinde (transkript) AGNO’sunun 4’lük
+
+sistem karşılıhı bulunmadıhı takdirde YÖK tarafından
+
+ilan edilen not dönüşüm tablosu esas alınır.
+
+Yurt Dışı Yükseköğretim Kurumlarından
+
+yatay geçiş Başvuru tarihleri ne zamandır?
+
+Bunu takip edeceğim bir internet adresiniz var
+
+mıdır?
+
+Başvuru tarihleri BAÜN web sayfasında yatay geçiş
+
+başvuru takvimi altında duyurulmaktadır.
+
+---
+
+## 32. ÖİDB SSS PDF - Transkript ve Belgeler
+**Kaynak URL:** [https://baunwebapi.balikesir.edu.tr/uploads/1735646695646.pdf](https://baunwebapi.balikesir.edu.tr/uploads/1735646695646.pdf)
+
+### Sayfa İçeriği:
+TRANSKRİPT ve BELGELER
+
+Öğrenci belgesi ve Mezuniyet belgesi e-devlet üzerinden
+
+alınabilmektedir
+
+Standart belgeler dışındaki belgeler için dilekçe ile okulunuz
+
+öğrenci işleri birimine başvurabilirsiniz.
+
+Transkriptin (Öğrenim Belgesi) aslı gibidir yapılmaz.
+
+Evet.
+
+SORULARSIKÇASORULANÖğrenc  İşler  Da reBaşkanlığı
+
+Hang  belgeler  e-devlet üzer nden alab l r m?
+
+Standart belgeler dışındak  belge taleb m  nasıl
+
+yapab l r m?
+
+Transkr pt (Öğren m Belges )n n aslını
+
+göstermek suret yle "aslı g b d r" yapılab l r m ?
+
+Transkr pt mde (Öğren m Belges ) mezun yet
+
+tar h  yer alır mı?
+
+· Transkr pt mde kayıt s l nme tar h m n b lg s 
+
+yer alır mı?
+
+Evet, kayıt silme tarihiniz transkriptinizde yer almaktadır.
+
+Evet, tamamlamış olduğunuz stajlarınız transkriptinizde
+
+gösterilmektedir.
+
+Ayrı bir belge düzenlenmemektedir. Talep ettiğiniz durumda
+
+öğrenci belgenize "Staj yapma zorunluluğu vardır." bilgisi
+
+not düşülmektedir.
+
+Bu belge için kayıtlı olduğunuz okulunuz öğrenci işleri
+
+birimine başvuruda bulunabilirsiniz.
+
+Mezuniyet sıralama yazısı verilmemektedir.
+
+Hayır, Belgeler posta yoluyla gönderilmemektedir.
+
+Transkr pt mde staj b lg s  yer alır mı?
+
+Staj yapma zorunluluğum olduğuna da r belge
+
+almak  st yorum, ne yapmalıyım?
+
+D s pl n cezası alıp almadığıma  l şk n d s pl n
+
+belges ne  ht yacım var, ne yapab l r m?
+
+Ün vers ten zden mezun oldum. Mezun yet
+
+sıralaması alab l r m y m?
+
+Belgeler posta yoluyla gönder leb lmekte m d r?
+
+OBS’de Engel  (ders kaydı yok, erasmus
+
+transkr pt-h be, harç,  z n,  kamet vb )bulunan
+
+öğrenc  transkr pt alab l r m ?
+
+Evet, OBS de engeli bulunan öğrenci Transkript (Öğrenim
+
+Belgesi) alabilir.
+
+Onaylı ders planı ve ders içeriklerinizi kayıtlı olduğunuz
+
+Fakülteden alabilirsiniz.
+
+Ders planı ve Ders  çer kler m  nereden
+
+alab l r m?
+
+---
+
+## 33. ÖİDB SSS PDF - Yükseköğretim Bilgi Sistemi (YÖKSİS)
+**Kaynak URL:** [https://baunwebapi.balikesir.edu.tr/uploads/1735646792451.pdf](https://baunwebapi.balikesir.edu.tr/uploads/1735646792451.pdf)
+
+### Sayfa İçeriği:
+YÖKSİS
+
+E-devlette mezuniyetiniz görünmüyorsa mezun olduğunuz
+
+okul öğrenci işleri birimi ile iletişime geçmelisiniz.
+
+YÖKSİS’teki bilgilerinizin (not ortalaması, sınıf bilgisi vb.)
+
+düzeltilmesi için mezun olduğunuz okulunuzun öğrenci işleri
+
+birimi ile iletişime geçebilirsiniz.
+
+Öğrencilerin YÖKSİS’e erişimleri yoktur. E-devlet sistemi
+
+üzerinden ulaşabilirsiniz.
+
+SORULARSIKÇASORULANÖğrenc  İşler  Da reBaşkanlığı
+
+YÖKSİS’te mezun yet m görünmüyor. Ne
+
+yapmalıyım?
+
+YÖKSİS'te b lg ler m görünmüyor veya hatalı
+
+görünüyor. Ne yapmalıyım?
+
+YÖKSİS’e g r ş yapmam mümkün müdür,
+
+b lg ler me nereden ulaşab l r m?
+
+---
+
+## 34. ÖİDB SSS PDF - Askerlik İşlemleri
+**Kaynak URL:** [https://baunwebapi.balikesir.edu.tr/uploads/1735646859551.pdf](https://baunwebapi.balikesir.edu.tr/uploads/1735646859551.pdf)
+
+### Sayfa İçeriği:
+ASKERLİK İŞLEMLERİ
+
+Mezun olduktan sonra askerlik tecili Askerlik Şubesine
+
+bireysel başvuruyla yapılır.
+
+Askerlik tecil işlemleri otomatik olarak YÖKSİS üzerinden
+
+yapılır.
+
+Askerlik tecil işlemleri otomatik olarak yapılır aksi bir
+
+durumda okulunuz ile iletişime geçiniz.
+
+SORULARSIKÇASORULANÖğrenc  İşler  Da reBaşkanlığı
+
+Mezun olduktan sonra askerl k tec l  şlem   ç n
+
+askerl k şubes ne b ld r mde bulunmalı mıyım?
+
+Kayıtlı öğrenc y m, askerl k tec l m yapılmamış,
+
+ne yapmalıyım?
+
+Ün vers ten z öğrenc s y m, askerl k şubes  tec l
+
+belges   stemekted r, ne yapmalıyım?
+
+---
+
+## 35. ÖİDB SSS PDF - Dikey Geçiş (DG)
+**Kaynak URL:** [https://baunwebapi.balikesir.edu.tr/uploads/1735646925267.pdf](https://baunwebapi.balikesir.edu.tr/uploads/1735646925267.pdf)
+
+### Sayfa İçeriği:
+DİKEY GEÇİŞ
+
+Dikey Geçiş Sınavı (DGS) ve yerleştirmesi ÖSYM tarafından
+
+yapılmaktadır.
+
+Mezun olduğunuz ve BAÜN’e yerleşmenizi sağlayan önlisans
+
+programında alıp başarılı olduğunuz dersler için intibak
+
+başvurusunda bulunabilirsiniz.
+
+BAÜN Muaﬁyet ve İntibak Yönergesi çerçevesinde, hangi
+
+derslerinizin sayılacağı ilgili Fakültenin muaﬁyet ve intibak
+
+komisyonları tarafından karara bağlanır.
+
+SORULARSIKÇASORULANÖğrenc  İşler  Da reBaşkanlığı
+
+D key Geç ş yapmak  st yorum, ne
+
+yapmalıyım?
+
+D key geç ş yapmak  st yorum, ayrıca başka
+
+ün vers tede l sans okumaktayım, orada almış
+
+olduğum dersler   nt bak yaptırab l r m y m?
+
+D key Geç ş yolu  le geleceğ m. Dersler m n tümü
+
+ nt bak ed l r m , sayılır mı?
+
+D key geç ş kontenjanlarını nereden
+
+öğreneb l r m?
+
+Dikey geçiş kontenjanları her yıl YÖK tarafından belirlenir
+
+ve ÖSYM tarafından ilan edilir.
+
+Kayıt esnasında intibak işlemleri için başvuru
+
+yapabilirsiniz.
+
+YKS ek kontenjanı veya DGS puanı ile herhangi bir
+
+Yükseköğretim kurumuna kayıt yaptıran adaylar, yine YKS
+
+ek kontenjan puanı veya DGS puanına göre Ek Madde 1
+
+kapsamında yatay geçiş yapabilir.
+
+D key Geç ş yolu  le ün vers ten ze geleceğ m,
+
+ders  nt bakımı ne zaman yaptırmalıyım?
+
+D key Geç ş öğrenc s y m Yatay Geç ş yapab l r
+
+m y m?
+
+---
+
+## 36. ÖİDB SSS PDF - Lisans Tamamlama
+**Kaynak URL:** [https://baunwebapi.balikesir.edu.tr/uploads/1735647034571.pdf](https://baunwebapi.balikesir.edu.tr/uploads/1735647034571.pdf)
+
+### Sayfa İçeriği:
+LİSANS TAMAMLAMA
+
+Kesin kayıt işlemleri için yerleştirildiğiniz okulunuz öğrenci
+
+işleri birimine başvurunuz.
+
+Lisans Tamamlama programı kapsamında yerleştirildiğiniz
+
+programın Bölüm Başkanlığı’nın onayladığı ders talep formu
+
+ile ders kayıtlarınızı ilgili birimde yaptırabilirsiniz.
+
+Evet.
+
+Yaz öğretiminde dersin açılması ve kayıtlı olduğunuz
+
+programın Bölüm Başkanlığı’nın onayı ile ders kaydınızı
+
+yaptırabilirsiniz.
+
+SORULARSIKÇASORULANÖğrenc  İşler  Da reBaşkanlığı
+
+Yurtdışından mezun olduğum programın
+
+denkl ğ   ç n Yükseköğret m Kurumu Başkanlığı
+
+tarafından ‘L sans Tamamlama’ programı
+
+kapsamında kurumunuza yerleşt r ld m, kayıt
+
+ şlemler n  nasıl tamamlamalıyım?
+
+Ders kayıtlarımı nasıl yapmalıyım?
+
+Öğren m ücret  ödeyecek m y m?
+
+Yaz öğret m nde ders alab l r m y m?
+
+Lisans Tamamlama Programı’nı tamamladığınızda
+
+kurumumuz tarafından transkriptiniz Yükseköğretim
+
+Kurulu Başkanlığı’na iletilmektedir. Transkriptinizi de ilgili
+
+birimden şahsen başvurarak da alabilirsiniz.
+
+L sans Tamamlama Programı’nı başarıyla
+
+tamamladım, hang  belgeler  alab l r m?
+
+---
+
+## 37. ÖİDB SSS PDF - Diploma ve Mezuniyet İşlemleri
+**Kaynak URL:** [https://baunwebapi.balikesir.edu.tr/uploads/1763033142996.pdf](https://baunwebapi.balikesir.edu.tr/uploads/1763033142996.pdf)
+
+### Sayfa İçeriği:
+DİPLOMA VE MEZUNİYET İŞLEMLERİ
+
+Diplomam bir başkası tarafından alınabilir
+
+mi?
+
+Evet. Yerinize diplomayı alacak kişiye noterden vekalet
+
+vermeniz ve vekaletnamede vekil olan kişinin BAUN
+
+tarafından düzenlenmiş olan diplomayı almaya ye tkili
+
+kılındıhının belirtilmesi gerekmektedir.
+
+Diplomam bana kargo ile gönderilebilir mi?
+
+Diplomalar posta veya kargo ile gönderilmez.
+
+Diplomam e-mail yoluyla gönderilebilir mi?
+
+Hayır. Mezuniyetinize ilişkin belgenize e -devlet sistemi
+
+üzerinden ulaşabilirsiniz. E -devlette mezuniyetiniz
+
+görünmüyorsa mezun olduhunuz okulunuz ile iletişime
+
+geçmelisiniz.
+
+Eski mezunum, İngilizce dilinde basılmış
+
+diploma alabilir miyim?
+
+Hayır. 2008 ve sonrası girişli tüm mezunlara ingilizce
+
+diploma ve diploma eki verilmektedir.
+
+Mezun oldum, mezun olduğuma dair belge
+
+alabilir miyim?
+
+Diplomanızın basım süreci tamamlanana kadar
+
+üniversitemizden veya e -devlet sistemi üzerinden
+
+mezun belgenizi alabilirsiniz.
+
+Diplomamı kaybettim, yenisini çıkartmak için
+
+ne yapmalıyım?
+
+Süreç ile ilgili; linkteki formu doldurarak ekleri ile
+
+birlikte mezun olduhunuz okulunuza şahsen veya posta
+
+yolu ile göndermelisiniz.
+
+https://oidb.balikesir.edu.tr/formlar
+
+Diplomamın aslını nasıl teslim alabilirim?
+
+Diplomanızın aslını kimlik belgenizi (TC Kimlik kartı,
+
+Pasaport, Ehliyet ) ibraz ederek mezun olduhunuz
+
+okulunuz öğrenci işleri biriminden kendiniz veya
+
+noterden vekalet verdiğiniz kişi teslim alabilir.
+
+Diplomam ne kadar sürede hazırlanmaktadır
+
+Diplomalar 1 hafta içerisinde hazırlanarak mezun
+
+olduhunuz okula teslim edilir.
+
+Diplomam zayi oldu. Yenisini almak için ne
+
+yapmalıyım ?
+
+Süreç ile ilgili; linkteki formu doldurarak ekleri ile
+
+birlikte mezun olduhunuz okulunuza şahsen veya posta
+
+yolu ile göndermelisiniz. (Zayi diplomalarda gazete
+
+kayıp ilanı verilmez.)
+
+https://oidb.balikesir.edu.tr/formlar
+
+---
+
+## 38. Uluslararası Ortak Diploma | ÖĞRENCİ İŞLERİ DAİRE BAŞKANLIĞI | Balıkesir Üniversitesi
+**Kaynak URL:** [https://oidb.balikesir.edu.tr/uluslararasi-ortak-diploma](https://oidb.balikesir.edu.tr/uluslararasi-ortak-diploma)
+
+### Sayfa İçeriği:
+ÖĞRENCİ İŞLERİ DAİRE BAŞKANLIĞI
+
+Kadromuz
+
+Uluslararası Ortak Diploma
+
+Kalite
+
+Uluslararası Ortak Diploma
+
+Kadromuz
+
+Uluslararası Ortak Diploma
+
+Kalite
+
+Kadromuz
+
+Uluslararası Ortak Diploma
+
+Kalite
+
+---
+
+## 39. Balıkesir Üniversitesi (BAÜN) | Resmî Web Sitesi
+**Kaynak URL:** [https://balikesir.edu.tr/](https://balikesir.edu.tr/)
+
+### Sayfa İçeriği:
+Hızlı Erişim
+
+Üniversite Hastanesi
+
+International Student
+
+Kütüphane
+
+Hayvan Hastanesi
+
+Radyo
+
+Akademik Personel
+
+Hızlı Erişim
+
+EBYS YARDIM
+
+EMAİL
+
+MEZUN PORTALI
+
+BAUNRADYO
+
+KALİTE
+
+YEMEK LİSTESİ
+
+BAUNMEET
+
+BAUN- WEB PANEL
+
+ETKİNLİK PLATFORMU
+
+İNTERNET ERİŞİM PLATFORMU
+
+ÖĞRENCİ İŞLERİ
+
+ÖĞRENCİ E-POSTA
+
+VERİ HAVUZU
+
+FAKÜLTELER
+
+MESLEK YÜKSEKOKULLARI
+
+YÜKSEKOKULLAR
+
+ANKET
+
+DAİRE BAŞKANLIKLARI
+
+HABERLER
+
+BASINDA BİZ
+
+TÜM HABERLER
+
+BAÜN ve Almalık Devlet Teknik Enstitüsü Arasında Ortak Projelere Yönelik İş Birliği Adımı
+
+Rektörümüz Prof. Dr. Yücel Oğurlu'nun Mesajı  "Üniversitene Hoş Geldin"
+
+Balıkesir Büyükşehir Belediye Başkanı Ahmet Akın’dan Rektör Oğurlu’ya 66. Geleneksel Kurtdereli Mehmet Pehlivan Güreşleri Daveti
+
+BAÜN’den, Antibiyotik Tedavisinde Umut Veren Gelişme: İlacın Etkisi Korundu, Böbrek Üzerindeki Yan Etkiler Azaldı
+
+BİK Genel Müdürü Abdulkadir Çay’dan Rektör Oğurlu’ya Ziyaret
+
+Uluslararası Akademisyen, Gazeteci ve Medya Temsilcileri Forumu Heyetinden Rektör Oğurlu’ya Ziyaret
+
+Duyurular
+
+TÜM DUYURULAR
+
+2026
+
+NEF Müzik Eğitimi Anabilim Dalı 2026 Özel Yetenek Sınavına Girecek Olan Adaylara İlişkin Duyuru
+
+2026
+
+Türkiye Gazeteciler Cemiyeti 2026 Sedat SİMAVİ Ödülleri
+
+2026
+
+04.08.2026 Tarihli Öğretim Elemanı İlanımız
+
+2026
+
+04.08.2026 Tarihli Öğretim Üyesi İlanımız
+
+2026
+
+03.07.2026 Tarihli Öğretim Elemanı İlanımıza Ait Nihai Değerlendirme Sonuçları
+
+2026
+
+Sağlık Bilimleri Enstitüsü 2026-2027 Eğitim-Öğretim Yılı Güz Yarıyılı Başvuru İlanı
+
+BAÜN
+
+Etkinlikler
+
+26 Ağu
+
+İHA-1 TİCARİ PİLOT EĞİTİMİ
+
+Edremit Sivil Havacılık Yüksekokulu
+
+31 Ağu
+
+XI. Ulusal Limnoloji Sempozyumu
+
+Atatürk Kongre ve Kültür Merkezi, Balıkesir
+
+1 Eyl
+
+III.ULUSLARARASI BALIKESİR UYGULAMALI BİLİMLER KONGRESİ (İBASCON)
+
+Şehit Savcı Mehmet Selim Kiraz Konferans Salonu
+
+2 Eyl
+
+ICAME’26 – 4th International Conference on Applied Mathematics in Engineering
+
+Cunda Uygulama Oteli-Ayvalık/Balıkesir
+
+17 Eyl
+
+Havacılıkta Yapay Zeka ve Stratejik Dönüşüm
+
+Balıkesir Üniversitesi Çağış Yerleşkesi Atatürk Kongre ve Kültür Merkezi
+
+İHA-1 TİCARİ PİLOT EĞİTİMİ
+
+XI. Ulusal Limnoloji Sempozyumu
+
+III.ULUSLARARASI BALIKESİR UYGULAMALI BİLİMLER KONGRESİ (İBASCON)
+
+ICAME’26 – 4th International Conference on Applied Mathematics in Engineering
+
+Havacılıkta Yapay Zeka ve Stratejik Dönüşüm
+
+Sayılarla BAÜN
+
+Kısaca sayısal veriler
+
+TÜM SAYILAR
+
+1300
+
+Akademik Personel
+
+1556
+
+İdari Personel
+
+25858
+
+Öğrenci
+
+1017
+
+Projeler
+
+Akademik Birim
+
+Araş. Uyg. Mkz.
+
+Kapat
+
+---
+
+## 40. ÖĞRENCİ İŞLERİ DAİRE BAŞKANLIĞI | Balıkesir Üniversitesi
+**Kaynak URL:** [https://oidb.balikesir.edu.tr/](https://oidb.balikesir.edu.tr/)
+
+### Sayfa İçeriği:
+ÖĞRENCİ İŞLERİ DAİRE BAŞKANLIĞI
+
+Kadromuz
+
+Uluslararası Ortak Diploma
+
+Kalite
+
+ÖĞRENCİ İŞLERİ DAİRE BAŞKANLIĞI
+
+Galeri
+
+Geri
+
+İleri
+
+Birim Duyuruları
+
+TÜM DUYURULAR
+
+2026
+
+2026-2027 Eğitim-Öğretim Yılı Öğrenci Affı Hakkında Bilgilendirme
+
+2026
+
+Türkiye İş Kurumu (İŞKUR) Tarafından Sunulan Danışman Bilgi Sistemi (DABİS) Uygulama Duyurusu
+
+2026
+
+Aday Öğrenciler İçin 2026 Kılavuz Açıklamaları
+
+TÜM HABERLER
+
+Balıkesir Üniversitesi Çağış Yerleşkesi "BAÜN FEST 2026" Etkinlikleri Kapsamında Renklendi.
+
+Geleceğin Üniversitelileri BAÜN ün Lise Tanıtım Günlerinde Buluştu.
+
+Öğrenci İşleri Daire Başkanlığımız Marmara Bölgesi Kariyer Fuarında (MARMARAKAF 26) Sektör Temsilcileriyle Bir Araya Geldi.
+
+Öğrenci İşleri Daire Başkanlığımız Özel BKM Okullarında Aday Öğrencilerle Bir Araya Geldi
+
+Öğrenci İşleri Daire Başkanlığımız Özel Balıkesir Açı Koleji Tanıtım Fuarında Aday Öğrencilerle Buluştu
+
+Öğrenci İşleri Daire Başkanlığımız Özel Bilnet Okullarında Aday Öğrencilerle Bir Araya Geldi
+
+Öğrenci İşleri Daire Başkanlığından Balıkesir İl Milli Eğitim Müdürüne Ziyaret
+
+Kalite Sürecine Katkı Sağlayan Öğrenci İşleri Daire Başkanlığı Personeline Teşekkür
+
+Daire Başkanlığımıza anlamlı ziyaret
+
+BAÜN'den Yeni Öğrencilere Sıcak Karşılama
+
+Üniversitemiz Tercih&Tanıtım Günleri coşkulu bir şekilde gerçekleştirildi.
+
+UNİLOOK tarafından 25 Şubat 2025 tarihinde Balıkesir AVLU Kongre ve Kültür Merkezinde Tanıtım&Tercih Günleri gerçekleştirildi.
+
+26-27 Şubat 2025 tarihlerinde Manisa Celal Bayar Üniversitesi Şehzadeler Yerleşkesinde düzenlenen EGEKAF'25 Fuarına Öğrenci İşleri Daire Başkanlığı olarak katılım sağladık.
+
+Kadromuz
+
+Uluslararası Ortak Diploma
+
+Kalite
+
+Kadromuz
+
+Uluslararası Ortak Diploma
+
+Kalite
+
+---
+
+## 41. Hakkımızda | ÖĞRENCİ İŞLERİ DAİRE BAŞKANLIĞI | Balıkesir Üniversitesi
+**Kaynak URL:** [https://oidb.balikesir.edu.tr/hakkimizda](https://oidb.balikesir.edu.tr/hakkimizda)
+
+### Sayfa İçeriği:
+ÖĞRENCİ İŞLERİ DAİRE BAŞKANLIĞI
+
+Kadromuz
+
+Uluslararası Ortak Diploma
+
+Kalite
+
+Öğrenci İşleri Dairesi Başkanlığı, 03.07.1992 tarih ve 3837 sayılı kanunla
+
+kurulan Balıkesir Üniversitesi’nin faaliyete geçmesiyle birlikte 2547 sayılı
+
+Yükseköğretim Kanunu’nun 51/a maddesi gereği genel hükümlere göre kurulmuştur.
+
+124 sayılı Yükseköğretim Üst Kuruluşları ile
+
+Yükseköğretim Kurumlarının İdari Teşkilatı Hakkında Kanun Hükmünde
+
+Kararname’nin 31. maddesinde Öğrenci İşleri Dairesi Başkanlığı’nın görevleri:
+
+Öğrencilerin yeni kayıt, kabul ve ders durumları ile ilgili gerekli işleri
+
+yapmak,
+
+Mezuniyet, kimlik, burs, mezunların izlenmesi işlemlerini yürütmek,
+
+Verilecek diğer benzeri görevleri yerine getirmek şeklinde belirtilmiştir.
+
+Bu çerçevede; Öğrenci Bilgi Sistemi (OBS) ile çalışmaları yürüten Öğrenci
+
+İşleri Daire Başkanlığı tarafından genel olarak;
+
+Eğitim-Öğretim yılı başlamadan Akademik Takvim taslağının ve ders
+
+planlarının Üniversite Senatosuna sunulması ve sonuçlarının ilgili birimlere
+
+dağıtımının yapılması,
+
+Bölüm ve Program açma teklifi dosyalarının incelenmesi ve Senatonun
+
+onaylamasından sonra Yükseköğretim Kurulu Başkanlığına gönderilmesi,
+
+Yükseköğretim Kurulu Başkanlığı tarafından açılması uygun görülen bölüm ve
+
+programların ilgili birimlere bildirilmesi,
+
+ÖSYM tarafından Üniversitemize yerleştirilen öğrencilerin Öğrenci Bilgi
+
+Sistemine (OBS) aktarımının sağlanması,
+
+Ek kontenjan, Dikey Geçiş, Yatay Geçiş öğrencilerinin Öğrenci Bilgi
+
+Sistemine (OBS) kayıtlarının yapılmasının sağlanması,
+
+Bakanlar Kurulunca belirlenen öğrenci katkı payı ve öğrenim ücretlerinin
+
+öğrenci bazında hazırlanarak Öğrenci Bilgi Sistemi (OBS) girilmesi,
+
+Öğrencilerin ders kayıtlarının sorunsuz bir şekilde yapılmasının
+
+sağlanması,
+
+Disiplin ve ceza işlemlerinin ilgili kurumlara bildirilmesi ve YÖKSİS’e
+
+girilmesi,
+
+Mezun olan öğrencilerin birimlerden gelen kararlarının incelenerek
+
+diplomalarının ve diploma eklerinin hazırlanarak birimlere gönderilmesi,
+
+Yaz okulu çalışmalarının yapılması ve yaz okulu sonunda diğer
+
+Üniversitelerden ders alan öğrencilerin notlarının ilgili birimlere
+
+gönderilmesi,
+
+Yönetmelik, Yönerge ve Uygulama Esasları çalışmalarının yapılarak Senatoya
+
+sunulması,
+
+Eğitim-öğretim ve öğrenci ile ilgili YÖK, ÖSYM, KYK ve diğer kurum ve
+
+kuruluşlar ve Üniversitemizin birimleri ile yazışmaların yapılması gibi iş ve
+
+işlemler yapılmaktadır.
+
+Kadromuz
+
+Uluslararası Ortak Diploma
+
+Kalite
+
+Kadromuz
+
+Uluslararası Ortak Diploma
+
+Kalite
+
+---
+
+## 42. Kadromuz | ÖĞRENCİ İŞLERİ DAİRE BAŞKANLIĞI | Balıkesir Üniversitesi
+**Kaynak URL:** [https://oidb.balikesir.edu.tr/kadromuz](https://oidb.balikesir.edu.tr/kadromuz)
+
+### Sayfa İçeriği:
+ÖĞRENCİ İŞLERİ DAİRE BAŞKANLIĞI
+
+Kadromuz
+
+Uluslararası Ortak Diploma
+
+Kalite
+
+Kadromuz
+
+Kadromuz
+
+Simge
+
+Liste
+
+Sonuç bulunamadı
+
+Sevim AYHAN
+
+Daire Başkanı (101215)
+
+ogris@balikesir.edu.tr
+
+Ramazan ESER
+
+Şube Müdürü (101289)
+
+ogris@balikesir.edu.tr
+
+Ali ÖZTÜRK
+
+Şube Müdürü V. (101213)
+
+ogris@balikesir.edu.tr
+
+Emine DEMİRCİ
+
+Şef (101217)
+
+ogris@balikesir.edu.tr
+
+Demet ACAR
+
+Şef (101704)
+
+ogris@balikesir.edu.tr
+
+Nurdan KAYMAK
+
+Şef (101290)
+
+ogris@balikesir.edu.tr
+
+Ayşe APLAK
+
+Şef (101214)
+
+ogris@balikesir.edu.tr
+
+Hanife DEMİREL
+
+Şef (101216)
+
+ogris@balikesir.edu.tr
+
+Esra AKTÜRK BAYSAN
+
+Bilgisayar İşletmeni (101219)
+
+ogris@balikesir.edu.tr
+
+Şenay TARHAN
+
+Destek Personeli (101218)
+
+Kadromuz
+
+Uluslararası Ortak Diploma
+
+Kalite
+
+Kadromuz
+
+Uluslararası Ortak Diploma
+
+Kalite
+
+---
+
+## 43. Mevzuat | ÖĞRENCİ İŞLERİ DAİRE BAŞKANLIĞI | Balıkesir Üniversitesi
+**Kaynak URL:** [https://oidb.balikesir.edu.tr/mevzuat](https://oidb.balikesir.edu.tr/mevzuat)
+
+### Sayfa İçeriği:
+ÖĞRENCİ İŞLERİ DAİRE BAŞKANLIĞI
+
+Kadromuz
+
+Uluslararası Ortak Diploma
+
+Kalite
+
+KANUNLAR, YÖNETMELİKLER, YÖNERGELER, USUL VE ESASLAR
+
+6111
+
+SAYILI AF KANUNU
+
+Kadromuz
+
+Uluslararası Ortak Diploma
+
+Kalite
+
+Kadromuz
+
+Uluslararası Ortak Diploma
+
+Kalite
+
+---
+
+## 44. Kalite | ÖĞRENCİ İŞLERİ DAİRE BAŞKANLIĞI | Balıkesir Üniversitesi
+**Kaynak URL:** [https://oidb.balikesir.edu.tr/kalite](https://oidb.balikesir.edu.tr/kalite)
+
+### Sayfa İçeriği:
+ÖĞRENCİ İŞLERİ DAİRE BAŞKANLIĞI
+
+Kadromuz
+
+Uluslararası Ortak Diploma
+
+Kalite
+
+Kalite
+
+Kalite
+
+BU BÖLÜMDE
+
+Kadromuz
+
+Uluslararası Ortak Diploma
+
+Kalite
+
+Kadromuz
+
+Uluslararası Ortak Diploma
+
+Kalite
+
+---
+
+## 45. ÜSD | ÖĞRENCİ İŞLERİ DAİRE BAŞKANLIĞI | Balıkesir Üniversitesi
+**Kaynak URL:** [https://oidb.balikesir.edu.tr/usd](https://oidb.balikesir.edu.tr/usd)
+
+### Sayfa İçeriği:
+ÖĞRENCİ İŞLERİ DAİRE BAŞKANLIĞI
+
+Kadromuz
+
+Uluslararası Ortak Diploma
+
+Kalite
+
+Üniversite Seçmeli Ders (ÜSD) Sistemi
+
+ÜSD; öğrencilerin ilgi ve yetkinliklerine uygun nitelik ve çeşitlilikte, sanat, genel kültür, edebiyat, yabancı diller, tarih, spor, sağlık, çevre, bilgisayar programları, bilim ve teknoloji, kişisel gelişim, sosyal sorumluluk, sosyal duyarlılık, ekonomi, eğitim, psikoloji, girişimcilik, hukuk, değerler eğitimi gibi kişisel değişime ve gelişime değer katan her türlü güncel ve popüler konuların yer aldığı dersleri ifade etmektedir.
+
+2018-2019 Eğitim Öğretim yılından itibaren hayata geçirilecek olan USD sistemi Tıp Fakültesi haricindeki lisans öğrencilerinin farklı fakültelerden ilgileri doğrultusunda ders alabilmelerini sağlamak amacıyla hazırlanmıştır. Üniversite Seçmeli Ders Havuzunda yer alan dersler ve tanıtım formları tabloda sunulmuştur.
+
+Dersin Kodu
+
+Dersin Adı
+
+Tanıtım Formu (Türkçe)
+
+Tanıtım Formu (English)
+
+USD0001
+
+Origami ve Matematik
+
+Türkçe
+
+English
+
+USD0002
+
+Matematik Eğitiminde Eğitim Bilişim Ağı (EBA) Kullanımı
+
+Türkçe
+
+English
+
+USD0003
+
+Fitoterapi
+
+Türkçe
+
+English
+
+USD0004
+
+Yeşil Doğa
+
+Türkçe
+
+English
+
+USD0005
+
+Astronomi
+
+Türkçe
+
+English
+
+USD0006
+
+Nanobilim ve Nanoteknoloji
+
+Türkçe
+
+English
+
+USD0007
+
+Grafik Düzenleyiciler
+
+Türkçe
+
+English
+
+USD0008
+
+Geribildirim Teknikleri
+
+Türkçe
+
+English
+
+USD0009
+
+Etkili İletişim
+
+Türkçe
+
+English
+
+USD0010
+
+Satranç
+
+Türkçe
+
+English
+
+USD0011
+
+Biyoteknoloji
+
+Türkçe
+
+English
+
+USD0012
+
+Ekolojik Okur Yazarlık
+
+Türkçe
+
+English
+
+USD0013
+
+Web Tasarımı Temelleri
+
+Türkçe
+
+English
+
+USD0014
+
+Fotoğraf Sanatı ve Fotoğraf İşleme
+
+Türkçe
+
+English
+
+USD0015
+
+Arduino
+
+Türkçe
+
+English
+
+USD0016
+
+Temel Oyun Programlama
+
+Türkçe
+
+English
+
+USD0017
+
+Osmanlı Türkçesi I
+
+Türkçe
+
+English
+
+USD0018
+
+Osmanlı Türkçesi II
+
+Türkçe
+
+English
+
+USD0019
+
+Popüler Roman
+
+Türkçe
+
+English
+
+USD0020
+
+Şiir İncelemesi ve Öğretimi
+
+Türkçe
+
+English
+
+USD0021
+
+Yaratıcı Drama I
+
+Türkçe
+
+English
+
+USD0022
+
+Yaratıcı Drama II
+
+Türkçe
+
+English
+
+USD0023
+
+Güzel Konuşma
+
+Türkçe
+
+English
+
+USD0024
+
+Kaynaştırma
+
+Türkçe
+
+English
+
+USD0025
+
+Milli Mücadelede Balıkesir
+
+Türkçe
+
+English
+
+USD0026
+
+İlkokula Hazırlık ve İlkokul Programları
+
+Türkçe
+
+English
+
+USD0027
+
+Dil ve Kültür Öğretimi
+
+Türkçe
+
+English
+
+USD0028
+
+Çocuk Edebiyatı Metinleri
+
+Türkçe
+
+English
+
+USD0029
+
+Toplumsal Cinsiyet
+
+Türkçe
+
+English
+
+USD0030
+
+Pozitif Psikoloji
+
+Türkçe
+
+English
+
+USD0031
+
+Müziğe Giriş
+
+Türkçe
+
+English
+
+USD0032
+
+Toplu Ses Eğitimi
+
+Türkçe
+
+English
+
+USD0033
+
+Bilim Tarihi
+
+Türkçe
+
+English
+
+USD0034
+
+Yerküre ve İnsan
+
+Türkçe
+
+English
+
+USD0035
+
+Fotoğrafçılığa Giriş --
+
+Kaldırıldı.
+
+Türkçe
+
+English
+
+USD0036
+
+İleri Fotoğrafçılık
+
+Türkçe
+
+English
+
+USD0037
+
+Yazma ve Konuşma Becerileri
+
+Türkçe
+
+English
+
+USD0038
+
+Mantık Oyunları
+
+Türkçe
+
+English
+
+USD0039
+
+Web Tasarımı
+
+Türkçe
+
+English
+
+USD0040
+
+Teknik İngilizce
+
+Türkçe
+
+English
+
+USD0041
+
+Yapı Bilgisi
+
+Türkçe
+
+English
+
+USD0042
+
+Gıda ve İş Etiği
+
+Türkçe
+
+English
+
+USD0043
+
+Gıda Güvenliği
+
+Türkçe
+
+English
+
+USD0044
+
+Yenilenebilir Enerji Kaynakları
+
+Türkçe
+
+English
+
+USD0045
+
+Bilim Felsefesi
+
+Türkçe
+
+English
+
+USD0046
+
+İklim Değişimi ve Etkileri
+
+Türkçe
+
+English
+
+USD0047
+
+Çevresel Sürdürülebilirlik
+
+Türkçe
+
+English
+
+USD0048
+
+İş Hayatında Etik
+
+Türkçe
+
+English
+
+USD0049
+
+Genel Turizm Bilgisi
+
+Türkçe
+
+English
+
+USD0050
+
+Türkçe
+
+English
+
+USD0051
+
+Özel İlgi Turizmi
+
+Türkçe
+
+English
+
+USD0052
+
+Türk Mutfak Kültürü
+
+Türkçe
+
+English
+
+USD0053
+
+Dünya Mutfakları
+
+Türkçe
+
+English
+
+USD0054
+
+Geleneksel Türk Okçuluğu
+
+Türkçe
+
+English
+
+USD0055
+
+Sporda Web Tasarımı
+
+Türkçe
+
+English
+
+USD0056
+
+Kültür, Sanat ve Spor - I
+
+Türkçe
+
+English
+
+USD0057
+
+Kültür, Sanat ve Spor - II
+
+Türkçe
+
+English
+
+USD0058
+
+Kur’an’a Çağdaş Yaklaşımlar
+
+Türkçe
+
+English
+
+USD0059
+
+Günümüz Tefsir Problemleri
+
+Türkçe
+
+English
+
+USD0060
+
+Klasik Tefsir Metinleri
+
+Türkçe
+
+English
+
+USD0061
+
+Kur’an Meal Teknikleri
+
+Türkçe
+
+English
+
+USD0062
+
+Psikolojiye Giriş
+
+Türkçe
+
+English
+
+USD0063
+
+Ahkam Tefsiri ve Problemleri
+
+Türkçe
+
+English
+
+USD0064
+
+Mukayeseli Tefsir Metinleri
+
+Türkçe
+
+English
+
+USD0065
+
+Ulum’ul Kur’an Metinleri
+
+Türkçe
+
+English
+
+USD0066
+
+Tasavvuf Terapisi
+
+Türkçe
+
+English
+
+USD0067
+
+Sosyal Psikoloji
+
+Türkçe
+
+English
+
+USD0068
+
+Manevi Danışmanlık ve Rehberlik
+
+Türkçe
+
+English
+
+USD0069
+
+Eski Çağ Matematiği
+
+Türkçe
+
+English
+
+USD0070
+
+Matematik Tarihi
+
+Türkçe
+
+English
+
+USD0071
+
+Gen Teknolojileri
+
+Türkçe
+
+English
+
+USD0072
+
+Enzim Biyoteknolojisi
+
+Türkçe
+
+English
+
+USD0073
+
+Yaban Hayatı ve Koruma Biyolojisi
+
+Türkçe
+
+English
+
+USD0074
+
+Fen Bilimlerinde Bilimsel Araştırma Yöntemleri
+
+Türkçe
+
+English
+
+USD0075
+
+Yaşlanmanın Moleküler Temelleri
+
+Türkçe
+
+English
+
+USD0076
+
+Cam Kimyası ve Teknolojisi
+
+Türkçe
+
+English
+
+USD0077
+
+Metod Validasyonu ve Ölçüm Belirsizliği
+
+Türkçe
+
+English
+
+USD0078
+
+Zeytinyağı Kimyası
+
+Türkçe
+
+English
+
+USD0079
+
+Nanoteknolojiye Giriş
+
+Türkçe
+
+English
+
+USD0080
+
+Büyüme ve Gelişme
+
+Türkçe
+
+English
+
+USD0081
+
+Toplumsal Cinsiyet Eşitliği
+
+Türkçe
+
+English
+
+USD0082
+
+Çocuk İhmal ve İstismarı
+
+Türkçe
+
+English
+
+USD0083
+
+Küreselleşme ve Toplumsal Cinsiyet
+
+Türkçe
+
+English
+
+USD0084
+
+Sağlık Bilimlerinde Araştırma Yöntemleri
+
+Türkçe
+
+English
+
+USD0085
+
+Üniversite Yaşamına Giriş
+
+Türkçe
+
+English
+
+USD0086
+
+Yönetimde İnsan İlişkileri
+
+Türkçe
+
+English
+
+USD0087
+
+Madde Bağımlılığı
+
+Türkçe
+
+English
+
+USD0088
+
+Eleştirel Düşünme
+
+Türkçe
+
+English
+
+USD0089
+
+Finansal Okuryazarlık
+
+Türkçe
+
+English
+
+USD0090
+
+Yönetim ve Sanat Etkileşimi
+
+Türkçe
+
+English
+
+USD0091
+
+Liderlik ve Kültür
+
+Türkçe
+
+English
+
+USD0092
+
+Duygusal Zeka ve Duygu Yönetimi
+
+Türkçe
+
+English
+
+USD0093
+
+Meslek Etiği ve Sosyal Sorumluluk
+
+Türkçe
+
+English
+
+USD0094
+
+Girişimcilik ve Uygulamaları
+
+Türkçe
+
+English
+
+USD0095
+
+Sosyal Etki ve Kişiler Arası Etkileşim
+
+Türkçe
+
+English
+
+USD0096
+
+Ekonomi Politikası
+
+Türkçe
+
+English
+
+USD0097
+
+Uluslararası Para Sistemleri
+
+Türkçe
+
+English
+
+USD0098
+
+Uluslararası Ticarette Vergilendirme
+
+Türkçe
+
+English
+
+USD0099
+
+İşletmelerde Vergi Planlaması
+
+Türkçe
+
+English
+
+USD0100
+
+Dış Ticaret ve Uluslararası Lojistik Yazışma Teknikleri
+
+Türkçe
+
+English
+
+USD0101
+
+Dış Ticarette Risk Yönetimi
+
+Türkçe
+
+English
+
+USD0102
+
+Sağlıklı Beslenme ve Beslenme İlkeleri
+
+Türkçe
+
+English
+
+USD0103
+
+Fotoğrafçılık
+
+Türkçe
+
+English
+
+USD0104
+
+Etkili Konuşma ve Diksiyon
+
+Türkçe
+
+English
+
+USD0105
+
+Dağcılık ve Doğa Sporları
+
+Türkçe
+
+English
+
+USD0106
+
+Ebru
+
+Türkçe
+
+English
+
+USD0107
+
+Deneysel Desen Araştırmaları
+
+Türkçe
+
+English
+
+USD0108
+
+Karakalem Teknikleri
+
+Türkçe
+
+English
+
+USD0109
+
+Ebru Teknikleri
+
+Türkçe
+
+English
+
+USD0110
+
+Yoga
+
+Türkçe
+
+English
+
+USD0111
+
+Şarkılarla İngilizce Dil Becerisinin Geliştirilmesi
+
+Türkçe
+
+English
+
+USD0112
+
+Rusça
+
+Türkçe
+
+English
+
+USD0113
+
+İş İngilizcesi
+
+Türkçe
+
+English
+
+USD0114
+
+Temel Japonca
+
+Türkçe
+
+English
+
+USD0115
+
+Etkinlik Planlama
+
+Türkçe
+
+English
+
+USD0116
+
+Rekreasyon ve Mekân
+
+Türkçe
+
+English
+
+USD0117
+
+Kariyer Planlama
+
+Türkçe
+
+English
+
+USD0118
+
+Kültür ve Psikoloji
+
+Türkçe
+
+English
+
+USD0119
+
+Hümanistik Psikoloji
+
+Türkçe
+
+English
+
+USD0120
+
+Davranışın Fizyolojik Temelleri
+
+Türkçe
+
+English
+
+USD0121
+
+Psikolojide Temel Kavramlar
+
+Türkçe
+
+English
+
+USD0122
+
+Seramik Sanatı
+
+Türkçe
+
+English
+
+USD0123
+
+Çini Sanatı
+
+Türkçe
+
+English
+
+USD0124
+
+Türk Din Musikisi Uygulamaları-1
+
+Türkçe
+
+English
+
+USD0125
+
+Türk Din Musikisi Uygulamaları-2
+
+Türkçe
+
+English
+
+USD0126
+
+Teknoloji Bağımlılığı
+
+Türkçe
+
+English
+
+USD0127
+
+Türk İşaret Dili
+
+Türkçe
+
+English
+
+USD0128
+
+Türk ve Anadolu Mitolojisi
+
+Türkçe
+
+English
+
+USD0129
+
+Sosyal Sorumluluk Uygulamaları
+
+Türkçe
+
+English
+
+USD0130
+
+Çevresel Ekoloji
+
+Türkçe
+
+English
+
+USD0131
+
+Üstün Yetenekli Çocuklar
+
+Türkçe
+
+English
+
+USD0132
+
+Bilim ve Araştırma Etiği
+
+Türkçe
+
+English
+
+USD0133
+
+Kuş Gözlem ve Ornitoturizm
+
+Türkçe
+
+English
+
+USD0134
+
+Atıklardan Biyogaz Üretimi
+
+Türkçe
+
+English
+
+USD0135
+
+Gıda İşleme Endüstrisi Atıkları ve Bertaraf Yöntemleri
+
+Türkçe
+
+English
+
+USD0136
+
+Endüstri 4.0 ve Dijital Dönüşüm
+
+Türkçe
+
+English
+
+USD0137
+
+Gıda Kaynaklı Tehlikeler
+
+Türkçe
+
+English
+
+USD0138
+
+Fotoğrafa Giriş
+
+Türkçe
+
+English
+
+USD0139
+
+Tasarım Uygulamaları
+
+Türkçe
+
+English
+
+USD0140
+
+Kodlamasız Uygulama Geliştirme
+
+Türkçe
+
+English
+
+USD0141
+
+Proje Hazırlama ve Sunum Teknikleri
+
+Türkçe
+
+English
+
+USD0142
+
+Sıfır Atık Kültürü ve Sürdürülebilir Yaşam
+
+Türkçe
+
+English
+
+USD0143
+
+Çevre Sorunları ve Ekolojik Yıkım
+
+Türkçe
+
+English
+
+USD0144
+
+Eğitimde Yapay Zeka Uygulamaları
+
+Türkçe
+
+English
+
+USD0145
+
+Eğitimde Grafik ve Animasyon
+
+Türkçe
+
+English
+
+USD0146
+
+Değerler Eğitimi
+
+Türkçe
+
+English
+
+USD0147
+
+Eğlenceli Anatomi
+
+Türkçe
+
+English
+
+USD0148
+
+Aromatik Yağlar
+
+Türkçe
+
+English
+
+USD0149
+
+Kozmetik Kimyası
+
+Türkçe
+
+English
+
+USD0150
+
+Kültür Sosyolojisi
+
+Türkçe
+
+English
+
+USD0151
+
+Eğitim Sosyolojisi
+
+Türkçe
+
+English
+
+USD0152
+
+Kuran ve Eleştirel Düşünme
+
+Türkçe
+
+English
+
+USD0153
+
+Doğal Kaynaklar ve Çevre Yönetimi
+
+Türkçe
+
+English
+
+USD0154
+
+Atık Yönetimi
+
+Türkçe
+
+English
+
+USD0155
+
+Çevresel Risk Etmenleri
+
+Türkçe
+
+English
+
+USD0156
+
+Temiz Üretim Teknolojileri
+
+Türkçe
+
+English
+
+USD0157
+
+Afetler ve Afet Yönetimi
+
+Türkçe
+
+English
+
+USD0158
+
+Post (trans) Hümanizm
+
+Türkçe
+
+English
+
+USD0159
+
+Aikido
+
+Türkçe
+
+English
+
+USD0160
+
+İletişim ve İnsan İlişkileri
+
+Türkçe
+
+English
+
+USD0161
+
+Arşiv Belgelerine Giriş : Rika Yazısı ve Temel Metin Analizi
+
+Türkçe
+
+English
+
+USD0162
+
+Hz. Muhammed'inHayatı ve İslam'ın Doğuşu
+
+Türkçe
+
+English
+
+USD0163
+
+İslam Tarihi : Medine Dönemi ve İslam Toplumunun Oluşumu
+
+Türkçe
+
+English
+
+USD0164
+
+Kur'an-ıKerim Okuma-I
+
+Türkçe
+
+English
+
+USD0165
+
+Kur'an-ıKerim Okuma-II
+
+Türkçe
+
+English
+
+USD0166
+
+Osmanlı Paleogafyası ve Diplomatikası
+
+Türkçe
+
+English
+
+USD0167
+
+Yapay Zeka Tabanlı Proje
+
+Türkçe
+
+English
+
+USD0168
+
+EndüstriyelSimbiyoz
+
+Türkçe
+
+English
+
+USD0169
+
+Endüstriyel Toksikoloji
+
+Türkçe
+
+English
+
+USD0170
+
+Kimyasal Üretim Teknolojileri
+
+Türkçe
+
+English
+
+USD0171
+
+21. Yüzyıl Becerileri
+
+Türkçe
+
+English
+
+USD0172
+
+Astronomi-II
+
+Türkçe
+
+English
+
+USD0173
+
+Bağımlılık ve Bağımlılıkla Mücadele
+
+Türkçe
+
+English
+
+USD0174
+
+Çevremizdeki Fizik
+
+Türkçe
+
+English
+
+USD0175
+
+Hobi Devreleri
+
+Türkçe
+
+English
+
+USD0176
+
+Radyasyonun Günlük Hayattaki Önemi ve Etkileri
+
+Türkçe
+
+English
+
+USD0177
+
+Afetlerde Halk Sağlığı Hizmetleri
+
+Türkçe
+
+English
+
+USD0178
+
+Yaşlılık ve Yaşlanmanın Sosyolojisi
+
+Türkçe
+
+English
+
+USD0179
+
+Sağlıkta Geleneksel ve Tamamlayıcı Uygulamalar
+
+Türkçe
+
+English
+
+Kadromuz
+
+Uluslararası Ortak Diploma
+
+Kalite
+
+Kadromuz
+
+Uluslararası Ortak Diploma
+
+Kalite
+
+---
+
+## 46. TYÇ | ÖĞRENCİ İŞLERİ DAİRE BAŞKANLIĞI | Balıkesir Üniversitesi
+**Kaynak URL:** [https://oidb.balikesir.edu.tr/tyc](https://oidb.balikesir.edu.tr/tyc)
+
+### Sayfa İçeriği:
+ÖĞRENCİ İŞLERİ DAİRE BAŞKANLIĞI
+
+Kadromuz
+
+Uluslararası Ortak Diploma
+
+Kalite
+
+Kadromuz
+
+Uluslararası Ortak Diploma
+
+Kalite
+
+Kadromuz
+
+Uluslararası Ortak Diploma
+
+Kalite
+
+---
+
+## 47. Balıkesir Üniversitesi - Uluslararası Öğrenci Ofisi
+**Kaynak URL:** [https://baunyos.balikesir.edu.tr/tr](https://baunyos.balikesir.edu.tr/tr)
+
+### Sayfa İçeriği:
+Duyurular
+
+Güncel duyuruları bu alandan takip edebilirsiniz.
+
+2026-2027 Uluslararası Öğrenci Başvuruları Lise Diploması ( 17 Ağustos - 29 Ağustos)
+
+2026-08-17
+
+2026-2027 Uluslararası Öğrenci Başvuruları Lise Diploması ( 29 Temmuz - 9 Ağustos)
+
+2026-07-29
+
+Tıp Fakültesi Online Başvuru (16-17 Temmuz 2026)
+
+2026-07-16
+
+2026-2027 Uluslararası Öğrenci Başvuruları (Lise Diploması ile)
+
+2026-07-07
+
+2026-2027 Yabancı Uyruklu Öğrenci Başvurularının Uzatılması
+
+2026-06-29
+
+2026-2027 Uluslararası Öğrenci Başvuruları (TR-YÖS, Lise Diploması ile)
+
+2026-06-11
+
+HIZLI ERİŞİM
+
+TÜRKÇE EĞİTİM
+
+Türkçe Öğretimi Uygulama ve Araştırma Merkezi (TÖMER)
+
+TÖMER Başvuru
+
+Balıkesir Üniversitesi TÖMER Başvuru
+
+BAUNYOS İletişim
+
+Bilgilendirme REHBERİ
+
+Bilgilendirme Rehberi
+
+ÖĞRENCİ BİLGİ SİSTEMİ
+
+Online  Ödeme
+
+Online  Ödeme
+
+BARINMA OLANAKLARI
+
+Barınma Olanakları
+
+BALIKESİRDE YAŞAM
+
+For Detail...
+
+UYGULAMA SÜREÇLERİ
+
+Detyalar için tıklayın.
+
+DİPLOMA EKİ
+
+BAUNYOS DİPLOMA EKİ
+
+HARÇLAR
+
+Detaylar için tıklayın
+
+---
+
+## 48. BAÜN SSS - Genel Üniversite: Üniversite hakkında genel bilgi verir misiniz?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Üniversite hakkında genel bilgi verir misiniz?
+
+CEVAP: Üniversite hakkında bilgi almak için üniversitenin resmi web sitesindeki Kurumsal ve Üniversite bölümlerini inceleyebilirsiniz.
+
+---
+
+## 49. BAÜN SSS - Genel Üniversite: Üniversitenin iletişim bilgilerine nasıl ulaşabilirim?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Üniversitenin iletişim bilgilerine nasıl ulaşabilirim?
+
+CEVAP: İletişim bilgilerine üniversitenin resmi web sitesindeki İletişim sayfasından ulaşabilirsiniz.
+
+---
+
+## 50. BAÜN SSS - Genel Üniversite: Üniversitenin kampüsleri nerede?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Üniversitenin kampüsleri nerede?
+
+CEVAP: Kampüslerin adres ve konum bilgileri üniversitenin resmi web sitesinde ilgili birimlerin sayfalarında yer almaktadır.
+
+---
+
+## 51. BAÜN SSS - Genel Üniversite: Üniversitenin fakültelerini nereden görebilirim?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Üniversitenin fakültelerini nereden görebilirim?
+
+CEVAP: Fakülte ve yüksekokulların listesine üniversitenin akademik birimler sayfasından ulaşabilirsiniz.
+
+---
+
+## 52. BAÜN SSS - Genel Üniversite: Üniversitenin çalışma saatleri nedir?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Üniversitenin çalışma saatleri nedir?
+
+CEVAP: Birimlerin çalışma saatleri değişebileceğinden ilgili birimin resmi iletişim sayfasını kontrol etmeniz gerekir.
+
+---
+
+## 53. BAÜN SSS - Öğrenci İşleri: Kayıt işlemlerimi nasıl yapabilirim?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Kayıt işlemlerimi nasıl yapabilirim?
+
+CEVAP: Kayıt işlemleri, öğrenci statünüze göre belirlenen kayıt takviminde ve üniversitenin ilan ettiği yöntemle yapılır.
+
+---
+
+## 54. BAÜN SSS - Öğrenci İşleri: Kayıt yenileme ne zaman yapılır?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Kayıt yenileme ne zaman yapılır?
+
+CEVAP: Kayıt yenileme tarihleri akademik takvimde ilan edilir. Güncel akademik takvimi kontrol etmelisiniz.
+
+---
+
+## 55. BAÜN SSS - Öğrenci İşleri: Ders kaydımı nasıl yaparım?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Ders kaydımı nasıl yaparım?
+
+CEVAP: Ders kayıt işlemleri Öğrenci Bilgi Sistemi üzerinden, akademik takvimde belirtilen tarihlerde yapılır.
+
+---
+
+## 56. BAÜN SSS - Öğrenci İşleri: Ders ekle bırak işlemi nasıl yapılır?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Ders ekle bırak işlemi nasıl yapılır?
+
+CEVAP: Ders ekle-bırak işlemleri akademik takvimde belirtilen süre içinde Öğrenci Bilgi Sistemi üzerinden veya ilgili akademik birimin yönlendirmesiyle yapılır.
+
+---
+
+## 57. BAÜN SSS - Öğrenci İşleri: Öğrenci numaramı nasıl öğrenebilirim?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Öğrenci numaramı nasıl öğrenebilirim?
+
+CEVAP: Öğrenci numaranızı üniversitenin Öğrenci Bilgi Sistemi veya kayıt belgeleriniz üzerinden öğrenebilirsiniz.
+
+---
+
+## 58. BAÜN SSS - Öğrenci İşleri: Öğrenci belgesi nasıl alınır?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Öğrenci belgesi nasıl alınır?
+
+CEVAP: Öğrenci belgesi, üniversitenin elektronik belge hizmetleri veya Öğrenci Bilgi Sistemi üzerinden alınabilir.
+
+---
+
+## 59. BAÜN SSS - Öğrenci İşleri: Transkript belgesi nereden alınır?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Transkript belgesi nereden alınır?
+
+CEVAP: Transkript belgesi Öğrenci Bilgi Sistemi veya üniversitenin elektronik belge hizmetleri üzerinden alınabilir.
+
+---
+
+## 60. BAÜN SSS - Akademik Takvim: Akademik takvime nereden ulaşabilirim?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Akademik takvime nereden ulaşabilirim?
+
+CEVAP: Güncel akademik takvim üniversitenin resmi web sitesinde yayımlanır.
+
+---
+
+## 61. BAÜN SSS - Akademik Takvim: Dersler ne zaman başlıyor?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Dersler ne zaman başlıyor?
+
+CEVAP: Ders başlangıç tarihi ilgili eğitim-öğretim yılı akademik takviminde belirtilir.
+
+---
+
+## 62. BAÜN SSS - Akademik Takvim: Final sınavları ne zaman?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Final sınavları ne zaman?
+
+CEVAP: Final sınavlarının tarihleri akademik takvimde ve ilgili akademik birimin sınav programında yayımlanır.
+
+---
+
+## 63. BAÜN SSS - Akademik Takvim: Bütünleme sınavları ne zaman?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Bütünleme sınavları ne zaman?
+
+CEVAP: Bütünleme sınavlarının tarihleri akademik takvimde belirtilir.
+
+---
+
+## 64. BAÜN SSS - Akademik Takvim: Ara sınavlar ne zaman?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Ara sınavlar ne zaman?
+
+CEVAP: Ara sınav tarihleri ilgili akademik birim tarafından ilan edilen sınav programında yer alır.
+
+---
+
+## 65. BAÜN SSS - Sınavlar: Sınav sonuçlarımı nereden görebilirim?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Sınav sonuçlarımı nereden görebilirim?
+
+CEVAP: Sınav sonuçları Öğrenci Bilgi Sistemi üzerinden görüntülenebilir.
+
+---
+
+## 66. BAÜN SSS - Sınavlar: Sınav programına nasıl ulaşırım?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Sınav programına nasıl ulaşırım?
+
+CEVAP: Sınav programı ilgili fakülte, yüksekokul veya bölümün resmi duyurularında yayımlanır.
+
+---
+
+## 67. BAÜN SSS - Sınavlar: Finalden kalırsam ne olur?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Finalden kalırsam ne olur?
+
+CEVAP: Başarısız olunan ders için yönetmelik ve akademik takvimdeki koşullara göre bütünleme veya sonraki dönemlerde tekrar alma seçenekleri bulunabilir.
+
+---
+
+## 68. BAÜN SSS - Sınavlar: Bütünleme sınavına kimler girebilir?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Bütünleme sınavına kimler girebilir?
+
+CEVAP: Bütünleme koşulları üniversitenin ilgili eğitim-öğretim yönetmeliğine göre belirlenir.
+
+---
+
+## 69. BAÜN SSS - Sınavlar: Sınava giremezsem ne yapmalıyım?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Sınava giremezsem ne yapmalıyım?
+
+CEVAP: Mazeret durumunuz varsa ilgili akademik birimin belirlediği süre ve prosedüre göre başvuru yapmalısınız.
+
+---
+
+## 70. BAÜN SSS - Dersler ve Müfredat: Ders programımı nereden görebilirim?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Ders programımı nereden görebilirim?
+
+CEVAP: Ders programları ilgili akademik birimin web sayfasında ve üniversitenin öğrenci sistemlerinde yayımlanabilir.
+
+---
+
+## 71. BAÜN SSS - Dersler ve Müfredat: Ders içeriklerine nereden ulaşabilirim?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Ders içeriklerine nereden ulaşabilirim?
+
+CEVAP: Ders içerikleri ilgili bölümün ders bilgi paketi veya Bologna Bilgi Sistemi üzerinden incelenebilir.
+
+---
+
+## 72. BAÜN SSS - Dersler ve Müfredat: Ders seçimi nasıl yapılır?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Ders seçimi nasıl yapılır?
+
+CEVAP: Ders seçimi Öğrenci Bilgi Sistemi üzerinden, akademik takvimde belirtilen tarihler arasında yapılır.
+
+---
+
+## 73. BAÜN SSS - Dersler ve Müfredat: Bir dersten muaf olabilir miyim?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Bir dersten muaf olabilir miyim?
+
+CEVAP: Muafiyet şartları ilgili yönetmelik ve bölüm kurallarına göre değerlendirilir.
+
+---
+
+## 74. BAÜN SSS - Dersler ve Müfredat: Üstten ders alabilir miyim?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Üstten ders alabilir miyim?
+
+CEVAP: Üstten ders alma koşulları programın yönetmeliğine ve akademik başarı şartlarına göre değişebilir.
+
+---
+
+## 75. BAÜN SSS - Dersler ve Müfredat: Ders devam zorunluluğu var mı?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Ders devam zorunluluğu var mı?
+
+CEVAP: Devam koşulları dersin ve ilgili programın mevzuatına göre belirlenir.
+
+---
+
+## 76. BAÜN SSS - Mezuniyet: Mezuniyet için kaç kredi tamamlamam gerekiyor?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Mezuniyet için kaç kredi tamamlamam gerekiyor?
+
+CEVAP: Gerekli kredi ve mezuniyet koşulları programa göre değişir. Bölümünüzün müfredat ve mezuniyet koşullarını kontrol etmelisiniz.
+
+---
+
+## 77. BAÜN SSS - Mezuniyet: Mezuniyet işlemleri nasıl yapılır?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Mezuniyet işlemleri nasıl yapılır?
+
+CEVAP: Mezuniyet işlemleri, gerekli ders ve diğer koşulların tamamlanmasının ardından ilgili akademik birim tarafından yürütülür.
+
+---
+
+## 78. BAÜN SSS - Mezuniyet: Diplomamı ne zaman alabilirim?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Diplomamı ne zaman alabilirim?
+
+CEVAP: Diploma teslim tarihi ve işlemleri ilgili akademik birim tarafından ilan edilir.
+
+---
+
+## 79. BAÜN SSS - Mezuniyet: Geçici mezuniyet belgesi alabilir miyim?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Geçici mezuniyet belgesi alabilir miyim?
+
+CEVAP: Diploma hazırlanana kadar mevzuat ve üniversite prosedürleri kapsamında geçici mezuniyet belgesi düzenlenebilir.
+
+---
+
+## 80. BAÜN SSS - Akademik Personel: Bir öğretim üyesinin iletişim bilgisine nasıl ulaşırım?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Bir öğretim üyesinin iletişim bilgisine nasıl ulaşırım?
+
+CEVAP: Akademik personelin iletişim bilgileri ilgili fakülte veya bölümün personel sayfasında yayımlanır.
+
+---
+
+## 81. BAÜN SSS - Akademik Personel: Hocamın e-posta adresini nereden bulabilirim?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Hocamın e-posta adresini nereden bulabilirim?
+
+CEVAP: Öğretim elemanlarının kurumsal e-posta bilgileri akademik birimlerin personel sayfalarında yer alabilir.
+
+---
+
+## 82. BAÜN SSS - Akademik Personel: Bölüm başkanına nasıl ulaşabilirim?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Bölüm başkanına nasıl ulaşabilirim?
+
+CEVAP: Bölüm başkanının iletişim bilgilerine ilgili bölümün resmi web sayfasından ulaşabilirsiniz.
+
+---
+
+## 83. BAÜN SSS - Akademik Personel: Danışmanımı nasıl öğrenebilirim?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Danışmanımı nasıl öğrenebilirim?
+
+CEVAP: Danışman bilgilerinizi Öğrenci Bilgi Sistemi üzerinden veya bölümünüzün öğrenci işleri biriminden öğrenebilirsiniz.
+
+---
+
+## 84. BAÜN SSS - Kütüphane: Kütüphaneden nasıl kitap ödünç alabilirim?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Kütüphaneden nasıl kitap ödünç alabilirim?
+
+CEVAP: Kütüphane üyeliğiniz aktifse kütüphane otomasyon sistemi üzerinden kitapların ödünç alma koşullarını inceleyebilirsiniz.
+
+---
+
+## 85. BAÜN SSS - Kütüphane: Kütüphane kataloğunda kitap nasıl aranır?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Kütüphane kataloğunda kitap nasıl aranır?
+
+CEVAP: Kütüphane otomasyon sistemindeki katalog arama alanından kitap adı, yazar veya konu ile arama yapabilirsiniz.
+
+---
+
+## 86. BAÜN SSS - Kütüphane: Kitap iade süresini nasıl öğrenebilirim?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Kitap iade süresini nasıl öğrenebilirim?
+
+CEVAP: Ödünç aldığınız materyallerin iade tarihlerini kütüphane otomasyon hesabınızdan kontrol edebilirsiniz.
+
+---
+
+## 87. BAÜN SSS - Kütüphane: E-kitaplara nasıl erişebilirim?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: E-kitaplara nasıl erişebilirim?
+
+CEVAP: Elektronik kaynaklara üniversite kütüphanesinin elektronik kaynaklar ve veri tabanları sayfasından ulaşabilirsiniz.
+
+---
+
+## 88. BAÜN SSS - Kütüphane: Kütüphane üyeliği nasıl yapılır?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Kütüphane üyeliği nasıl yapılır?
+
+CEVAP: Öğrenci ve personel üyelik işlemleri kütüphane tarafından belirlenen usule göre yapılır.
+
+---
+
+## 89. BAÜN SSS - Burs ve Destek: Burs başvuruları ne zaman?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Burs başvuruları ne zaman?
+
+CEVAP: Burs başvuru tarihleri ilgili kurum ve üniversite duyurularında ilan edilir.
+
+---
+
+## 90. BAÜN SSS - Burs ve Destek: Burs başvurusu nasıl yapılır?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Burs başvurusu nasıl yapılır?
+
+CEVAP: Başvuru yöntemi burs programına göre değişir. Güncel duyurudaki başvuru bağlantısı ve şartları takip etmelisiniz.
+
+---
+
+## 91. BAÜN SSS - Burs ve Destek: Yemek bursu var mı?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Yemek bursu var mı?
+
+CEVAP: Yemek desteği ve bursları için üniversitenin Sağlık, Kültür ve Spor birimi tarafından yapılan duyuruları takip edebilirsiniz.
+
+---
+
+## 92. BAÜN SSS - Burs ve Destek: Maddi destek imkanları nelerdir?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Maddi destek imkanları nelerdir?
+
+CEVAP: Burs, yemek ve diğer öğrenci destekleri ilgili üniversite birimleri ve duyurular üzerinden takip edilebilir.
+
+---
+
+## 93. BAÜN SSS - Erasmus ve Değişim: Erasmus başvurusu nasıl yapılır?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Erasmus başvurusu nasıl yapılır?
+
+CEVAP: Erasmus başvuruları, Uluslararası İlişkiler biriminin ilan ettiği takvim ve başvuru sistemi üzerinden yapılır.
+
+---
+
+## 94. BAÜN SSS - Erasmus ve Değişim: Erasmus başvuru şartları nelerdir?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Erasmus başvuru şartları nelerdir?
+
+CEVAP: Başvuru şartları ilan dönemine ve değişim programına göre belirlenir; güncel ilan metni esas alınmalıdır.
+
+---
+
+## 95. BAÜN SSS - Erasmus ve Değişim: Erasmus sınavı ne zaman yapılır?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Erasmus sınavı ne zaman yapılır?
+
+CEVAP: Erasmus yabancı dil sınavı ve seçim takvimi ilgili duyuruda ilan edilir.
+
+---
+
+## 96. BAÜN SSS - Erasmus ve Değişim: Değişim programları hakkında nereden bilgi alabilirim?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Değişim programları hakkında nereden bilgi alabilirim?
+
+CEVAP: Değişim programları hakkında Uluslararası İlişkiler biriminin web sayfasından bilgi alabilirsiniz.
+
+---
+
+## 97. BAÜN SSS - Staj: Staj başvurusu nasıl yapılır?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Staj başvurusu nasıl yapılır?
+
+CEVAP: Staj başvuru süreci bölümünüzün staj yönergesi ve ilgili akademik birimin duyurularına göre yürütülür.
+
+---
+
+## 98. BAÜN SSS - Staj: Staj için hangi belgeler gerekiyor?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Staj için hangi belgeler gerekiyor?
+
+CEVAP: Gerekli belgeler programa göre değişebilir. Bölümünüzün güncel staj duyurusunu kontrol etmelisiniz.
+
+---
+
+## 99. BAÜN SSS - Staj: Staj sigortası nasıl yapılır?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Staj sigortası nasıl yapılır?
+
+CEVAP: Staj sigortası işlemleri üniversitenin ilgili birimleri tarafından mevzuata uygun şekilde yürütülür.
+
+---
+
+## 100. BAÜN SSS - Staj: Staj süresi ne kadar?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Staj süresi ne kadar?
+
+CEVAP: Staj süresi programa ve ilgili staj yönergesine göre değişir.
+
+---
+
+## 101. BAÜN SSS - Teknik Destek: Üniversite sistemine giriş yapamıyorum.
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Üniversite sistemine giriş yapamıyorum.
+
+CEVAP: Öncelikle kullanıcı adı ve şifrenizi kontrol edin. Sorun devam ederse üniversitenin teknik destek kanalından destek talebi oluşturabilirsiniz.
+
+---
+
+## 102. BAÜN SSS - Teknik Destek: Şifremi unuttum, ne yapmalıyım?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Şifremi unuttum, ne yapmalıyım?
+
+CEVAP: Şifre sıfırlama işlemi ilgili bilgi işlem veya kullanıcı yönetim hizmeti üzerinden yapılabilir.
+
+---
+
+## 103. BAÜN SSS - Teknik Destek: Kurumsal e-postama giriş yapamıyorum.
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Kurumsal e-postama giriş yapamıyorum.
+
+CEVAP: Kullanıcı bilgilerinizi kontrol edin ve sorun devam ederse Bilgi İşlem biriminin teknik destek kanalına başvurun.
+
+---
+
+## 104. BAÜN SSS - Teknik Destek: Wi-Fi bağlantısı çalışmıyor.
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Wi-Fi bağlantısı çalışmıyor.
+
+CEVAP: Kablosuz ağ ayarlarınızı ve üniversite hesabınızı kontrol edin. Sorun devam ederse teknik destek birimine başvurun.
+
+---
+
+## 105. BAÜN SSS - Teknik Destek: VPN bağlantısı nasıl yapılır?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: VPN bağlantısı nasıl yapılır?
+
+CEVAP: VPN erişimi varsa üniversitenin Bilgi İşlem biriminin yayımladığı kurulum ve kullanım yönergelerini takip etmelisiniz.
+
+---
+
+## 106. BAÜN SSS - Üniversite Sistemleri: Öğrenci Bilgi Sistemine nasıl giriş yaparım?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Öğrenci Bilgi Sistemine nasıl giriş yaparım?
+
+CEVAP: Öğrenci Bilgi Sistemine üniversitenin resmi web sitesindeki ilgili bağlantı üzerinden kurumsal kullanıcı bilgilerinizle giriş yapabilirsiniz.
+
+---
+
+## 107. BAÜN SSS - Üniversite Sistemleri: Akademik Bilgi Sistemine nasıl ulaşırım?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Akademik Bilgi Sistemine nasıl ulaşırım?
+
+CEVAP: Akademik bilgi sistemine üniversitenin resmi web sitesindeki ilgili sistem bağlantısından ulaşabilirsiniz.
 
 ---
 
