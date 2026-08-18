@@ -95,42 +95,54 @@ def load_all_text_blocks():
 
     return blocks
 
-def get_relevant_knowledge(user_question: str, max_chars: int = 40000) -> str:
-    """Soruya en uygun bilgi bloklarını seçer."""
+def get_relevant_knowledge(user_question: str, max_chars: int = 35000) -> str:
+    """Soruya en uygun bilgi bloklarını gelişmiş kelime ve kök eşleştirmesi ile seçer."""
     blocks = load_all_text_blocks()
     if not blocks:
-        return "Bilgi tabanı boş veya bulunamadı."
+        return "Bilgi tabanı henüz boş."
     
-    words = [turkish_lower(w) for w in re.findall(r'\w+', user_question) if len(w) > 2 and turkish_lower(w) not in STOPWORDS]
+    # Kelimeleri temizle ve kök benzerliği için düzenle
+    raw_words = [turkish_lower(w) for w in re.findall(r'\w+', user_question) if len(w) > 2]
+    words = [w for w in raw_words if w not in STOPWORDS]
     
     if not words:
-        return "\n\n---\n\n".join(blocks[:8])
+        return "\n\n---\n\n".join(blocks[:5])
 
     scored_blocks = []
     for block in blocks:
-        score = sum(turkish_lower(block).count(w) for w in words)
-        scored_blocks.append((score, block))
+        block_lower = turkish_lower(block)
+        score = 0
+        for w in words:
+            # Tam kelime eşleşmesi daha yüksek puan
+            score += block_lower.count(w) * 3
+            # Kök eşleşmesi (örn: 'kayıt' -> 'kaydı', 'ders' -> 'dersler')
+            if len(w) > 3:
+                stem = w[:4]
+                score += block_lower.count(stem)
+        
+        if score > 0:
+            scored_blocks.append((score, block))
 
     scored_blocks.sort(key=lambda x: x[0], reverse=True)
 
     selected = []
     current_len = 0
     for score, block in scored_blocks:
-        if score == 0 and selected:
-            break
         if current_len + len(block) > max_chars:
             continue
         selected.append(block)
         current_len += len(block)
+        if len(selected) >= 8:
+            break
 
     if not selected:
-        selected = [b for _, b in scored_blocks[:5]]
+        selected = [b for _, b in scored_blocks[:5]] if scored_blocks else blocks[:5]
 
     return "\n\n---\n\n".join(selected)
 
 @app.get("/")
 def home():
-    return {"status": "BAÜN BİDB Chatbot Backend Sunucusu Aktif!"}
+    return {"status": "BAÜN BİDB Akıllı Asistan Backend Sunucusu Aktif!"}
 
 # İstekleri karşılayan ana fonksiyon
 @app.api_route("/{full_path:path}", methods=["GET", "POST", "OPTIONS"])
@@ -150,39 +162,51 @@ async def handle_chat_completion(request: Request, full_path: str = ""):
     except Exception:
         user_question = ""
 
-    print(f"\n[Gelen Soru]: {user_question}")
+    print(f"\n📩 Gelen Soru: {user_question}")
     knowledge = get_relevant_knowledge(user_question)
 
     prompt = f"""
-Sen Balıkesir Üniversitesi ve Bilgi İşlem Daire Başkanlığı (BAÜN & BİDB) akıllı destek asistanısın.
-Aşağıda üniversitenin resmi bilgi tabanından kullanıcının sorusuyla en alakalı derlenen bilgiler yer almaktadır:
+Sen Balıkesir Üniversitesi ve Bilgi İşlem Daire Başkanlığı'nın (BAÜN & BİDB) kurumsal, son derece zeki, çözüm odaklı ve kibar yapay zekâ asistanısın.
 
-================ BİLGİ TABANI ================
+GÖREVİN:
+Kullanıcının sorusunu dikkatle analiz etmek, aşağıdaki kurum bilgi tabanındaki verileri mantık süzgecinden geçirerek akıcı, açıklayıcı, düzenli ve mantıklı bir yanıt üretmektir.
+
+================ KURUMSAL BİLGİ TABANI ================
 {knowledge}
-===============================================
+======================================================
 
-Kullanıcının Sorusu: "{user_question}"
+KULLANICININ SORUSU: "{user_question}"
 
-Talimatlar:
-1. YALNIZCA yukarıda verilen bilgi tabanındaki verilere dayanarak Türkçe, kurumsal, net ve açıklayıcı bir yanıt ver.
-2. Bölümler, form isimleri, e-posta ayarları, akademik duyurular, akıllı kart prosedürleri veya adımlar varsa liste halinde düzenli sun.
-3. Bilgi tabanında kesinlikle yer almayan bir konuysa kibarca Balıkesir Üniversitesi / BAÜN BİDB destek birimi ile iletişime geçilmesi gerektiğini belirt.
+YAPAY ZEKÂ CEVAPLAMA VE AKIL YÜRÜTME İLKELERİ:
+1. **Mantık Süzgeci ve Özetleme:** Bilgi tabanındaki metinleri ham kopyalama. Kullanıcının sorusuna doğrudan odaklan. Bilgiyi adımlara böl, **1. Adım**, **2. Adım** şeklinde numaralandır veya maddeler halinde anlaşılır kıl.
+2. **Biçimlendirme ve Vurgu:** Önemli sistem adlarını (örn: **OBS**, **e-Devlet**, **Kütüphane Otomasyonu**, **BİDB Destek**), tarihler ve belgeleri **koyu (bold)** yaz.
+3. **Doğal ve İnsan Gibi İletişim:** Selamlaşma veya genel sorularda (örn: "Merhaba", "Kolay gelsin", "Ne işe yararsın?") nazikçe kendini BAÜN Akıllı Asistanı olarak tanıt ve nasıl yardımcı olabileceğini belirt.
+4. **Çözüm Yönlendirmesi:** Eğer sorulan konu bilgi tabanında detaylandırılmamışsa kullanıcıyı cevapsız bırakma; konusuna göre ilgili birime (Öğrenci İşleri, Bilgi İşlem, Kütüphane Daire Başkanlığı vb.) veya resmi web adresine (`https://www.balikesir.edu.tr`) yönlendir.
+5. Akıcı, düzgün ve kurumsal Türkçe kullan.
 """
 
     ai_reply = ""
-    # Resmî ve geçerli Gemini modellerini sırayla dene
+    # Resmî ve geçerli Gemini modellerini sırayla dene (Temperature & Top-P ile akıllı yanıt ayarı)
+    generation_config = {
+        "temperature": 0.5,
+        "top_p": 0.9,
+        "top_k": 40,
+        "max_output_tokens": 2048,
+    }
+
     valid_models = [
-        'gemini-3.7-flash',
-        'gemini-3.6-flash',
-        'gemini-3.5-flash',
-        'gemini-flash-latest',
-        'gemini-1.5-flash-latest',
-        'gemini-1.5-flash'
+        'gemini-2.5-flash',
+        'gemini-2.0-flash',
+        'gemini-1.5-flash',
+        'gemini-1.5-pro'
     ]
     for model_name in valid_models:
         try:
             model = genai.GenerativeModel(model_name)
-            response = model.generate_content(prompt)
+            response = model.generate_content(
+                prompt,
+                generation_config=generation_config
+            )
             if response and response.text:
                 ai_reply = response.text
                 break
