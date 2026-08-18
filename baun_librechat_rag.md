@@ -1,6 +1,6 @@
-# BALIKESİR ÜNİVERSİTESİ (BAÜN) KURUMSAL BİLGİ DOKÜMANI
+# BALIKESİR ÜNİVERSİTESİ (BAÜN) KURUMSAL BİLGİ VE SSS DOKÜMANI
 
-> Bu doküman `https://balikesir.edu.tr/` resmi web sitesinden çekilen güncel bilgileri içerir ve LibreChat RAG / Agent altyapısı için özel hazırlanmıştır.
+> Bu doküman `https://balikesir.edu.tr/` ve `https://oidb.balikesir.edu.tr/` web sitelerinden çekilen güncel bilgileri ile resmi Sıkça Sorulan Sorular (SSS) veritabanını içerir.
 
 ## 1. Balıkesir Üniversitesi (BAÜN) | Resmî Web Sitesi
 **Kaynak URL:** [https://www.balikesir.edu.tr/](https://www.balikesir.edu.tr/)
@@ -16249,6 +16249,606 @@ BAUNYOS DİPLOMA EKİ
 HARÇLAR
 
 Detaylar için tıklayın
+
+---
+
+## 48. BAÜN SSS - Genel Üniversite: Üniversite hakkında genel bilgi verir misiniz?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Üniversite hakkında genel bilgi verir misiniz?
+
+CEVAP: Üniversite hakkında bilgi almak için üniversitenin resmi web sitesindeki Kurumsal ve Üniversite bölümlerini inceleyebilirsiniz.
+
+---
+
+## 49. BAÜN SSS - Genel Üniversite: Üniversitenin iletişim bilgilerine nasıl ulaşabilirim?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Üniversitenin iletişim bilgilerine nasıl ulaşabilirim?
+
+CEVAP: İletişim bilgilerine üniversitenin resmi web sitesindeki İletişim sayfasından ulaşabilirsiniz.
+
+---
+
+## 50. BAÜN SSS - Genel Üniversite: Üniversitenin kampüsleri nerede?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Üniversitenin kampüsleri nerede?
+
+CEVAP: Kampüslerin adres ve konum bilgileri üniversitenin resmi web sitesinde ilgili birimlerin sayfalarında yer almaktadır.
+
+---
+
+## 51. BAÜN SSS - Genel Üniversite: Üniversitenin fakültelerini nereden görebilirim?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Üniversitenin fakültelerini nereden görebilirim?
+
+CEVAP: Fakülte ve yüksekokulların listesine üniversitenin akademik birimler sayfasından ulaşabilirsiniz.
+
+---
+
+## 52. BAÜN SSS - Genel Üniversite: Üniversitenin çalışma saatleri nedir?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Üniversitenin çalışma saatleri nedir?
+
+CEVAP: Birimlerin çalışma saatleri değişebileceğinden ilgili birimin resmi iletişim sayfasını kontrol etmeniz gerekir.
+
+---
+
+## 53. BAÜN SSS - Öğrenci İşleri: Kayıt işlemlerimi nasıl yapabilirim?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Kayıt işlemlerimi nasıl yapabilirim?
+
+CEVAP: Kayıt işlemleri, öğrenci statünüze göre belirlenen kayıt takviminde ve üniversitenin ilan ettiği yöntemle yapılır.
+
+---
+
+## 54. BAÜN SSS - Öğrenci İşleri: Kayıt yenileme ne zaman yapılır?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Kayıt yenileme ne zaman yapılır?
+
+CEVAP: Kayıt yenileme tarihleri akademik takvimde ilan edilir. Güncel akademik takvimi kontrol etmelisiniz.
+
+---
+
+## 55. BAÜN SSS - Öğrenci İşleri: Ders kaydımı nasıl yaparım?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Ders kaydımı nasıl yaparım?
+
+CEVAP: Ders kayıt işlemleri Öğrenci Bilgi Sistemi üzerinden, akademik takvimde belirtilen tarihlerde yapılır.
+
+---
+
+## 56. BAÜN SSS - Öğrenci İşleri: Ders ekle bırak işlemi nasıl yapılır?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Ders ekle bırak işlemi nasıl yapılır?
+
+CEVAP: Ders ekle-bırak işlemleri akademik takvimde belirtilen süre içinde Öğrenci Bilgi Sistemi üzerinden veya ilgili akademik birimin yönlendirmesiyle yapılır.
+
+---
+
+## 57. BAÜN SSS - Öğrenci İşleri: Öğrenci numaramı nasıl öğrenebilirim?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Öğrenci numaramı nasıl öğrenebilirim?
+
+CEVAP: Öğrenci numaranızı üniversitenin Öğrenci Bilgi Sistemi veya kayıt belgeleriniz üzerinden öğrenebilirsiniz.
+
+---
+
+## 58. BAÜN SSS - Öğrenci İşleri: Öğrenci belgesi nasıl alınır?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Öğrenci belgesi nasıl alınır?
+
+CEVAP: Öğrenci belgesi, üniversitenin elektronik belge hizmetleri veya Öğrenci Bilgi Sistemi üzerinden alınabilir.
+
+---
+
+## 59. BAÜN SSS - Öğrenci İşleri: Transkript belgesi nereden alınır?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Transkript belgesi nereden alınır?
+
+CEVAP: Transkript belgesi Öğrenci Bilgi Sistemi veya üniversitenin elektronik belge hizmetleri üzerinden alınabilir.
+
+---
+
+## 60. BAÜN SSS - Akademik Takvim: Akademik takvime nereden ulaşabilirim?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Akademik takvime nereden ulaşabilirim?
+
+CEVAP: Güncel akademik takvim üniversitenin resmi web sitesinde yayımlanır.
+
+---
+
+## 61. BAÜN SSS - Akademik Takvim: Dersler ne zaman başlıyor?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Dersler ne zaman başlıyor?
+
+CEVAP: Ders başlangıç tarihi ilgili eğitim-öğretim yılı akademik takviminde belirtilir.
+
+---
+
+## 62. BAÜN SSS - Akademik Takvim: Final sınavları ne zaman?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Final sınavları ne zaman?
+
+CEVAP: Final sınavlarının tarihleri akademik takvimde ve ilgili akademik birimin sınav programında yayımlanır.
+
+---
+
+## 63. BAÜN SSS - Akademik Takvim: Bütünleme sınavları ne zaman?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Bütünleme sınavları ne zaman?
+
+CEVAP: Bütünleme sınavlarının tarihleri akademik takvimde belirtilir.
+
+---
+
+## 64. BAÜN SSS - Akademik Takvim: Ara sınavlar ne zaman?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Ara sınavlar ne zaman?
+
+CEVAP: Ara sınav tarihleri ilgili akademik birim tarafından ilan edilen sınav programında yer alır.
+
+---
+
+## 65. BAÜN SSS - Sınavlar: Sınav sonuçlarımı nereden görebilirim?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Sınav sonuçlarımı nereden görebilirim?
+
+CEVAP: Sınav sonuçları Öğrenci Bilgi Sistemi üzerinden görüntülenebilir.
+
+---
+
+## 66. BAÜN SSS - Sınavlar: Sınav programına nasıl ulaşırım?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Sınav programına nasıl ulaşırım?
+
+CEVAP: Sınav programı ilgili fakülte, yüksekokul veya bölümün resmi duyurularında yayımlanır.
+
+---
+
+## 67. BAÜN SSS - Sınavlar: Finalden kalırsam ne olur?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Finalden kalırsam ne olur?
+
+CEVAP: Başarısız olunan ders için yönetmelik ve akademik takvimdeki koşullara göre bütünleme veya sonraki dönemlerde tekrar alma seçenekleri bulunabilir.
+
+---
+
+## 68. BAÜN SSS - Sınavlar: Bütünleme sınavına kimler girebilir?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Bütünleme sınavına kimler girebilir?
+
+CEVAP: Bütünleme koşulları üniversitenin ilgili eğitim-öğretim yönetmeliğine göre belirlenir.
+
+---
+
+## 69. BAÜN SSS - Sınavlar: Sınava giremezsem ne yapmalıyım?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Sınava giremezsem ne yapmalıyım?
+
+CEVAP: Mazeret durumunuz varsa ilgili akademik birimin belirlediği süre ve prosedüre göre başvuru yapmalısınız.
+
+---
+
+## 70. BAÜN SSS - Dersler ve Müfredat: Ders programımı nereden görebilirim?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Ders programımı nereden görebilirim?
+
+CEVAP: Ders programları ilgili akademik birimin web sayfasında ve üniversitenin öğrenci sistemlerinde yayımlanabilir.
+
+---
+
+## 71. BAÜN SSS - Dersler ve Müfredat: Ders içeriklerine nereden ulaşabilirim?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Ders içeriklerine nereden ulaşabilirim?
+
+CEVAP: Ders içerikleri ilgili bölümün ders bilgi paketi veya Bologna Bilgi Sistemi üzerinden incelenebilir.
+
+---
+
+## 72. BAÜN SSS - Dersler ve Müfredat: Ders seçimi nasıl yapılır?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Ders seçimi nasıl yapılır?
+
+CEVAP: Ders seçimi Öğrenci Bilgi Sistemi üzerinden, akademik takvimde belirtilen tarihler arasında yapılır.
+
+---
+
+## 73. BAÜN SSS - Dersler ve Müfredat: Bir dersten muaf olabilir miyim?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Bir dersten muaf olabilir miyim?
+
+CEVAP: Muafiyet şartları ilgili yönetmelik ve bölüm kurallarına göre değerlendirilir.
+
+---
+
+## 74. BAÜN SSS - Dersler ve Müfredat: Üstten ders alabilir miyim?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Üstten ders alabilir miyim?
+
+CEVAP: Üstten ders alma koşulları programın yönetmeliğine ve akademik başarı şartlarına göre değişebilir.
+
+---
+
+## 75. BAÜN SSS - Dersler ve Müfredat: Ders devam zorunluluğu var mı?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Ders devam zorunluluğu var mı?
+
+CEVAP: Devam koşulları dersin ve ilgili programın mevzuatına göre belirlenir.
+
+---
+
+## 76. BAÜN SSS - Mezuniyet: Mezuniyet için kaç kredi tamamlamam gerekiyor?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Mezuniyet için kaç kredi tamamlamam gerekiyor?
+
+CEVAP: Gerekli kredi ve mezuniyet koşulları programa göre değişir. Bölümünüzün müfredat ve mezuniyet koşullarını kontrol etmelisiniz.
+
+---
+
+## 77. BAÜN SSS - Mezuniyet: Mezuniyet işlemleri nasıl yapılır?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Mezuniyet işlemleri nasıl yapılır?
+
+CEVAP: Mezuniyet işlemleri, gerekli ders ve diğer koşulların tamamlanmasının ardından ilgili akademik birim tarafından yürütülür.
+
+---
+
+## 78. BAÜN SSS - Mezuniyet: Diplomamı ne zaman alabilirim?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Diplomamı ne zaman alabilirim?
+
+CEVAP: Diploma teslim tarihi ve işlemleri ilgili akademik birim tarafından ilan edilir.
+
+---
+
+## 79. BAÜN SSS - Mezuniyet: Geçici mezuniyet belgesi alabilir miyim?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Geçici mezuniyet belgesi alabilir miyim?
+
+CEVAP: Diploma hazırlanana kadar mevzuat ve üniversite prosedürleri kapsamında geçici mezuniyet belgesi düzenlenebilir.
+
+---
+
+## 80. BAÜN SSS - Akademik Personel: Bir öğretim üyesinin iletişim bilgisine nasıl ulaşırım?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Bir öğretim üyesinin iletişim bilgisine nasıl ulaşırım?
+
+CEVAP: Akademik personelin iletişim bilgileri ilgili fakülte veya bölümün personel sayfasında yayımlanır.
+
+---
+
+## 81. BAÜN SSS - Akademik Personel: Hocamın e-posta adresini nereden bulabilirim?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Hocamın e-posta adresini nereden bulabilirim?
+
+CEVAP: Öğretim elemanlarının kurumsal e-posta bilgileri akademik birimlerin personel sayfalarında yer alabilir.
+
+---
+
+## 82. BAÜN SSS - Akademik Personel: Bölüm başkanına nasıl ulaşabilirim?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Bölüm başkanına nasıl ulaşabilirim?
+
+CEVAP: Bölüm başkanının iletişim bilgilerine ilgili bölümün resmi web sayfasından ulaşabilirsiniz.
+
+---
+
+## 83. BAÜN SSS - Akademik Personel: Danışmanımı nasıl öğrenebilirim?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Danışmanımı nasıl öğrenebilirim?
+
+CEVAP: Danışman bilgilerinizi Öğrenci Bilgi Sistemi üzerinden veya bölümünüzün öğrenci işleri biriminden öğrenebilirsiniz.
+
+---
+
+## 84. BAÜN SSS - Kütüphane: Kütüphaneden nasıl kitap ödünç alabilirim?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Kütüphaneden nasıl kitap ödünç alabilirim?
+
+CEVAP: Kütüphane üyeliğiniz aktifse kütüphane otomasyon sistemi üzerinden kitapların ödünç alma koşullarını inceleyebilirsiniz.
+
+---
+
+## 85. BAÜN SSS - Kütüphane: Kütüphane kataloğunda kitap nasıl aranır?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Kütüphane kataloğunda kitap nasıl aranır?
+
+CEVAP: Kütüphane otomasyon sistemindeki katalog arama alanından kitap adı, yazar veya konu ile arama yapabilirsiniz.
+
+---
+
+## 86. BAÜN SSS - Kütüphane: Kitap iade süresini nasıl öğrenebilirim?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Kitap iade süresini nasıl öğrenebilirim?
+
+CEVAP: Ödünç aldığınız materyallerin iade tarihlerini kütüphane otomasyon hesabınızdan kontrol edebilirsiniz.
+
+---
+
+## 87. BAÜN SSS - Kütüphane: E-kitaplara nasıl erişebilirim?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: E-kitaplara nasıl erişebilirim?
+
+CEVAP: Elektronik kaynaklara üniversite kütüphanesinin elektronik kaynaklar ve veri tabanları sayfasından ulaşabilirsiniz.
+
+---
+
+## 88. BAÜN SSS - Kütüphane: Kütüphane üyeliği nasıl yapılır?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Kütüphane üyeliği nasıl yapılır?
+
+CEVAP: Öğrenci ve personel üyelik işlemleri kütüphane tarafından belirlenen usule göre yapılır.
+
+---
+
+## 89. BAÜN SSS - Burs ve Destek: Burs başvuruları ne zaman?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Burs başvuruları ne zaman?
+
+CEVAP: Burs başvuru tarihleri ilgili kurum ve üniversite duyurularında ilan edilir.
+
+---
+
+## 90. BAÜN SSS - Burs ve Destek: Burs başvurusu nasıl yapılır?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Burs başvurusu nasıl yapılır?
+
+CEVAP: Başvuru yöntemi burs programına göre değişir. Güncel duyurudaki başvuru bağlantısı ve şartları takip etmelisiniz.
+
+---
+
+## 91. BAÜN SSS - Burs ve Destek: Yemek bursu var mı?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Yemek bursu var mı?
+
+CEVAP: Yemek desteği ve bursları için üniversitenin Sağlık, Kültür ve Spor birimi tarafından yapılan duyuruları takip edebilirsiniz.
+
+---
+
+## 92. BAÜN SSS - Burs ve Destek: Maddi destek imkanları nelerdir?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Maddi destek imkanları nelerdir?
+
+CEVAP: Burs, yemek ve diğer öğrenci destekleri ilgili üniversite birimleri ve duyurular üzerinden takip edilebilir.
+
+---
+
+## 93. BAÜN SSS - Erasmus ve Değişim: Erasmus başvurusu nasıl yapılır?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Erasmus başvurusu nasıl yapılır?
+
+CEVAP: Erasmus başvuruları, Uluslararası İlişkiler biriminin ilan ettiği takvim ve başvuru sistemi üzerinden yapılır.
+
+---
+
+## 94. BAÜN SSS - Erasmus ve Değişim: Erasmus başvuru şartları nelerdir?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Erasmus başvuru şartları nelerdir?
+
+CEVAP: Başvuru şartları ilan dönemine ve değişim programına göre belirlenir; güncel ilan metni esas alınmalıdır.
+
+---
+
+## 95. BAÜN SSS - Erasmus ve Değişim: Erasmus sınavı ne zaman yapılır?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Erasmus sınavı ne zaman yapılır?
+
+CEVAP: Erasmus yabancı dil sınavı ve seçim takvimi ilgili duyuruda ilan edilir.
+
+---
+
+## 96. BAÜN SSS - Erasmus ve Değişim: Değişim programları hakkında nereden bilgi alabilirim?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Değişim programları hakkında nereden bilgi alabilirim?
+
+CEVAP: Değişim programları hakkında Uluslararası İlişkiler biriminin web sayfasından bilgi alabilirsiniz.
+
+---
+
+## 97. BAÜN SSS - Staj: Staj başvurusu nasıl yapılır?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Staj başvurusu nasıl yapılır?
+
+CEVAP: Staj başvuru süreci bölümünüzün staj yönergesi ve ilgili akademik birimin duyurularına göre yürütülür.
+
+---
+
+## 98. BAÜN SSS - Staj: Staj için hangi belgeler gerekiyor?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Staj için hangi belgeler gerekiyor?
+
+CEVAP: Gerekli belgeler programa göre değişebilir. Bölümünüzün güncel staj duyurusunu kontrol etmelisiniz.
+
+---
+
+## 99. BAÜN SSS - Staj: Staj sigortası nasıl yapılır?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Staj sigortası nasıl yapılır?
+
+CEVAP: Staj sigortası işlemleri üniversitenin ilgili birimleri tarafından mevzuata uygun şekilde yürütülür.
+
+---
+
+## 100. BAÜN SSS - Staj: Staj süresi ne kadar?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Staj süresi ne kadar?
+
+CEVAP: Staj süresi programa ve ilgili staj yönergesine göre değişir.
+
+---
+
+## 101. BAÜN SSS - Teknik Destek: Üniversite sistemine giriş yapamıyorum.
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Üniversite sistemine giriş yapamıyorum.
+
+CEVAP: Öncelikle kullanıcı adı ve şifrenizi kontrol edin. Sorun devam ederse üniversitenin teknik destek kanalından destek talebi oluşturabilirsiniz.
+
+---
+
+## 102. BAÜN SSS - Teknik Destek: Şifremi unuttum, ne yapmalıyım?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Şifremi unuttum, ne yapmalıyım?
+
+CEVAP: Şifre sıfırlama işlemi ilgili bilgi işlem veya kullanıcı yönetim hizmeti üzerinden yapılabilir.
+
+---
+
+## 103. BAÜN SSS - Teknik Destek: Kurumsal e-postama giriş yapamıyorum.
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Kurumsal e-postama giriş yapamıyorum.
+
+CEVAP: Kullanıcı bilgilerinizi kontrol edin ve sorun devam ederse Bilgi İşlem biriminin teknik destek kanalına başvurun.
+
+---
+
+## 104. BAÜN SSS - Teknik Destek: Wi-Fi bağlantısı çalışmıyor.
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Wi-Fi bağlantısı çalışmıyor.
+
+CEVAP: Kablosuz ağ ayarlarınızı ve üniversite hesabınızı kontrol edin. Sorun devam ederse teknik destek birimine başvurun.
+
+---
+
+## 105. BAÜN SSS - Teknik Destek: VPN bağlantısı nasıl yapılır?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: VPN bağlantısı nasıl yapılır?
+
+CEVAP: VPN erişimi varsa üniversitenin Bilgi İşlem biriminin yayımladığı kurulum ve kullanım yönergelerini takip etmelisiniz.
+
+---
+
+## 106. BAÜN SSS - Üniversite Sistemleri: Öğrenci Bilgi Sistemine nasıl giriş yaparım?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Öğrenci Bilgi Sistemine nasıl giriş yaparım?
+
+CEVAP: Öğrenci Bilgi Sistemine üniversitenin resmi web sitesindeki ilgili bağlantı üzerinden kurumsal kullanıcı bilgilerinizle giriş yapabilirsiniz.
+
+---
+
+## 107. BAÜN SSS - Üniversite Sistemleri: Akademik Bilgi Sistemine nasıl ulaşırım?
+**Kaynak URL:** [https://www.balikesir.edu.tr/sss](https://www.balikesir.edu.tr/sss)
+
+### Sayfa İçeriği:
+SORU: Akademik Bilgi Sistemine nasıl ulaşırım?
+
+CEVAP: Akademik bilgi sistemine üniversitenin resmi web sitesindeki ilgili sistem bağlantısından ulaşabilirsiniz.
 
 ---
 
