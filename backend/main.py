@@ -9,14 +9,6 @@ from pydantic import BaseModel
 import google.generativeai as genai
 from dotenv import load_dotenv
 
-
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=["http://localhost:8080"],
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
 # Path setup
 BASE_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = BASE_DIR.parent
@@ -24,21 +16,26 @@ DATA_DIR = PROJECT_ROOT / "data"
 
 # Load .env file
 env_path = BASE_DIR / ".env"
+if not env_path.exists():
+    env_path = PROJECT_ROOT / ".env"
 load_dotenv(dotenv_path=env_path)
 
+# FastAPI uygulamasını oluştur
 app = FastAPI(
-    title="BAÜN BİDB Chatbot Backend (Gemini API & RAG Entegreli)",
+    title="BAÜN BİDB Chatbot Backend",
     version="1.0.0"
 )
 
+# Tüm kaynaklardan gelen isteklere izin ver (CORS engellerini kaldırır)
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:8080"],
+    allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
-# API Key .env dosyasından okunur
+
+# API Key yapılandırması
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
 if GEMINI_API_KEY:
     genai.configure(api_key=GEMINI_API_KEY)
@@ -46,16 +43,15 @@ if GEMINI_API_KEY:
 def turkish_lower(text: str) -> str:
     if not text:
         return ""
-    text = text.replace('İ', 'i').replace('I', 'ı')
-    return text.lower()
+    return text.replace('İ', 'i').replace('I', 'ı').lower()
 
 STOPWORDS = {"balıkesir", "üniversitesi", "üniversitesinde", "baün", "tane", "var", "kaç", "nedir", "nerede", "hakkında", "bir", "bu", "ve", "veya", "ile", "için", "olan"}
 
 def load_all_text_blocks():
-    """Tüm bilgi tabanı kaynaklarını (Markdown ve JSON) metin bloklarına ayırarak yükler."""
+    """Markdown ve JSON bilgi tabanlarını bloklar halinde okur."""
     blocks = []
     
-    # 1. Load Markdown Knowledge Base if exists
+    # 1. Markdown dosyasını kontrol et
     md_paths = [
         PROJECT_ROOT / "baun_librechat_rag.md",
         DATA_DIR / "baun_librechat_rag.md",
@@ -69,45 +65,45 @@ def load_all_text_blocks():
                     for b in md_text.split("---"):
                         if b.strip():
                             blocks.append(b.strip())
+                print(f"✅ MD Yüklendi: {md_path.name}")
                 break
             except Exception as e:
                 print("MD okuma hatası:", e)
 
-    # 2. Load JSON Knowledge Bases
+    # 2. JSON dosyalarını kontrol et
     json_filenames = ["bidb_knowledge.json", "baun_knowledge_base.json"]
     for filename in json_filenames:
-        json_path = DATA_DIR / filename
-        if not json_path.exists():
-            json_path = PROJECT_ROOT / filename
-        if json_path.exists():
-            try:
-                with open(json_path, "r", encoding="utf-8") as f:
-                    data = json.load(f)
-                    if isinstance(data, list):
-                        for item in data:
-                            title = item.get("title", "")
-                            content = item.get("content", "")
-                            if content:
-                                blocks.append(f"--- SAYFA: {title} ---\n{content}")
-                    elif isinstance(data, dict):
-                        for k, v in data.items():
-                            blocks.append(f"--- {k} ---\n{v}")
-            except Exception as e:
-                print(f"JSON okuma hatası ({filename}):", e)
+        json_paths = [DATA_DIR / filename, PROJECT_ROOT / filename, BASE_DIR / filename]
+        for path in json_paths:
+            if path.exists():
+                try:
+                    with open(path, "r", encoding="utf-8") as f:
+                        data = json.load(f)
+                        if isinstance(data, list):
+                            for item in data:
+                                title = item.get("title", "")
+                                content = item.get("content", "")
+                                if content:
+                                    blocks.append(f"--- SAYFA: {title} ---\n{content}")
+                        elif isinstance(data, dict):
+                            for k, v in data.items():
+                                blocks.append(f"--- {k} ---\n{v}")
+                    print(f"✅ JSON Yüklendi: {path.name}")
+                    break
+                except Exception as e:
+                    print(f"JSON okuma hatası ({filename}):", e)
 
     return blocks
 
 def get_relevant_knowledge(user_question: str, max_chars: int = 40000) -> str:
-    """RAG mantığıyla kullanıcı sorusuna en alakalı bilgi bloklarını seçer."""
+    """Soruya en uygun bilgi bloklarını seçer."""
     blocks = load_all_text_blocks()
     if not blocks:
         return "Bilgi tabanı boş veya bulunamadı."
     
-    # Soru içerisindeki anahtar kelimeleri çıkar
     words = [turkish_lower(w) for w in re.findall(r'\w+', user_question) if len(w) > 2 and turkish_lower(w) not in STOPWORDS]
     
     if not words:
-        # Anahtar kelime yoksa varsayılan ilk 8 bloğu dön
         return "\n\n---\n\n".join(blocks[:8])
 
     scored_blocks = []
@@ -115,7 +111,6 @@ def get_relevant_knowledge(user_question: str, max_chars: int = 40000) -> str:
         score = sum(turkish_lower(block).count(w) for w in words)
         scored_blocks.append((score, block))
 
-    # Skora göre büyükten küçüğe sırala
     scored_blocks.sort(key=lambda x: x[0], reverse=True)
 
     selected = []
@@ -137,13 +132,9 @@ def get_relevant_knowledge(user_question: str, max_chars: int = 40000) -> str:
 def home():
     return {"status": "BAÜN BİDB Chatbot Backend Sunucusu Aktif!"}
 
-# Widget ve API İsteklerini Karşılayan Genel Endpoint (Hem OpenAI hem Gemini formatı destekli)
-@app.api_route("/api/v1/chat/completions", methods=["POST", "OPTIONS"])
-@app.api_route("/v1/chat/completions", methods=["POST", "OPTIONS"])
-@app.api_route("/completions", methods=["POST", "OPTIONS"])
-@app.api_route("/chat/completions", methods=["POST", "OPTIONS"])
-@app.api_route("/v1beta/models/{model_name:path}:generateContent", methods=["POST", "OPTIONS"])
-async def handle_chat_completion(request: Request):
+# İstekleri karşılayan ana fonksiyon
+@app.api_route("/{full_path:path}", methods=["GET", "POST", "OPTIONS"])
+async def handle_chat_completion(request: Request, full_path: str = ""):
     if request.method == "OPTIONS":
         return {"status": "ok"}
         
@@ -159,7 +150,7 @@ async def handle_chat_completion(request: Request):
     except Exception:
         user_question = ""
 
-    print(f" Gelen Soru: {user_question}")
+    print(f"\n📩 Gelen Soru: {user_question}")
     knowledge = get_relevant_knowledge(user_question)
 
     prompt = f"""
@@ -179,8 +170,9 @@ Talimatlar:
 """
 
     ai_reply = ""
-    # Gemini modellerini sırayla dene (güncel modeller)
-    for model_name in ['gemini-flash-lite-latest', 'gemini-3.5-flash', 'gemini-flash-latest', 'gemini-3.6-flash', 'gemini-pro-latest']:
+    # Resmî ve geçerli Gemini modellerini sırayla dene
+    valid_models = ['gemini-1.5-flash-latest', 'gemini-1.5-flash', 'gemini-1.5-pro', 'gemini-pro']
+    for model_name in valid_models:
         try:
             model = genai.GenerativeModel(model_name)
             response = model.generate_content(prompt)
@@ -192,11 +184,10 @@ Talimatlar:
             continue
 
     if not ai_reply:
-        ai_reply = "Yanıt üretilirken bir sorun oluştu. Lütfen BAÜN BİDB destek birimi ile iletişime geçin."
+        ai_reply = "Yanıt üretilirken bir sorun oluştu. Lütfen API anahtarınızı veya BAÜN BİDB destek birimini kontrol edin."
 
-    print(f" Üretilen Yanıt ({len(ai_reply)} kr): {ai_reply[:100]}...")
+    print(f"🤖 Üretilen Yanıt: {ai_reply[:80]}...")
 
-    # Hem OpenAI hem Gemini formatında yanıt döndürür
     return {
         "choices": [
             {
@@ -219,10 +210,3 @@ Talimatlar:
             }
         ]
     }
-
-# Catch-all endpoint
-@app.api_route("/{full_path:path}", methods=["GET", "POST", "OPTIONS"])
-async def catch_all(request: Request, full_path: str):
-    if request.method == "OPTIONS":
-        return {"status": "ok"}
-    return await handle_chat_completion(request)
