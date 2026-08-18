@@ -11,9 +11,28 @@ from urllib.parse import urljoin, urlparse
 # Disable SSL warnings for subdomains with self-signed or issuer cert issues
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
-# Target base URL and domain restriction
-BASE_URL = "https://www.balikesir.edu.tr/"
-ALLOWED_DOMAIN = "balikesir.edu.tr"
+import os
+import re
+import sys
+import time
+import json
+import io
+import requests
+import urllib3
+import pypdf
+from bs4 import BeautifulSoup
+from urllib.parse import urljoin, urlparse
+
+# Disable SSL warnings for subdomains with self-signed or issuer cert issues
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+
+# Target base URLs and domain restriction
+TARGET_URLS = [
+    "https://www.balikesir.edu.tr/",
+    "https://oidb.balikesir.edu.tr/sss",
+    "https://oidb.balikesir.edu.tr/"
+]
+ALLOWED_DOMAINS = ["balikesir.edu.tr", "baunwebapi.balikesir.edu.tr"]
 
 # File output paths
 SCRATCH_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -22,9 +41,9 @@ OUTPUT_JSON_PATH = os.path.join(SCRATCH_DIR, "baun_knowledge_base.json")
 
 # Keywords of important sections to prioritize
 PRIORITY_KEYWORDS = [
-    "duyuru", "akademik", "takvim", "ogrenci", "fakulte",
+    "sss", "duyuru", "akademik", "takvim", "ogrenci", "fakulte",
     "enstitu", "yuksekokul", "yemek", "baskanlik", "iletisim",
-    "senato", "yonetmelik", "burs", "harc", "kayit", "staj"
+    "senato", "yonetmelik", "burs", "harc", "kayit", "staj", "yatay", "dikey", "diploma"
 ]
 
 visited_urls = set()
@@ -34,6 +53,16 @@ headers = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
     "Accept-Language": "tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7"
 }
+
+def fix_tr_pdf_text(t: str) -> str:
+    """Türkçe PDF metin karakter bozulmalarını düzeltir."""
+    if not t:
+        return ""
+    t = t.replace('öhren', 'öğren').replace('ehit', 'eğit').replace('dih', 'diğ').replace('dihiniz', 'diğiniz')
+    t = t.replace('öhreti', 'öğreti').replace('delildir', 'değildir').replace('dehil', 'dahil')
+    t = t.replace(' kütüğü', ' Kütüğü').replace('  ', ' ')
+    lines = [l.strip() for l in t.splitlines() if len(l.strip()) > 2]
+    return "\n".join(lines)
 
 def clean_html_content(soup):
     """Removes navigation, headers, footers, scripts, and styles to extract pure content."""
@@ -45,7 +74,6 @@ def clean_html_content(soup):
     text = target.get_text(separator="\n")
     lines = [line.strip() for line in text.splitlines() if line.strip()]
     
-    # Filter short repetitive lines
     cleaned_lines = []
     for line in lines:
         if len(line) > 3 and not line.startswith("http"):
@@ -54,20 +82,45 @@ def clean_html_content(soup):
     return "\n".join(cleaned_lines)
 
 def is_valid_url(url):
-    """Check if URL belongs to balikesir.edu.tr and is an HTML web page."""
+    """Check if URL belongs to balikesir.edu.tr domain family."""
     parsed = urlparse(url)
-    if ALLOWED_DOMAIN not in parsed.netloc:
+    if not any(dom in parsed.netloc for dom in ALLOWED_DOMAINS):
         return False
-    # Exclude non-document files except pdfs (which can be handled separately)
     excluded_exts = [".jpg", ".png", ".gif", ".css", ".js", ".mp4", ".zip", ".rar", ".exe", ".doc", ".docx"]
     if any(parsed.path.lower().endswith(ext) for ext in excluded_exts):
         return False
     return True
 
-def scrape_url(url, depth=1, max_depth=2, max_pages=50):
+def scrape_pdf_url(url, title):
+    if url in visited_urls:
+        return
+    visited_urls.add(url)
+    print(f"[PDF Okunuyor] {title} ({url})")
+    try:
+        res = requests.get(url, headers=headers, timeout=15, verify=False)
+        if res.status_code == 200 and len(res.content) > 100:
+            reader = pypdf.PdfReader(io.BytesIO(res.content))
+            raw_text = "\n".join([p.extract_text() or "" for p in reader.pages])
+            cleaned_text = fix_tr_pdf_text(raw_text)
+            if len(cleaned_text.strip()) > 30:
+                scraped_data.append({
+                    "title": f"ÖİDB SSS PDF - {title}",
+                    "url": url,
+                    "depth": 1,
+                    "content": cleaned_text
+                })
+                print(f"[OK PDF] {title} ({len(cleaned_text)} karakter)")
+    except Exception as e:
+        print(f"Hata (PDF {url}): {e}")
+
+def scrape_url(url, depth=1, max_depth=2, max_pages=60):
     if len(visited_urls) >= max_pages:
         return
     if url in visited_urls or depth > max_depth:
+        return
+
+    if url.lower().endswith('.pdf'):
+        scrape_pdf_url(url, url.split('/')[-1])
         return
 
     visited_urls.add(url)
@@ -86,7 +139,7 @@ def scrape_url(url, depth=1, max_depth=2, max_pages=50):
         title = soup.title.string.strip() if soup.title and soup.title.string else url
         cleaned_text = clean_html_content(soup)
 
-        if len(cleaned_text) > 100:  # Only save pages with meaningful content
+        if len(cleaned_text) > 100:
             item = {
                 "title": title,
                 "url": url,
@@ -95,37 +148,36 @@ def scrape_url(url, depth=1, max_depth=2, max_pages=50):
             }
             scraped_data.append(item)
 
-        # Collect internal links
+        # Collect internal links and PDF links
         if depth < max_depth and len(visited_urls) < max_pages:
             links = []
             for a_tag in soup.find_all("a", href=True):
                 href = a_tag["href"].strip()
                 full_url = urljoin(url, href)
-                
-                # Strip fragments
                 full_url = full_url.split("#")[0]
                 
-                if is_valid_url(full_url) and full_url not in visited_urls:
-                    # Prioritize links matching priority keywords
+                link_text = a_tag.get_text().strip() or full_url.split('/')[-1]
+
+                if full_url.lower().endswith('.pdf') and is_valid_url(full_url):
+                    scrape_pdf_url(full_url, link_text)
+                elif is_valid_url(full_url) and full_url not in visited_urls:
                     is_priority = any(kw in full_url.lower() for kw in PRIORITY_KEYWORDS)
                     links.append((is_priority, full_url))
             
-            # Sort priority links first
             links.sort(key=lambda x: x[0], reverse=True)
             
             for _, link_url in links:
                 if len(visited_urls) >= max_pages:
                     break
                 scrape_url(link_url, depth + 1, max_depth, max_pages)
-                time.sleep(0.3)  # Gentle crawling speed
+                time.sleep(0.2)
 
     except Exception as e:
         print(f"Hata oluştu ({url}): {e}")
 
 def save_results():
-    print(f"\n--- Tarama Bitti: Toplam {len(scraped_data)} sayfa çekildi ---")
+    print(f"\n--- Tarama Bitti: Toplam {len(scraped_data)} doküman/sayfa çekildi ---")
     
-    # Şablon ve tekrar eden menü/footer satırlarını temizle
     from collections import Counter
     line_counts = Counter()
     for item in scraped_data:
@@ -135,7 +187,7 @@ def save_results():
             line_counts[line] += 1
             
     num_pages = len(scraped_data)
-    boilerplate_lines = {line for line, count in line_counts.items() if count > num_pages * 0.3}
+    boilerplate_lines = {line for line, count in line_counts.items() if count > max(3, num_pages * 0.35)}
     
     for item in scraped_data:
         content = item.get("content", "")
@@ -148,7 +200,7 @@ def save_results():
         json.dump(scraped_data, f, ensure_ascii=False, indent=2)
     print(f"JSON verisi kaydedildi: {OUTPUT_JSON_PATH}")
 
-    # Save as Text Knowledge Base for LibreChat RAG Upload
+    # Save as Text Knowledge Base
     with open(OUTPUT_TXT_PATH, "w", encoding="utf-8") as f:
         f.write("====================================================\n")
         f.write("BALIKESİR ÜNİVERSİTESİ (BAÜN) KAPSAMLI BİLGİ BANKASI\n")
@@ -165,6 +217,8 @@ def save_results():
     print(f"TXT Bilgi Bankası kaydedildi: {OUTPUT_TXT_PATH}")
 
 if __name__ == "__main__":
-    print("Balıkesir Üniversitesi Web Kazıma İşlemi Başlatılıyor...")
-    scrape_url(BASE_URL, depth=1, max_depth=2, max_pages=35)
+    print("Balıkesir Üniversitesi (BAÜN & ÖİDB SSS) Web Kazıma İşlemi Başlatılıyor...")
+    for target in TARGET_URLS:
+        scrape_url(target, depth=1, max_depth=2, max_pages=60)
     save_results()
+
