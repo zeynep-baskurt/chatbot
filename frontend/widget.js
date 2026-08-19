@@ -184,8 +184,19 @@ function appendMessage(text, sender) {
 
     // --- DEĞİŞİKLİK BURADA BAŞLIYOR ---
     if (sender === "bot") {
-        // Bot mesajları için marked kütüphanesini kullanıp HTML olarak basıyoruz
-        contentDiv.innerHTML = marked.parse(text); 
+        try {
+            if (typeof marked !== 'undefined' && marked.parse) {
+                contentDiv.innerHTML = marked.parse(text);
+            } else {
+                const p = document.createElement("p");
+                p.textContent = text;
+                contentDiv.appendChild(p);
+            }
+        } catch (e) {
+            const p = document.createElement("p");
+            p.textContent = text;
+            contentDiv.appendChild(p);
+        }
     } else {
         // Kullanıcı mesajları güvenlik için düz metin (text) olarak kalmaya devam ediyor
         const p = document.createElement("p");
