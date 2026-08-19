@@ -177,7 +177,7 @@ function appendMessage(text, sender) {
 
     const avatarDiv = document.createElement("div");
     avatarDiv.classList.add("message-avatar");
-    avatarDiv.innerHTML = sender === "user" ? '<i class="fa-solid fa-user"></i>' : '<img src="https://www.cbot.ai/wp-content/uploads/bot_images/240513-094617.png" alt="Bot Avatar" class="bot-avatar-img">';
+    avatarDiv.innerHTML = sender === "user" ? '<i class="fa-solid fa-user"></i>' : '<img src="bot-avatar.png" alt="Bot Avatar" class="bot-avatar-img">';
     const contentDiv = document.createElement("div");
     contentDiv.classList.add("message-content");
 
@@ -242,7 +242,7 @@ function clearChat() {
     chatMessages.innerHTML = `
         <div class="message bot-message">
             <div class="message-avatar">
-                <img src="https://www.cbot.ai/wp-content/uploads/bot_images/240513-094617.png" alt="Bot Avatar" class="bot-avatar-img">
+                <img src="bot-avatar.png" alt="Bot Avatar" class="bot-avatar-img">
             </div>
             <div class="message-content">
                 <p>Sohbet geçmişi temizlendi. Size başka nasıl yardımcı olabilirim? 😊</p>
