@@ -36,7 +36,7 @@ app.add_middleware(
 )
 
 # API Key yapılandırması
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "AQ.Ab8RN6KJAmHDz4fGgBHAYuItqceJc_G-Fe4b9GgDCycsY-GRsw")
 if GEMINI_API_KEY:
     genai.configure(api_key=GEMINI_API_KEY)
 
@@ -145,11 +145,8 @@ def home():
     return {"status": "BAÜN BİDB Akıllı Asistan Backend Sunucusu Aktif!"}
 
 # İstekleri karşılayan ana fonksiyon
-@app.api_route("/{full_path:path}", methods=["GET", "POST", "OPTIONS"])
+@app.api_route("/{full_path:path}", methods=["GET", "POST"])
 async def handle_chat_completion(request: Request, full_path: str = ""):
-    if request.method == "OPTIONS":
-        return {"status": "ok"}
-        
     user_question = ""
     try:
         body = await request.json()
@@ -162,7 +159,7 @@ async def handle_chat_completion(request: Request, full_path: str = ""):
     except Exception:
         user_question = ""
 
-    print(f"\n📩 Gelen Soru: {user_question}")
+    print(f"\n[Gelen Soru]: {user_question}")
     knowledge = get_relevant_knowledge(user_question)
 
     prompt = f"""
@@ -195,10 +192,12 @@ YAPAY ZEKÂ CEVAPLAMA VE AKIL YÜRÜTME İLKELERİ:
     }
 
     valid_models = [
-        'gemini-2.5-flash',
-        'gemini-2.0-flash',
+        'gemini-3.6-flash',
         'gemini-1.5-flash',
-        'gemini-1.5-pro'
+        'gemini-2.5-flash',
+        'gemini-flash-latest',
+        'gemini-3.5-flash',
+        'gemini-3.7-flash'
     ]
     for model_name in valid_models:
         try:
@@ -241,3 +240,7 @@ YAPAY ZEKÂ CEVAPLAMA VE AKIL YÜRÜTME İLKELERİ:
             }
         ]
     }
+
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run(app, host="127.0.0.1", port=8000)
