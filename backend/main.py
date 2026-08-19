@@ -36,7 +36,7 @@ app.add_middleware(
 )
 
 # API Key yapılandırması
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "AQ.Ab8RN6KJAmHDz4fGgBHAYuItqceJc_G-Fe4b9GgDCycsY-GRsw")
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
 if GEMINI_API_KEY:
     genai.configure(api_key=GEMINI_API_KEY)
 
