@@ -147,6 +147,11 @@ def home():
 # İstekleri karşılayan ana fonksiyon
 @app.api_route("/{full_path:path}", methods=["GET", "POST"])
 async def handle_chat_completion(request: Request, full_path: str = ""):
+    # Her istekte güncel API anahtarını garantiye al
+    load_dotenv(dotenv_path=env_path, override=True)
+    current_key = os.getenv("GEMINI_API_KEY", "")
+    if current_key:
+        genai.configure(api_key=current_key)
     user_question = ""
     try:
         body = await request.json()
