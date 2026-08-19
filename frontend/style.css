@@ -204,25 +204,51 @@ body {
 
 /* Floating Button (Sağ Alttaki Yuvarlak Açma Butonu) */
 .chat-toggle-btn {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    background: var(--primary-gradient);
+    width: 150px !important;
+    height: 150px !important;
+    background: transparent;
     color: white;
     border: none;
     cursor: pointer;
-    box-shadow: var(--shadow-glow);
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 1.5rem;
     transition: var(--transition-smooth);
     position: relative;
+    animation: chat-idle-bounce 4s infinite ease-in-out;
 }
 
 .chat-toggle-btn:hover {
-    transform: scale(1.08) rotate(5deg);
-    box-shadow: 0 0 35px rgba(0, 114, 255, 0.7);
+    animation: chat-bounce 0.8s infinite ease-in-out;
+    filter: drop-shadow(0 0 25px rgba(0, 114, 255, 0.8));
+}
+
+@keyframes chat-bounce {
+    0%, 100% {
+        transform: translateY(0) scale(1.08) rotate(3deg);
+    }
+    50% {
+        transform: translateY(-12px) scale(1.1) rotate(-3deg);
+    }
+}
+
+@keyframes chat-idle-bounce {
+    0%, 80%, 100% {
+        transform: translateY(0) scale(1) rotate(0deg);
+    }
+    84% {
+        transform: translateY(-15px) scale(1.05) rotate(4deg);
+    }
+    88% {
+        transform: translateY(0) scale(0.95) rotate(-2deg);
+    }
+    92% {
+        transform: translateY(-6px) scale(1.02) rotate(1deg);
+    }
+    96% {
+        transform: translateY(0) scale(1) rotate(0deg);
+    }
 }
 
 .chat-toggle-btn:active {
@@ -305,10 +331,9 @@ body {
 }
 
 .avatar {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background: var(--primary-gradient);
+    width: 70px;
+    height: 70px;
+    background: transparent;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -403,8 +428,8 @@ body {
 }
 
 .message-avatar {
-    width: 32px;
-    height: 32px;
+    width: 55px;
+    height: 55px;
     border-radius: 50%;
     background: rgba(0, 130, 252, 0.2);
     color: #0082fc;
@@ -415,19 +440,23 @@ body {
     flex-shrink: 0;
 }
 
+.bot-message .message-avatar {
+    background: transparent;
+}
+
 .bot-avatar-img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
-    border-radius: 50%;
+    object-fit: contain;
     display: block;
 }
 
 .bot-toggle-avatar {
-    width: 85%;
-    height: 85%;
+    width: 100% !important;
+    height: 100% !important;
+    max-width: none !important;
+    max-height: none !important;
     object-fit: contain;
-    border-radius: 50%;
     display: block;
     transition: var(--transition-smooth);
 }
@@ -607,5 +636,74 @@ body {
         height: 80vh;
         right: -8px;
         bottom: 70px;
+    }
+}
+
+/* 1. Kapsayıcı Buton (Sayfanın sağ altında sabit durur) */
+.cbot-dialog-button-regular {
+    width: 150px !important;
+    height: 150px !important;
+    position: fixed; /* Sayfada sabit durması için 'fixed' yapılır */
+    bottom: 20px;    /* Alt kenardan mesafe */
+    right: 20px;     /* Sağ kenardan mesafe */
+    cursor: pointer;
+    background-repeat: no-repeat;
+    z-index: 999999999;
+    
+    /* Zıplama hareketi için flex ortalama ve yumuşatıcı geçiş */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    animation: cbot-idle-bounce 4s infinite ease-in-out;
+}
+
+/* 2. Yüklediğiniz Görsel (İkon) */
+.cbot-dialog-button-image {
+    z-index: 999999;
+    position: absolute;
+    width: auto !important;
+    height: 100% !important;
+    max-width: none !important;
+    max-height: none !important;
+    vertical-align: middle;
+    border: none;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+}
+
+/* 3. Mouse Üzerine Gelince (Hover) Zıplama Efekti */
+.cbot-dialog-button-regular:hover {
+    /* Sürekli zıplama animasyonu için: */
+    animation: cbot-bounce 0.8s infinite alternate ease-in-out;
+}
+
+/* 4. Zıplama Animasyonu Tanımı (Keyframes) */
+@keyframes cbot-bounce {
+    0% {
+        transform: translateY(0) scale(1);
+    }
+    100% {
+        transform: translateY(-8px) scale(1.05); /* Yukarı zıplar ve hafif büyür */
+    }
+}
+
+/* 5. Bekleme Durumunda (Idle) Arada Bir Zıplama */
+@keyframes cbot-idle-bounce {
+    0%, 80%, 100% {
+        transform: translateY(0) scale(1);
+    }
+    84% {
+        transform: translateY(-15px) scale(1.05);
+    }
+    88% {
+        transform: translateY(0) scale(0.95);
+    }
+    92% {
+        transform: translateY(-6px) scale(1.02);
+    }
+    96% {
+        transform: translateY(0) scale(1);
     }
 }
