@@ -193,7 +193,7 @@ YAPAY ZEKÂ CEVAPLAMA VE AKIL YÜRÜTME İLKELERİ:
         "temperature": 0.5,
         "top_p": 0.9,
         "top_k": 40,
-        "max_output_tokens": 2048,
+        "max_output_tokens": 8192,
     }
 
     valid_models = [
